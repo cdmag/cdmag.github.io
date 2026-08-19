@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЛКИ 2003-01 — Оболочка диска</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/shell.css">
+</head>
+<body>
+  <div id="shell">
+    <img id="bg" src="assets/img/ui/bg0.webp" alt="ЛКИ 2003-01" draggable="false">
+
+    <!-- Сплэш при первом запуске сессии -->
+    <div id="splash">
+      <img src="assets/img/ui/splash-logo.webp" alt="Лучшие компьютерные игры" draggable="false">
+    </div>
+
+    <!-- Контентная область -->
+    <div id="content">
+      <div id="list"></div>
+      <div id="doc-view">
+        <div id="doc-header"></div>
+        <div id="doc-scroll">
+          <div id="doc-body"></div>
+        </div>
+        <div id="doc-scrollbar">
+          <div id="sb-up"></div>
+          <div id="sb-track">
+            <div id="sb-thumb"></div>
+          </div>
+          <div id="sb-down"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Кнопка «Назад» (только в режиме документа) -->
+    <div id="btn-docback">
+      <img class="back-normal" src="assets/img/ui/back1.webp" alt="Назад" draggable="false">
+      <img class="back-hover" src="assets/img/ui/back2.webp" alt="Назад" draggable="false">
+    </div>
+
+    <!-- Кнопка «Распаковать» (file в best / patches / demos / programs) -->
+    <div id="btn-unpack">
+      <img class="unpack-normal" src="assets/img/ui/unpack1.webp" alt="Распаковать" draggable="false">
+      <img class="unpack-hover"  src="assets/img/ui/unpack2.webp" alt="Распаковать" draggable="false">
+    </div>
+
+    <!-- Диалог распаковки (по центру, лёгкое затемнение фона) -->
+    <div id="unpack-dialog">
+      <img src="assets/img/ui/unpack3.webp" alt="Укажите путь" draggable="false">
+    </div>
+
+    <!-- Полноразмерный просмотр картинки (пока зажата ЛКМ) -->
+    <div id="img-lightbox">
+      <img src="" alt="" draggable="false">
+    </div>
+
+    <!-- Hit-зоны -->
+    <div class="hit" id="hit-maximize" data-btn="maximize"></div>
+    <div class="hit" id="hit-minimize" data-btn="minimize"></div>
+    <div class="hit" id="hit-close"    data-btn="close"></div>
+
+    <div class="hit" id="hit-best"     data-btn="best"></div>
+    <div class="hit" id="hit-guides"   data-btn="guides"></div>
+    <div class="hit" id="hit-programs" data-btn="programs"></div>
+    <div class="hit" id="hit-patches"  data-btn="patches"></div>
+    <div class="hit" id="hit-demos"    data-btn="demos"></div>
+    <div class="hit" id="hit-about"    data-btn="about"></div>
+
+    <!-- Кнопки -->
+    <img class="btn" id="btn-maximize" src="assets/img/ui/maximize.webp" alt="Развернуть" draggable="false">
+    <img class="btn" id="btn-minimize" src="assets/img/ui/minimize.webp" alt="Свернуть" draggable="false">
+    <img class="btn" id="btn-close"    src="assets/img/ui/close.webp"    alt="Закрыть" draggable="false">
+
+    <img class="btn" id="btn-best"     src="assets/img/ui/best.webp"     alt="Всё для лучших игр" draggable="false">
+    <img class="btn" id="btn-guides"   src="assets/img/ui/guides.webp"   alt="Руководства и прохождения" draggable="false">
+    <img class="btn" id="btn-programs" src="assets/img/ui/programs.webp" alt="Полезные программы" draggable="false">
+    <img class="btn" id="btn-patches"  src="assets/img/ui/patches.webp"  alt="Заплатки" draggable="false">
+    <img class="btn" id="btn-demos"    src="assets/img/ui/demos.webp"    alt="Демо и видео" draggable="false">
+    <img class="btn" id="btn-about"    src="assets/img/ui/about.webp"    alt="О компакте" draggable="false">
+  </div>
+  <script src="assets/js/shell.js"></script>
+</body>
+</html>

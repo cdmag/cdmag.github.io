@@ -1,0 +1,24 @@
+{
+  "id": "europa-universalis-2",
+  "title": "Europa Universalis II",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Europa Universalis II...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Europa Universalis II: Блок №1",
+      "id": "eu-block-1",
+      "src": "guides/europa-universalis-2/eu-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Europa Universalis II: Блок №2",
+      "id": "eu-block-2",
+      "src": "guides/europa-universalis-2/eu-block-2.html"
+    }
+  ]
+}

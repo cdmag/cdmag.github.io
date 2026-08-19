@@ -1,0 +1,96 @@
+{
+  "id": "neverwinter",
+  "title": "Neverwinter Nights",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Neverwinter Nights...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Введение и персонаж",
+      "id": "nwn-block-1",
+      "src": "guides/neverwinter/nwn-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Классы (Воин — Волшебник)",
+      "id": "nwn-block-2",
+      "src": "guides/neverwinter/nwn-block-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Расы и умения",
+      "id": "nwn-block-3",
+      "src": "guides/neverwinter/nwn-block-3.html"
+    },
+    {
+      "type": "file",
+      "label": "Навыки (feats)",
+      "id": "nwn-block-4",
+      "src": "guides/neverwinter/nwn-block-4.html"
+    },
+    {
+      "type": "file",
+      "label": "Интерфейс, бой, магия",
+      "id": "nwn-block-5",
+      "src": "guides/neverwinter/nwn-block-5.html"
+    },
+    {
+      "type": "file",
+      "label": "Заклинания священников",
+      "id": "nwn-block-6",
+      "src": "guides/neverwinter/nwn-block-6.html"
+    },
+    {
+      "type": "file",
+      "label": "Заклинания барда и друида",
+      "id": "nwn-block-7",
+      "src": "guides/neverwinter/nwn-block-7.html"
+    },
+    {
+      "type": "file",
+      "label": "Заклинания паладина и егеря",
+      "id": "nwn-block-8",
+      "src": "guides/neverwinter/nwn-block-8.html"
+    },
+    {
+      "type": "file",
+      "label": "Магия волшебников/колдунов (1)",
+      "id": "nwn-block-9",
+      "src": "guides/neverwinter/nwn-block-9.html"
+    },
+    {
+      "type": "file",
+      "label": "Магия волшебников/колдунов (2)",
+      "id": "nwn-block-10",
+      "src": "guides/neverwinter/nwn-block-10.html"
+    },
+    {
+      "type": "file",
+      "label": "Советы и deathmatch",
+      "id": "nwn-block-11",
+      "src": "guides/neverwinter/nwn-block-11.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: начало",
+      "id": "nwn-block-12",
+      "src": "guides/neverwinter/nwn-block-12.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: Дестер и Лласт",
+      "id": "nwn-block-13",
+      "src": "guides/neverwinter/nwn-block-13.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: финал",
+      "id": "nwn-block-14",
+      "src": "guides/neverwinter/nwn-block-14.html"
+    }
+  ]
+}

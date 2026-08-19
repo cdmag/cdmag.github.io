@@ -1,0 +1,32 @@
+{
+  "id": "sohranennye-igry",
+  "title": "СОХРАНЕННЫЕ ИГРЫ",
+  "items": [
+    {
+      "type": "back",
+      "label": "...СОХРАНЕННЫЕ ИГРЫ...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Age of Mythology",
+      "id": "age-of-mythology",
+      "src": "about/sohranennye-igry/age-of-mythology.html",
+      "unpack": true
+    },
+    {
+      "type": "file",
+      "label": "Beam Breakers",
+      "id": "beam-breakers",
+      "src": "about/sohranennye-igry/beam-breakers.html",
+      "unpack": true
+    },
+    {
+      "type": "file",
+      "label": "Neverwinter Nights",
+      "id": "neverwinter-nights",
+      "src": "about/sohranennye-igry/neverwinter-nights.html",
+      "unpack": true
+    }
+  ]
+}

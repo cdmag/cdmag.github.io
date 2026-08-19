@@ -1,0 +1,37 @@
+{
+  "id": "best",
+  "title": "Все для лучших игр",
+  "items": [
+    {
+      "type": "folder",
+      "label": "Герои Меча и Магии IV",
+      "id": "heroes-of-might-and-magic-4"
+    },
+    {
+      "type": "folder",
+      "label": "Europa II",
+      "id": "europa-2"
+    },
+    {
+      "type": "file",
+      "label": "Age of Mythology",
+      "id": "age-of-mythology",
+      "src": "best/age-of-mythology/age-of-mythology.html"
+    },
+    {
+      "type": "folder",
+      "label": "Civilization III",
+      "id": "civilization-3"
+    },
+    {
+      "type": "folder",
+      "label": "Neverwinter Nights",
+      "id": "neverwinter-nights"
+    },
+    {
+      "type": "folder",
+      "label": "Warcraft III",
+      "id": "warcraft-3"
+    }
+  ]
+}

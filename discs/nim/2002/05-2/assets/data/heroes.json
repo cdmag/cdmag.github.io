@@ -1,0 +1,129 @@
+{
+  "id": "heroes",
+  "name": "Heroes of Might and Magic III",
+  "root": {
+    "title": "Heroes of Might and Magic III (Герои Магии и Меча III)",
+    "info": [
+      {
+        "label": "Разработчик",
+        "value": "New World Computing"
+      },
+      {
+        "label": "Издатель:",
+        "value": "3DO"
+      },
+      {
+        "label": "Издатель в России:",
+        "value": "Бука"
+      },
+      {
+        "label": "Требуется:",
+        "value": "P-II 200, 32 RAM"
+      },
+      {
+        "label": "Рекомендуется:",
+        "value": "P-II 266, 64 RAM"
+      }
+    ],
+    "images": [
+      "assets/img/content/hmm1.webp"
+    ],
+    "text": ""
+  },
+  "tree": [
+    {
+      "id": "ascent-of-chaos",
+      "label": "Ascent of Chaos",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Ascent of Chaos",
+        "text": "Автор: Tiong Bin\nМини-кампания, состоящая из четырех карт. Для установки кампании распакуйте архив в директорию Heroes3\\Maps.",
+        "images": [
+          "assets/img/content/ascent1.webp",
+          "assets/img/content/ascent2.webp",
+          "assets/img/content/ascent3.webp"
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "elodram",
+      "label": "Elodram Series",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Elodram Series",
+        "text": "Автор: Nicklas Renstrom\nМини-кампания, состоящая из двух карт. Для установки кампании распакуйте архив в директорию Heroes3\\Maps.",
+        "images": [
+          "assets/img/content/elodram1.webp",
+          "assets/img/content/elodram2.webp"
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "erebor",
+      "label": "Эребор",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Эребор",
+        "text": "Автор: Арсений Адамов\nКампания Эребор, состоящая из семи карт. Для установки кампании распакуйте архив в директорию Heroes3\\Maps.",
+        "images": [
+          "assets/img/content/erebor1.webp",
+          "assets/img/content/erebor2.webp",
+          "assets/img/content/erebor3.webp"
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "evil-is-good",
+      "label": "Evil is Good",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Evil is Good",
+        "text": "Автор: Johan Falcon\nМини-кампания Evil is Good, состоящая из двух карт. Для установки кампании распакуйте архив в директорию Heroes3\\Maps.",
+        "images": [
+          "assets/img/content/evilisgood1.webp",
+          "assets/img/content/evilisgood2.webp"
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "exile-trilogy",
+      "label": "Exile Trilogy",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Exile Trilogy",
+        "text": "Автор: Tim PeBenito\nМини-кампания Exile Trilogy, состоящая из трех карт. Для установки кампании распакуйте архив в директорию Heroes3\\Maps.",
+        "images": [
+          "assets/img/content/exiletri1.webp",
+          "assets/img/content/exiletri2.webp",
+          "assets/img/content/exiletri3.webp"
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "lorien",
+      "label": "Лориэн",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Лориэн",
+        "text": "Автор: Арсений Адамов\nКампания Лориэн, состоящая из восьми карт. Для установки кампании распакуйте архив в директорию Heroes3\\Maps.",
+        "images": [
+          "assets/img/content/lorien1.webp",
+          "assets/img/content/lorien2.webp",
+          "assets/img/content/lorien3.webp"
+        ]
+      },
+      "children": []
+    }
+  ]
+}

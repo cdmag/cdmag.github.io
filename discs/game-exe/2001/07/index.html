@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Game.EXE CD #7 (36) 2001</title>
+    <!-- Подключение шрифтов Inter и JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div id="app-window">
+        
+        <!-- Кнопки управления окном -->
+        <div class="window-controls">
+            <img src="assets/img/ui/win_min.webp" alt="min" class="win-btn" id="btn-win-min" data-base="win_min">
+            <img src="assets/img/ui/win_close.webp" alt="close" class="win-btn" id="btn-win-close" data-base="win_close">
+        </div>
+
+        <div class="app-body">
+            
+            <!-- ЛЕВАЯ ПАНЕЛЬ -->
+            <aside class="sidebar-left">
+                <div class="logo-wrapper btn-momentary" id="exe-logo" data-base="logo_exe_07_2001">
+                    <img src="assets/img/ui/logo_exe_07_2001.webp" alt="Logo" class="logo-img">
+                </div>
+                
+                <div class="nav-bg-container">
+                    <img src="assets/img/ui/nav_bg.webp" alt="Nav Background" class="nav-bg-img">
+                    
+                    <div class="nav-buttons-overlay">
+                        <img src="assets/img/ui/btn_igry_3.webp" alt="Игры" class="nav-btn-img active" data-section="igry" data-base="btn_igry">
+                        <img src="assets/img/ui/btn_retro.webp" alt="Ретро" class="nav-btn-img" data-section="retro" data-base="btn_retro">
+                        <img src="assets/img/ui/btn_utility.webp" alt="Утилиты" class="nav-btn-img" data-section="utility" data-base="btn_utility">
+                        <img src="assets/img/ui/btn_patchi.webp" alt="Патчи" class="nav-btn-img" data-section="patchi" data-base="btn_patchi">
+                        <img src="assets/img/ui/btn_muzyka.webp" alt="Музыка" class="nav-btn-img" data-section="muzyka" data-base="btn_muzyka">
+                    </div>
+                    
+                    <div class="side-media-slot">
+                        <img id="side-media-img" src="assets/img/ui/media_left01.webp" alt="">
+                    </div>
+                </div>
+            </aside>
+
+            <!-- ЦЕНТРАЛЬНЫЙ БЛОК -->
+            <main class="main-content">
+                <header class="content-header" id="content-header"></header>
+                <div class="content-body-wrapper" id="content-wrapper"></div>
+                <footer class="controls-bar" id="controls-bar"></footer>
+                <section class="ticker-bar">
+                    <div class="main-media-slot">
+                        <img id="main-media-img" src="assets/img/ui/media_center01.webp" alt="">
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- МОДАЛЬНОЕ ОКНО ПОДТВЕРЖДЕНИЯ ССЫЛКИ -->
+        <div class="modal-overlay" id="confirm-modal">
+            <div class="confirm-box">
+                <div class="confirm-header">
+                    <span>Внимание!</span>
+                    <span class="confirm-close-x" id="confirm-close-x">✕</span>
+                </div>
+                <div class="confirm-body">
+                    Хорошо ли вы подумали, прежде чем идти на <span id="confirm-url-text"></span>
+                </div>
+                <div class="confirm-footer">
+                    <button class="confirm-btn" id="confirm-yes-btn">Да</button>
+                    <button class="confirm-btn" id="confirm-no-btn">Нет</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- МОДАЛЬНОЕ ОКНО ПРОСМОТРА КАРТИНКИ -->
+        <div class="modal-overlay" id="viewer-modal">
+            <div class="viewer-box">
+                <div class="viewer-header">
+                    <span id="viewer-title">pics\Startopia\01.jpg (1/5)</span>
+                    <div class="viewer-close-btn" id="viewer-close-btn">✕</div>
+                </div>
+                <div class="viewer-body" id="viewer-body">
+                    <img id="viewer-img" src="" alt="Fullsize view">
+                </div>
+            </div>
+        </div>
+
+<!-- Модальное окно "Опции" -->
+<div id="options-modal" class="modal-overlay">
+    <div class="options-window">
+                
+        <div class="options-content">
+            <div class="options-header">
+                <strong>Game.EXE</strong> Оболочка CD-диска, версия 2.0.1.1<br>
+                <span class="options-sub">(c) Журнал Game.EXE, 2000, 2001</span>
+            </div>
+            
+            <div class="win95-hr"></div>
+
+            <div class="options-form">
+                <!-- Звук выключен (АКТИВЕН) -->
+                <label class="win95-checkbox-label">
+                    <input type="checkbox" id="opt-sound-off">
+                    <span>Звук выключен</span>
+                </label>
+
+                <!-- Стандартные курсоры (НЕАКТИВЕН) -->
+                <label class="win95-checkbox-label disabled">
+                    <input type="checkbox" disabled>
+                    <span>Стандартные курсоры</span>
+                </label>
+
+                <!-- Обои выключены (АКТИВЕН) -->
+                <label class="win95-checkbox-label">
+                    <input type="checkbox" id="opt-wallpapers-off">
+                    <span>Обои выключены</span>
+                </label>
+
+                <!-- Выбор обоев (АКТИВЕН) — кастомный селект, чтобы dropdown не ломался от transform:scale -->
+                <div class="options-field-group">
+                    <span class="options-label">Выбор обоев</span>
+                    <div class="win95-custom-select" id="opt-wallpapers-select" data-value="black">
+                        <div class="win95-custom-select-display">graph\wallpapers_black\</div>
+                        <div class="win95-custom-select-list" hidden>
+                            <div class="win95-custom-select-option active" data-value="black">graph\wallpapers_black\</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Выбор языка (НЕАКТИВЕН) -->
+                <div class="options-field-group disabled">
+                    <span class="options-label">Выбор языка</span>
+                    <select disabled class="win95-select">
+                        <option>Russian</option>
+                    </select>
+                </div>
+
+                <!-- Музыка выключена (НЕАКТИВЕН, ЗАФИКСИРОВАН С ГАЛКОЙ) -->
+                <label class="win95-checkbox-label disabled">
+                    <input type="checkbox" checked disabled>
+                    <span>Музыка выключена</span>
+                </label>
+
+                <!-- Выбор музыки (НЕАКТИВЕН) -->
+                <div class="options-field-group disabled">
+                    <span class="options-label">Выбор музыки</span>
+                    <select disabled class="win95-select">
+                        <option>graph\music\nyman.wav</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="win95-hr"></div>
+
+            <div class="options-actions">
+                <button type="button" class="win95-btn" id="options-ok-btn"><u>O</u>K</button>
+                <button type="button" class="win95-btn" id="options-cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Скрипт логики -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

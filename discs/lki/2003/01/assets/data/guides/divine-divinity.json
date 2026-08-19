@@ -1,0 +1,66 @@
+{
+  "id": "divine-divinity",
+  "title": "Divine Divinity",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Divine Divinity...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №1",
+      "id": "dd-block-1",
+      "src": "guides/divine-divinity/dd-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №2",
+      "id": "dd-block-2",
+      "src": "guides/divine-divinity/dd-block-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №3",
+      "id": "dd-block-3",
+      "src": "guides/divine-divinity/dd-block-3.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №4",
+      "id": "dd-block-4",
+      "src": "guides/divine-divinity/dd-block-4.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №5",
+      "id": "dd-block-5",
+      "src": "guides/divine-divinity/dd-block-5.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №6",
+      "id": "dd-block-6",
+      "src": "guides/divine-divinity/dd-block-6.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №7",
+      "id": "dd-block-7",
+      "src": "guides/divine-divinity/dd-block-7.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №8",
+      "id": "dd-block-8",
+      "src": "guides/divine-divinity/dd-block-8.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity: Блок №9",
+      "id": "dd-block-9",
+      "src": "guides/divine-divinity/dd-block-9.html"
+    }
+  ]
+}

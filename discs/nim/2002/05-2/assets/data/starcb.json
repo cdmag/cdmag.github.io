@@ -1,0 +1,352 @@
+{
+  "id": "starcb",
+  "name": "StarCraft",
+  "root": {
+    "title": "Starcraft",
+    "info": [
+      {
+        "label": "Разработчик",
+        "value": "Blizzard"
+      },
+      {
+        "label": "Издатель:",
+        "value": "Vivendi"
+      },
+      {
+        "label": "Требуется:",
+        "value": "Pentium 133, 16 Mb RAM"
+      },
+      {
+        "label": "Рекомендуется:",
+        "value": "Pentium 166, 32 Mb RAM"
+      }
+    ],
+    "images": [
+      "assets/img/content/starcraft1.webp"
+    ],
+    "text": ""
+  },
+  "tree": [
+    {
+      "id": "campaigns",
+      "label": "Кампании",
+      "expandable": true,
+      "content": {
+        "title": "Кампании",
+        "text": "В этом разделе приведены 2 наиболее интересные кампании Legacy of the Confederation: Episode II - Dawn of Darkness и War of the Tribes. Кампании представляют собой набор миссий связанных единым сюжетом."
+      },
+      "children": [
+        {
+          "id": "lotc2",
+          "label": "Legacy of the Confederation: Episode II",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Legacy of the Confederation: Episode II - Dawn of Darkness",
+            "text": "Сначала разархивируйте все файлы в отдельную директорию. Затем перепишите файлы с расширением .scx (это сами карты) в директорию \\starcraft\\maps\\. Можете даже создать для них собственную поддиректорию. Файл lotc2.exe перепишите в корневую директорию \\starcraft\\. Теперь запустите lotc2.exe и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите LegacyChapter09.scx - это первая миссия компании. Чуть ниже в Game Type поставьте Use Map Settings. Все, теперь можно начинать играть!",
+            "images": [
+              "assets/img/content/lotc1.webp",
+              "assets/img/content/lotc2.webp",
+              "assets/img/content/lotc3.webp"
+            ]
+          }
+        },
+        {
+          "id": "war-of-tribes",
+          "label": "War of the Tribes",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "War of the Tribes",
+            "text": "Сначала разархивируйте все файлы в отдельную директорию. Затем перепишите файлы с расширением .scx (это сами карты) в директорию \\starcraft\\maps\\. Можете даже создать для них собственную поддиректорию. Файл WotT.exe перепишите в корневую директорию \\starcraft\\. Теперь запустите WotT.exe и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите первую миссию кампании. Чуть ниже в Game Type поставьте Use Map Settings. Все, теперь можно начинать играть!",
+            "images": [
+              "assets/img/content/wott1.webp",
+              "assets/img/content/wott2.webp",
+              "assets/img/content/wott3.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "maps",
+      "label": "Карты",
+      "expandable": true,
+      "content": {
+        "title": "Карты",
+        "text": "В этом разделе представлены 14 одиночных и кооперативных карт."
+      },
+      "children": [
+        {
+          "id": "river-runs",
+          "label": "A River Runs Through It",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "A River Runs Through It",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (6) A River Runs Through It.scx. Чуть ниже в Game Type поставьте Melee. Все, теперь можно начинать играть!\nA River Runs Through It - на первый взгляд, обычная melee-карта. Однако игроков ожидают кое-какие сюрпризы...",
+            "images": [
+              "assets/img/content/riverrun1.webp"
+            ]
+          }
+        },
+        {
+          "id": "eshtoria",
+          "label": "Eshtoria Adventure - RPG",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Eshtoria Adventure - RPG",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (4)EARPGv1.3.scx. Чуть ниже в Game Type поставьте Melee. Все, теперь можно начинать играть!\n  Eshtoria Adventure - RPG на основе старкрафтовской карты. Игроки могут покупать оружие, накапливать опыт и апгрейдить своих героев. На 1-4 игроков.",
+            "images": ["assets/img/content/rpg1.webp"]
+          }
+        },
+        {
+          "id": "enemies-kortal",
+          "label": "Enemies of Kortal",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Enemies of Kortal",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите Enemies of Kartala.scx. Чуть ниже в Game Type поставьте Melee. Все, теперь можно начинать играть!\n  Enemies of Kortal - карта на 2-4 игроков. Задача - захватить богатую ресурсами деревню.",
+            "images": [
+              "assets/img/content/enemi1.webp"
+            ]
+          }
+        },
+        {
+          "id": "hero-warriors",
+          "label": "Hero Warriors v1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Hero Warriors v1.0",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (8)Hero Warriors.scx. Чуть ниже в Game Type поставьте Melee. Все, теперь можно начинать играть!\n  Hero Warriors - схватка между героями. Каждый имеет уникальные способности. На 2-8 игроков.",
+            "images": ["assets/img/content/dddd1.webp"]
+          }
+        },
+        {
+          "id": "infested-tunnels",
+          "label": "Infested Tunnels RPG",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Infested Tunnels RPG",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (6)Infested Tunnels 1.2.scm. Все, теперь можно начинать играть!\n  Infested Tunnels RPG - простенькая RPG на 1-4 игроков.",
+            "images": [
+              "assets/img/content/infest1.webp"
+            ]
+          }
+        },
+        {
+          "id": "last-stand",
+          "label": "Last Stand: The Final Battle",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Last Stand: The Final Battle",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (1)LastStand.scx. Все, теперь можно начинать играть!\n  Last Stand: The Final Battle - Сингловая полу-RPG про войну между силами Добра и Зла.",
+            "images": [
+              "assets/img/content/lastst1.webp"
+            ]
+          }
+        },
+        {
+          "id": "pre-emptive",
+          "label": "Pre Emptive Strike",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Pre Emptive Strike",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (1) PreEmptive.scx. Все, теперь можно начинать играть!\n  Pre Emptive Strike - сингловая миссия, действие которой разворачивается на подземной базе Доминиона.",
+            "images": [
+              "assets/img/content/preempt1.webp"
+            ]
+          }
+        },
+        {
+          "id": "probulator-2",
+          "label": "Probulator 2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Probulator 2",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите Probulator 2.scx. Все, теперь можно начинать играть!\n  Probulator 2 - вариация на тему \"Царя горы\". Весьма веселая карта.",
+            "images": []
+          }
+        },
+        {
+          "id": "protoss-fortress",
+          "label": "Protoss Fortress II",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Protoss Fortress II",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите ProtossFortress2.scx. Все, теперь можно начинать играть!\n  Protoss Fortress II - несколько игроков осаждают мощного Протосса под управлением компьютера.",
+            "images": [
+              "assets/img/content/protos1.webp"
+            ]
+          }
+        },
+        {
+          "id": "rurouni",
+          "label": "Rurouni Kenshin Madness",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Rurouni Kenshin Madness",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите RKMadnessV1.2.scx. Все, теперь можно начинать играть!\n  Rurouni Kenshin Madness - карта по мотивам аниме Rurouni Kenshin.",
+            "images": []
+          }
+        },
+        {
+          "id": "sc-campaign-cm",
+          "label": "SC Campaign Community Madness",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "SC Campaign Community Madness",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите SC Community Madness.scx. Все, теперь можно начинать играть!\n  SC Campaign Community Madness - юморная карта. Схватка между мэпмэйкерами разных сайтов - Campaign Creations, Star Alliance, Alkali Studios и Ancilla Editing! Кто знает, тот оценит.",
+            "images": []
+          }
+        },
+        {
+          "id": "sorcery-rpg",
+          "label": "Sorcery RPG",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Sorcery RPG",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите Sorcery_RPG_FINAL.scm. Все, теперь можно начинать играть!\n  Sorcery RPG - еще одна RPG, на 2-4 игроков. Считается одной из лучших.",
+            "images": []
+          }
+        },
+        {
+          "id": "battlenet-exp",
+          "label": "The Battle.Net Experience",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "The Battle.Net Experience",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите (3)Battle.net Experience.scx. Все, теперь можно начинать играть!\n  The Battle.Net Experience - карта на 1-3 игроков, где пародируются многие эпизоды из жизни Battle.Net.",
+            "images": []
+          }
+        },
+        {
+          "id": "whassup",
+          "label": "Starcraft, Whassup!",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Starcraft, Whassup!",
+            "text": "Разархивируйте карту в директорию \\starcraft\\maps\\. Теперь запустите StarCraft и в стартовом меню выберите опцию Single player. В появившемся окошке выберите Starcraft: Expansion (Brood War). В следующем меню выберите игрока и заходите в меню эпизодов. Теперь внизу нажмите на Custom game и из появившегося в левом верхнем углу списка карт выберите Whassup!.scx. Все, теперь можно начинать играть!\n  Starcraft, Whassup! - юморная карта про пиво \"Будвайзер\".",
+            "images": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "wallpapers",
+      "label": "Обои",
+      "expandable": true,
+      "content": {
+        "title": "Обои",
+        "text": "Здесь вы можете найти официальные обои по мотивам Starcraft"
+      },
+      "children": [
+        {
+          "id": "sc-wp1",
+          "label": "Starcraft Wallpapers part 1",
+          "expandable": false,
+          "content": {
+            "title": "Starcraft Wallpapers part 1",
+            "text": "Первая часть архива обоев по мотивам Starcraft",
+            "images": [
+              "assets/img/content/scwall1s1.webp",
+              "assets/img/content/scwall1s2.webp",
+              "assets/img/content/scwall1s3.webp",
+              "assets/img/content/scwall1s4.webp",
+              "assets/img/content/scwall1s5.webp",
+              "assets/img/content/scwall1s6.webp",
+              "assets/img/content/scwall1s7.webp",
+              "assets/img/content/scwall1s8.webp",
+              "assets/img/content/scwall1s9.webp",
+              "assets/img/content/scwall1s10.webp",
+              "assets/img/content/scwall1s11.webp",
+              "assets/img/content/scwall1s12.webp",
+              "assets/img/content/scwall1s13.webp",
+              "assets/img/content/scwall1s14.webp",
+              "assets/img/content/scwall1s15.webp",
+              "assets/img/content/scwall1s16.webp",
+              "assets/img/content/scwall1s17.webp",
+              "assets/img/content/scwall1s18.webp",
+              "assets/img/content/scwall1s19.webp",
+              "assets/img/content/scwall1s20.webp"
+            ]
+          }
+        },
+        {
+          "id": "sc-wp2",
+          "label": "Starcraft Wallpapers part 2",
+          "expandable": false,
+          "content": {
+            "title": "Starcraft Wallpapers part 2",
+            "text": "Вторая часть архива обоев по мотивам Starcraft",
+            "images": [
+              "assets/img/content/scwall2s1.webp",
+              "assets/img/content/scwall2s2.webp",
+              "assets/img/content/scwall2s3.webp",
+              "assets/img/content/scwall2s4.webp",
+              "assets/img/content/scwall2s5.webp",
+              "assets/img/content/scwall2s6.webp",
+              "assets/img/content/scwall2s7.webp",
+              "assets/img/content/scwall2s8.webp",
+              "assets/img/content/scwall2s9.webp",
+              "assets/img/content/scwall2s10.webp",
+              "assets/img/content/scwall2s11.webp",
+              "assets/img/content/scwall2s12.webp",
+              "assets/img/content/scwall2s13.webp",
+              "assets/img/content/scwall2s14.webp",
+              "assets/img/content/scwall2s15.webp",
+              "assets/img/content/scwall2s16.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "atrox-demo",
+      "label": "Atrox Demo",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Atrox Demo",
+        "info": [
+          {
+            "label": "Жанр:",
+            "value": "RTS"
+          },
+          {
+            "label": "Издатель",
+            "value": "Interactive Ideas Ltd"
+          },
+          {
+            "label": "Разработчик",
+            "value": "JoyMax Co.LTD."
+          },
+          {
+            "label": "Системные требования",
+            "value": "P-III 450, 128 Mb RAM, 3D (16 Mb)"
+          }
+        ],
+        "text": "Демо-версия корейской стратегии Atrox, созданной на базе Starcraft. В отличие от прототипа, Atrox располагает большими возможностями в плане тактики, к примеру, турели можно передвигать, а бункер умеет летать и действовать как боевая единица. В демо-версии имеется две миссии за землян.",
+        "images": [
+          "assets/img/content/atrox1.webp",
+          "assets/img/content/atrox2.webp",
+          "assets/img/content/atrox3.webp"
+        ]
+      },
+      "children": []
+    }
+  ]
+}

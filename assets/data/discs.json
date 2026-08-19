@@ -1,0 +1,463 @@
+[
+  {
+    "id": "igromania-2000-03",
+    "magazine": "igromania",
+    "magazine_title": "Игромания",
+    "year": 2000,
+    "issue": "03",
+    "title": "Игромания №03 (30) — Март 2000",
+    "path": "discs/igromania/2000/03/index.html",
+    "cover_image": "discs/igromania/2000/03/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Igromania_2000-03",
+    "disc_image": "discs/igromania/2000/03/assets/img/disc.webp",
+    "download_iso": "https://vk.ru/wall-240437459_3",
+    "vk_playlist_url": "https://vk.ru/audio_playlist-240437459_1",
+    "webamp_tracks": [
+      {
+        "metaData": {
+          "artist": "Игромания #03/2000",
+          "title": "KB / TOM, Reflex - Rain Symphony"
+        },
+        "url": "music/igromania/2000/03/track01.mp3",
+        "duration": 216
+      },
+      {
+        "metaData": {
+          "artist": "Игромания #03/2000",
+          "title": "Lunar 2"
+        },
+        "url": "music/igromania/2000/03/track02.mp3",
+        "duration": 100
+      },
+      {
+        "metaData": {
+          "artist": "Игромания #03/2000",
+          "title": "Castlevania"
+        },
+        "url": "music/igromania/2000/03/track03.mp3",
+        "duration": 103
+      },
+      {
+        "metaData": {
+          "artist": "Игромания #03/2000",
+          "title": "Chrono Trigger"
+        },
+        "url": "music/igromania/2000/03/track04.mp3",
+        "duration": 135
+      },
+      {
+        "metaData": {
+          "artist": "Игромания #03/2000",
+          "title": "Knights of the Round"
+        },
+        "url": "music/igromania/2000/03/track05.mp3",
+        "duration": 114
+      }
+    ],
+    "note": "Первый оцифрованный диск! Оцените красивый (и сложный в прочтении) шрифт, специально вытащил из оригинала."
+  },
+  {
+    "id": "gameexe-2001-07",
+    "magazine": "gameexe",
+    "magazine_title": "Game.EXE",
+    "year": 2001,
+    "issue": "07",
+    "title": "Game.EXE №07 — Июль 2001",
+    "path": "discs/game-exe/2001/07/index.html",
+    "cover_image": "discs/game-exe/2001/07/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Game.EXE_07_2001",
+    "disc_image": "discs/game-exe/2001/07/assets/img/disc.webp",
+    "download_iso": "https://vk.ru/wall-240437459_5",
+    "vk_playlist_url": "https://vk.ru/audio_playlist-240437459_2",
+    "note": "Июльский диск Game.EXE за 2001. Вторая оцифровка. Рекламные баннеры, странные звуки и кастомные курсоры в дисковом приложении - безумие, скажете вы? УЧУ, отвечу я вам.",
+    "webamp_tracks": [
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Arcanum"
+        },
+        "url": "music/game-exe/2001/07/01_arcanum.opus",
+        "duration": 155
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "The Demise of the Zephyr"
+        },
+        "url": "music/game-exe/2001/07/02_the_demise_of_the_zephyr.opus",
+        "duration": 91
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Wilderness"
+        },
+        "url": "music/game-exe/2001/07/03_wilderness.opus",
+        "duration": 130
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Tarant"
+        },
+        "url": "music/game-exe/2001/07/04_tarant.opus",
+        "duration": 125
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "The Tarant Sewers"
+        },
+        "url": "music/game-exe/2001/07/05_the_tarant_sewers.opus",
+        "duration": 132
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Caladon"
+        },
+        "url": "music/game-exe/2001/07/06_caladon.opus",
+        "duration": 157
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Caladon Catacombs"
+        },
+        "url": "music/game-exe/2001/07/07_the_caladon_catacombs.opus",
+        "duration": 174
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Dungeons"
+        },
+        "url": "music/game-exe/2001/07/08_dungeons.opus",
+        "duration": 178
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Battle at Vendigroth"
+        },
+        "url": "music/game-exe/2001/07/09_battle_at_vendigroth.opus",
+        "duration": 92
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Tulla"
+        },
+        "url": "music/game-exe/2001/07/10_tulla.opus",
+        "duration": 189
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Towns"
+        },
+        "url": "music/game-exe/2001/07/11_towns.opus",
+        "duration": 119
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "The Isle of Despair"
+        },
+        "url": "music/game-exe/2001/07/12_the_isle_of_despair.opus",
+        "duration": 145
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Mines"
+        },
+        "url": "music/game-exe/2001/07/13_mines.opus",
+        "duration": 159
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Cities"
+        },
+        "url": "music/game-exe/2001/07/14_cities.opus",
+        "duration": 138
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Radcliffe's Commission"
+        },
+        "url": "music/game-exe/2001/07/15_radcliffe_s_commission.opus",
+        "duration": 93
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "The Vendigroth Wastes"
+        },
+        "url": "music/game-exe/2001/07/16_the_vendigroth_wastes.opus",
+        "duration": 183
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Villages"
+        },
+        "url": "music/game-exe/2001/07/17_villages.opus",
+        "duration": 164
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Qintarra"
+        },
+        "url": "music/game-exe/2001/07/18_qintarra.opus",
+        "duration": 114
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "The Wheel Clan"
+        },
+        "url": "music/game-exe/2001/07/19_the_wheel_clan.opus",
+        "duration": 124
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "The Void"
+        },
+        "url": "music/game-exe/2001/07/20_the_void.opus",
+        "duration": 127
+      },
+      {
+        "metaData": {
+          "artist": "Arcanum",
+          "title": "Kerghan's Castle"
+        },
+        "url": "music/game-exe/2001/07/21_kerghan_s_castle.opus",
+        "duration": 145
+      },
+      {
+        "metaData": {
+          "artist": "Dan Wentz",
+          "title": "Accused"
+        },
+        "url": "music/game-exe/2001/07/red_faction01.mp3",
+        "duration": 257
+      },
+      {
+        "metaData": {
+          "artist": "Dan Wentz",
+          "title": "Poltergeist"
+        },
+        "url": "music/game-exe/2001/07/red_faction02.mp3",
+        "duration": 158
+      },
+      {
+        "metaData": {
+          "artist": "Dan Wentz",
+          "title": "Spectre"
+        },
+        "url": "music/game-exe/2001/07/red_faction03.mp3",
+        "duration": 194
+      },
+      {
+        "metaData": {
+          "artist": "Dan Wentz",
+          "title": "Spirits_01"
+        },
+        "url": "music/game-exe/2001/07/red_faction04.mp3",
+        "duration": 95
+      }
+    ]
+  },
+  {
+    "id": "nim-2002-05-1",
+    "magazine": "nim",
+    "magazine_title": "Навигатор игрового мира",
+    "year": 2002,
+    "issue": "05-1",
+    "title": "Навигатор игрового мира №05 (60) — Май 2002 CD1",
+    "path": "/discs/nim/2002/05-1/index.html",
+    "cover_image": "/discs/nim/2002/05-1/assets/img/cover.webp",
+    "magazine_url": "https://disk.yandex.ru/d/xyKA5L673RNnnE/Известные%20журналы/Навигатор%20Игрового%20Мира/2002",
+    "disc_image": "/discs/nim/2002/05-1/assets/img/disc.webp",
+    "download_iso": "https://vk.ru/wall-240437459_7",
+    "vk_playlist_url": "https://vk.ru/audio_playlist-240437459_3",
+    "webamp_tracks": [
+      {
+        "metaData": {
+          "artist": "Age of Wonders II",
+          "title": "Aggressor"
+        },
+        "url": "music/nim/2002/05-1/combat01.opus",
+        "duration": 254
+      },
+      {
+        "metaData": {
+          "artist": "Age of Wonders II",
+          "title": "Fire Song"
+        },
+        "url": "music/nim/2002/05-1/firesong.opus",
+        "duration": 261
+      },
+      {
+        "metaData": {
+          "artist": "Atrox",
+          "title": "Truth Of Bellum"
+        },
+        "url": "music/nim/2002/05-1/truthofbellum.mp3",
+        "duration": 183
+      }
+    ],
+    "note": "Третья оцифровка. Уникальный контент (АНИМ), но количество возни с диском кошмарное."
+  },
+  {
+    "id": "nim-2002-05-2",
+    "magazine": "nim",
+    "magazine_title": "Навигатор игрового мира",
+    "year": 2002,
+    "issue": "05-2",
+    "title": "Навигатор игрового мира №05 (60) — Май 2002 CD2",
+    "path": "/discs/nim/2002/05-2/index.html",
+    "cover_image": "/discs/nim/2002/05-1/assets/img/cover.webp",
+    "magazine_url": "https://disk.yandex.ru/d/xyKA5L673RNnnE/Известные%20журналы/Навигатор%20Игрового%20Мира/2002",
+    "disc_image": "/discs/nim/2002/05-2/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "https://vk.ru/audio_playlist-240437459_4",
+    "webamp_tracks": [
+      {
+        "metaData": {
+          "artist": "Operation Flashpoint",
+          "title": "Decide"
+        },
+        "url": "music/nim/2002/05-2/opfdecide.opus",
+        "duration": 235
+      },
+      {
+        "metaData": {
+          "artist": "Operation Flashpoint",
+          "title": "Lifeless"
+        },
+        "url": "music/nim/2002/05-2/opflifeless.opus",
+        "duration": 269
+      },
+      {
+        "metaData": {
+          "artist": "Red Alert 2",
+          "title": "Blow It Up"
+        },
+        "url": "music/nim/2002/05-2/ra2blowitupfull.opus",
+        "duration": 189
+      },
+      {
+        "metaData": {
+          "artist": "Red Alert 2",
+          "title": "Destroy"
+        },
+        "url": "music/nim/2002/05-2/ra2destfull.opus",
+        "duration": 277
+      },
+      {
+        "metaData": {
+          "artist": "StarCraft: Brood War",
+          "title": "Radio Free Zerg"
+        },
+        "url": "music/nim/2002/05-2/radiofreezerg.mp3",
+        "duration": 187
+      }
+    ],
+    "note": "Четвертая оцифровка. Проще CD1, но 228 картинок, уф-ф-ф..."
+  },
+  {
+    "id": "lki-2003-01",
+    "magazine": "lki",
+    "magazine_title": "Лучшие компьютерные игры",
+    "year": 2003,
+    "issue": "01",
+    "title": "Лучшие компьютерные игры №01 (14) — Январь 2003",
+    "path": "/discs/lki/2003/01/index.html",
+    "cover_image": "/discs/lki/2003/01/assets/img/cover.webp",
+    "magazine_url": "https://disk.yandex.ru/d/xyKA5L673RNnnE/Известные%20журналы/ЛКИ/2003",
+    "disc_image": "/discs/lki/2003/01/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "https://vk.com/audio_playlist-240437459_5",
+    "webamp_tracks": [
+      {
+        "metaData": {
+          "artist": "Europa Universalis II",
+          "title": "Vivaldi - The Four Seasons (Summer)"
+        },
+        "url": "music/lki/2003/01/track1.mp3",
+        "duration": 175
+      },
+      {
+        "metaData": {
+          "artist": "Heroes of Might and Magic IV",
+          "title": "Castle Stronghold"
+        },
+        "url": "music/lki/2003/01/track2.mp3",
+        "duration": 191
+      },
+      {
+        "metaData": {
+          "artist": "Hitman 2",
+          "title": "Waiting for Action"
+        },
+        "url": "music/lki/2003/01/track3.opus",
+        "duration": 115
+      },
+      {
+        "metaData": {
+          "artist": "Heroes of Might and Magic IV",
+          "title": "Necropolis"
+        },
+        "url": "music/lki/2003/01/track4.mp3",
+        "duration": 204
+      },
+      {
+        "metaData": {
+          "artist": "Heroes of Might and Magic IV",
+          "title": "The Haven"
+        },
+        "url": "music/lki/2003/01/track5.mp3",
+        "duration": 157
+      },
+      {
+        "metaData": {
+          "artist": "Neverwinter Nights",
+          "title": "Main Theme"
+        },
+        "url": "music/lki/2003/01/track6.opus",
+        "duration": 149
+      },
+      {
+        "metaData": {
+          "artist": "Heroes of Might and Magic IV",
+          "title": "Beginning of battle"
+        },
+        "url": "music/lki/2003/01/track7.mp3",
+        "duration": 6
+      },
+      {
+        "metaData": {
+          "artist": "Hitman 2",
+          "title": "Mission in India"
+        },
+        "url": "music/lki/2003/01/track8.opus",
+        "duration": 128
+      },
+      {
+        "metaData": {
+          "artist": "Кирилл Покровский",
+          "title": "Bitva (Battle)"
+        },
+        "url": "music/lki/2003/01/track9.mp3",
+        "duration": 167
+      }
+    ],
+    "note": "Пятая оцифровка. Как будто не так много контента, но все написано на HTML, который надо переписывать и править, править... Зря я жаловался на 200+ картинок."
+  }
+]

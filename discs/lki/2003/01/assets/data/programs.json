@@ -1,0 +1,16 @@
+{
+  "id": "programs",
+  "title": "Полезные программы",
+  "items": [
+    {
+      "type": "folder",
+      "label": "Полезные программы",
+      "id": "poleznye-programmy"
+    },
+    {
+      "type": "folder",
+      "label": "Украшаем свой рабочий стол",
+      "id": "ukrashaem-rabochij-stol"
+    }
+  ]
+}

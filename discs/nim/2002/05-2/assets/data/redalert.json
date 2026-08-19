@@ -1,0 +1,236 @@
+{
+  "id": "redalert",
+  "name": "Command & Conquer: Red Alert 2",
+  "root": {
+    "title": "Command & Conquer: Red Alert 2",
+    "info": [
+      {
+        "label": "Разработчик",
+        "value": "Westwood"
+      },
+      {
+        "label": "Издатель:",
+        "value": "Electronic Arts"
+      },
+      {
+        "label": "Требуется:",
+        "value": "Pentium-II 233, 64 Mb RAM"
+      },
+      {
+        "label": "Рекомендуется:",
+        "value": "Pentium-II 400, 128 Mb RAM"
+      }
+    ],
+    "images": [
+      "assets/img/content/redalert1.webp"
+    ],
+    "text": ""
+  },
+  "tree": [
+    {
+      "id": "maps",
+      "label": "Карты",
+      "expandable": true,
+      "content": {
+        "title": "Карты",
+        "text": "Здесь вы можете найти все официальные наборы карт, которые были выпущены Westwood."
+      },
+      "children": [
+        {
+          "id": "mappack-1",
+          "label": "Official Red Alert 2 Mappack №1",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №1",
+            "text": "Рейтинг GameSpy:\t8/10\nПервый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Oceanside, Rockets Red Glare и Deadman's Ridge. Если вы хотите установить Official Red Alert 2 Mappack №1, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack1s1.webp",
+              "assets/img/content/ramappack1s2.webp",
+              "assets/img/content/ramappack1s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-2",
+          "label": "Official Red Alert 2 Mappack №2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №2",
+            "text": "Рейтинг GameSpy:\t9/10\nВторой официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Head for the Hills, Lost Lake и Happy Trails . Если вы хотите установить Official Red Alert 2 Mappack №2, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack2s1.webp",
+              "assets/img/content/ramappack2s2.webp",
+              "assets/img/content/ramappack2s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-3",
+          "label": "Official Red Alert 2 Mappack №3",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №3",
+            "text": "Рейтинг GameSpy:\t10/10\nТретий официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Kalifornia (Urban), Breakaway (Snow, Island) и Hail Mary (Urban/Stadium). Если вы хотите установить Official Red Alert 2 Mappack №3, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack3s1.webp",
+              "assets/img/content/ramappack3s2.webp",
+              "assets/img/content/ramappack3s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-4",
+          "label": "Official Red Alert 2 Mappack №4",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №4",
+            "text": "Рейтинг GameSpy:\t6/10\nЧетвертый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Brink of Disaster, Arena и Shrapnel Mountain. Если вы хотите установить Official Red Alert 2 Mappack №4, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack4s1.webp",
+              "assets/img/content/ramappack4s2.webp",
+              "assets/img/content/ramappack4s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-5",
+          "label": "Official Red Alert 2 Mappack №5",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №5",
+            "text": "Рейтинг GameSpy:\t10/10\nПятый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Bay of Pigs, Russian Roulette и Tanya's Training Ground. Если вы хотите установить Official Red Alert 2 Mappack №5, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack5s1.webp",
+              "assets/img/content/ramappack5s2.webp",
+              "assets/img/content/ramappack5s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-6",
+          "label": "Official Red Alert 2 Mappack №6",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №6",
+            "text": "Рейтинг GameSpy:\t10/10\nШестой официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Streets of Gold (на 2-6 игроков), Tsunami (на 2-4 игрока) и Yuri's Plot (на 2-4 игрока). Если вы хотите установить Official Red Alert 2 Mappack №6, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack6s1.webp",
+              "assets/img/content/ramappack6s2.webp",
+              "assets/img/content/ramappack6s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-7",
+          "label": "Official Red Alert 2 Mappack №7",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №7",
+            "text": "Рейтинг GameSpy:\t10/10\nСедьмой официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Roundhouse Kick (на 2-4 игрока), Army of The Potomac (на 2-6 игроков), and Carville's Convoy (на 2-4 игрока). Если вы хотите установить Official Red Alert 2 Mappack №7, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack7s1.webp",
+              "assets/img/content/ramappack7s2.webp",
+              "assets/img/content/ramappack7s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-8",
+          "label": "Official Red Alert 2 Mappack №8",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №8",
+            "text": "Рейтинг GameSpy:\t10/10\nВосьмой официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: Roundhouse Kick (на 2-4 player игрока), Army of The Potomac (на 2-6 игроков) и Carville's Convoy (на 2-4 игрока). Если вы хотите установить Official Red Alert 2 Mappack №8, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack8s1.webp",
+              "assets/img/content/ramappack8s2.webp",
+              "assets/img/content/ramappack8s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-9",
+          "label": "Official Red Alert 2 Mappack №9",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №9",
+            "text": "Рейтинг GameSpy:\t6/10\nДевятый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе три карты: New Heights (на 2 игрока), Valley of Gems (на 2-4 игрока) и Death Trap (на 2-8 игроков). Если вы хотите установить Official Red Alert 2 Mappack №9, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack9s1.webp",
+              "assets/img/content/ramappack9s2.webp",
+              "assets/img/content/ramappack9s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-10",
+          "label": "Official Red Alert 2 Mappack №10",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №10",
+            "text": "Рейтинг GameSpy:\t6/10\nДесятый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе две карты: The Bermuda Triangle (на 2-6 игроков) и Meat Grinder (на 2 игрока). Если вы хотите установить Official Red Alert 2 Mappack №10, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack10s1.webp",
+              "assets/img/content/ramappack10s2.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-11",
+          "label": "Official Red Alert 2 Mappack №11",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №11",
+            "text": "Рейтинг GameSpy:\t6/10\nОдиннадцатый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе две карты: Pacific Heights (на 4 игрока) и Killer Instinct (на 3 игрока). Если вы хотите установить Official Red Alert 2 Mappack №11, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack11s1.webp",
+              "assets/img/content/ramappack11s2.webp"
+            ]
+          }
+        },
+        {
+          "id": "mappack-12",
+          "label": "Official Red Alert 2 Mappack №12",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Official Red Alert 2 Mappack №12",
+            "text": "Рейтинг GameSpy:\t6/10\nДвенадцатый официальный набор карт для Command & Conquer: Red Alert 2. Содержит в себе две карты: Loaded Barrels (на 2 игрока) and Sea of Isolation (на 4 игрока). Если вы хотите установить Official Red Alert 2 Mappack №12, проинсталлируйте его в директорию Red Alert 2.",
+            "images": [
+              "assets/img/content/ramappack12s1.webp",
+              "assets/img/content/ramappack12s2.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wallpapers",
+      "label": "Обои",
+      "expandable": false,
+      "content": {
+        "title": "Обои",
+        "text": "Официальные обои по мотивам Command & Conquer: Red Alert 2, которые были выпущены Westwood.",
+        "images": [
+          "assets/img/content/raw1.webp",
+          "assets/img/content/raw2.webp",
+          "assets/img/content/raw3.webp",
+          "assets/img/content/raw4.webp",
+          "assets/img/content/raw5.webp"
+        ]
+      },
+      "children": []
+    }
+  ]
+}

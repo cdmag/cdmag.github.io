@@ -1,0 +1,108 @@
+{
+  "id": "heroes-of-might-and-magic-4",
+  "title": "Heroes of Might and Magic IV",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Heroes of Might and Magic IV...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Введение",
+      "id": "hm4-block-1",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Города",
+      "id": "hm4-block-2",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Герои",
+      "id": "hm4-block-3",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-3.html"
+    },
+    {
+      "type": "file",
+      "label": "Навыки",
+      "id": "hm4-block-4",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-4.html"
+    },
+    {
+      "type": "file",
+      "label": "Магия (часть 1)",
+      "id": "hm4-block-5",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-5.html"
+    },
+    {
+      "type": "file",
+      "label": "Существа (Природа, Порядок)",
+      "id": "hm4-block-6",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-6.html"
+    },
+    {
+      "type": "file",
+      "label": "Существа (Жизнь, Хаос, Смерть)",
+      "id": "hm4-block-7",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-7.html"
+    },
+    {
+      "type": "file",
+      "label": "Существа (Сила) и Магия Хаоса/Смерти",
+      "id": "hm4-block-8",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-8.html"
+    },
+    {
+      "type": "file",
+      "label": "Магия (Жизнь, Природа, Порядок, Демонология)",
+      "id": "hm4-block-9",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-9.html"
+    },
+    {
+      "type": "file",
+      "label": "Объекты карты и советы",
+      "id": "hm4-block-10",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-10.html"
+    },
+    {
+      "type": "file",
+      "label": "Кампания 1 — The True Blade",
+      "id": "hm4-block-11",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-11.html"
+    },
+    {
+      "type": "file",
+      "label": "Кампании 2–3 (начало)",
+      "id": "hm4-block-12",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-12.html"
+    },
+    {
+      "type": "file",
+      "label": "Кампания 3 (продолжение)",
+      "id": "hm4-block-13",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-13.html"
+    },
+    {
+      "type": "file",
+      "label": "Кампания 4 — Elvin and Shaera",
+      "id": "hm4-block-14",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-14.html"
+    },
+    {
+      "type": "file",
+      "label": "Кампания 5 — Half-Dead",
+      "id": "hm4-block-15",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-15.html"
+    },
+    {
+      "type": "file",
+      "label": "Кампания 6 — A Pirate's Daughter",
+      "id": "hm4-block-16",
+      "src": "guides/heroes-of-might-and-magic-4/hm4-block-16.html"
+    }
+  ]
+}

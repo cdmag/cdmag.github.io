@@ -1,0 +1,29 @@
+{
+  "id": "civilization-3",
+  "title": "Civilization III",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Civilization III...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Модификации правил",
+      "id": "mods",
+      "src": "best/civilization-3/mods.html"
+    },
+    {
+      "type": "file",
+      "label": "Карты",
+      "id": "maps",
+      "src": "best/civilization-3/maps.html"
+    },
+    {
+      "type": "file",
+      "label": "Конструктор фанатских сайтов",
+      "id": "fan-site-kit",
+      "src": "best/civilization-3/fan-site-kit.html"
+    }
+  ]
+}

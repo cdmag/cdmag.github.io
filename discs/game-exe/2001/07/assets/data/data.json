@@ -1,0 +1,568 @@
+{
+  "igry": {
+    "bg": "games_fon.webp",
+    "tabs": [
+      {
+        "id": "main_games",
+        "name": "Игры",
+        "base": "header_igry",
+        "active": true,
+        "items": [
+          {
+            "id": "startopia",
+            "title": "StarTopia",
+            "type": "Демо-версия",
+            "genre": "Стратегия",
+            "developer": "Mucky Foot Productions",
+            "publisher": "Eidos Interactive",
+            "size": "88,7 Мбайта",
+            "website": "http://www.eidosinteractive.com/gss/legacy/startopia",
+            "sys_reqs": "Windows 95/98/2000, Pentium II 350 (рек. Pentium III), 64 Мбайта ОЗУ (рек. 128 Мбайт), Direct3D-ускоритель",
+            "info": [
+              "1. Рекомендуется 3-кнопочная (или с колесиком) мышь.",
+              "2. В одной директории с данной демо-версией находится патч Card3d.exe, установка которого устраняет проблемы при работе с некоторыми видеокартами (разумеется, если у вас все идет нормально, то и патч вам совершенно ни к чему).",
+              "3. Читайте наш рассказ об этой игре в #7 и номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/startopia_01.jpg",
+              "assets/img/content/startopia_02.jpg",
+              "assets/img/content/startopia_03.jpg",
+              "assets/img/content/startopia_04.jpg",
+              "assets/img/content/startopia_05.jpg"
+            ],
+            "url": "https://archive.org/details/startopia_demo"
+          },
+          {
+            "id": "druids",
+            "title": "The Mystery of the Druids",
+            "type": "Демо-версия",
+            "genre": "Квест",
+            "developer": "The House of Tales",
+            "publisher": "CDV Software",
+            "size": "48 Мбайта",
+            "website": "www.geheimnisderdruiden.de/english/index.php3",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium 200 (рек. Pentium II 400), 32 Мбайта ОЗУ, SVGA (2 Мбайта ОЗУ), DirectX 8.0",
+            "info": [
+              "1. 50 Мбайт на жестком диске",
+              "2. Читайте наше превью на эту игру в 7-м номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/mystery_of_the_druids_01.jpg",
+              "assets/img/content/mystery_of_the_druids_02.jpg",
+              "assets/img/content/mystery_of_the_druids_03.jpg",
+              "assets/img/content/mystery_of_the_druids_04.jpg",
+              "assets/img/content/mystery_of_the_druids_05.jpg"
+            ]
+          },
+          {
+            "id": "leadfoot",
+            "title": "Leadfoot: Stadium Offroad Racing",
+            "type": "Демо-версия",
+            "genre": "Автогонки по грязевым кольцевым трекам",
+            "developer": "Ratbag Pty Ltd.",
+            "publisher": "Infogrames",
+            "size": "9 Мбайт",
+            "website": "http://www.ratbaggames.com/games/leadfoot.html",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium II 266/Celeron 300A (рек. Pentium II 400), 32 Мбайта ОЗУ (рек. 64 Мбайта), SVGA (рек. 3D-ускоритель), DirectX 6.0+",
+            "info": [
+              "1. 40 Мбайт на жестком диске",
+              "2. Читайте нашу рецензию на эту игру в 7-м номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/leadfoot_01.jpg",
+              "assets/img/content/leadfoot_02.jpg",
+              "assets/img/content/leadfoot_03.jpg",
+              "assets/img/content/leadfoot_04.jpg"
+            ]
+          },
+          {
+            "id": "realwar",
+            "title": "Real War",
+            "type": "Демо-версия",
+            "genre": "3D RTS",
+            "developer": "Rival Interactive",
+            "publisher": "Simon & Schuster Interactive",
+            "size": "48,9 Мбайта",
+            "website": "www.real-war.com",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium II 300, 64 Мбайта ОЗУ (рек. 128 Мбайт), 3D-ускоритель",
+            "info": [
+              "1. 210 Мбайт на жестком диске",
+              "2. Читайте наше превью на эту игру в 7-м номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/real_war_01.jpg",
+              "assets/img/content/real_war_02.jpg",
+              "assets/img/content/real_war_03.jpg",
+              "assets/img/content/real_war_04.jpg",
+              "assets/img/content/real_war_05.jpg"
+            ]
+          },
+          {
+            "id": "steelbeasts",
+            "title": "Steel Beasts",
+            "type": "Демо-версия",
+            "genre": "Танковый симулятор",
+            "developer": "eSim Games",
+            "publisher": "Strategy First",
+            "size": "19,8 Мбайта",
+            "website": "www.esimgames.com/steelbeasts.htm",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium 266+, 32 Мбайта ОЗУ, SVGA (2 Мбайта ОЗУ), DirectX 7.0+",
+            "info": [
+              "1. 3D-ускоритель не требуется",
+              "2. Читайте нашу рецензию на эту игру в 10-м номере Game.EXE за прошлый год"
+            ],
+            "screenshots": [
+              "assets/img/content/steel_beasts_01.jpg",
+              "assets/img/content/steel_beasts_02.jpg",
+              "assets/img/content/steel_beasts_03.jpg",
+              "assets/img/content/steel_beasts_04.jpg",
+              "assets/img/content/steel_beasts_05.jpg"
+            ]
+          },
+          {
+            "id": "eracer",
+            "title": "eRacer",
+            "type": "Демо-версия (1 Track Off-line demo)",
+            "genre": "Аркадные гонки",
+            "developer": "Rage Software",
+            "publisher": "Rage Software",
+            "size": "22,9 Мбайта",
+            "website": "www.rage.com/eracer",
+            "sys_reqs": "Windows 95/98, Pentium II 300 (рек. Pentium III 500), 64 Мбайта ОЗУ (рек. 128 Мбайт), Direct3D-ускоритель с 16 Мбайтами ОЗУ (рек. 32 Мбайта), DirectX 8.0",
+            "info": [
+              "1. 350 Мбайт на жестком диске",
+              "2. В одной директории с демо-версией находится патч eracerdemoonlinepatch.zip, установка которого позволит вам играть и онлайн, а также, что, возможно, самое главное, поднимет до приличного уровня частоту кадров, до этого не блестевшую из-за ошибок с растеризацией",
+              "3. Читайте нашу рецензию на эту игру в прошлом (6-м) номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/eracer_01.jpg",
+              "assets/img/content/eracer_02.jpg",
+              "assets/img/content/eracer_03.jpg",
+              "assets/img/content/eracer_04.jpg"
+            ]
+          },
+          {
+            "id": "warmup",
+            "title": "Warm Up!",
+            "type": "Демо-версия",
+            "genre": "Аркадный симулятор автогонок",
+            "developer": "Lankhor",
+            "publisher": "Microïds",
+            "website": "www.warmup-thegame.com",
+            "size": "59 Мбайт",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium 233 (рек. Pentium II 300), 32 Мбайта ОЗУ (рек. 128 Мбайт), 3D-ускоритель с 4 Мбайтами ОЗУ (рек. 16 Мбайт), DirectX 8.0+",
+            "info": [
+              "1. Демо-версия позволит вам прокатиться с ветерком по т.н. Канадскому треку и попробовать на вкус Ghost-режим игры"
+            ],
+            "screenshots": [
+              "assets/img/content/warm_up_01.jpg",
+              "assets/img/content/warm_up_02.jpg",
+              "assets/img/content/warm_up_03.jpg",
+              "assets/img/content/warm_up_04.jpg"
+            ]
+          },
+          {
+            "id": "texatomic",
+            "title": "Tex Atomic's Big Bot Battles",
+            "type": "Демо-версия",
+            "genre": "3D аркада",
+            "developer": "Monolith",
+            "publisher": "RealNetworks, Inc.",
+            "website": "http://realguide.real.com/games/index.html",
+            "size": "16,4 Мбайта",
+            "sys_reqs": "Windows 95/98/ME (US-версии), Pentium II 300 (рек. Pentium III), 32 Мбайта ОЗУ (рек. 128 Мбайт), Direct3D-ускоритель (16 Мбайт ОЗУ), DirectX 7.0+",
+            "info": [
+              "1. 100 Мбайт на жестком диске"
+            ],
+            "screenshots": [
+              "assets/img/content/tex_atomic_s_big_bot_battles_01.jpg",
+              "assets/img/content/tex_atomic_s_big_bot_battles_02.jpg",
+              "assets/img/content/tex_atomic_s_big_bot_battles_03.jpg"
+            ]
+          },
+          {
+            "id": "virtualu",
+            "title": "Virtual U",
+            "type": "Демо-версия",
+            "genre": "Симулятор университета",
+            "developer": "Enlight Software / Jackson Hole Higher Education Group",
+            "publisher": "Anker Publishing",
+            "website": "www.virtual-u.org",
+            "size": "30,2 Мбайта",
+            "sys_reqs": "Windows 95/98/2000, Pentium 200, 16 Мбайт ОЗУ, SVGA, 50 Мбайт на жестком диске, DirectX 5.0+",
+            "info": [
+              "1. Читайте наше превью на эту игру в следующем (8-м) номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/virtual_u_01.jpg",
+              "assets/img/content/virtual_u_02.jpg",
+              "assets/img/content/virtual_u_03.jpg",
+              "assets/img/content/virtual_u_04.jpg"
+            ]
+          },
+          {
+            "id": "getthebunny",
+            "title": "Get the Bunny",
+            "type": "Демо-версия",
+            "genre": "Аркада",
+            "developer": "Soft Enterprises",
+            "publisher": "Data Becker",
+            "website": "www.getthebunny.com",
+            "size": "3,4 Мбайта",
+            "sys_reqs": "Windows 95/98(SE)/ME/2000, Pentium II 300, 64 Мбайта ОЗУ, Direct3D-ускоритель, DirectX 8.0+",
+            "info": [
+              "1. 65 Мбайт на жестком диске"
+            ],
+            "screenshots": [
+              "assets/img/content/get_the_bunny_01.jpg",
+              "assets/img/content/get_the_bunny_02.jpg",
+              "assets/img/content/get_the_bunny_03.jpg",
+              "assets/img/content/get_the_bunny_04.jpg"
+            ]
+          },
+          {
+            "id": "watchmaker",
+            "title": "The Watchmaker",
+            "type": "Демо-версия",
+            "genre": "Квест",
+            "developer": "Trecision SpA",
+            "publisher": "Trecision SpA",
+            "website": "www.trecision.com",
+            "size": "32,1 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium II 266, 64 Мбайта ОЗУ, 3D-ускоритель, DirectX 8.0+",
+            "info": [
+              "1. Читайте нашу рецензию на эту игру в следующем (8-м) номере Game.EXE"
+            ],
+            "screenshots": [
+              "assets/img/content/the_watchmaker_01.jpg",
+              "assets/img/content/the_watchmaker_02.jpg",
+              "assets/img/content/the_watchmaker_03.jpg",
+              "assets/img/content/the_watchmaker_04.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shareware",
+        "name": "Shareware",
+        "base": "header_shareware",
+        "active": false,
+        "items": [
+          {
+            "id": "smartreversi",
+            "title": "Smart Reversi v2.65",
+            "type": "Shareware",
+            "genre": "Классическая логическая игра",
+            "developer": "Vertexians Inc.",
+            "size": "1,1 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT 4.0, Pentium 100, 16 Мбайт ОЗУ, SVGA (800x600)",
+            "screenshots": [
+              "assets/img/content/smart_reversi_01.jpg",
+              "assets/img/content/smart_reversi_02.jpg",
+              "assets/img/content/smart_reversi_03.jpg"
+            ]
+          },
+          {
+            "id": "rotoblox",
+            "title": "RotoBlox v1.6",
+            "type": "Shareware",
+            "genre": "Аркадно-логическая игра (клон тетриса)",
+            "developer": "Vertexians Inc.",
+            "size": "2,1 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000, Pentium 200 МГц, 16 Мбайт ОЗУ, SVGA (640x480, High Color), DirectX 7.0+",
+            "screenshots": [
+              "assets/img/content/rotoblox_01.jpg",
+              "assets/img/content/rotoblox_02.jpg"
+            ]
+          },
+          {
+            "id": "advancedgomoku",
+            "title": "Advanced Gomoku v2.31",
+            "type": "Shareware",
+            "genre": "Логическая игра",
+            "developer": "Vertexians Inc.",
+            "size": "1,4 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT 4.0, Pentium 150+, 16 Мбайт ОЗУ, SVGA (800x600)",
+            "screenshots": [
+              "assets/img/content/advanced_gomoku_01.jpg",
+              "assets/img/content/advanced_gomoku_02.jpg"
+            ]
+          },
+          {
+            "id": "starshipsunlimited",
+            "title": "Starships Unlimited v2.2b",
+            "type": "Shareware",
+            "genre": "Космическая стратегия",
+            "developer": "ApeZone",
+            "size": "2,1 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT 4.0 (SP4), Pentium 133, 32 Мбайта ОЗУ, SVGA, DirectX 3.0+",
+            "screenshots": [
+              "assets/img/content/starships_unlimited_01.jpg",
+              "assets/img/content/starships_unlimited_02.jpg",
+              "assets/img/content/starships_unlimited_03.jpg"
+            ]
+          },
+          {
+            "id": "freesolitaire123",
+            "title": "123 Free Solitaire v5.2a",
+            "type": "Freeware",
+            "genre": "123 Freeware солитера",
+            "developer": "TreeCardGames Inc.",
+            "size": "1,5 Мбайта",
+            "sys_reqs": "Windows 95/98/2000/NT",
+            "screenshots": [
+              "assets/img/content/123_free_solitaire_v5_2a_01.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "retro": {
+    "bg": "retro_fon.webp",
+    "tabs": [
+      {
+        "name": "Ретро",
+        "base": "header_retro",
+        "active": true,
+        "static": true,
+        "items": [
+          {
+            "id": "nfs2",
+            "title": "Need For Speed II (1997 г.)",
+            "type": "Демо-версия",
+            "genre": "Аркадный автосимулятор",
+            "developer": "Electronic Arts",
+            "publisher": "Electronic Arts",
+            "size": "6,7 Мбайта",
+            "sys_reqs": "Windows 95, Pentium 90, 16 Мбайт ОЗУ, 3D ускоритель (3dfx), DirectX 5.0",
+            "info": [
+              "1. Данная демо-версия работает только с 3D ускорителем от 3dfx.",
+              "2. \"...в NFSII очень хорошо проработана динамика движущихся объектов. Когда \"Феррари\" сталкивается с \"Ягуаром\" на скорости свыше двухсот миль в час, последствия этого столкновения вполне соответствуют ситуации. Даже если столкновение не лобовое...\" (Game.EXE, №4'97, рейтинг: 78%.)"
+            ],
+            "url": "https://archive.org/details/NFS2SEA",
+            "screenshots": [
+              "assets/img/content/need_for_speed_ii_01.jpg",
+              "assets/img/content/need_for_speed_ii_02.jpg",
+              "assets/img/content/need_for_speed_ii_03.jpg"
+            ]
+          },
+          {
+            "id": "outlaws",
+            "title": "Outlaws (1997 г.)",
+            "type": "Демо-версия",
+            "genre": "Шутер от первого лица",
+            "developer": "LucasArts Entertainment Company",
+            "publisher": "LucasArts Entertainment Company",
+            "size": "14,1 Мбайта",
+            "sys_reqs": "Windows 95, Pentium 60, 16 Мбайт ОЗУ, SVGA, 22 Мбайта на жестком диске, DirectX 3.0",
+            "url": "https://archive.org/details/outdemo_v2",
+            "info": [
+              "1. Демо-версия поддерживает 3D-ускорители от 3dfx, умеет выводить 3D-звук и содержит многопользовательскую миссию.",
+              "2. \"Жанр предписывает брать бизона за рога. Беру: вас зовут Джеймс Андерсон, жену убили бандиты, дочь тоже не пионеры уворовали, на руках список самых опасных преступников (из категории \"Wanted!\"), действие происходит на Диком Западе, вричина самые что ни на есть пастушье-ковбойские. Так чего мы ждем?\" (Game.EXE, №4'97, рейтинг: 90%, \"Наш выбор\".)"
+            ],
+            "screenshots": [
+              "assets/img/content/outlaws_01.jpg",
+              "assets/img/content/outlaws_02.jpg",
+              "assets/img/content/outlaws_03.jpg",
+              "assets/img/content/outlaws_04.jpg"
+            ]
+          },
+          {
+            "id": "deathrally",
+            "title": "Death Rally (1996 г.)",
+            "type": "Демо-версия",
+            "genre": "Гоночная аркада со стрельбой",
+            "developer": "Remedy Entertainment",
+            "publisher": "Apogee Software / GT Interactive",
+            "size": "6,9 Мбайта",
+            "url": "https://archive.org/details/msdos_Death_Rally_1996",
+            "sys_reqs": "DOS 4.01, 486DX2/66 (рек. Pentium), 4 Мбайта ОЗУ, VESA, 7 Мбайт на жестком диске",
+            "info": [
+              "\"Морали таковы: 1. Здесь вам не тут, спортом занимаются в F1; 2. Почему в названии игры присутствует слово \"ралли\" не знает никто; 3. Несмотря на эти неувязки, стоит признать продукт не Диетическим, но лечебным, отнести к народной медицине и выписывать усталым пессимистам и наивным гуманистам, соль и сахар по вкусу; 4. Всем давить Дюка Ньюкема полчаса!\" (\"Магазин игрушек\", №10'96, рейтинг: 93%, \"Наш выбор\".)"
+            ],
+            "screenshots": [
+              "assets/img/content/death_rally_01.jpg",
+              "assets/img/content/death_rally_02.jpg",
+              "assets/img/content/death_rally_03.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "utility": {
+    "bg": "utils_fon.webp",
+    "tabs": [
+      {
+        "name": "Утилиты",
+        "base": "header_utils",
+        "active": true,
+        "static": true,
+        "items": [
+          {
+            "id": "acroread50",
+            "title": "Adobe Acrobat Reader (32-bit) v5.0",
+            "type": "Freeware",
+            "developer": "Adobe Systems",
+            "size": "8,8 Мбайта",
+            "sys_reqs": "Windows 95 (OSR 2.0)/98/ME/2000/NT 4.0 (SP5 или 6)",
+            "description": "Последняя версия единственного и неповторимого просмотрщика pdf файлов.",
+            "screenshots": [
+              "assets/img/content/adobe_acrobat_reader_v5_0_01.jpg"
+            ]
+          },
+          {
+            "id": "mp3navigator",
+            "title": "MP3 Navigator v2.42",
+            "type": "Shareware",
+            "developer": "VertexLabs Inc.",
+            "size": "0,6 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT 4.0, Pentium 150+, 16 Мбайт ОЗУ",
+            "description": "Органайзер mp3 файлов.",
+            "screenshots": [
+              "assets/img/content/mp3_navigator_01.jpg",
+              "assets/img/content/mp3_navigator_02.jpg"
+            ]
+          },
+          {
+            "id": "cpucool",
+            "title": "CPUCool v6.1.5",
+            "type": "Shareware",
+            "developer": "Wolfram Podien",
+            "size": "1,8 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT 4.0",
+            "description": "Программа мониторинга температурных параметров компьютера.",
+            "screenshots": [
+              "assets/img/content/cpucool_v6_1_5_01.jpg"
+            ]
+          },
+          {
+            "id": "dap",
+            "title": "Download Accelerator v4.3",
+            "type": "Freeware",
+            "developer": "SpeedBit",
+            "size": "1,2 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT 4.0, Internet Explorer 4.1 / Netscape 4.1 / Opera 4.1",
+            "description": "Утилита (download менеджер), которая позволит вам существенно (авторы обещают: \"до 300%\") увеличить скорость скачивания файлов из Интернета.",
+            "screenshots": [
+              "assets/img/content/download_accelerator_v4_3_01.jpg"
+            ]
+          },
+          {
+            "id": "engtrainer",
+            "title": "English Trainer v2600",
+            "type": "Freeware",
+            "developer": "Александр Глазков",
+            "size": "0,4 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000/NT",
+            "description": "Тренажер для профессиональных переводчиков, как называет свое детище автор. Попробуйте — это и впрямь весьма полезная программа. Даже если вы на сто процентов уверены, что знаете ВСЕ. Увы, English Trainer легко это опровергнет...",
+            "screenshots": [
+              "assets/img/content/english_trainer_v2600_01.jpg",
+              "assets/img/content/english_trainer_v2600_02.jpg"
+            ]
+          },
+          {
+            "id": "gtu",
+            "title": "GeForce Tweak Utility v3.03",
+            "type": "Freeware",
+            "developer": "Johannes Toemler (a.k.a. Kennung1)",
+            "size": "0,28 Мбайта",
+            "sys_reqs": "Windows 95/98/ME/2000, WinXP; Geforce 256/Geforce 256 DDR/Geforce2 GTS/Geforce2 MX; референсные драйверы nvidia: v5.08+, драйверы ASUS: v5.16+, драйверы ELSA: последние драйверы, базирующиеся на драйверах nvidia v5.xx",
+            "description": "Утилита для настройки параметров видеокарт на основе чипсетов nvidia.",
+            "screenshots": [
+              "assets/img/content/geforce_tweak_utility_v3_03_01.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "patchi": {
+    "bg": "patches_fon.webp",
+    "tabs": [
+      {
+        "name": "Патчи",
+        "base": "header_patches",
+        "active": true,
+        "static": true,
+        "items": [
+          {
+            "id": "bladeofdarkness",
+            "title": "Blade of Darkness v1.01",
+            "developer": "Rebel Act Studios",
+            "size": "2,1 Мбайта",
+            "description": "Патч, предназначенный для американской ретейловой версии игры, исправляет значительное количество ошибок, в том числе критических, о чем вы сможете прочесть в соответствующем текстовом файле, находящемся внутри архива с патчем."
+          },
+          {
+            "id": "tropico",
+            "title": "Tropico v1.02",
+            "developer": "Gathering of Developers",
+            "size": "0,75 Мбайта",
+            "description": "Патч исправляет несколько ошибок, добавляет в игру возможность редактирования карт и вводит несколько \"горячих\" клавиш для быстрого перемещения по карте и между людьми (а также для быстрого пролистывания альманаха)."
+          },
+          {
+            "id": "myst3exile",
+            "title": "Myst III: Exile v1.2",
+            "developer": "Ubi Soft",
+            "size": "2,9 Мбайта",
+            "description": "Патч исправляет ошибку, которая не позволяла работать игре на нескольких видеокартах: теперь Myst 3 может идти в software-режиме на платах, построенных на чипсетах Intel 710, 810 и 815, а также на картах Neomagic SiS."
+          },
+          {
+            "id": "kohanimmortalsovereigns",
+            "title": "Kohan: Immortal Sovereigns v1.0.9",
+            "developer": "TimeGate Studios",
+            "size": "3,1 Мбайта",
+            "description": "Патч апгрейдит игру версии 1.0.2 до версии 1.0.9 (добавлена password-поддержка в многопользовательскую игру, поддержка командных дефматчевых карт, исправлены некоторые ошибки и сбои, оптимизирован графический движок игры, проведена некоторая работа по дополнительной балансировке юнитов и т.д.)."
+          }
+        ]
+      }
+    ]
+  },
+  "muzyka": {
+    "bg": "music_main.webp",
+    "tabs": [
+      {
+        "name": "Музыка",
+        "base": "header_music",
+        "active": true,
+        "bg": "music_main.webp",
+        "tracks": [
+          { "id": 1, "title": "Arcanum (Main Theme)", "duration": "2:35" },
+          { "id": 2, "title": "The Demise of the Zephyr", "duration": "1:31" },
+          { "id": 3, "title": "Wilderness", "duration": "2:10" },
+          { "id": 4, "title": "Tarant", "duration": "2:06" },
+          { "id": 5, "title": "The Tarant Sewers", "duration": "2:12" },
+          { "id": 6, "title": "Caladon", "duration": "2:38" },
+          { "id": 7, "title": "Caladon Catacombs", "duration": "2:54" },
+          { "id": 8, "title": "Dungeons", "duration": "2:58" },
+          { "id": 9, "title": "Battle at Vendigroth", "duration": "1:33" },
+          { "id": 10, "title": "Tulla", "duration": "3:10" },
+          { "id": 11, "title": "Towns", "duration": "2:00" },
+          { "id": 12, "title": "The Isle of Despair", "duration": "2:25" },
+          { "id": 13, "title": "Mines", "duration": "2:39" },
+          { "id": 14, "title": "Cities", "duration": "2:18" },
+          { "id": 15, "title": "Radcliffe's Commission", "duration": "1:33" },
+          { "id": 16, "title": "The Vendigroth Wastes", "duration": "3:03" },
+          { "id": 17, "title": "Villages", "duration": "2:45" },
+          { "id": 18, "title": "Qintarra", "duration": "1:54" },
+          { "id": 19, "title": "The Wheel Clan", "duration": "2:05" },
+          { "id": 20, "title": "The Void", "duration": "2:07" },
+          { "id": 21, "title": "Kerghan's Castle", "duration": "2:25" }
+        ]
+      },
+      {
+        "name": "Бонус-трек",
+        "base": "header_bonus",
+        "active": false,
+        "bg": "music_bonus.webp",
+        "tracks": [
+          { "id": 1, "title": "Accused", "duration": "4:19" },
+          { "id": 2, "title": "Poltergeist", "duration": "2:56" },
+          { "id": 3, "title": "Spectre", "duration": "3:34" },
+          { "id": 4, "title": "Spirits 01", "duration": "1:46" }
+        ]
+      }
+    ]
+  }
+}

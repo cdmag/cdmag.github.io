@@ -1,0 +1,110 @@
+[
+  {
+    "id": "army-men-air-tactics",
+    "title": "Army Men: Air Tactics",
+    "genre": "Action",
+    "developer": "3DO",
+    "publisher": "3DO",
+    "sys_req": "P-166, 32 Мб",
+    
+    "downloadUrl": "#",
+    "image": "army1.jpg",
+    "description": "И еще одна часть детского 3DO'шного сериала про красных и зеленых пластмассовых солдатиков, сражающихся между собой. На этот раз битвы происходят в воздухе, а значит, появляются новые герои с соответствующими навыками и возможностями."
+  },
+  {
+    "id": "bust-a-move-4",
+    "title": "Bust A Move 4",
+    "genre": "Puzzle",
+    "developer": "Interplay",
+    "publisher": "Interplay",
+    "sys_req": "P200, 32 Мб, 3D-уск.",
+    
+    "downloadUrl": "https://archive.org/details/bustamove4_zip",
+    "image": "bust4.jpg",
+    "description": "Логическая игрушка. Маленькая пушка, расположенная внизу экрана, стреляет разноцветными шариками, которые исчезают в случае, если три или более шара одного цвета соприкасаются между собой. Простенько и симпатично."
+  },
+  {
+    "id": "codename-eagle",
+    "title": "Codename Eagle",
+    "genre": "3D Action",
+    "developer": "Refraction",
+    "publisher": "Take 2 Interactive",
+    "sys_req": "P233, 32 Мб, 3D-уск.",
+    
+    "downloadUrl": "#",
+    "image": "codename.jpg",
+    "description": "Весьма своеобразный, с точки зрения рядового русского геймера, 3D Action. Прямо-таки собрание сочинений по альтернативной истории в отдельно взятой игре. Доблестному игроку необходимо устраивать диверсии в тылу врага, отбиваясь от медведей с балалайками."
+  },
+  {
+    "id": "invictus",
+    "title": "Invictus",
+    "genre": "RTS",
+    "developer": "14 degrees East",
+    "publisher": "Interplay",
+    "sys_req": "P-200, 32 Мб",
+    
+    "downloadUrl": "#",
+    "image": "invictus.jpg",
+    "description": "Мифы и легенды Древней Греции читал? А тебе никогда не приходила в голову мысль, почему этот необычный и сказочный мир с его мощным пантеоном богов, героев и прочих нимф не используют в компьютерных играх? По-моему, получилось бы что-то весьма интересное. Например, Invictus."
+  },
+  {
+    "id": "metal-fatigue",
+    "title": "Metal Fatigue",
+    "genre": "RTS",
+    "developer": "Psygnosis",
+    "publisher": "Psygnosis",
+    "sys_req": "P200, 32 Мб, 3D-уск.",
+    
+    "downloadUrl": "https://archive.org/details/MetalFatigueDemo",
+    "image": "metalf.jpg",
+    "description": "В общем-то вполне средняя трехмерная стратегия, коих так много выходит в последнее время. Если бы не одно \"но\" – разработчики воткнули сюда столько всего нового, так старались сделать игру не похожей на все остальные, что... Играется на \"ура\"."
+  },
+  {
+    "id": "nascar-2000",
+    "title": "Nascar 2000",
+    "genre": "RTS",
+    "developer": "EA Sports",
+    "publisher": "EA Sports",
+    "sys_req": "PII-266, 64 Мб",
+    
+    "downloadUrl": "https://archive.org/details/nascar2000demo_exe",
+    "image": "nascar.jpg",
+    "description": "Очередная реализация NASCAR на компьютере. Что тут можно сказать? Как обычно, множество лицензированных реальных машин, 18 официальных треков Nascar чемпионата, чересчур большое внимание к физике игрового мира и чересчур низкая играбельность."
+  },
+  {
+    "id": "super-1-karting",
+    "title": "Super 1 Karting",
+    "genre": "Гонки",
+    "developer": "Midas Interactive",
+    "publisher": "Midas Interactive",
+    "sys_req": "P200, 32 Мб, 3D-уск.",
+    
+    "downloadUrl": "#",
+    "image": "kart1.jpg",
+    "description": "Это не просто еще одни гонки, это симулятор картинга, где можно найти аналог всех популярных машин, используемых в этом виде гонок. Здесь представлены одиннадцать известных треков, смоделированных по образу и подобию реальных прототипов."
+  },
+  {
+    "id": "superbike-2000",
+    "title": "Superbike 2000",
+    "genre": "Мотогонки",
+    "developer": "EA Sports",
+    "publisher": "EA Sports",
+    "sys_req": "P200, 32 Мб, 3D-уск.",
+    
+    "downloadUrl": "https://archive.org/details/Superbike2000Demo",
+    "image": "superbik.jpg",
+    "description": "Официальный мотогоночный симулятор World Superbike Championship. В полной игре будет куча различных мотоциклов и множество детально спроектированных реальных трасс, а пока можешь прокатиться разок и ощутить все прелести движка. Гонка удалась на славу."
+  },
+  {
+    "id": "tomb-raider-the-la",
+    "title": "Tomb Raider: The LA",
+    "genre": "Лара-Action",
+    "developer": "Eidos Interactive",
+    "publisher": "Eidos Interactive",
+    "sys_req": "P200, 32 Мб, 3D-уск.",
+    
+    "downloadUrl": "https://www.tombraiderchronicles.com/tr4/demo.html",
+    "image": "tombraid.jpg",
+    "description": "А ведь говорили, можно сказать – клялись, что пятой части не будет. Ан нет, не удержались, не смогли забыть Лариску. И вот она вновь на экранах наших мониторов: как всегда, стройная и подтянутая, вечно рыскающая в поисках бесхозных артефактов и реликвий прошлого."
+  }
+]

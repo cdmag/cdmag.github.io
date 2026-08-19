@@ -1,0 +1,28 @@
+{
+  "id": "warcraft-3",
+  "title": "Warcraft III",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Warcraft III...",
+      "id": "back"
+    },
+    {
+      "type": "folder",
+      "label": "Полезные программы",
+      "id": "poleznye-programmy"
+    },
+    {
+      "type": "file",
+      "label": "Записи игр",
+      "id": "replays",
+      "src": "best/warcraft-3/replays.html"
+    },
+    {
+      "type": "file",
+      "label": "Карты",
+      "id": "maps",
+      "src": "best/warcraft-3/maps.html"
+    }
+  ]
+}

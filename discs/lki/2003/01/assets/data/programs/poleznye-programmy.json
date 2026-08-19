@@ -1,0 +1,59 @@
+{
+  "id": "poleznye-programmy",
+  "title": "Полезные программы",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Полезные программы...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Actual Drawing",
+      "id": "actual-drawing",
+      "src": "programs/useful/actual-drawing.html"
+    },
+    {
+      "type": "file",
+      "label": "AnySpeed",
+      "id": "anyspeed",
+      "src": "programs/useful/anyspeed.html"
+    },
+    {
+      "type": "file",
+      "label": "IP Informer",
+      "id": "ip-informer",
+      "src": "programs/useful/ip-informer.html"
+    },
+    {
+      "type": "file",
+      "label": "Magic Trainer Creator",
+      "id": "magic-trainer-creator",
+      "src": "programs/useful/magic-trainer-creator.html"
+    },
+    {
+      "type": "file",
+      "label": "SuperCopy 1.0",
+      "id": "supercopy-1-0",
+      "src": "programs/useful/supercopy-1-0.html"
+    },
+    {
+      "type": "file",
+      "label": "WatzNew 1.9.2",
+      "id": "watznew-1-9-2",
+      "src": "programs/useful/watznew-1-9-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Windows Media Player 9 для Win9х",
+      "id": "windows-media-player-9-dlya-win9h",
+      "src": "programs/useful/windows-media-player-9-dlya-win9h.html"
+    },
+    {
+      "type": "file",
+      "label": "Windows Media Player 9 для WinXP",
+      "id": "windows-media-player-9-dlya-winxp",
+      "src": "programs/useful/windows-media-player-9-dlya-winxp.html"
+    }
+  ]
+}

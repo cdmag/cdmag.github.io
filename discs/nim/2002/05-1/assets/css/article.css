@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');html{font-size:18px;}
+body{font-family:'Inter','Times New Roman',Times,serif;line-height:1.45;margin:0 auto;padding:12px 28px 48px;max-width:900px;}
+a{color:#00c;}
+a:hover{color:#00f;}
+.nav,p.nav,p[align="center"]{display:flex !important;justify-content:center;flex-wrap:wrap;gap:20px;padding:10px 0 14px !important;margin:0 0 8px !important;font-size:17px !important;font-weight:600;text-align:center;}
+p[align="center"] a{color:#4a0066 !important;font-size:17px !important;}
+p[align="right"]{font-size:15px;margin:4px 0 10px;}
+big big big{font-size:1.75rem !important;line-height:1.25 !important;font-family:'Times New Roman',Times,serif !important;font-weight:700;}
+table[bordercolor="#006570"],table[bordercolor="#006570"] table{border-collapse:collapse;}
+.rdots{white-space:nowrap;letter-spacing:1px;font-size:13px;}
+.rdot-on{color:#fff;}
+.rdot-off{color:#000;}
+img{pointer-events:none;-webkit-user-drag:none;user-select:none;max-width:100% !important;width:auto !important;height:auto !important;display:block;margin:10px auto;border:none !important;}
+
+font[size="1"],font[size="2"]{font-size:16px !important;line-height:1.4 !important;}
+table[bgcolor="#006570"],table[bgcolor="#006570"] table{table-layout:auto;}
+table[bgcolor="#006570"] td{white-space:nowrap;vertical-align:middle;font-size:14px !important;}
+table[bgcolor="#006570"] .rdots{display:inline-block;min-width:110px;}
+table[bgcolor="#006570"] font[size="12"]{font-size:2rem !important;line-height:1.1 !important;}
+table[bgcolor="#006570"] font[size="6"]{font-size:1.2rem !important;}
+table[bgcolor="#006570"] small{white-space:normal;font-size:12px !important;}
+table[bordercolor="#00562f"] tr td{text-align:center;font-size:14px !important;line-height:1.35 !important;font-family:Arial,sans-serif;}
+p[align="right"] font,font[size="1"]{font-size:16px !important;line-height:1.35 !important;}
+table[bordercolor="#00562f"],table[bordercolor="#00562f"] table{border:none !important;background:transparent !important;border-collapse:collapse !important;border-spacing:0 !important;width:auto !important;max-width:100%;margin:12px auto !important;}
+table[bordercolor="#00562f"] td,table[bordercolor="#00562f"] table td{padding:0 !important;margin:0 !important;border:none !important;background:transparent !important;vertical-align:top;}
+table[bordercolor="#00562f"] img{display:block !important;margin:0 !important;border:none !important;max-width:100% !important;height:auto !important;}
+table[bordercolor="#00562f"] tr[bgcolor="e5e8eb"] td,table[bordercolor="#00562f"] table tr[bgcolor="e5e8eb"] td{background:#e5e8eb !important;padding:4px 8px !important;font-size:14px !important;line-height:1.35 !important;text-align:center !important;font-family:Arial,sans-serif !important;}
+table[bordercolor="#00562f"] tr[bgcolor="e5e8eb"]:has(td:empty),table[bordercolor="#00562f"] table tr[bgcolor="e5e8eb"]:has(td:empty){display:none !important;}
+table[bordercolor="#00562f"] h2{margin:0 !important;padding:0 !important;font-size:0 !important;line-height:0 !important;}
+table[bordercolor="#00562f"] h2 img{font-size:14px;line-height:normal;}
+table[bordercolor="#00562f"] table{border-spacing:0 !important;border-collapse:collapse !important;}
+table[bordercolor="#00562f"] tr{height:auto;}
+p[align="center"] a,p[align="center"] a:link,p[align="center"] a:visited{text-decoration:underline !important;text-underline-offset:2px;text-decoration-thickness:1px;color:#4a0066 !important;font-size:17px !important;font-weight:600 !important;}
+table[bordercolor="#006570"]{width:500px !important;max-width:100%;box-sizing:border-box;}
+table[bordercolor="#006570"] > tbody > tr > td > table,table[bordercolor="#006570"] table{width:100% !important;max-width:100%;box-sizing:border-box;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"],table[bordercolor="#006570"] table[width="496"]{width:100% !important;}
+table[bgcolor="#006570"]{width:500px !important;max-width:100%;box-sizing:border-box;}
+table[bgcolor="#006570"] table{box-sizing:border-box;}
+table[bordercolor="#00562f"]{width:fit-content !important;max-width:100%;margin-left:auto !important;margin-right:auto !important;border-spacing:0 !important;border-collapse:collapse !important;border:none !important;background:transparent !important;}
+table[bordercolor="#00562f"] > tbody > tr > td,table[bordercolor="#00562f"] td{padding:0 !important;border:none !important;}
+table[bordercolor="#00562f"] table{width:100% !important;border-spacing:0 !important;border-collapse:collapse !important;background:transparent !important;border:none !important;}
+table[bordercolor="#00562f"] img{display:block !important;margin:0 !important;width:auto !important;max-width:100% !important;height:auto !important;border:none !important;}
+table[bordercolor="#00562f"] tr[bgcolor="e5e8eb"] td,table[bordercolor="#00562f"] table tr[bgcolor="e5e8eb"] td{background:#e5e8eb !important;padding:4px 8px !important;font-size:14px !important;line-height:1.35 !important;text-align:center !important;width:100% !important;box-sizing:border-box;}
+
+table[bgcolor="#e5e8eb"] a{color:#0033cc !important;}
+p[align="center"] a{text-decoration:underline !important;text-decoration-skip-ink:none !important;-webkit-text-decoration-skip:none !important;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"]{background:#e5e8eb !important;width:100% !important;table-layout:fixed !important;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td{color:#000 !important;background-color:#e5e8eb !important;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] tr:nth-child(even) td{background-color:#a8b6be !important;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] tr[bgcolor="a8b6be"] td{background-color:#a8b6be !important;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td:first-child{width:38%;white-space:nowrap;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td:last-child{text-align:right;word-break:break-word;}
+table[bordercolor="#006570"]{width:500px !important;max-width:min(500px,100%) !important;}
+table[bordercolor="#006570"][bgcolor="#006570"],table[bgcolor="#006570"]{background-color:#006570 !important;background:#006570 !important;}
+table[bgcolor="#006570"] td{background-color:transparent;}
+table[bgcolor="#006570"]{width:500px !important;max-width:min(500px,100%) !important;}
+table[bordercolor="#00562f"]{display:table !important;width:max-content !important;max-width:100% !important;}
+table[bordercolor="#00562f"] table{width:100% !important;}
+table[bordercolor="#00562f"] tr[bgcolor="e5e8eb"] td{display:table-cell !important;width:auto !important;}
+table[bgcolor="#006570"],table[bgcolor="#006570"] table{background-color:#006570 !important;}
+table[bgcolor="#006570"] td,table[bgcolor="#006570"] table td{}
+img{-webkit-user-select:none;user-select:none;}
+img,.shot img{border:none !important;outline:none !important;}
+body{font-size:22px !important;line-height:1.2 !important;}
+body font,body a,body big{font-size:inherit !important;line-height:1.2 !important;}
+big{font-size:1.2em !important;font-weight:700;display:inline-block;margin:0.6em 0 0.15em !important;}
+a{display:inline-block;margin:0.1em 0 !important;padding:0 !important;line-height:1.25 !important;}
+p{margin:0 !important;padding:0 !important;line-height:1.2 !important;}
+br{display:block;margin:0;line-height:0.3em;content:"";}
+/*p[align="center"]{display:none !important;}*/
+
+/* meta info table — match original size */
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td,
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td b,
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td font,
+table[bgcolor="#e5e8eb"] td,
+table[bgcolor="#e5e8eb"] td b,
+table[bgcolor="#e5e8eb"] td font{
+font-size:13px !important;
+line-height:1.35 !important;
+}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td a,
+table[bgcolor="#e5e8eb"] td a{
+font-size:13px !important;
+}
+/* meta row padding closer to original */
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td{
+padding:2px 8px !important;
+}
+
+/* === Meta tables: bonus (teal) vs guides (red/orange) === */
+
+/* Bonus meta (bordercolor #006570) */
+table[bordercolor="#006570"]{
+width:500px !important;
+max-width:min(500px,100%) !important;
+border-collapse:collapse;
+}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"]{
+width:100% !important;
+background:#e5e8eb !important;
+table-layout:fixed !important;
+border-collapse:collapse;
+}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td{
+color:#000 !important;
+background-color:#e5e8eb !important;
+font-size:13px !important;
+line-height:1.35 !important;
+padding:2px 8px !important;
+}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] tr[bgcolor="a8b6be"] td,
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] tr:nth-child(even) td{
+background-color:#a8b6be !important;
+}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td:first-child{width:38%;white-space:nowrap;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td:last-child{text-align:right;word-break:break-word;}
+table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] a{color:#0033cc !important;font-size:13px !important;}
+
+/* Guide meta (bordercolor #d8271a and similar non-teal) — keep original row colors */
+table[bordercolor="#d8271a"],
+table[bordercolor="#D8271A"]{
+width:500px !important;
+max-width:min(500px,100%) !important;
+border-collapse:collapse;
+background:transparent !important;
+}
+table[bordercolor="#d8271a"] > tbody > tr > td,
+table[bordercolor="#d8271a"] > tr > td{
+padding:0 !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"],
+table[bordercolor="#D8271A"] table[bgcolor="#e5e8eb"]{
+width:100% !important;
+background-color:#e5e8eb !important;
+border-collapse:collapse;
+table-layout:auto !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] td,
+table[bordercolor="#D8271A"] table[bgcolor="#e5e8eb"] td{
+color:#000 !important;
+background-color:#e5e8eb !important;
+font-size:13px !important;
+line-height:1.35 !important;
+padding:2px 8px !important;
+}
+/* Orange alternating rows (guides) */
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] tr[bgcolor="f3b48f"] td,
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] tr[bgcolor="#f3b48f"] td,
+table[bordercolor="#D8271A"] table[bgcolor="#e5e8eb"] tr[bgcolor="f3b48f"] td{
+background-color:#f3b48f !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] tr[bgcolor="e5e4df"] td,
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] tr[bgcolor="#e5e4df"] td{
+background-color:#e5e4df !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] td:first-child{white-space:nowrap;}
+table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] td:last-child{text-align:right;}
+
+/* Screenshot frames only — scoped to bordercolor green used in some articles, NOT meta */
+table[bordercolor="#00562f"] table[bgcolor="#a8b6be"]{
+background:transparent !important;
+border:none !important;
+width:max-content !important;
+max-width:100%;
+}
+table[bordercolor="#00562f"] table[bgcolor="#a8b6be"] td{
+background:transparent !important;
+padding:0 !important;
+border:none !important;
+}
+table[bordercolor="#00562f"] tr[bgcolor="e5e8eb"] td,
+table[bordercolor="#00562f"] table tr[bgcolor="e5e8eb"] td{
+background:#e5e8eb !important;
+padding:4px 8px !important;
+font-size:14px !important;
+text-align:center !important;
+color:#000 !important;
+}
+
+/* Guide meta row colors by TR bgcolor (works even if outer border table was lost) */
+tr[bgcolor="f3b48f"] td,tr[bgcolor="#f3b48f"] td{background-color:#f3b48f !important;color:#000 !important;}
+tr[bgcolor="e5e4df"] td,tr[bgcolor="#e5e4df"] td{background-color:#e5e4df !important;color:#000 !important;}
+tr[bgcolor="a7aea0"] td,tr[bgcolor="#a7aea0"] td{background-color:#a7aea0 !important;color:#000 !important;}
+tr[bgcolor="e5e4df"] td font,tr[bgcolor="f3b48f"] td font,tr[bgcolor="a7aea0"] td font{color:#000 !important;}
+
+/* Standalone meta inner table (no outer bordercolor wrapper) */
+body > table[bgcolor="#e5e8eb"],
+table[bgcolor="#e5e8eb"][width="500"]{
+width:500px !important;
+max-width:min(500px,100%) !important;
+background-color:#e5e8eb !important;
+border-collapse:collapse;
+}
+table[bgcolor="#e5e8eb"][width="500"] td{
+font-size:13px !important;
+line-height:1.35 !important;
+padding:2px 8px !important;
+color:#000 !important;
+}
+table[bgcolor="#e5e8eb"][width="500"] td:last-child{text-align:right;}
+table[bgcolor="#e5e8eb"][width="500"] a{font-size:13px !important;}
+
+/* Default cell bg only when TR has no bgcolor — do NOT override colored rows */
+table[bgcolor="#e5e8eb"][width="500"] > tbody > tr:not([bgcolor]) > td,
+table[bgcolor="#e5e8eb"][width="500"] > tr:not([bgcolor]) > td{
+background-color:#e5e8eb !important;
+}

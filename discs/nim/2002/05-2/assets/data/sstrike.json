@@ -1,0 +1,323 @@
+{
+  "id": "sstrike",
+  "name": "Противостояние 3 (Sudden Strike)",
+  "root": {
+    "title": "Противостояние 3 (Sudden Strike)",
+    "info": [
+      {
+        "label": "Разработчик",
+        "value": "FireGlow"
+      },
+      {
+        "label": "Издатель:",
+        "value": "CDV"
+      },
+      {
+        "label": "Издатель в России:",
+        "value": "Руссобит-М"
+      },
+      {
+        "label": "Требуется:",
+        "value": "P-II 200, 32 RAM"
+      },
+      {
+        "label": "Рекомендуется:",
+        "value": "P-II 266, 64 RAM"
+      }
+    ],
+    "images": [
+      "assets/img/content/sstrike1.webp"
+    ],
+    "text": ""
+  },
+  "tree": [
+    {
+      "id": "ss2-demo",
+      "label": "Sudden Strike 2 English Demo",
+      "expandable": false,
+      "install": true,
+      "content": {
+        "title": "Sudden Strike 2 English Demo",
+        "text": "Продолжение знаменитой стратегии о Второй Мировой. На этот раз действие будет разворачиваться вокруг Японии. Демо включает в себя как сингл миссию , так и multiplayer карту, на которой можно повоевать за Японию, США или СССР.",
+        "images": [
+          "assets/img/content/ss2demo1.webp",
+          "assets/img/content/ss2demo2.webp",
+          "assets/img/content/ss2demo3.webp",
+          "assets/img/content/ss2demo4.webp"
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "campaigns",
+      "label": "Кампании",
+      "expandable": true,
+      "content": {
+        "title": "Кампании",
+        "text": "Здесь вы можете найти мини-кампании для Противостояния 3: Война Продолжается Новая Версия. Правда, кампаниями их можно назвать с большой натяжкой, поскольку сюжетом они не связаны."
+      },
+      "children": [
+        {
+          "id": "svyashchennaya",
+          "label": "Священная Война",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Священная Война",
+            "text": "Автор: нет данных\nИсточник: www.sudden-strike.ru\nНабор карт для аддона \"Противостояние 3: Война Продолжается\". Состоит из шести карт: \"Русский Солдат\", \"Берлин\", \"Сталинград\", \"Линия Зигфрид\", \"Спасти Гитлера!\", \"Казачий батька Паннвиц\" и \"Да здравствует Франция\". Для установки распакуйте архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/svvoina1s1.webp",
+              "assets/img/content/svvoina1s2.webp",
+              "assets/img/content/svvoina1s3.webp"
+            ]
+          }
+        },
+        {
+          "id": "svyashchennaya-2",
+          "label": "Священная Война-2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Священная Война-2",
+            "text": "Автор: нет данных\nИсточник: www.sudden-strike.ru\nНабор карт для аддона \"Противостояние 3: Война Продолжается\". Состоит из четырех карт: \"Лис пустыни\", \"Высадка в Нормандии\", \"Москва за нами\" и \"Нордический молот\". Для установки распакуйте архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/svvoina2s1.webp",
+              "assets/img/content/svvoina2s2.webp",
+              "assets/img/content/svvoina2s3.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "maps",
+      "label": "Карты",
+      "expandable": true,
+      "content": {
+        "title": "Карты",
+        "text": "Здесь вы можете найти карты для Противостояния 3: Война Продолжается Новая Версия. Большая часть карт требует установки мода APRM версии 3.1."
+      },
+      "children": [
+        {
+          "id": "dunkirk",
+          "label": "1940.Дюнкерк",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "1940.Дюнкерк",
+            "text": "Автор: XWulf\nИсточник: www.sudden-strike.ru\nДостаточно крупная (220x220) карта 1940.Дюнкерк. Игроку в этой миссии предстоит орудовать немцами, воюющими с англичанами, французами и американцами. Для установки 1940.Дюнкерк необходимо распаковать архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/1940dunkerk1.webp"
+            ]
+          }
+        },
+        {
+          "id": "22061941",
+          "label": "22.06.1941",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "22.06.1941",
+            "text": "Автор: нет данных\nИсточник: www.sudden-strike.ru\nКрупная (256x256) карта 22.06.1941. Игроку в этой миссии предстоит отбиваться от противника, при этом ваше альтер-эго, лейтенант, должен выжить. Для установки карты 22.06.1941 необходимо распаковать архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/22.06.41s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "diversiya-2",
+          "label": "Диверсия 2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Диверсия 2",
+            "text": "Автор: нет данных\nИсточник: www.sudden-strike.ru\nНебольшая (128X128) карта Диверсия-2. Игроку в этой миссии предстоит орудовать советским диверсантом в немецком тылу. Для установки Диверсия 2 необходимо распаковать архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/diversiya2s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "tri-karty",
+          "label": "Три карты",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Три карты",
+            "text": "Автор: Fox Malder\nИсточник: www.sudden-strike.ru\nНебольшой набор карт для \"Противостояние 3: Война Продолжается Новая Версия\". Две миссии представляют собой гигантскую мясорубку техники, причем отличаются друг от друга лишь стороной, на которой выступает игрок. Третья миссия, где игрок выступает за советские войска, выполняется за ограниченное время. Для установки набора карт необходимо распаковать архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/fmmissions1.webp",
+              "assets/img/content/fmmissions2.webp",
+              "assets/img/content/fmmissions3.webp"
+            ]
+          }
+        },
+        {
+          "id": "lokalnye-2",
+          "label": "Локальные операции 2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Локальные операции 2",
+            "text": "Автор: Ingvar\nИсточник: www.sudden-strike.ru\nНебольшая (128X128) карта Локальные операции 2. Игроку, действующему за англичан, предстоит защищать город от немецких войск. Для установки Локальные операции 2 необходимо распаковать архив в директорию SuddenStrike\\Maps\\single.",
+            "images": [
+              "assets/img/content/localoperations2s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "zerro",
+          "label": "Операция ZERRO",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Операция ZERRO",
+            "text": "Автор: FOR_OPER\nИсточник: www.sudden-strike.ru\nДовольно крупная (180X180) карта Операция ZERRO, работающая под модом APRM 3.1. Задачей игрока, выступающего на стороне Германии, является полное уничтожение города. Для установки карты Операция ZERRO необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/operationzero1.webp"
+            ]
+          }
+        },
+        {
+          "id": "partizany",
+          "label": "Партизаны",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Партизаны",
+            "text": "Автор: SOLDIER\nИсточник: www.sudden-strike.ru\nНебольшая (180X180) карта Партизаны, работающая под модом APRM 3.1. Задачей игрока, выступающего на стороне СССР, является срыв немецкого наступления. Для установки карты Партизаны необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/partizanen1.webp"
+            ]
+          }
+        },
+        {
+          "id": "chas-rasplaty",
+          "label": "Час расплаты",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Час расплаты",
+            "text": "Автор: SOLDIER\nИсточник: www.sudden-strike.ru\nБольшая (256X256) карта Час расплаты, работающая под модом APRM 3.1. Игроку, воюющему за СССР, необходимо захватить город на юге карты. Для установки карты Час расплаты необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/paytime1.webp"
+            ]
+          }
+        },
+        {
+          "id": "plavsk",
+          "label": "Plavsk. Osen' 1941 goda",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Plavsk. Osen' 1941 goda",
+            "text": "Автор: FOR_OPER\nИсточник: www.sudden-strike.ru\nБольшая (256X256) карта Plavsk. Osen' 1941 goda, работающая под модом APRM 3.1. По заявлениям автора, карта представляет собой реальную историческую местность. Для установки Plavsk. Osen' 1941 goda необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/plavsk1.webp"
+            ]
+          }
+        },
+        {
+          "id": "sevastopol",
+          "label": "Битва за Севастополь",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Битва за Севастополь",
+            "text": "Автор: XWulf\nИсточник: www.sudden-strike.ru\nДовольно внушительная (230X230) карта Битва за Севастополь, работающая под модом APRM 3.1. Задачей игрока, выступающего на стороне Германии, является захват Севастополя. Для установки карты Битва за Севастополь необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/sevastopoI1.webp"
+            ]
+          }
+        },
+        {
+          "id": "sssr-usa",
+          "label": "СССР против США",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "СССР против США",
+            "text": "Автор: FOR_OPER\nИсточник: www.sudden-strike.ru\nНебольшая (128X128) карта СССР против США, работающая под модом APRM 3.1. Задачей игрока, выступающего на стороне СССР, является уничтожение американских войск. Автору данной карты явно не давала покоя слава Red Alert. Для установки карты СССР против США необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/ussrvsusa1.webp"
+            ]
+          }
+        },
+        {
+          "id": "zimnyaya",
+          "label": "Зимняя война",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Зимняя война",
+            "text": "Автор: нет данных\nИсточник: www.sudden-strike.ru\nКарта Зимняя война, работающая под модом APRM 3.1. Игроку, воюющему за СССР, необходимо отстоять нефтеперегонный завод. Для установки карты Зимняя война необходимо распаковать архив в директорию SuddenStrike\\Maps\\aprm_single.",
+            "images": [
+              "assets/img/content/winterwar1.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mods",
+      "label": "Моды",
+      "expandable": true,
+      "content": {
+        "title": "Моды",
+        "text": "Здесь вы можете найти несколько вариантов мода APRM для Противостояния 3: Война Продолжается Новая Версия."
+      },
+      "children": [
+        {
+          "id": "aprm-30",
+          "label": "APRM 3.0 UK",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "APRM 3.0 UK",
+            "text": "Мод APRM версии 3.0 для Противостояния 3: Война Продолжается Новая Версия. Данный мод добавляет новых юнитов и правит характеристики старых, появляются новые карты, улучшается геймплей игры. Инсталлировать APRM 3.0 необходимо в директорию игры. Внимание: APRM 3.0 обязательно нужно обновить до версии 3.1!"
+          }
+        },
+        {
+          "id": "aprm-31",
+          "label": "APRM 3.1 UK",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "APRM 3.1 UK",
+            "text": "Патч версии 3.1 для мода APRM. Ставится он поверх APRM 3.0. Для инсталляции APRM 3.1 UK следует распаковать архив в директорию игры."
+          }
+        },
+        {
+          "id": "aprm-3x",
+          "label": "APRM 3.X Switcher",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "APRM 3.X Switcher",
+            "text": "Авторы: Stirlitz & Syavich Edit team\nПереключатель режимов игры в оригинал \"Противостояние 3: Война Продолжается Новая Версия\" и АПРМ 3.х. Инструкция по установке: 1. Распаковать архив в любое место на диске 2. Для игры в АПРМ запускать файл To_APRM_switcher.exe 3. Для игры в оригинал запускать файл To_original_switcher.exe"
+          }
+        },
+        {
+          "id": "aprm-401",
+          "label": "APRM 4.01",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "APRM 4.01",
+            "text": "Мод APRM версии 4.01 для Противостояния 3: Война Продолжается Новая Версия. Отличается он от APRM 3.1 переработкой ТТХ ряда юнитов, а также добавлением новых видов техники, звуков и прочего. Настоятельно рекомендую ставить поверх APRM 4.01 патч версии 4.02, который вы можете найти на диске."
+          }
+        },
+        {
+          "id": "aprm-401-402",
+          "label": "APRM 4.01-4.02",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "APRM 4.01-4.02",
+            "text": "Обновление для мода APRM с версии 4.01 до 4.02. Исправляет ряд багов, найденных в предыдущей версии мода."
+          }
+        }
+      ]
+    }
+  ]
+}

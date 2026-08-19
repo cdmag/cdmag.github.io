@@ -1,0 +1,24 @@
+{
+  "id": "civilization-3",
+  "title": "Sid Meier's Civilization III",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Civilization III...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Часть 1: основы, нации, города, ресурсы",
+      "id": "civ3-block-1",
+      "src": "guides/civilization-3/civ3-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Часть 2: загрязнение, дипломатия, юниты, победа",
+      "id": "civ3-block-2",
+      "src": "guides/civilization-3/civ3-block-2.html"
+    }
+  ]
+}

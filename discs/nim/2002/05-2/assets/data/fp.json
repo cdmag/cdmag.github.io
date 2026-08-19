@@ -1,0 +1,808 @@
+{
+  "id": "fp",
+  "name": "Operation Flashpoint",
+  "root": {
+    "title": "Operation Flashpoint: Cold War Crisis (Операция Flashpoint: Холодная Война)",
+    "info": [
+      {
+        "label": "Разработчик",
+        "value": "Bohemia Interactive Studio"
+      },
+      {
+        "label": "Издатель:",
+        "value": "Codemasters"
+      },
+      {
+        "label": "Издатель в России:",
+        "value": "Бука"
+      },
+      {
+        "label": "Требуется:",
+        "value": "P-II 400, 64 RAM, 8 Mb 3D"
+      },
+      {
+        "label": "Рекомендуется:",
+        "value": "P-III 400, 128 RAM, 32 Mb 3D"
+      }
+    ],
+    "images": [
+      "assets/img/content/opf1.webp"
+    ],
+    "text": ""
+  },
+  "tree": [
+    {
+      "id": "campaigns",
+      "label": "Кампании и миссии",
+      "expandable": true,
+      "content": {
+        "title": "Кампании и миссии",
+        "text": "Нам показалось, что куча одиночных миссий будет не слишком интересной, поэтому было решено положить несколько кампаний. Всего их семь, однако, эта цифра обманчива: кампании содержат в общей сложности более восьмидесяти миссий, что, согласитесь, очень немало. К тому же кампании выгодно отличаются от набора миссий присутствием сюжета, местами весьма и весьма сильного. Кроме того, в данном разделе вы найдете парочку миссий, которые нам показались любопытными. Все миссии и кампании полностью совместимы с локализированной версией Operation Flashpoint от компании Бука (версия 1.46)."
+      },
+      "children": [
+        {
+          "id": "doa",
+          "label": "Dead on Arrival Mini Campaign",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Dead on Arrival Mini Campaign",
+            "text": "Автор: DOA-Borgkov\nОчень неплохая самодельная мини-кампания, состоящая из шести миссий. Игрок выступает в роли Фрэнка Бенета, американского диверсанта, действующего в советском тылу. Для того чтобы установить Dead on Arrival, распакуйте архив в директорию flashpoint/campaigns.",
+            "images": [
+              "assets/img/content/doa1.webp"
+            ]
+          }
+        },
+        {
+          "id": "op-liberation",
+          "label": "Operation Liberation",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Operation Liberation",
+            "text": "Автор: DOA-Borgkov\nЛюбительская кампания, состоящая из пятнадцати миссий, которая является своеобразным продолжением Red Hammer. Игрок выступает в роли Андрея Лукина, сына спецназовца Дмитрия Лукина. Отрадно, что на этот раз воевать придется против американцев, причем в Operation Liberation есть возможность управлять различными видами техники, в том числе Ми-24. Для того чтобы установить Operation Liberation, распакуйте архив в директорию игры. Внимание: для того, чтобы кампания заработала, необходимо предварительно проинсталлировать утилиту EditorUpgrade 1.02, которая имеется на диске.",
+            "images": [
+              "assets/img/content/operationliberation1.webp"
+            ]
+          }
+        },
+        {
+          "id": "pmc-fury",
+          "label": "PMC Fury",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "PMC Fury",
+            "text": "Автор: Snake Man\nНеплохая любительская кампания, состоящая из тридцати одной миссии. Некоторые из миссий данной кампании получились очень неплохими, особенно хорошо смотрятся ночные задания для спецназовца. Для того чтобы установить PMC Fury, распакуйте архив в директорию flashpoint/campaigns.",
+            "images": [
+              "assets/img/content/pmcfury1.webp"
+            ]
+          }
+        },
+        {
+          "id": "powder-dry",
+          "label": "Powder-dry Rollon Mission Pack 1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Powder-dry Rollon Mission Pack 1.0",
+            "text": "Автор: Avon Lady\nДостаточно интересная кампания. Содержит в себе несколько заковыристых тренировочных зон, кроме того, часть кампании содержит переделанные миссии из оригинального Operation Flashpoint.",
+            "images": [
+              "assets/img/content/powdemo1.webp"
+            ]
+          }
+        },
+        {
+          "id": "rally-race-3",
+          "label": "Rally Race 3",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Rally Race 3",
+            "text": "Автор: Tomas Glavlas\nМиссия на чешском языке, превращающая Operation Flashpoint в самый настоящий раллийный симулятор. Задача игрока - преодолеть все спецучастки и придти первым на финиш. Для того чтобы установить Rally Race 3, распакуйте архив в директорию игры. Запустите игру, выбирайте опцию Миссии и запускайте миссию Zavod3.Cain.pbo.",
+            "images": [
+              "assets/img/content/rally3s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "roc-mod",
+          "label": "ROC MOD TW2002 Campaign R1.3 Full Pack",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "ROC MOD TW2002 Campaign R1.3 Full Pack",
+            "text": "Автор: нет данных\nСамодельная кампания, созданная тайваньскими фанатами Operation Flashpoint. Несмотря на подобное происхождение, китайского языка в кампании практически нет. Необычного в этой кампании немало, возьмите хотя бы сюжет: главного героя, неудачника и лихача, старший брат спроваживает в тайваньскую армию. Для того чтобы установить ROC MOD TW2002 Campaign, распакуйте архив в директорию игры.",
+            "images": [
+              "assets/img/content/rocmodcampaign1.webp"
+            ]
+          }
+        },
+        {
+          "id": "rumble-rally",
+          "label": "Rumble Rally 1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Rumble Rally 1.0",
+            "text": "Автор: KingNothing\nДеструктивно-агрессивная миссия, по сравнению с которой Carmageddon просто отдыхает. Автор данной миссии предлагает ралли, в котором игрок выступает на... танке. В данном случае стремление придти первым сменяется на желание передавить все в округе. В качестве музыкального трека к Rumble Rally 1.0 выступает песня Fuel группы Metallica. Для установки Rumble Rally 1.0 распакуйте архив в директорию Flashpoint/missions.",
+            "images": [
+              "assets/img/content/rumblerally1.webp"
+            ]
+          }
+        },
+        {
+          "id": "specops",
+          "label": "SpecOps",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "SpecOps",
+            "text": "Автор: DEATHRIDEtheNailer\nОчень неплохая любительская кампания, состоящая из четырнадцати миссий. Игрок выступает в роли американского спецназовца Блэйка Уильямса. Кампания отличается очень неплохо продуманными заданиями (чего стоят трактора в первой миссии, на которых можно добраться до точки эвакуации), а удобной системой брифингов. Для того чтобы установить SpecOps, распакуйте архив в директорию игры.",
+            "images": [
+              "assets/img/content/dthrdnlrspecops1.webp"
+            ]
+          }
+        },
+        {
+          "id": "waskosky",
+          "label": "Waskosky's War",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Waskosky's War",
+            "text": "Автор: ThruYerStErNuM\nСамодельная мини-кампания, состоящая из семнадцати миссий. Сюжет данной кампании является логическим продолжением описанных в Operation Flashpoint действий: 1986 год, на Эверон сброшена атомная бомба, после чего начинается Третья Мировая война. Для того чтобы установить Waskosky's War, распакуйте архив в директорию flashpoint/campaigns.",
+            "images": [
+              "assets/img/content/waskoskywar1.webp"
+            ]
+          }
+        },
+        {
+          "id": "editor-upgrade",
+          "label": "Editor Upgrade 1.02",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Editor Upgrade 1.02",
+            "text": "Автор: Gunslinger\nУтилита, расширяющая возможности встроенного редактора Operation Flashpoint. Editor Upgrade 1.02 необходим для работы ряда любительских кампаний и миссий. Для установки утилиты необходимо ее проинсталлировать в директорию flashpoint/addons.",
+            "images": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "maps",
+      "label": "Карты",
+      "expandable": true,
+      "content": {
+        "title": "Карты",
+        "text": "Здесь вы можете найти несколько вариантов переработки островов из Operation Flashpoint. Используя их, а также солдат и технику из соответствующих разделов, вы можете создавать с помощью встроенного редактора собственные миссии и кампании. Все карты полностью совместимы с локализированной версией Operation Flashpoint от компании Бука (версия 1.46)."
+      },
+      "children": [
+        {
+          "id": "desert-rock",
+          "label": "Desert Rock Island",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Desert Rock Island",
+            "text": "Автор: a-lone-wolf\nПак, добавляющий пустынный остров, щедро усыпанный валунами. Валуны эти расставлены так, что образуют некое подобие лабиринта, разве что Минотавра не хватает. Для установки Desert Rock Island необходимо распаковать архив в директорию Addons. Остров доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/desertrockisland1.webp"
+            ]
+          }
+        },
+        {
+          "id": "jungle-everon",
+          "label": "Jungle Everon addon v1.2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Jungle Everon addon v1.2",
+            "text": "Автор: Ebud\nПак, который, по мнению его автора, превращает Эверон в остров, заросший джунглями. Честно говоря, в зимнем варианте Эверон выглядит гораздо лучше, ибо создается такое впечатление, что эти самые джунгли щедро удобрили пестицидами. Для установки Jungle Everon addon необходимо распаковать архив в директорию Addons. Остров доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/jungleeveron1.webp"
+            ]
+          }
+        },
+        {
+          "id": "winter-kolgujev",
+          "label": "Winter Kolgujev addon v1.2",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Winter Kolgujev addon v1.2",
+            "text": "Автор: Keijo \"Kegetys\" Ruotsalainen\nОчень неплохой пак, добавляющий остров Колгуев в зимнем варианте. Помимо самого острова, пак содержит пехоту всех противоборствующих сторон в зимнем камуфляже. Для установки Winter Kolgujev addon необходимо распаковать архив в директорию Addons. Остров, а также пехота в зимнем камуфляже доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/wkolguev1.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "weapons",
+      "label": "Оружие",
+      "expandable": true,
+      "content": {
+        "title": "Оружие",
+        "text": "Здесь вы можете найти дополнительные типы стрелкового оружия, которое можно использовать при создании собственных миссий и кампаний. \"Стволы\" созданы на базе оригинального оружия из игры, однако местами встречаются очень любопытные образцы. Все типы оружия полностью совместимы с локализированной версией Operation Flashpoint от компании Бука (версия 1.46)."
+      },
+      "children": [
+        {
+          "id": "famas",
+          "label": "FAMAS Pack",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "FAMAS Pack",
+            "text": "Автор: Vipersheat\nСторона: NATO\nПак, добавляющий солдат, вооруженных французскими автоматами FAMAS. Проработан FAMAS весьма неплохо, однако до оригинальных стволов из Operation Flashpoint не дотягивает. Для установки FAMAS Pack необходимо распаковать архив в директорию Flashpoint/Addons. Солдаты с FAMAS доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/famas1.webp"
+            ]
+          }
+        },
+        {
+          "id": "hk-bonus",
+          "label": "H&K Bonus Pack",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "H&K Bonus Pack",
+            "text": "Автор: Vipersheat\nСторона: NATO\nПак, добавляющий солдат, вооруженных немецкими автоматами Heckler&Koch. В комплект входят автоматы G11, OICW, G41 и G3. Для установки H&K Bonus Pack необходимо распаковать архив в директорию Flashpoint/Addons. Солдаты с данными автоматами доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/hkbonuspack1.webp"
+            ]
+          }
+        },
+        {
+          "id": "hk-smg",
+          "label": "H&K SMG Pack",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "H&K SMG Pack",
+            "text": "Автор: Vipersheat\nСторона: NATO\nПак, добавляющий солдат, вооруженных немецкими пистолетами-пулеметами MP-5 различных модификаций, а также UMP-45. Для установки H&K SMG Pack необходимо распаковать архив в директорию Flashpoint/Addons. Солдаты с MP-5 и UMP-45 доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/hksmg1.webp"
+            ]
+          }
+        },
+        {
+          "id": "lewis",
+          "label": "Lewis 1915",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Lewis 1915",
+            "text": "Автор: Walker\nСторона: NATO\nДанный аддон добавляет в игру пулемет Lewis образца 1915 года, а также солдата, вооруженного им. Модель сделана на основе пулемета M-60, не самым лучшим образом, однако сама идея очень необычна. Для установки Lewis 1915 необходимо распаковать архив в директорию Flashpoint/Addons. Пулемет, а также вооруженный им солдат доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/lewis1915s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "m249",
+          "label": "M-249",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "M-249",
+            "text": "Автор: нет данных\nСторона: NATO\nДанный аддон, созданный неизвестным тайваньским фанатом Operation Flashpoint, добавляет в игру пулемет M-249, а также солдата, вооруженного им. Модель сделана на основе пулемета M-60, получилось очень неплохо. Для установки M-249 необходимо распаковать архив в директорию Flashpoint/Addons. Пулемет, а также вооруженный им солдат доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/m249s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "barret",
+          "label": "Barret M82A1 SASR \"Light fifty\" V.1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Barret M82A1 SASR \"Light fifty\" V.1.0",
+            "text": "Автор: FlipeR\nСторона: NATO\nДанный аддон добавляет в игру крупнокалиберную снайперскую винтовку Barret M82A1 SASR. Кроме того, в игре появляется снайпер, вооруженный данным оружием. Винтовка сделана очень неплохо (основой послужил СВД), однако есть небольшой глюк со вспышкой выстрела. Для установки Barret M82A1 SASR необходимо распаковать архив в директорию Flashpoint/Addons. Винтовка, а также вооруженный ею снайпер доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/m82a1barret1.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "label": "Техника",
+      "expandable": true,
+      "content": {
+        "title": "Техника",
+        "text": "Здесь вы можете найти дополнительные типы техники, которые можно использовать при создании собственных миссий и кампаний. Большинство техники представляет собой переработанные образцы из Operation Flashpoint, однако встречаются и настоящие новинки. Вся техника полностью совместима с локализированной версией Operation Flashpoint от компании Бука (версия 1.46)."
+      },
+      "children": [
+        {
+          "id": "gimbal-planes",
+          "label": "Gimbal Planes",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Gimbal Planes",
+            "text": "Авторы: Gimbal\nСторона: NATO, СССР, FIA\nДостаточно любопытный и забавный пак. Его авторы превратили Cessna 172 Skyhawk в боевую машину. Для каждой из воюющих сторон доступно по два варианта данного самолета: первый вариант несет на себе два НУРСа и шесть бомб калибра 50 кг, на второй установлен пулемет (боекомплект 500 патронов) и два НУРСа. Для установки Gimbal Planes необходимо распаковать архив в директорию flashpoint/addons. Самолеты доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/gimbalplanes1.webp"
+            ]
+          }
+        },
+        {
+          "id": "hawk",
+          "label": "Unofficial Hawk addon v1.1",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Unofficial Hawk addon v1.1",
+            "text": "Автор: Kegetys\nСторона: FIA\nАддон, добавляющий учебно-боевой самолет Hawk. После его добавления у повстанцев появляются собственные ВВС, правда, доступен этот самолет лишь в самодельных миссиях. Вооружен он вполне неплохо: на его борту находится 30-мм пушка Aden (боекомплект 500 патронов), а также две ракеты Sidewinder. Для установки Unofficial Hawk addon необходимо распаковать архив в директорию flashpoint/addons.",
+            "images": [
+              "assets/img/content/hawk1.webp"
+            ]
+          }
+        },
+        {
+          "id": "kiowa",
+          "label": "Kiowa Warrior v1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Kiowa Warrior v1.0",
+            "text": "Автор: Kegetys\nСторона: NATO\nПак с переработанным вертолетом OH-58 Kiowa. Отныне скромный разведывательный вертолет может за себя постоять: на него установили пулемет M-134 Minigun, а пилонах повесили НУРСы. Для установки Kiowa Warrior необходимо распаковать архив в директорию flashpoint/addons. Kiowa Warrior доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/kiowawarrior1.webp"
+            ]
+          }
+        },
+        {
+          "id": "lynx-smoke",
+          "label": "Unofficial Lynx Smoke Generator addon",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Unofficial Lynx Smoke Generator addon v1.0",
+            "text": "Автор: Kegetys\nСторона: NATO\nАддон, добавляющий машину для создания дымовой завесы. Со своей задачей данный агрегат справляется на ура: буквально после десяти секунд работы обширный участок местности окутывается пеленой дыма, при этом видимость практически нулевая. Для установки Unofficial Lynx Smoke Generator addon необходимо распаковать архив в директорию flashpoint/addons. Добавляемая техника доступна только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/lynxsmokegenerator1.webp"
+            ]
+          }
+        },
+        {
+          "id": "m101a1",
+          "label": "M101A1",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "M101A1",
+            "text": "Автор: Cpt Moore\nСторона: FIA\nАддон, добавляющий в игру пушку. Эффектная штука, ничего не скажешь, правда, стреляет она как-то странно, да и заряжается через раз. Для установки M101A1 необходимо распаковать архив в директорию flashpoint/addons. Добавляемая пушка доступна только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/m101a1s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "mbt-realism",
+          "label": "MBT Realism pack 1,0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "MBT Realism pack 1,0",
+            "text": "Авторы: Aaron Ash, Cpt. Robertson\nСторона: NATO, СССР\nОчень неплохой аддон, авторы которого поставили себе задачу сделать текстуры некоторых видов техники как можно более реалистичными. Переработке подверглись M113A2, M2 Bradley, БМП-1 и БМП-2. Для установки MBT Realism pack необходимо распаковать архив в директорию flashpoint/addons. Добавляемая техника доступна только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/ashrealmtb1.webp",
+              "assets/img/content/ashrealmtb2.webp"
+            ]
+          }
+        },
+        {
+          "id": "mtybelljet",
+          "label": "Unofficial MTYBellJet/MTYHiredGun addon",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Unofficial MTYBellJet/MTYHiredGun addon 1.01",
+            "text": "Автор: Martin\nСторона: FIA\nПак с переработанным вертолетом OH-58 Kiowa. После его добавления у повстанцев появляется неплохой вертолет поддержки, вооруженный 30-мм пушкой MG30 (боекомплект 500 патронов), десять НУРСов, а также четыре ракеты Hellfire. Для установки Unofficial MTYBellJet/MTYHiredGun addon необходимо распаковать архив в директорию flashpoint/addons. Вертолет доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/mtybelljet1.webp"
+            ]
+          }
+        },
+        {
+          "id": "oh58",
+          "label": "Unofficial OH58 Helicopter addon",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Unofficial OH58 Helicopter addon",
+            "text": "Автор: Martin\nСторона: NATO\nОчень неплохой аддон, добавляющий различные модификации вертолета OH-58 Kiowa. Всего в игре появляется десять модификаций со следующим вооружением:\n- M-134 Minigun (500 патронов) и 7 ракет 2.75;\n- 2 ракеты Hellfire и 7 ракет 2.75;\n- 14 ракет 2.75;\n- 2 ракеты Hellfire и 2 ракеты Stinger;\n- 2 ракеты Stinger и 7 ракет 2.75;\n- 4 ракеты Hellfire;\n- M-134 Minigun (500 патронов) и 2 ракеты Stinger;\n- M-134 Minigun (500 патронов) и 2 ракеты Hellfire;\n- 4 ракеты Hellfire.\nКроме того, имеется медицинская модификация (вооружение отсутствует). Для установки Unofficial OH58 Helicopter addon необходимо распаковать архив в директорию flashpoint/addons. Вертолеты доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/mtyoh58s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "mi24",
+          "label": "Real Mi-24 Hind",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Real Mi-24 Hind",
+            "text": "Автор: Surgeon\nСторона: СССР\nАддон, содержащий в себе переработанный Ми-24. Не секрет, что раскраска оригинального Ми-24 взята с вертолета чешской эскадрильи, данный аддон в некотором смысле восстанавливает историческую справедливость, жаль, что вы сможете использовать только в самодельных миссиях. Для установки Real Mi-24 Hind необходимо распаковать архив в директорию flashpoint/addons.",
+            "images": [
+              "assets/img/content/realmi24hind1.webp"
+            ]
+          }
+        },
+        {
+          "id": "mi8tb",
+          "label": "Real Mi-8TB",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Real Mi-8TB",
+            "text": "Автор: Surgeon\nСторона: СССР\nАддон, содержащий в себе переработанный военно-транспортный вертолет Ми-8ТБ. Вертолет был досконально переработан, это прежде всего касается скинов, новый Ми-8 получился намного лучше оригинальной модели. Для установки Real Mi-8TB необходимо распаковать архив в директорию flashpoint/addons. Вертолет доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/realmi8tb1.webp"
+            ]
+          }
+        },
+        {
+          "id": "skoda",
+          "label": "Skoda GTS 800",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Skoda GTS 800",
+            "text": "Автор: Black Baron\nСторона: Гражданские\nАддон для больших поклонников Need For Speed. Для них специально предназначен Skoda GTS 800, боковины которого взяты от Ferrari Testarossa, жаль, что динамика не соответствует внешнему виду. Для установки Skoda GTS 800 необходимо распаковать архив в директорию flashpoint/addons. Skoda GTS 800 доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/skodagts800s1.webp"
+            ]
+          }
+        },
+        {
+          "id": "trabant",
+          "label": "Trabant Taxi",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Trabant Taxi",
+            "text": "Автор: Kegetys\nСторона: Гражданские\nАддон, добавляющий автомобиль Trabant в раскраске такси. Для установки Trabant Taxi необходимо распаковать архив в директорию flashpoint/addons. Trabant Taxi доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/trabanttaxi1.webp"
+            ]
+          }
+        },
+        {
+          "id": "uaz-deluxe",
+          "label": "UAZ Deluxe",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "УАЗ Deluxe",
+            "text": "Автор: Смит\nСторона: СССР\nАддон для чисто конкретных вояк, содержащий переработанный УАЗик. Полностью переработан не только внешний вид, но и салон, скромный Козлик превратился в элитный внедорожник. Для установки УАЗ Deluxe необходимо распаковать архив в директорию flashpoint/addons. УАЗ Deluxe доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/uazdeluxe1.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "soldiers",
+      "label": "Солдаты",
+      "expandable": true,
+      "content": {
+        "title": "Солдаты",
+        "text": "Здесь вы можете найти дополнительные модели солдат, которое можно использовать при создании собственных миссий и кампаний. Мы постарались выбрать наиболее достойные модели, сделав основной упор на российской тематике: здесь вы можете найти, к примеру, солдат СОБР, ОМОН и спецназовцев. Все типы солдат полностью совместимы с локализированной версией Operation Flashpoint от компании Бука (версия 1.46)."
+      },
+      "children": [
+        {
+          "id": "british-light",
+          "label": "British light infantry 1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "British light infantry 1.0",
+            "text": "Автор MadDogX\nСторона: NATO\nАддон, добавляющий британских легких пехотинцев. Переделаны шкуры, причем не только пехотинцев, но и оружия, кроме того, у солдат на вооружении стоят SA-80 (хотя в руках они держат все те же М-16). Для установки British light infantry распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/britlightinfintry1.webp"
+            ]
+          }
+        },
+        {
+          "id": "delta-force",
+          "label": "Delta Force Addon V2.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Delta Force Addon V2.00",
+            "text": "Авторы: Ebud, SelectThis, Tigershark\nСторона: NATO\nАддон, добавляющий в игру бойцов элитного подразделения Delta Force в пяти типах камуфляжа. Помимо этого, в аддон включена ознакомительная миссия. Для установки Delta Force Addon распакуйте архив в директорию игры.",
+            "images": [
+              "assets/img/content/deltaforce1.webp"
+            ]
+          }
+        },
+        {
+          "id": "desert-sf",
+          "label": "Desert Special Forces Addon v1.1",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Desert Special Forces Addon v1.1",
+            "text": "Автор: SPD\nСторона: NATO\nАддон, добавляющий американских пехотинцев из подразделения Airborne Special Forces в пустынном камуфляже. Переделаны шкуры, причем не только пехотинцев, но и оружия. Для установки Desert Special Forces Addon распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/desertspecialforces1.webp"
+            ]
+          }
+        },
+        {
+          "id": "vietnam-pack",
+          "label": "Vietnam Pack v1.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Vietnam Pack v1.00",
+            "text": "Автор: Kyllikki\nСторона: NATO\nАддон, добавляющий американских пехотинцев из подразделения Airborne Special Forces в тропическом камуфляже. Переделаны шкуры, причем не только пехотинцев, но и оружия. Для установки Vietnam Pack распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/kyllikkivietnampack1.webp"
+            ]
+          }
+        },
+        {
+          "id": "me-resistance",
+          "label": "Middle East Resistance 1.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Middle East Resistance 1.00",
+            "text": "Автор: UceE aka Jussi Soini\nСторона: FIA\nАддон, добавляющий в ряды повстанцев бойцов одной из ближневосточных группировок. Для установки Middle East Resistance распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/middleeastresistance1.webp"
+            ]
+          }
+        },
+        {
+          "id": "portuguese-sf",
+          "label": "Portuguese Army Special Forces 1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Portuguese Army Special Forces 1.0",
+            "text": "Автор: MIG\nСторона: NATO\nАддон, добавляющий бойцов португальского спецназа. В качестве исходных моделей для данного аддона послужили советские спецназовцы. Для установки Portuguese Army Special Forces распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/portspecops1.webp"
+            ]
+          }
+        },
+        {
+          "id": "russian-mvd",
+          "label": "Russian MVD & SOBR (Taiga Camo) 1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Russian MVD & SOBR (Taiga Camo) 1.00",
+            "text": "Автор: UCE aka Jussi Soini\nСторона: СССР\nАддон, добавляющий в ряды советских войск бойцов отрядов российского МВД и СОБР. Переработаны не только модели игроков, автор данного аддона дал в руки бойцам, помимо другого оружия, милицейский автомат и гранатомет. Для установки Russian MVD & SOBR распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/rusmvd&sobr1.webp"
+            ]
+          }
+        },
+        {
+          "id": "russian-naval",
+          "label": "Russian Federation Naval Infantry 1.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Russian Federation Naval Infantry 1.00",
+            "text": "Автор: UCE aka Jussi Soini\nСторона: СССР\nАддон, добавляющий в ряды советских войск бойцов российской морской пехоты. Как и в случае с Russian MVD & SOBR, шкуры получились вполне достоверными. Для установки Russian Federation Naval Infantry распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/rusnaval1.webp"
+            ]
+          }
+        },
+        {
+          "id": "russian-omon",
+          "label": "Russian Federation OMON 1.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Russian Federation OMON 1.00",
+            "text": "Автор: UCE aka Jussi Soini\nСторона: СССР\nАддон, добавляющий в ряды советских войск бойцов российского ОМОНа. Шкуры получились вполне достоверными, то же можно сказать и о вооружении. Для установки Russian Federation OMON распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/rusomon1.webp"
+            ]
+          }
+        },
+        {
+          "id": "russian-infantry-snow",
+          "label": "Russian Federation Infantry (Snow Camo)",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Russian Federation Infantry (Snow Camo) 1.00",
+            "text": "Автор: UCE aka Jussi Soini\nСторона: СССР\nАддон, добавляющий солдат российской армии в зимнем камуфляже. Для установки аддона распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях. Внимание: для работы данного аддона необходимо также установить зимний вариант острова Колгуев!",
+            "images": [
+              "assets/img/content/russnowcamo1.webp"
+            ]
+          }
+        },
+        {
+          "id": "russian-spetsnaz",
+          "label": "Russian Federation Spetsnaz 1.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Russian Federation Spetznaz 1.00",
+            "text": "Автор: UCE aka Jussi Soini\nСторона: СССР\nАддон, добавляющий бойцов российского спецназа. Для установки Russian Federation Spetznaz распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/russpetznaz1.webp"
+            ]
+          }
+        },
+        {
+          "id": "usmc-woodland",
+          "label": "USMC Woodland v1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "USMC Woodland v1.0",
+            "text": "Автор: bibmi\nСторона: NATO\nАддон, добавляющий солдат американской морской пехоты в лесном камуфляже. На плечах некоторых из этих солдат закреплена растительность, что делает их похожими на ходячие кусты. Для установки аддона распакуйте архив в директорию flashpoint/addons. Солдаты доступны исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/usmcwoodland1.webp"
+            ]
+          }
+        },
+        {
+          "id": "vietnam-mp",
+          "label": "Vietnam MP",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Vietnam MP",
+            "text": "Автор: D.Richardson\nСторона: NATO\nАддон, добавляющий солдата американской военной полиции времен войны во Вьетнаме. Этот солдат является отличным дополнением к Vietnam Pack. Для установки аддона распакуйте архив в директорию flashpoint/addons. Солдат доступен исключительно в самодельных миссиях.",
+            "images": [
+              "assets/img/content/vietnammp1.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "label": "Паки",
+      "expandable": true,
+      "content": {
+        "title": "Паки",
+        "text": "Здесь вы можете найти так называемые комплексные аддоны. К примеру, один из таких паков содержит в себе солдат и технику чешской армии. Все типы паков полностью совместимы с локализированной версией Operation Flashpoint от компании Бука (версия 1.46)."
+      },
+      "children": [
+        {
+          "id": "arctic-armour",
+          "label": "Arctic Armour Pack v1.3",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Arctic Armour Pack v1.3",
+            "text": "Автор: @$]-[ \nСторона: NATO, СССР, FIA\nНеофициальный аддон, добавляющий бронетехнику в зимнем камуфляже. Автор данного аддона рекомендует использовать Arctic Armour Pack в сочетании с зимним вариантом Колгуева. Для установки аддона необходимо распаковать архив в директорию flashpoint/addons. Arctic Armour Pack доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/arcticarmourpack1.webp",
+              "assets/img/content/arcticarmourpack2.webp",
+              "assets/img/content/arcticarmourpack3.webp"
+            ]
+          }
+        },
+        {
+          "id": "bundeswehr",
+          "label": "Bundeswehr Addon",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Bundeswehr Addon",
+            "text": "Автор: IXXUSS\nСторона: NATO\nНеофициальный аддон, добавляющий солдат и технику Бундесвера (немецкой армии). Получилось очень неплохо, однако M1A1 Abrams даже при хорошем камуфляже не становится похожим на Leopard 2A5, за который он выдается. Для установки аддона необходимо распаковать архив в директорию flashpoint/addons. Bundeswehr Addon доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/bundeswehr1.webp"
+            ]
+          }
+        },
+        {
+          "id": "czechoslovakian",
+          "label": "Czechoslovakian Army 1.1",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Czechoslovakian Army 1.1",
+            "text": "Автор: MAA\nСторона: FIA\nДанный аддон исправляет историческую несправедливость, имеющуюся в Operation Flashpoint. После его установки повстанцы легко и непринужденно превращаются в чехословацкую армию, жаль, что опробовать ее можно лишь в самодельных миссиях.",
+            "images": [
+              "assets/img/content/csla_addon1.webp"
+            ]
+          }
+        },
+        {
+          "id": "east-mercenary",
+          "label": "East Mercenary Army",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "East Mercenary Army",
+            "text": "Автор: Skaven (POR)\nСторона: СССР\nДанный аддон добавляет технику группировки наемников из бывшего СССР. Аддон содержит в себе M113, M163-Vulcan, БМП, а также водителей с соответствующими логотипами. Для установки East Mercenary Army необходимо распаковать архив в директорию flashpoint/addons. Техника и водители доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/eastmercarmyveh1.webp"
+            ]
+          }
+        },
+        {
+          "id": "kyllikki",
+          "label": "Kyllikki Realism Pack v1.00",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Kyllikki Realism Pack v1.00",
+            "text": "Авторы: AaronAsh, Cpt. Robertson\nСторона: NATO, СССР\nОчень неплохо проработанный пак, добавляющий более реалистично выглядящую технику. Переработке подверглись следующие виды техники: Т-80, БМП-1, БМП-2, M1A1, M2 Bradley, M113, AH-64 Apache, AH-1 Cobra. Для того, чтобы установить Kyllikki Realism Pack, необходимо распаковать архив в директорию flashpoint/addons. Вся добавляемая техника доступна только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/kyllikkirp1.webp",
+              "assets/img/content/kyllikkirp2.webp"
+            ]
+          }
+        },
+        {
+          "id": "finnish-army",
+          "label": "Finnish Army",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Finnish Army",
+            "text": "Автор: UceE aka Jussi Soini\nСторона: FIA\nОчень неплохо проработанный пак, добавляющий бойцов и технику финской армии. Для установки Finnish Army архив необходимо распаковать в директорию flashpoint/addons. Вся добавляемая техника, а также бойцы доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/ucefinnisharmy1.webp"
+            ]
+          }
+        },
+        {
+          "id": "un-addon",
+          "label": "UN Addon v1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "UN Addon v1.0",
+            "text": "Автор: [N.A.T.E]-Marco-Polo & {B|o|G} {Boller}\nСторона: NATO\nОдин из самых навороченных аддонов, созданных к настоящему времени. Добавляет он солдат Германии, Финляндии, США, Великобритании, Австралии, Канады, Франции, Италии и СССР из контингента ООН. Кроме того, в аддон входит техника в раскраске ООН. Для установки UN Addon необходимо распаковать архив в директорию flashpoint/addons. Все солдаты и техника доступны только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/unaddon1.webp"
+            ]
+          }
+        },
+        {
+          "id": "winter-vehicles",
+          "label": "Unofficial Winter Vehicles addon v1.0",
+          "expandable": false,
+          "install": true,
+          "content": {
+            "title": "Unofficial Winter Vehicles addon v1.0",
+            "text": "Автор: KeGeTis\nСторона: NATO, СССР, FIA\nНеофициальный аддон, добавляющий автомобили в зимнем камуфляже. Автор данного аддона рекомендует использовать Unofficial Winter Vehicles addon в сочетании с зимним вариантом Колгуева. Для установки аддона необходимо распаковать архив в директорию flashpoint/addons. Unofficial Winter Vehicles addon доступен только в самодельных миссиях.",
+            "images": [
+              "assets/img/content/wintervehicles1.webp",
+              "assets/img/content/wintervehicles2.webp",
+              "assets/img/content/wintervehicles3.webp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wallpapers",
+      "label": "Обои",
+      "expandable": false,
+      "content": {
+        "title": "Обои",
+        "text": "Официальные обои по мотивам Operation Flashpoint, которые были выпущены Bohemia Interactive Studio.",
+        "images": [
+          "assets/img/content/opw1.webp",
+          "assets/img/content/opw2.webp"
+        ]
+      },
+      "children": []
+    }
+  ]
+}

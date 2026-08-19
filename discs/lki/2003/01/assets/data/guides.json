@@ -1,0 +1,52 @@
+{
+  "id": "guides",
+  "title": "Руководства и прохождения",
+  "items": [
+    {
+      "type": "folder",
+      "label": "Age of Mythology",
+      "id": "age-of-mythology"
+    },
+    {
+      "type": "folder",
+      "label": "Arx Fatalis",
+      "id": "arx-fatalis"
+    },
+    {
+      "type": "file",
+      "label": "Heroes of Might & Magic IV: The Gathering Storm",
+      "id": "homm4-gathering-storm",
+      "src": "guides/heroes4-gathering-storm/herg.html"
+    },
+    {
+      "type": "folder",
+      "label": "Divine Divinity",
+      "id": "divine-divinity"
+    },
+    {
+      "type": "folder",
+      "label": "Европа 2 / Europa Universalis II",
+      "id": "europa-universalis-2"
+    },
+    {
+      "type": "folder",
+      "label": "Heroes of Might and Magic IV",
+      "id": "heroes-of-might-and-magic-4"
+    },
+    {
+      "type": "folder",
+      "label": "Neverwinter Nights",
+      "id": "neverwinter"
+    },
+    {
+      "type": "folder",
+      "label": "Sid Meier's Civilization III",
+      "id": "civilization-3"
+    },
+    {
+      "type": "folder",
+      "label": "Warcraft III: Reign of Chaos",
+      "id": "warcraft-3"
+    }
+  ]
+}

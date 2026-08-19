@@ -1,0 +1,1558 @@
+{
+  "demos": {
+    "id": "demos",
+    "title": "Demos",
+    "titleRu": "Демо",
+    "items": [
+      {
+        "id": "aow2",
+        "name": "Age of Wonders II: The Wizard's Throne",
+        "genre": "Стратегия",
+        "publisher": "Gathering of Developers",
+        "publisherUrl": "http://www.godgames.com/",
+        "developer": "Triumph Studios",
+        "developerUrl": "http://www.triumphstudios.com/",
+        "gameUrl": "http://aow2.godgames.com/welcome.html",
+        "nimUrl": "http://www.gamenavigator.ru/games/game1585.html",
+        "description": "Для установки игры нажмите клавишу Install и следуйте указаниям программы инсталляции.",
+        "images": [
+          "assets/img/content/boxaow1.jpg"
+        ]
+      },
+      {
+        "id": "armymen",
+        "name": "Army Men: RTS",
+        "genre": "Стратегия",
+        "publisher": "3DO",
+        "publisherUrl": "http://www.3do.com/",
+        "developer": "3DO",
+        "developerUrl": "http://www.3do.com/",
+        "gameUrl": "http://www.3do.com/armymen/rts/index2.html",
+        "nimUrl": "http://www.gamenavigator.ru/games/game2531.html",
+        "description": "Для установки игры нажмите клавишу Install и следуйте указаниям программы инсталляции. ВНИМАНИЕ: запуск демо-версии производить иконкой на десктопе.",
+        "images": [
+          "assets/img/content/boxamrts1.jpg"
+        ]
+      },
+      {
+        "id": "beambreakers",
+        "name": "Beam Breakers",
+        "genre": "Action",
+        "publisher": "Fishtank Interactive",
+        "publisherUrl": "http://www.fishtankgames.de/",
+        "developer": "Similis Software",
+        "developerUrl": "http://www.similis.com/interactive/opener.html",
+        "gameUrl": "http://www.similis.com/interactive/opener.html",
+        "nimUrl": "http://www.gamenavigator.ru/games/game1578.html",
+        "description": "Для установки игры нажмите клавишу Install и следуйте указаниям программы инсталляции.",
+        "images": []
+      },
+      {
+        "id": "cultures2",
+        "name": "Cultures II",
+        "genre": "Стратегия",
+        "publisher": "JoWooD Productions",
+        "publisherUrl": "http://www.jowood.com/",
+        "developer": "Funatics Development",
+        "developerUrl": "",
+        "gameUrl": "http://www.cultures2.com/",
+        "nimUrl": "http://www.gamenavigator.ru/games/game2376.html",
+        "description": "Для установки игры нажмите клавишу Install и следуйте указаниям программы инсталляции.",
+        "images": [
+          "assets/img/content/boxcult1.jpg"
+        ]
+      },
+      {
+        "id": "stealth",
+        "name": "Stealth Combat",
+        "genre": "Action\\Strategy",
+        "publisher": "Cryo/DreamCatcher",
+        "publisherUrl": "",
+        "developer": "Triggerlab",
+        "developerUrl": "",
+        "gameUrl": "",
+        "nimUrl": "",
+        "requirements": "P-II 300, 32 Mb RAM, 3D",
+        "recommendations": "P-III 450, 128 RAM, 3D (32 Mb)",
+        "description": "Демо-версия Stealth Combat, смеси стратегии и экшена от Triggerlab. По своей сути эта игра схожа с Hostile Waters, однако многие ее элементы, в частности, наличие трехмерных кокпитов, схожи с тем, что было в Паркане: Железной Стратегии. К плюсам Stealth Combat можно отнести простоту управления и командования немногочисленными подчиненными, а также очень неплохую графику.\nДля установки игры нажмите клавишу Install выберите директорию куда распаковать игру и следуйте указаниям программы инсталляции.",
+        "images": [
+          "assets/img/content/scombat1.jpg",
+          "assets/img/content/scombat2.jpg",
+          "assets/img/content/scombat3.jpg",
+          "assets/img/content/scombat4.jpg",
+          "assets/img/content/scombat5.jpg"
+        ]
+      },
+      {
+        "id": "toca",
+        "name": "TOCA Race Driver",
+        "genre": "Автосимулятор",
+        "publisher": "Codemasters Software",
+        "publisherUrl": "http://www.codemasters.com/",
+        "developer": "Codemasters Software",
+        "developerUrl": "http://www.codemasters.com/",
+        "gameUrl": "http://www.codemasters.com/tocaracedriver/",
+        "nimUrl": "http://www.gamenavigator.ru/games/game1356.html",
+        "description": "Демо-версия TOCA Race Driver, автосимулятора, которому вполне по силам стать лучшей игрой в своем жанре. По графике эта игра вне конкуренции, что касается системы повреждений, то она, пожалуй, является новым словом в жанре. И это не предел: по словам разработчиков, демо-версия TOCA Race Driver отображает лишь шестьдесят процентов того, что будет в полной версии игры. Своеобразной расплатой за графику являются высокие системные требования. Демо-версия содержит одну трассу, а также один вид машины (Toyota Supra).\nДля установки игры нажмите клавишу Install и следуйте указаниям программы инсталляции.",
+        "images": [
+          "assets/img/content/toca1.jpg",
+          "assets/img/content/toca2.jpg",
+          "assets/img/content/toca3.jpg",
+          "assets/img/content/toca4.jpg",
+          "assets/img/content/toca5.jpg",
+          "assets/img/content/toca6.jpg"
+        ]
+      }
+    ]
+  },
+  "video": {
+    "id": "video",
+    "title": "A-NIM",
+    "titleRu": "А-НИМ",
+    "items": [
+      {
+        "id": "anavi3",
+        "name": "АЛЬТЕРНАТИВНЫЙ НАВИГАТОР",
+        "genre": "",
+        "publisher": "",
+        "publisherUrl": "",
+        "developer": "",
+        "developerUrl": "",
+        "gameUrl": "",
+        "nimUrl": "",
+        "description": "Доброго времени суток!\n\nУдивительно, как быстро летит время – вроде бы еще недавно вышел первый номер \"АНави\", а тут уже аж третий подоспел.\nК чему я вообще клоню этой лирикой? А вот к чему: В АНави уже сложился работоспособный коллектив, устоялся механизм работы московского отделения редакции, так что спешу огорчить тех авторов, кто хочет попробовать свои силы на ниве \"Альтернативного Навигатора\": мы пока не нуждаемся в авторах, специализирующихся на ревью. Исключение составляет лишь очень грамотный и знающий свое дело симуляторщик. Я бы даже сказал, хардкорный симуляторщик. Причем не спортивный.\nПравда, поспешу обрадовать \"превьюшников\" и авторов, пишущих свободные рассказы на игровую тематику, мы и сейчас принимаем таких уникумов с распростертыми объятиями, нам нужны постоянные люди, наполняющие Z-Zone нашего полувиртуального издания. Если вас заинтересовало мое предложение – пишите, адрес моей электронной почты указан ниже.\nТеперь перейдем к этому номеру. Помимо традиционной подборки Ревью, которые подготовлены нашими авторами, вы можете найти лучшие статьи, пришедшие на конкурс статей по \"Демиургам\", который мы проводили совместно с \"Нивалом\" в декабре прошлого года. Победителями, напомню, стали следующие товарищи: KuDer из Москвы и Pastor из Санкт-Петербурга. Они получили коробки с \"Демиургами\", подписанные разработчиками и не только ими, причем KuDer был награжден в редакции.\nКороче говоря, с этими статьями, а также со многими другими вы можете ознакомиться прямо здесь, в \"АНави\".\nЕще хочу прояснить ситуацию со статьей \"Ренегад. Просто гад\", которая была написана мной же и которая была опубликована во втором номерах АНави (на диске к апрельскому номеру).\nНекоторые усмотрели в первоапрельском ревью-шутке серьезный бред и серьезно же стали его критиковать. Проще надо быть, товарищи: зачем нам надо было публиковать два ревью – на бумаге и на диске – которые бы в своей оценке игры не особо отличались бы друг от друга? Незачем. Так что моя статья была безбашенным приложением к серьезному \"бумажному\" ревью под авторством Андрея Щура.\nПо традиции расскажу немного о планах. Со следующих номеров АНави мы начнем публиковать в составе журнала статьи-победители Конкурса Статей (да-да, того самого). Это мы делаем из двух соображений: как дань прародителю и как средство вытащить его из того кризиса, в котором тот очутился. Так что, кстати говоря, вот вам еще одна лазейка, с помощью которой можно попасть в наш журнал: побеждайте на Конкурсе. Каждый месяц там определяется победитель.\nНапоследок поведаю \"о птичках\" - расскажу об одной парадоксальной вещи: жанр RPG умер. Это доказывает абсолютный шедевр в своем классе под названием Progress Quest, на который меня довольно крепко подсадил Игорь Бойко. Персонаж там ходит по уровням, качает характеристики, продает и покупает вооружение, кастует заклинания и так далее. Изюминка одна (но громадная): он все делает исключительно сам. Мы лишь с истерическим похахатыванием наблюдаем за его успехами, благо, что графики там нет вообще, а игра идет в полуфоновом режиме (плюс есть возможность участвовать в онлайновом ладдере). Включил с утра – и забыл. К вечеру – глядь – а персонаж уже аж в третьем акте. Вот такой хит.\nЗавершая это непомерно раздувшееся слово редактора, напомню, что и ваша статья может попасть в АНави, было бы желание. Если таковое есть – пишите.\n\nУдачи,\nБукламанг\n(alebor [at] ***.com)",
+        "images": [],
+        "url": "assets/html/bonus/cover.html"
+      }
+    ]
+  },
+  "files": {
+    "id": "files",
+    "title": "Files",
+    "titleRu": "Файлы",
+    "items": [
+      {
+        "id": "allicons_group",
+        "name": "AllIcons v.5.0 и ActivIcons v.2.4",
+        "isParent": true,
+        "noInstall": true,
+        "description": "AllIcons содержит порядка пяти тысяч иконок на все случаи жизни. Но после его установки все иконки находятся в файлах-библиотеках с расширением .icl. Для работы с этими файлами и предназначена бесплатная программка ActivIcons.",
+        "images": [
+          "assets/img/content/icons1.jpg"
+        ],
+        "children": [
+          {
+            "id": "allicons",
+            "name": "AllIcons v.5.0",
+            "description": "AllIcons содержит порядка пяти тысяч иконок на все случаи жизни. Но после его установки все иконки находятся в файлах-библиотеках с расширением .icl. Для работы с этими файлами и предназначена бесплатная программка ActivIcons.",
+            "images": [
+              "assets/img/content/icons1.jpg"
+            ]
+          },
+          {
+            "id": "activicons",
+            "name": "ActivIcons v.2.4",
+            "description": "ActivIcons v.2.4 предназначена для работы с библиотеками иконок с расширением .icl.",
+            "images": [
+              "assets/img/content/icons1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdrom_group",
+        "name": "CD-ROM Emulator 2.0",
+        "isParent": true,
+        "noInstall": true,
+        "description": "Используя CD-ROM Emulator, Вы можете создавать виртуальные приводы CD-ROM и образы компакт-дисков на вашем жестком диске. CD-ROM Emulator предоставляет возможность работы с компакт-дисками и CD-ROM приводами при их физическом отсутствии. Они необходимы только в процессе создания образа CD на жестком диске.",
+        "images": [],
+        "children": [
+          {
+            "id": "cdrom_demo",
+            "name": "Демо-версия CD-ROM Emulator 2.0",
+            "description": "Работает 30 дней; переустановить нельзя; если Вы переустановили триальную персональную версию, Вам придется создавать все образы с самого начала. Можно создать только один виртуальный CD-ROM драйвер и много изображений, но изображения добавляться не могут. Распакуйте демо-версию в любую папку, после этого запустится программа инсталляции.",
+            "images": []
+          },
+          {
+            "id": "cdrom_manual",
+            "name": "Руководство пользователя CD-ROM Emulator 2.0",
+            "description": "Руководство пользователя CD-ROM Emulator 2.0 в формате Microsoft Word. Распакуйте файл в любую директорию.",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": "paragon_group",
+        "name": "Paragon Partition Manager",
+        "isParent": true,
+        "noInstall": true,
+        "description": "Paragon Partition Manager программа для управления разделами жесткого диска без переформатирования! Это не просто FDISK. Это больше чем FDISK, и намного проще.\n\n1.1 Возможности\n\nParagon Partition Manager может производить следующие операции над отдельными разделами жестких дисков, и над дисками в целом.\nИзменяет размер разделов без переформатирования (для FAT, FAT32, HPFS, NTFS, Ext2FS (Linux) разделов).\n- Создает, форматирует разделы (FAT, FAT32, HPFS, NTFS, Ext2FS, Linux Swap) на жестком диске и удаляет любые разделы.\n- Создание более чем одного первичного раздела.\n- Копирование, перемещение разделов.\n- Простое и быстрое резервное копирование раздела с операционной системой.\n- Восстановление раздела с операционной системой без ее переинсталяции за несколько минут.\n- Копирование целых жестких дисков.\n- Конвертация FAT32 разделов в FAT и обратно.\n- Изменение размера кластера без потери данных.\n- Работа с большими дисками (более чем 8 ГБ).\n- Поддержка специального FAT 64К для Windows NT.\n- Поддержка Extended Attributes (Е/А) для OS/2 на FAT.\n- Работа с поврежденными секторами диска.\n- Встроенная утилита Boot Manager Easy для загрузки нескольких операционных систем.\n- Поддержка длинных имен.\n- Функция \"возобновления\" прерванных операций при пропадании питания.\n- Интуитивный графический интерфейс и поддержка мыши.\n\n1.2 Дополнительные преимущества\n\nPartition Manager предоставляет удобные и безопасные функции для работы с разделами жесткого диска даже для непрофессиональных пользователей.\n1. Создание отдельного раздела для упрощения регулярного резервного копирования.\n2. Скрытие и раскрытие разделов для защиты данных.\n3. Использование отдельного раздела для тестирования нового или нестабильного ПО.\n\nС помощью Partition Manager можно снова использовать потерянное дисковое пространство, лучше организовать расположение данных, добавить операционную систему, увеличить производительность жесткого диска.\nВ прошлой изменение параметров раздела было рискованным и занимало много времени. Пользователь должен был сделать резервную копию всех данных, создать новый раздел с нужными параметрами, отформатировать его, возможно, переинсталлировать операционную систему и восстановить скопированные данные. С Partition Manager Вы просто выбираете новые параметры раздела. После этого будет запущен процесс изменения раздела, который не уничтожает данные.",
+        "children": [
+          {
+            "id": "paragon_demo",
+            "name": "Демо-версия Paragon Partition Manager 5.0",
+            "description": "Демоверсия включает только Windows-часть без DOS-части и без NT Startup service. Распакуйте демо-версию в любую папку, после этого запустится программа инсталляции.",
+            "url": "http://www.paragon-software.com/",
+            "images": []
+          },
+          {
+            "id": "paragon_manual",
+            "name": "Руководство пользователя Paragon Partition Manager",
+            "description": "Руководство пользователя Paragon Partition Manager 5.0 в формате Microsoft Word. Распакуйте файл в любую директорию.",
+            "url": "http://www.paragon-software.com/manual/",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": "wasp123",
+        "name": "123WASP v.2.01",
+        "description": "Весьма полезная бесплатная программа от iOpus Software, позволяющая \"вспомнить\" пароли для активного пользователя, хранящиеся в файле .pwl.",
+        "url": "",
+        "images": ["assets/img/content/123wasp1.jpg"]
+      },
+      {
+        "id": "alwaysconnected",
+        "name": "42 Always Connected Plug",
+        "description": "Бесплатная программа от iOpus Software, обеспечивающая неразрывность соединения с провайдером Интернет при отсутствии активности с вашей стороны.",
+        "url": "",
+        "images": ["assets/img/content/42acp1.jpg"]
+      },
+      {
+        "id": "beatlesforever",
+        "name": "Битлз Навсегда v.2.01",
+        "description": "Электронная энциклопедия. Содержит свыше 400 текстов песен (имеется возможность посмотреть русские переводы) и около 200 мидишек. Удобный интерфейс. Добавление музыки в форматах .mid или .mp3. Битлы рулят!",
+        "url": "",
+        "images": ["assets/img/content/beatles1.jpg"]
+      },
+      {
+        "id": "cheatsolitaire",
+        "name": "Cheat Solitaire v.1.02",
+        "description": "Если вам надоело раз за разом проигрывать в виндовский пасьянс, эта фриварная программа вас утешит. Она во всем копирует привычный \"солитер\", но позволяет при этом читить: делать откаты, доставать карты из \"отвала\" и т.д.",
+        "url": "",
+        "images": ["assets/img/content/sol1.jpg"]
+      },
+      {
+        "id": "cheatbook",
+        "name": "CheatBook-Database 2002 v.1.0",
+        "description": "Энциклопедия читов и солюшенов для всего на свете. Из них для РС - 4237 читов. Есть также читы для всех консолей.",
+        "url": "",
+        "images": ["assets/img/content/cheats1.jpg"]
+      },
+      {
+        "id": "divxbundle",
+        "name": "DivX Pro Video Bundle 5.0.1",
+        "description": "Бесплатность этой продвинутой версии DivX обеспечивается за счет прокручивания рекламных баннеров, подкачиваемых из Сети системой Gator Advertising and Information Network (GAIN). Лишенный этого довеска аналогичный продукт стоит 30 долларов США. В составе пакета - проигрыватель DivX Player v.2.0 Alpha.",
+        "url": "http://www.divx.com/",
+        "images": ["assets/img/content/divx1.jpg"]
+      },
+      {
+        "id": "konvertor",
+        "name": "Konvertor v.3.13",
+        "description": "Shareware программа, позволяющая просматривать, проигрывать и конвертировать из одного в другой 405 форматов: 355 графических (jpeg2000, bmp, pcd, k25, psd, targa, hp-gl, pdf, gif, jpeg, vrml...), 50 аудио-, текстовых и видео- форматов (asf-audio, wma, mp3, dalet, wav, txt, voc, mod, avi, mpeg...). Позволяет использовать 40 фильтров (blur, charcoal, resize...). Срок бесплатного пользования составляет 30 дней.",
+        "url": "",
+        "images": ["assets/img/content/converter1.jpg"]
+      },
+      {
+        "id": "pokedex",
+        "name": "The Pokedex Program v.3.50",
+        "description": "Энциклопедия покемонов. Информация по 250 разновидностям. Преимущества и недостатки, эволюция, движения, звуки.",
+        "url": "",
+        "images": ["assets/img/content/pokemons1.jpg"]
+      },
+      {
+        "id": "tetris4000",
+        "name": "Tetris4000",
+        "description": "Shareware версия игры от Volkov Artem and Alawar Entertainment, рассчитанная на 50 запусков. Приятный тетрис с сюрпризами в виде фигурок нестандартной формы. Полная версия стоит 10 долларов США.",
+        "url": "",
+        "images": [
+          "assets/img/content/tetris1.jpg"
+        ]
+      }
+    ]
+  },
+  "patches": {
+    "id": "patches",
+    "title": "Patches",
+    "titleRu": "Патчи",
+    "items": [
+      {
+        "id": "hl_cs_13",
+        "name": "Half-Life: Counter-Strike Patch с Version 1.3",
+        "genre": "Action",
+        "publisher": "Sierra Entertainment, Inc.",
+        "publisherUrl": "",
+        "developer": "Valve",
+        "developerUrl": "",
+        "gameUrl": "",
+        "nimUrl": "",
+        "description": "Патч предназначен для mod версии CS. Для установки требует наличия HL 1.1.0.9 и CS 1.3.",
+        "images": [
+          "assets/img/content/boxcs1.jpg"
+        ],
+        "url": ""
+      },
+      {
+        "id": "hl_1008_1009",
+        "name": "Half-Life Patch с Version 1.0.0.8 до 1.0.0.9",
+        "genre": "Action",
+        "publisher": "Sierra Entertainment, Inc.",
+        "publisherUrl": "",
+        "developer": "Valve",
+        "developerUrl": "",
+        "gameUrl": "",
+        "nimUrl": "",
+        "description": "Патч, который сделает из вашего HL 1.1.0.8 новую версию HL 1.1.0.9.",
+        "images": [
+          "assets/img/content/boxhl1.jpg"
+        ],
+        "url": ""
+      },
+      {
+        "id": "mm9_patch",
+        "name": "Might and Magic IX",
+        "genre": "RPG",
+        "publisher": "3DO",
+        "publisherUrl": "",
+        "developer": "New World Computing",
+        "developerUrl": "",
+        "gameUrl": "",
+        "nimUrl": "",
+        "description": "Первый патч для англоязычной версии игры. Обновляет игру до версии 1.",
+        "images": [
+          "assets/img/content/boxmm1.jpg"
+        ],
+        "url": ""
+      }
+    ]
+  },
+  "drivers": {
+    "id": "drivers",
+    "title": "Drivers",
+    "titleRu": "Драйверы",
+    "items": [
+      {
+        "id": "detonator_x3",
+        "name": "Detonator X3 w9X/ME 28.32",
+        "description": "Riva TNT/GeForce Windows 98/ME-драйвер,версии 28.3",
+        "images": [],
+        "url": ""
+      }
+    ]
+  },
+  "free": {
+    "id": "free",
+    "title": "Freeware",
+    "titleRu": "Freeware",
+    "items": [
+      {
+        "id": "adom",
+        "name": "ADoM version 1.0.0",
+        "genre": "RPG с ASCII",
+        "description": "Финалная полная версия самой известной hack'n'slash ролевой игры с символьной графикой. Вам на выбор предлагаются десятки классов и рас, огромное количество различных вещей, артефактов, видов оружия и заклинаний. Нелинейный сюжет предполагает несколько совершенно разных концовок. Если вы уже играли в какую-либо из предыдущих версий ADoM, попробуйте на сей раз полную версию. Если слышите это название впервые и вам нравятся ролевые игры - обязательно установите ее на своем компьютере и посмотрите, какой огромный и интересный мир можно создать с помощью простых символов текстового редактора. Рекомендуем.",
+        "images": [],
+        "url": ""
+      },
+      {
+        "id": "darkorbit",
+        "name": "Dark Orbit",
+        "genre": "Action/RPG",
+        "developer": "WildTangent",
+        "requirements": "Pentium-II 350, 64 Mb RAM, 3D",
+        "description": "Shareware-версия Dark Orbit, достаточно необычной игры от WildTangent. Разработчики добавили в банальную изометрическую аркаду крошечную часть RPG, это изменение сильно преобразило игру, сделав ее намного интереснее. Действие Dark Orbit происходит в пещерах Нибиру, десятой планеты Солнечной Системы. Неожиданно выяснилось, что эта, казалось бы, безжизненная и холодная планета населена жутковатыми мутантами, неожиданно напавшими на шахтеров. Игрок остается один на один с полчищами монстров, единственное его спасение в автоматической станции, где он может сделать из малидиума (местной руды) тот или иной агрегат для своего кораблика. Залежи малидиума можно найти практически во всех уголках пещеры, а также он иногда выпадает из тел убитых мутантов. В демо-версии доступен всего один уровень, если же вы пройдете процедуру платной регистрации, то откроется вся кампания.",
+        "images": [
+          "assets/img/content/dorbit1.jpg",
+          "assets/img/content/dorbit2.jpg",
+          "assets/img/content/dorbit3.jpg"
+        ],
+        "url": ""
+      },
+      {
+        "id": "progressquest",
+        "name": "Progress Quest",
+        "description": "Всем ролевикам: срочно поставьте эту игрушку на своей машине - не пожалеете! Ведь Progress Quest - это первая в своем роде RPG, в которой indirect control достиг небывалых высот. Судите сами - в этой игре ВООБЩЕ НИЧЕГО не надо делать. Сгенерите своего персонажа и с гордостью смотрите на экран, где ваш \"чар\" самостоятельно начнет прокачиваться, мочить монстров, зарабатывать экспу и закупаться шмотками. А можете даже записаться в мировой (!) ладдер и следить за продвижением своего альтер эго. Системные требования игры: Windows и чувство юмора, так как создатели игры основательно поиронизировали над фэнтези (чего только стоит раса Double Hobbit или класс Crazy Lunatic).",
+        "images": [],
+        "url": ""
+      },
+      {
+        "id": "sabrewing2",
+        "name": "SabreWing 2",
+        "genre": "Космический симулятор",
+        "developer": "WildTangent",
+        "requirements": "Pentium-II 350, 64 Mb RAM, 3D",
+        "description": "Shareware-версия космического симулятора SabreWing 2, действие которого происходит через сто пятьдесят лет после событий, описанный в первой части игры. Если первая часть SabreWing все же несколько не дотягивала по своему качеству до других современных космических симуляторов, то продолжение подобных недостатков лишено. Отныне модели кораблей по своей проработке ничем не уступают тому же Starlancer, реализована масса спецэффектов, да и космос теперь выглядит очень неплохо. Кроме того, то и дело проскальзывают переговоры пилотов, выполненные в стиле Wing Commander. Честно говоря, даже не верится, что все это великолепие занимает какие-то восемь с половиной мегабайт. Что же касается управления, то оно выполнена по общепринятым стандартам космосимов, к тому же игра поддерживает джойстики. Игра получилась не только красивой, но и динамичной, а это качество весьма высоко ценится. В Shareware-варианте доступна всего одна миссия, если же вы зарегистрируете игру (регистрация платная), то откроется вся кампания.",
+        "images": [
+          "assets/img/content/swing1.jpg",
+          "assets/img/content/swing2.jpg",
+          "assets/img/content/swing3.jpg",
+          "assets/img/content/swing4.jpg"
+        ],
+        "url": ""
+      }
+    ]
+  },
+  "cyber": {
+    "id": "cyber",
+    "title": "Cybersport",
+    "titleRu": "Киберспорт",
+    "items": [
+      {
+        "id": "cnc_yuri_group",
+        "name": "Command & Conquer: Red Alert 2 - Yuri's Revenge",
+        "isParent": true,
+        "genre": "Стратегия",
+        "publisher": "Electronic Arts",
+        "publisherUrl": "http://www.ea.com",
+        "developer": "Westwood Studios",
+        "developerUrl": "http://www.westwood.com/",
+        "nimUrl": "http://www.gamenavigator.ru/games/game1744.html",
+        "images": [
+          "assets/img/content/boxcc1.jpg"
+        ],
+        "children": [
+          {
+            "id": "yuri_map_pack_3",
+            "name": "Yuri's Revenge: Official Map Pack №3",
+            "rating": "GameSpy: 9/10",
+            "description": "Третий по счету официальный набор карт для Yuri's Revenge. Содержит в себе две карты: Moon Patrol, а также Unrepentant (на 2-6 игроков).",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": "maxpayne_group",
+        "name": "Max Payne",
+        "isParent": true,
+        "genre": "Action",
+        "publisher": "Gathering of Developers",
+        "publisherUrl": "http://www.godgames.com/",
+        "developer": "Remedy Software",
+        "developerUrl": "http://www.remedy.fi/",
+        "nimUrl": "http://www.gamenavigator.ru/games/game927.html",
+        "images": [
+          "assets/img/content/boxmp1.jpg"
+        ],
+        "children": [
+          {
+            "id": "mp_2tone_skins",
+            "name": "Мод Max Payne 2tone skins",
+            "author": "Illicit",
+            "description": "2tone skins – один из самых первых модов для Max Payne, поэтому попал он в эту двадцатку лишь за былые боевые заслуги. Все-таки полгода для мода – довольно большой срок. Распакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/2tone1.jpg",
+              "assets/img/content/2tone2.jpg",
+              "assets/img/content/2tone3.jpg"
+            ]
+          },
+          {
+            "id": "mp_barcode_prisoners_weapon",
+            "name": "Мод Max Payne Barcode Prisoners Weapons",
+            "author": "Leikkuri",
+            "description": "После установки Barcode Prisoners Weapons будьте готовы к приятным неожиданностям. Более бесшабашного скина Пейна вы не встретите нигде. Кроме этого мод заменяет в игре четыре вида оружия. Наконец, в меню опции Level Selector появляется возможность выбрать любой уровень из игры, в том числе и секретную миссию.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/bcpweap1.jpg",
+              "assets/img/content/bcpweap2.jpg",
+              "assets/img/content/bcpweap3.jpg"
+            ]
+          },
+          {
+            "id": "mp_benchmarking",
+            "name": "Мод Max Payne Benchmarking",
+            "author": "Sir Elvis",
+            "description": "Benchmarking Mod всенепременно необходимо скопировать в корневую папку с Max Payne всем обладателям самых современных 3D-ускорителей (64 Mb и выше). Некий сэр Элвис специально для вас основательно покопался в оригинальном коде от Remedy Entertainment и существенным образом улучшил красоту картинки, выдаваемой на ваш монитор. Вы даже представить себе не можете, как будут великолепно смотреться многочисленные сражения разъяренного полицейского против армии наркоторговцев при разрешении 1024x768x32.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/bench1.jpg",
+              "assets/img/content/bench2.jpg",
+              "assets/img/content/bench3.jpg"
+            ]
+          },
+          {
+            "id": "mp_ed_mod",
+            "name": "Мод Max Payne ED Mod",
+            "author": "Eduard van Valkenburg",
+            "description": "Начните игру с параметрами C:\\games\\maxpayne\\maxpayne.exe -screenshot -developer – developerkeys. Теперь в любой момент игры вы можете нажать на паузу и при помощи клавиш курсора насладиться наикрасивейшими ракурсами Макса Пейна.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/edmod1.jpg",
+              "assets/img/content/edmod2.jpg",
+              "assets/img/content/edmod3.jpg"
+            ]
+          },
+          {
+            "id": "mp_extreme",
+            "name": "Мод Max Payne Extreme",
+            "author": "Steve Donner",
+            "description": "Главной особенностью сего мода принято считать внушительное пополнение арсенала Макса Пейна. Стоит отметить, что в игре появляется всего лишь два новых ствола.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/extreme1.jpg",
+              "assets/img/content/extreme2.jpg",
+              "assets/img/content/extreme3.jpg"
+            ]
+          },
+          {
+            "id": "mp_first_person_view",
+            "name": "Мод Max Payne First Person View",
+            "author": "Mark Brain",
+            "description": "Разработчик данного мода не искал легких путей. Он умудрился зафиксировать камеру так, что во время игры всегда видно, как Макс держит в своих руках то или иное оружие. Лишь при помощи First Person View вы сможете заново оценить красоту батальных сцен.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/first1.jpg",
+              "assets/img/content/first2.jpg",
+              "assets/img/content/first3.jpg"
+            ]
+          },
+          {
+            "id": "mp_killros_mod",
+            "name": "Мод Max Payne Killros Mod",
+            "author": "Killro",
+            "description": "Судя по начинке мода, его авторами являются самые настоящие маньяки. Такого количества виртуального кетчупа не было даже в легендарном Postal. Из убитого противника вытекает столько крови, что пол постепенно превращается в некое подобие невымытого разделочного цеха мясокомбината.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/killros1.jpg",
+              "assets/img/content/killros2.jpg",
+              "assets/img/content/killros3.jpg"
+            ]
+          },
+          {
+            "id": "mp_kung_fu_mod",
+            "name": "Мод Max Payne Kung-Fu Mod",
+            "author": "Kenneth Yeung",
+            "description": "Великолепный мод, который заставляет смотреть на игру совершенно по-новому. Kenneth Yeung превратил классический TPS со стрельбой в очень добротный файтинг.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/kung-fu1.jpg",
+              "assets/img/content/kung-fu2.jpg",
+              "assets/img/content/kung-fu3.jpg"
+            ]
+          },
+          {
+            "id": "mp_lightsaber",
+            "name": "Мод Max Payne Lightsaber",
+            "author": "Hairless Wookie Of Hoth",
+            "description": "Lightsaber можно назвать не иначе, как сборной солянкой из всего и вся. В глаза моментально бросается радикальный внешний вид Макса-хиппи: волосы выкрашены в ярко-желтый цвет, светло-коричневые брюки и пиджак, в котором в невероятной пропорции между собой слились все цвета радуги. Еще большей колоритности Пейну придает вечно горящая сигарета в зубах. С ней он не расстается даже во время самых жарких схваток.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/light1.jpg",
+              "assets/img/content/light2.jpg",
+              "assets/img/content/light3.jpg"
+            ]
+          },
+          {
+            "id": "mp_max_neo",
+            "name": "Мод Max Payne Max Neo",
+            "author": "Kenneth Yeung",
+            "description": "Еще одна великолепная работа от Kenneth Yeung'a. На этот раз Максу уготована играть роль Нео из культового в игровой среде художественного фильма \"Матрица\". Следовательно, к скину главного героя должны предъявляться особые требования. Конечно, на скриншотах перед вами не вылитый Киану Ривз, но какие-то схожие черты все-таки имеются.\nРаспакуйте архив и скопируйте файл с расширением .mpm в корневую папку с игрой. Запустите Max Payne и во всплывшем окне настройки в строке \"Выбор пользовательской игры\" кликните на название нужного вам мода.",
+            "images": [
+              "assets/img/content/neo1.jpg",
+              "assets/img/content/neo2.jpg",
+              "assets/img/content/neo3.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "serious_sam_se_group",
+        "name": "Serious Sam: The Second Encounter",
+        "isParent": true,
+        "genre": "Action",
+        "publisher": "GodGames",
+        "publisherUrl": "http://www.godgames.com",
+        "developer": "CroTeam",
+        "developerUrl": "http://www.croteam.com/",
+        "nimUrl": "http://www.gamenavigator.ru/games/game2003.html",
+        "description": "Здесь Вы найдете 4 одиночных карты.",
+        "images": [
+          "assets/img/content/boxss1.jpg"
+        ],
+        "children": [
+          {
+            "id": "ss_apocalypse_part_one",
+            "name": "Одиночная карта Apocalypse: Part One",
+            "author": "Pompey",
+            "description": "Распакуйте карту в директорию игры, запустите игру и выберите меню Одиночная игра --> Пройденные уровни --> карта Apocalypse: Part One",
+            "images": [
+              "assets/img/content/sersam1.jpg",
+              "assets/img/content/sersam2.jpg",
+              "assets/img/content/sersam3.jpg"
+            ]
+          },
+          {
+            "id": "ss_gates_to_hammurabi",
+            "name": "Одиночная карта Gates to Hammurabi",
+            "author": "Chris \"RatBoy\" Young",
+            "description": "Распакуйте карту в директорию игры, запустите игру и выберите меню Одиночная игра --> Пройденные уровни --> карта Gates to Hammurabi",
+            "images": [
+              "assets/img/content/zuggy1.jpg",
+              "assets/img/content/zuggy2.jpg",
+              "assets/img/content/zuggy3.jpg"
+            ]
+          },
+          {
+            "id": "ss_xian",
+            "name": "Одиночная карта Xian",
+            "author": "Kristo",
+            "description": "Распакуйте карту в директорию игры, запустите игру и выберите меню Одиночная игра --> Пройденные уровни --> карта Xian",
+            "images": [
+              "assets/img/content/xian1.jpg",
+              "assets/img/content/xian2.jpg",
+              "assets/img/content/xian3.jpg"
+            ]
+          },
+          {
+            "id": "ss_village_of_the_cursed",
+            "name": "Одиночная карта Village of the Cursed",
+            "author": "RatBoy",
+            "description": "Распакуйте карту в директорию игры, запустите игру и выберите меню Одиночная игра --> Пройденные уровни --> карта Village of the Cursed",
+            "images": [
+              "assets/img/content/village1.jpg",
+              "assets/img/content/village2.jpg",
+              "assets/img/content/village3.jpg"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bonus": {
+    "id": "bonus",
+    "title": "Bonus",
+    "titleRu": "Бонус",
+    "items": [
+      {
+        "id": "screensavers_group",
+        "name": "Скринсейверы",
+        "isParent": true,
+        "description": "Скринсейверы",
+        "images": [],
+        "children": [
+          {
+            "id": "ss_armymen_rts",
+            "name": "Army Men: RTS",
+            "description": "Скринсейвер Army Men: RTS. Для установки нажмите клавишу Install.",
+            "hasInstallButton": true,
+            "images": [
+              "assets/img/content/armymenrts1.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wallpapers_group",
+        "name": "Обои",
+        "isParent": true,
+        "description": "Обои",
+        "images": [],
+        "children": [
+          {
+            "id": "wp_age_of_mythology",
+            "name": "Age of Mythology",
+            "genre": "Стратегия",
+            "publisher": "Microsoft",
+            "publisherSite": "http://www.microsoft.com/games/",
+            "developer": "Ensemble Studios",
+            "developerSite": "http://www.ensemblestudios.com/",
+            "gameSite": "http://www.ensemblestudios.com/aom/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1153.html",
+            "description": "Обои Age of Mythology. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/aom1.jpg"
+            ]
+          },
+          {
+            "id": "wp_armymen_rts",
+            "name": "Army Men: RTS",
+            "genre": "Стратегия",
+            "publisher": "3DO",
+            "publisherSite": "http://www.3do.com/",
+            "developer": "3DO",
+            "developerSite": "http://www.3do.com/",
+            "gameSite": "http://www.3do.com/armymen/rts/index2.html",
+            "ourSite": "http://www.gamenavigator.ru/games/game2531.html",
+            "description": "Обои Army Men: RTS. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/amrtsw1.jpg"
+            ]
+          },
+          {
+            "id": "wp_global_operations",
+            "name": "Global Operations",
+            "genre": "Action",
+            "publisher": "Crave Entertainment",
+            "publisherSite": "http://www.cravegames.com/",
+            "developer": "Barking Dog Studios",
+            "developerSite": "http://www.barking-dog.com/",
+            "gameSite": "http://www.globalopsgame.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1215.html",
+            "description": "Обои Global Operations. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/go_wallpaper1.jpg"
+            ]
+          },
+          {
+            "id": "wp_gore",
+            "name": "Gore",
+            "genre": "Action",
+            "publisher": "Dreamcatcher Interactive",
+            "publisherSite": "http://www.dreamcatchergames.com/",
+            "developer": "4D Rulers",
+            "developerSite": "http://www.4drulers.com/",
+            "gameSite": "http://www.4drulers.com/gore/index2.html",
+            "ourSite": "http://www.gamenavigator.ru/games/game641.html",
+            "description": "Обои Gore. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/wgore1.jpg",
+              "assets/img/content/wgore2.jpg"
+            ]
+          },
+          {
+            "id": "wp_cultures_2",
+            "name": "Cultures II",
+            "genre": "Стратегия",
+            "publisher": "JoWood Productions",
+            "publisherSite": "http://www.jowood.com/",
+            "developer": "Funatics Development",
+            "gameSite": "http://www.cultures2.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2376.html",
+            "description": "Обои Cultures II. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/cult1.jpg",
+              "assets/img/content/cult2.jpg"
+            ]
+          },
+          {
+            "id": "wp_galactic_civilizations",
+            "name": "Galactic Civilizations",
+            "genre": "Space Strategy (4X)",
+            "publisher": "Stardock",
+            "publisherSite": "http://www.stardock.com/",
+            "developer": "Stardock",
+            "developerSite": "http://www.stardock.com/",
+            "gameSite": "http://www.galciv.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2613.html",
+            "description": "Обои к Galactic Civilizations",
+            "images": [
+              "assets/img/content/galcivw1.jpg",
+              "assets/img/content/galcivw2.jpg",
+              "assets/img/content/galcivw3.jpg",
+              "assets/img/content/galcivw4.jpg"
+            ]
+          },
+          {
+            "id": "wp_heroes_of_might_and_magic_4",
+            "name": "Heroes of Might and Magic IV (Герои Меча и Магии IV)",
+            "genre": "Стратегия",
+            "publisher": "Бука Entertainment",
+            "publisherSite": "http://www.buka.ru",
+            "developer": "New World Computing",
+            "developerSite": "http://www.nwcomputing.com",
+            "gameSite": "http://www.3do.com/mightandmagic/heroes4/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1579.html",
+            "description": "Обои Heroes of Might and Magic IV (Герои Меча и Магии IV). После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/hommw1.jpg"
+            ]
+          },
+          {
+            "id": "wp_legacy_of_kain_blood_omen_2",
+            "name": "Legacy Of Kain: Blood Omen 2",
+            "genre": "Action/RPG",
+            "publisher": "Eidos",
+            "publisherSite": "http://www.eidos.com/",
+            "developer": "Crystal Dynamics",
+            "developerSite": "http://www.crystald.com/",
+            "gameSite": "http://www.legacyofkain.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2453.html",
+            "requirements": "PentiumII 400MHz,128MbRAM,3D-уск",
+            "recommended": "PentiumIII 600 MHz",
+            "description": "Обои к Legacy Of Kain: Blood Omen 2. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/lokbo1.jpg",
+              "assets/img/content/lokbo2.jpg",
+              "assets/img/content/lokbo3.jpg"
+            ]
+          },
+          {
+            "id": "wp_might_and_magic_9",
+            "name": "Might & Magic IX",
+            "genre": "RPG",
+            "publisher": "Бука, 3DO",
+            "publisherSite": "http://www.buka.ru/\nhttp://www.3do.com/",
+            "developer": "New World Computing",
+            "developerSite": "http://www.3do.com/",
+            "gameSite": "http://www.3do.com/mightandmagic/ix/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2517.html",
+            "description": "Обои к Might & Magic IX. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/mmw1.jpg"
+            ]
+          },
+          {
+            "id": "wp_original_war",
+            "name": "Original War",
+            "genre": "Стратегия",
+            "publisher": "Virgin Interactive",
+            "publisherSite": "http://www.vie.co.uk/",
+            "developer": "Altar Interactive",
+            "developerSite": "http://www.altarinteractive.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1642.html",
+            "description": "Обои Original War. После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/oww1.jpg",
+              "assets/img/content/oww2.jpg",
+              "assets/img/content/oww3.jpg",
+              "assets/img/content/oww4.jpg",
+              "assets/img/content/oww5.jpg"
+            ]
+          },
+          {
+            "id": "wp_starmageddon_project_earth",
+            "name": "Starmageddon (Project Earth)",
+            "genre": "Стратегия",
+            "publisher": "Dreamcatcher Interactive",
+            "publisherSite": "http://www.dreamcatchergames.com/",
+            "developer": "Lemon Interactive",
+            "developerSite": "http://www.lemon-interactive.com/",
+            "gameSite": "http://www.lemon-interactive.com/starmageddon.html",
+            "ourSite": "http://www.gamenavigator.ru/games/game1549.html",
+            "description": "Обои Starmageddon (Project Earth). После увеличения картинки, правой клавишей мыши можно сохранить ее либо установить на рабочий стол.",
+            "images": [
+              "assets/img/content/prj1.jpg",
+              "assets/img/content/prj2.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "screenshots_group",
+        "name": "Скриншоты",
+        "isParent": true,
+        "description": "Скриншоты",
+        "images": [],
+        "children": [
+          {
+            "id": "ss_adventure_pinball_forgotten_island",
+            "name": "Adventure Pinball: Forgotten Island",
+            "genre": "Arcade",
+            "publisher": "EA",
+            "developer": "Digital Extremes",
+            "requirements": "Pentium II 233, 32 Mb RAM, 4 Mb 3D-уск.",
+            "rating": "4,5",
+            "description": "Скриншоты к Mini-Review Adventure Pinball: Forgotten Island\nСледуя по стопам 3D UltraPinball: Lost Continent, разработчики APFI не только исполнили игру в безоговорочном 3D, но и поместили, точнее, прямо таки вживили пинбольные столы в доисторический антураж, наполнив последний всей необходимой атрибутикой эпохи, начиная с первобытного людского племени и заканчивая бесцеремонно шастающими по столам Ти-Рексами.",
+            "images": [
+              "assets/img/content/advp1.jpg",
+              "assets/img/content/advp2.jpg",
+              "assets/img/content/advp3.jpg",
+              "assets/img/content/advp4.jpg"
+            ]
+          },
+          {
+            "id": "ss_another_war",
+            "name": "Another War",
+            "genre": "RPG",
+            "publisher": "Cenega/Акелла",
+            "developer": "Mirage Interactive",
+            "releaseDate": "Весна 2002 года",
+            "description": "Скриншоты к Another War",
+            "images": [
+              "assets/img/content/aw1.jpg",
+              "assets/img/content/aw2.jpg",
+              "assets/img/content/aw3.jpg"
+            ]
+          },
+          {
+            "id": "ss_carnivores_cityscape",
+            "name": "Carnivores: Cityscape",
+            "genre": "FPS",
+            "publisher": "Infogrames",
+            "developer": "Sunstorm Interactive",
+            "requirements": "Pentium-II 400, 64 Mb RAM",
+            "rating": "2,5",
+            "description": "Скриншоты к Mini-Review Carnivores: Cityscape\nУ этой игры было все для того, чтобы стать хитом: неплохо раскрученная игровая вселенная Carnivores, доставшаяся от Action Forms, движок Serious Engine, репутация предыдущих игр серии. В результате же мы получили на свою голову продукт, в настоящее время являющийся худшим шутером 2002 года.",
+            "images": [
+              "assets/img/content/cityscape1.jpg",
+              "assets/img/content/cityscape2.jpg",
+              "assets/img/content/cityscape3.jpg",
+              "assets/img/content/cityscape4.jpg"
+            ]
+          },
+          {
+            "id": "ss_dark_planet_battle_for_natrolis",
+            "name": "Dark Planet: Battle for Natrolis",
+            "genre": "RTS",
+            "publisher": "Ubisoft",
+            "publisherSite": "http://www.ubisoft.com/",
+            "developer": "Edgies",
+            "developerSite": "http://www.edgies.com/",
+            "gameSite": "http://www.ubi.com/US/Games/darkplanet/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2419.html",
+            "requirements": "Pentium III 450, 64 Mb RAM, 3D",
+            "recommended": "Pentium III 800, 128 Mb RAM",
+            "description": "Скриншоты к Dark Planet: Battle for Natrolis2002.",
+            "images": [
+              "assets/img/content/darkp1.jpg",
+              "assets/img/content/darkp2.jpg",
+              "assets/img/content/darkp3.jpg"
+            ]
+          },
+          {
+            "id": "ss_disneys_extreme_goofy_skateboarding",
+            "name": "Disney's Extreme Goofy Skateboarding",
+            "genre": "Симулятор поведения собаки",
+            "publisher": "Disney Interactive",
+            "developer": "Krome Studios",
+            "requirements": "Pentium 366, 64 Mb RAM",
+            "rating": "5,7",
+            "description": "Скриншоты к Disney's Extreme Goofy Skateboarding\nНа самом деле, если говорить немного более серьезно - это все Activision со своим непревзотренным \"Тони Хоком\". Именно эти ребята спровоцировали самый настоящий бум в жанре игр, так или иначе затрагивающих очень модную ныне тему экстремальных видов спорта, а в особенности, скейтбординга. Вот господа из Disney Interactive и решили немного нагреться на горячей тематике, предложив нам продукт явной ориентации на детскую часть населения, в который, как это ни странно, можно спокойно рубиться, даже будучи взрослым человеком. Правда, недолго.",
+            "images": [
+              "assets/img/content/goofy1.jpg",
+              "assets/img/content/goofy2.jpg",
+              "assets/img/content/goofy3.jpg",
+              "assets/img/content/goofy4.jpg"
+            ]
+          },
+          {
+            "id": "ss_dragon_throne_battle_of_red_cliffs",
+            "name": "Dragon Throne: Battle of Red Cliffs",
+            "genre": "RTS",
+            "publisher": "Strategy First",
+            "publisherSite": "http://www.strategyfirst.com/",
+            "developer": "Object Software",
+            "developerSite": "http://www.objectsw.com/",
+            "gameSite": "http://202.130.3.136/products/zhuanqu/sanfen/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2352.html",
+            "requirements": "Pentium II 266, 64 Mb RAM",
+            "recommended": "Pentium III 800, 128 Mb RAM",
+            "description": "Скриншоты к Dragon Throne: Battle of Red Cliffs",
+            "images": [
+              "assets/img/content/dragon1.jpg",
+              "assets/img/content/dragon2.jpg",
+              "assets/img/content/dragon3.jpg",
+              "assets/img/content/dragon4.jpg",
+              "assets/img/content/dragon5.jpg",
+              "assets/img/content/dragon6.jpg",
+              "assets/img/content/dragon7.jpg"
+            ]
+          },
+          {
+            "id": "ss_dungeon_siege",
+            "name": "Dungeon Siege",
+            "genre": "RPG",
+            "publisher": "Microsoft",
+            "publisherSite": "http://www.microsoft.com/",
+            "developer": "Gas Powered Games",
+            "developerSite": "http://www.gaspoweredgames.com",
+            "gameSite": "http://www.dungeonsiege.com",
+            "ourSite": "http://www.gamenavigator.ru/games/game1398.html",
+            "requirements": "Pentium II 450, 64 Mb RAM, 8 Mb 3D уск.",
+            "recommended": "Pentium III 800, 256 Mb RAM, 32 Mb 3D уск.",
+            "description": "Скриншоты к Dungeon Siege",
+            "images": [
+              "assets/img/content/duns1.jpg",
+              "assets/img/content/duns2.jpg",
+              "assets/img/content/duns3.jpg",
+              "assets/img/content/duns4.jpg",
+              "assets/img/content/duns5.jpg",
+              "assets/img/content/duns6.jpg",
+              "assets/img/content/duns7.jpg",
+              "assets/img/content/duns8.jpg",
+              "assets/img/content/duns9.jpg",
+              "assets/img/content/duns10.jpg"
+            ]
+          },
+          {
+            "id": "ss_espn_nfl_primetime_2002",
+            "name": "ESPN NFL Primetime 2002",
+            "genre": "Спортивный симулятор",
+            "publisher": "Konami",
+            "publisherSite": "http://www.konami.com/",
+            "developer": "FarSight Studios",
+            "developerSite": "http://www.farsightstudios.com/",
+            "gameSite": "http://www.farsightstudios.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2612.html",
+            "requirements": "Pentium 333, 64 Mb RAM, 3D",
+            "recommended": "Pentium III-733, 128 Mb RAM",
+            "description": "Скриншоты к ESPN NFL Primetime 2002.",
+            "images": [
+              "assets/img/content/prim1.jpg",
+              "assets/img/content/prim2.jpg",
+              "assets/img/content/prim3.jpg"
+            ]
+          },
+          {
+            "id": "ss_fighter_ace_3",
+            "name": "Fighter Ace III",
+            "genre": "Онлайновый авиасимулятор",
+            "publisher": "VR-1 Entertainment",
+            "publisherSite": "http://www.vr1.com/",
+            "developer": "VR-1 Entertainment",
+            "developerSite": "http://www.vr1.com/",
+            "gameSite": "http://fighterace.vr1.com",
+            "ourSite": "http://www.gamenavigator.ru/games/game2527.html",
+            "requirements": "Pentium-II 400, 128 Mb RAM, 3D (32 Mb)",
+            "recommended": "Pentium-III 650, 256 Mb RAM, 3D (64 Mb)",
+            "description": "Скриншоты к Fighter Ace III",
+            "images": [
+              "assets/img/content/ace1.jpg",
+              "assets/img/content/ace2.jpg",
+              "assets/img/content/ace3.jpg",
+              "assets/img/content/ace4.jpg",
+              "assets/img/content/ace5.jpg"
+            ]
+          },
+          {
+            "id": "ss_firestarter",
+            "name": "FireStarter",
+            "genre": "FPS",
+            "publisher": "Руссобит-М",
+            "publisherSite": "http://www.russobit-m.ru",
+            "developer": "GSC GameWorld",
+            "developerSite": "http://www.gsc-game.com",
+            "gameSite": "http://www.FireStarter-game.com",
+            "ourSite": "http://www.gamenavigator.ru/games/game2331.html",
+            "description": "Скриншоты к FireStarter",
+            "images": [
+              "assets/img/content/fire1.jpg",
+              "assets/img/content/fire2.jpg",
+              "assets/img/content/fire3.jpg",
+              "assets/img/content/fire4.jpg",
+              "assets/img/content/fire5.jpg"
+            ]
+          },
+          {
+            "id": "ss_freedom_force",
+            "name": "Freedom Force",
+            "genre": "RPG/Тактика",
+            "publisher": "Crave Entertainment",
+            "publisherSite": "http://www.cravegames.com",
+            "developer": "Irrational Games",
+            "developerSite": "http://www.irrational.com.au",
+            "gameSite": "http://myfreedomforce.com",
+            "ourSite": "http://www.gamenavigator.ru/games/game1490.html",
+            "description": "Скриншоты к Freedom Force",
+            "images": [
+              "assets/img/content/screen1.jpg",
+              "assets/img/content/screen2.jpg",
+              "assets/img/content/screen3.jpg",
+              "assets/img/content/screen4.jpg",
+              "assets/img/content/screen5.jpg",
+              "assets/img/content/screen6.jpg"
+            ]
+          },
+          {
+            "id": "ss_galactic_civilizations",
+            "name": "Galactic Civilizations",
+            "genre": "Space Strategy (4X)",
+            "publisher": "Stardock",
+            "publisherSite": "http://www.stardock.com/",
+            "developer": "Stardock",
+            "developerSite": "http://www.stardock.com/",
+            "gameSite": "http://www.galciv.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2613.html",
+            "description": "Скриншоты к Galactic Civilizations",
+            "images": [
+              "assets/img/content/galciv1.jpg",
+              "assets/img/content/galciv2.jpg",
+              "assets/img/content/galciv3.jpg"
+            ]
+          },
+          {
+            "id": "ss_global_operations",
+            "name": "Global Operations",
+            "genre": "Тактический 3D Action",
+            "publisher": "EA/Crave Entertainment",
+            "publisherSite": "http://www.cravegames.com/",
+            "developer": "Barking Dog Studios",
+            "developerSite": "http://www.barking-dog.com/",
+            "gameSite": "http://www.globalopsgame.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1215.html",
+            "description": "Скриншоты к Global Operations",
+            "images": [
+              "assets/img/content/gops1.jpg",
+              "assets/img/content/gops2.jpg",
+              "assets/img/content/gops3.jpg",
+              "assets/img/content/gops4.jpg",
+              "assets/img/content/gops5.jpg",
+              "assets/img/content/gops6.jpg",
+              "assets/img/content/gops7.jpg",
+              "assets/img/content/gops8.jpg"
+            ]
+          },
+          {
+            "id": "ss_grandia_2",
+            "name": "Grandia II",
+            "genre": "Console RPG",
+            "publisher": "Ubi Soft",
+            "publisherSite": "http://www.ubi.com/US/",
+            "developer": "Game Arts",
+            "developerSite": "http://www.gamearts.co.jp/",
+            "gameSite": "http://grandia2.ubi.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2183.html",
+            "description": "Скриншоты к Grandia II",
+            "images": [
+              "assets/img/content/gr1.jpg",
+              "assets/img/content/gr2.jpg",
+              "assets/img/content/gr3.jpg",
+              "assets/img/content/gr4.jpg",
+              "assets/img/content/gr5.jpg",
+              "assets/img/content/gr6.jpg",
+              "assets/img/content/gr7.jpg",
+              "assets/img/content/gr8.jpg",
+              "assets/img/content/gr9.jpg"
+            ]
+          },
+          {
+            "id": "ss_janes_attack_squadron",
+            "name": "Jane's Attack Squadron",
+            "genre": "Авиасимулятор",
+            "publisher": "Xicat",
+            "publisherSite": "http://www.xicat.com/",
+            "developer": "Mad Doc Software",
+            "developerSite": "http://www.maddocsoftware.com/",
+            "gameSite": "http://www.xicat.com/games/JanesAttackSquadron.html",
+            "ourSite": "http://www.gamenavigator.ru/games/game2043.html",
+            "description": "Скриншоты к статье \"Из жизни зомби\" Jane's Attack Squadron.",
+            "images": [
+              "assets/img/content/jas1.jpg",
+              "assets/img/content/jas2.jpg",
+              "assets/img/content/jas3.jpg",
+              "assets/img/content/jas4.jpg",
+              "assets/img/content/jas2.jpg",
+              "assets/img/content/jas6.jpg",
+              "assets/img/content/jas7.jpg",
+              "assets/img/content/jas8.jpg"
+            ]
+          },
+          {
+            "id": "ss_legacy_of_kain_blood_omen_2",
+            "name": "Legacy Of Kain: Blood Omen 2",
+            "genre": "Action/RPG",
+            "publisher": "Eidos",
+            "publisherSite": "http://www.eidos.com/",
+            "developer": "Crystal Dynamics",
+            "developerSite": "http://www.crystald.com/",
+            "gameSite": "http://www.legacyofkain.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2453.html",
+            "requirements": "PentiumII 400MHz, 128MbRAM, 3D-уск",
+            "recommended": "PentiumIII 600 MHz",
+            "description": "Скриншоты к Legacy Of Kain: Blood Omen 2",
+            "images": [
+              "assets/img/content/bo1.jpg",
+              "assets/img/content/bo2.jpg",
+              "assets/img/content/bo3.jpg",
+              "assets/img/content/bo4.jpg",
+              "assets/img/content/bo5.jpg",
+              "assets/img/content/bo6.jpg",
+              "assets/img/content/bo7.jpg",
+              "assets/img/content/bo8.jpg"
+            ]
+          },
+          {
+            "id": "ss_medieval_total_war",
+            "name": "Medieval: Total War",
+            "genre": "Стратегия",
+            "publisher": "Electronic Arts",
+            "publisherSite": "http://www.ea.com",
+            "developer": "Creative Assembly",
+            "developerSite": "http://www.creative-assembly.co.uk/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2180.html",
+            "description": "Скриншоты Medieval: Total War. Игра \"Medieval: Total War\" является продолжением хита Shogun: Total War. Первоначально носила рабочее название \"Crusader: Total War\".",
+            "images": [
+              "assets/img/content/mtw1.jpg",
+              "assets/img/content/mtw2.jpg",
+              "assets/img/content/mtw3.jpg",
+              "assets/img/content/mtw4.jpg",
+              "assets/img/content/mtw5.jpg",
+              "assets/img/content/mtw6.jpg",
+              "assets/img/content/mtw7.jpg",
+              "assets/img/content/mtw8.jpg"
+            ]
+          },
+          {
+            "id": "ss_might_and_magic_9",
+            "name": "Might & Magic IX",
+            "genre": "RPG",
+            "publisher": "Бука, 3DO",
+            "publisherSite": "http://www.buka.ru/\nhttp://www.3do.com/",
+            "developer": "New World Computing",
+            "developerSite": "http://www.3do.com/",
+            "gameSite": "http://www.3do.com/mightandmagic/ix/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2517.html",
+            "description": "Скриншоты к Might & Magic IX",
+            "images": [
+              "assets/img/content/mm1.jpg",
+              "assets/img/content/mm2.jpg",
+              "assets/img/content/mm3.jpg",
+              "assets/img/content/mm4.jpg",
+              "assets/img/content/mm5.jpg",
+              "assets/img/content/mm6.jpg",
+              "assets/img/content/mm7.jpg",
+              "assets/img/content/mm8.jpg",
+              "assets/img/content/mm9.jpg"
+            ]
+          },
+          {
+            "id": "ss_nightstone",
+            "name": "Nightstone",
+            "genre": "Дьябло",
+            "publisher": "Virgin Interactive",
+            "publisherSite": "http://www.vie.co.uk/",
+            "developer": "New Horizon Studios",
+            "developerSite": "http://www.new-hs.com",
+            "ourSite": "http://www.gamenavigator.ru/games/game2343.html",
+            "description": "Скриншоты к Nightstone",
+            "images": [
+              "assets/img/content/n1.jpg",
+              "assets/img/content/n2.jpg",
+              "assets/img/content/n3.jpg",
+              "assets/img/content/n4.jpg",
+              "assets/img/content/n5.jpg",
+              "assets/img/content/n6.jpg",
+              "assets/img/content/n7.jpg",
+              "assets/img/content/n8.jpg"
+            ]
+          },
+          {
+            "id": "ss_original_war",
+            "name": "Original War",
+            "genre": "Стратегия",
+            "publisher": "Virgin Interactive",
+            "publisherSite": "http://www.vie.co.uk/",
+            "developer": "Altar Interactive",
+            "developerSite": "http://www.altarinteractive.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1642.html",
+            "description": "Скриншоты Original War.",
+            "images": [
+              "assets/img/content/ow1.jpg",
+              "assets/img/content/ow2.jpg",
+              "assets/img/content/ow3.jpg",
+              "assets/img/content/ow4.jpg",
+              "assets/img/content/ow5.jpg"
+            ]
+          },
+          {
+            "id": "ss_star_wars_jedi_knight_2_jedi_outcast",
+            "name": "Star Wars: Jedi Knight II: Jedi Outcast",
+            "genre": "FPS/TPS",
+            "publisher": "LucasArts/Activision",
+            "publisherSite": "http://www.lucasarts.com/",
+            "developer": "Raven Software",
+            "developerSite": "http://www.ravensoft.com/",
+            "gameSite": "http://www.lucasarts.com/products/outcast/html/default.htm",
+            "ourSite": "http://www.gamenavigator.ru/games/game1259.html",
+            "description": "Скриншоты к статье Star Wars: Jedi Knight II: Jedi Outcast Возвращение джедая",
+            "images": [
+              "assets/img/content/jed1.jpg",
+              "assets/img/content/jed2.jpg",
+              "assets/img/content/jed3.jpg",
+              "assets/img/content/jed4.jpg",
+              "assets/img/content/jed5.jpg",
+              "assets/img/content/jed6.jpg"
+            ]
+          },
+          {
+            "id": "ss_tom_and_jerry_in_fists_of_furry",
+            "name": "Tom & Jerry in Fists of Furry",
+            "genre": "Файтинг",
+            "publisher": "UbiSoft/Руссобит-М",
+            "developer": "NewKidCo",
+            "requirements": "Pentium-II 233, 64 Mb RAM",
+            "rating": "6,1",
+            "description": "Скриншоты к Mini-Review Tom & Jerry in Fists of Furry\nМультипликационные герои всегда будут любимы детворой, а значит - и компьютерными компаниями, выпускающими игры: первые радуются, вторые подсчитывают прибыль. Особенно радуются и те, и другие, когда речь идет о выпуске игры про похождения очень известных персонажей, которых знают и обожают если не все, то большинство маленьких непосед. Таких мультяхов в истории анимации немного, но вот известнейшие разборки Тома и Джерри к ним отнести можно без всяких оговорок. Уже более полувека лупят они друг друга фурнитурой и бытовой техникой, а все равно всем весело.",
+            "images": [
+              "assets/img/content/tj1.jpg",
+              "assets/img/content/tj2.jpg",
+              "assets/img/content/tj3.jpg"
+            ]
+          },
+          {
+            "id": "ss_tony_hawks_pro_skater_3",
+            "name": "Tony Hawk's Pro Skater 3",
+            "genre": "Скейтбординг",
+            "publisher": "Activision",
+            "publisherSite": "http://www.activision.com/",
+            "developer": "Gearbox Software",
+            "developerSite": "http://www.gearboxsoftware.com/",
+            "gameSite": "http://www.planettonyhawk.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2120.html",
+            "description": "Скриншоты к Tony Hawk's Pro Skater 3",
+            "images": [
+              "assets/img/content/tonyhawk1.jpg",
+              "assets/img/content/tonyhawk2.jpg",
+              "assets/img/content/tonyhawk3.jpg",
+              "assets/img/content/tonyhawk4.jpg",
+              "assets/img/content/tonyhawk5.jpg"
+            ]
+          },
+          {
+            "id": "ss_ultimate_skateboard_park_tycoon",
+            "name": "Ultimate Skateboard Park Tycoon",
+            "genre": "Менеджмент+скейтбординг",
+            "publisher": "Activision Value",
+            "publisherSite": "http://www.activision.com/",
+            "developer": "Cat Daddy Games",
+            "developerSite": "http://www.catdaddy.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game2588.html",
+            "description": "Скриншоты к Ultimate Skateboard Park Tycoon",
+            "images": [
+              "assets/img/content/skate_tycoon1.jpg",
+              "assets/img/content/skate_tycoon2.jpg",
+              "assets/img/content/skate_tycoon3.jpg",
+              "assets/img/content/skate_tycoon4.jpg"
+            ]
+          },
+          {
+            "id": "ss_vip",
+            "name": "V.I.P.",
+            "genre": "Симулятор блондинки",
+            "publisher": "UbiSoft/Руссобит-М",
+            "developer": "Kalisto",
+            "requirements": "Pentium-II 400, 64 Mb RAM",
+            "rating": "5,3",
+            "description": "Скриншоты к Mini-Review V.I.P.\nКто такая Валери Айронс сотоварищи объяснять, наверное, особо никому не надо. Трудами нашего Общественного Российского сериал про \"Девушек с характером\" проведали все, оценили актерский талант (или что там у нее вместо?) секс-дивы Памелы Ли Андерсон (П.Л.А.), да и забыли про нее. А вот она, судя по всему, нет. В результате чего объединенными стараниями Kalisto и Ubi Soft на наш суд предстал 3D вариант агентства V.I.P. во всей его красе.",
+            "images": [
+              "assets/img/content/vip1.jpg",
+              "assets/img/content/vip2.jpg",
+              "assets/img/content/vip3.jpg"
+            ]
+          },
+          {
+            "id": "ss_warcommander",
+            "name": "WarCommander",
+            "genre": "Squad-based tactical RTS",
+            "publisher": "CDV",
+            "publisherSite": "http://www.cdv.de/",
+            "developer": "Independent Arts Software",
+            "developerSite": "http://www.independent-arts-software.de/",
+            "gameSite": "http://www.warcommander.com/",
+            "ourSite": "http://www.gamenavigator.ru/games/game1726.html",
+            "description": "Скриншоты к WarCommander",
+            "images": [
+              "assets/img/content/wc1.jpg",
+              "assets/img/content/wc2.jpg",
+              "assets/img/content/wc3.jpg",
+              "assets/img/content/wc4.jpg",
+              "assets/img/content/wc5.jpg",
+              "assets/img/content/wc6.jpg"
+            ]
+          },
+          {
+            "id": "ss_wwii_desert_rats",
+            "name": "WWII: Desert Rats",
+            "genre": "TPS",
+            "publisher": "ValuSoft",
+            "publisherSite": "http://www.valusoft.com",
+            "developer": "Canopy Games",
+            "developerSite": "http://www.canopygames.com",
+            "gameSite": "http://www.valusoft.com/products/desertrats.html",
+            "ourSite": "http://www.gamenavigator.ru/games/game2520.html",
+            "description": "Скриншоты к WWII: Desert Rats",
+            "images": [
+              "assets/img/content/drats1.jpg",
+              "assets/img/content/drats2.jpg",
+              "assets/img/content/drats3.jpg",
+              "assets/img/content/drats4.jpg",
+              "assets/img/content/drats5.jpg"
+            ]
+          },
+          {
+            "id": "ss_xenus",
+            "name": "Xenus",
+            "genre": "3D action/RPG",
+            "publisher": "Не объявлен",
+            "developer": "Deep Shadows",
+            "developerSite": "http://www.deep-shadows.com/",
+            "gameSite": "http://www.deep-shadows.com/ru/xenus_overview.html",
+            "ourSite": "http://www.gamenavigator.ru/games/game2325.html",
+            "description": "Скриншоты к Xenus",
+            "images": [
+              "assets/img/content/xenus1.jpg",
+              "assets/img/content/xenus2.jpg",
+              "assets/img/content/xenus3.jpg",
+              "assets/img/content/xenus4.jpg",
+              "assets/img/content/xenus5.jpg",
+              "assets/img/content/xenus6.jpg"
+            ]
+          },
+          {
+            "id": "ss_il2_sturmovik_addon_104",
+            "name": "\"Ил-2 Штурмовик\", адд-он 1.04",
+            "genre": "Авиасимулятор",
+            "publisher": "1C",
+            "publisherSite": "http://www.1c.ru/",
+            "developer": "1C:Maddox Games",
+            "developerSite": "http://www.1c.ru/",
+            "gameSite": "http://games.1c.ru/il2.htm",
+            "ourSite": "http://www.gamenavigator.ru/games/game756.html",
+            "description": "Скриншоты к статье Secret Weapons of the VVS \"Ил-2 Штурмовик\", адд-он 1.04.",
+            "images": [
+              "assets/img/content/il1.jpg",
+              "assets/img/content/il2.jpg",
+              "assets/img/content/il3.jpg",
+              "assets/img/content/il4.jpg",
+              "assets/img/content/il5.jpg",
+              "assets/img/content/il6.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "articles_group",
+        "name": "Статьи",
+        "isParent": true,
+        "description": "",
+        "images": [],
+        "children": [
+          {
+            "id": "art_atrox",
+            "name": "Atrox",
+            "genre": "Стратегия",
+            "publisher": "Joymax",
+            "publisherUrl": "http://www.joymax.com/",
+            "developer": "Joymax",
+            "developerUrl": "http://www.joymax.com/",
+            "gameUrl": "http://www.joymax.com/",
+            "nimUrl": "",
+            "description": "Статья по игре Atrox. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/atrox.html",
+            "images": []
+          },
+          {
+            "id": "art_beam_breakers",
+            "name": "Beam Breakers",
+            "genre": "Action",
+            "publisher": "Fishtank Interactive",
+            "publisherUrl": "http://www.fishtankgames.de/",
+            "developer": "Similis Software",
+            "developerUrl": "http://www.similis.com/interactive/opener.html",
+            "gameUrl": "http://www.similis.com/interactive/opener.html",
+            "nimUrl": "http://www.gamenavigator.ru/games/game1578.html",
+            "description": "Demo-превью по Beam Breakers. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/beambreakers.html",
+            "images": []
+          },
+          {
+            "id": "art_blackhawk_striker",
+            "name": "Blackhawk Striker",
+            "genre": "Аркада",
+            "publisher": "WildTangent",
+            "publisherUrl": "http://www.wildtangent.com/",
+            "developer": "WildTangent",
+            "developerUrl": "http://www.wildtangent.com/",
+            "gameUrl": "http://www.wildtangent.com/",
+            "nimUrl": "",
+            "description": "Статья по игре Blackhawk Striker. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/bhawk.html",
+            "images": [              "assets/img/content/bhawk1.jpg",
+              "assets/img/content/bhawk2.jpg",
+              "assets/img/content/bhawk3.jpg"]
+          },
+          {
+            "id": "art_dark_orbit",
+            "name": "Dark Orbit",
+            "genre": "Action/RPG",
+            "publisher": "WildTangent",
+            "publisherUrl": "http://www.wildtangent.com/",
+            "developer": "WildTangent",
+            "developerUrl": "http://www.wildtangent.com/",
+            "gameUrl": "http://www.wildtangent.com/",
+            "nimUrl": "",
+            "description": "Статья по игре Dark Orbit. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/darkorbit.html",
+            "images": [              "assets/img/content/dorbit1.jpg",
+              "assets/img/content/dorbit2.jpg",
+              "assets/img/content/dorbit3.jpg"]
+          },
+          {
+            "id": "art_sabrewing2",
+            "name": "SabreWing 2",
+            "genre": "Космический симулятор",
+            "publisher": "WildTangent",
+            "publisherUrl": "http://www.wildtangent.com/",
+            "developer": "WildTangent",
+            "developerUrl": "http://www.wildtangent.com/",
+            "gameUrl": "http://www.wildtangent.com/",
+            "nimUrl": "",
+            "description": "Статья по игре SabreWing 2. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/sabrewing2.html",
+            "images": [              "assets/img/content/swing1.jpg",
+              "assets/img/content/swing2.jpg",
+              "assets/img/content/swing3.jpg",
+              "assets/img/content/swing4.jpg"]
+          },
+          {
+            "id": "art_starshatter",
+            "name": "Starshatter",
+            "genre": "Космический симулятор",
+            "publisher": "Matrix Games",
+            "publisherUrl": "http://www.matrixgames.com/",
+            "developer": "Destroyer Studios",
+            "developerUrl": "http://www.starshatter.com/",
+            "gameUrl": "http://www.starshatter.com/",
+            "nimUrl": "",
+            "description": "Статья по игре Starshatter. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/starshatter.html",
+            "images": []
+          },
+          {
+            "id": "art_hl_mods",
+            "name": "Обзор основных Half-Life - модов",
+            "genre": "Action",
+            "publisher": "Sierra Entertainment",
+            "publisherUrl": "",
+            "developer": "Valve",
+            "developerUrl": "",
+            "gameUrl": "",
+            "nimUrl": "",
+            "description": "Обзор основных Half-Life - модов. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/hlmods60.html",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": "walkthroughs_group",
+        "name": "Прохождения",
+        "isParent": true,
+        "description": "",
+        "images": [],
+        "children": [
+          {
+            "id": "walk_grandia2",
+            "name": "Grandia II",
+            "genre": "RPG",
+            "publisher": "Ubi Soft",
+            "developer": "Game Arts",
+            "description": "Прохождение Grandia II. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/grandia2.html",
+            "images": []
+          },
+          {
+            "id": "walk_op_flashpoint",
+            "name": "Operation Flashpoint: Red Hammer",
+            "genre": "Action",
+            "publisher": "Codemasters Software",
+            "developer": "Bohemia Interactive Studio",
+            "description": "Прохождение Operation Flashpoint: Red Hammer. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/redhammerguide.html",
+            "images": []
+          },
+          {
+            "id": "walk_sw_jedi_outcast",
+            "name": "Star Wars Jedi Knight 2: Jedi Outcast",
+            "genre": "Action",
+            "publisher": "Activision",
+            "developer": "Raven Software",
+            "description": "Прохождение Star Wars Jedi Knight 2: Jedi Outcast. Для просмотра нажмите клавишу View.",
+            "hasViewButton": true,
+            "url": "assets/html/guides/jk2guide.html",
+            "images": [              "assets/img/content/boxsw1.jpg"]
+          }
+        ]
+      }
+    ]
+  }
+}

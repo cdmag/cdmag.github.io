@@ -1,0 +1,60 @@
+{
+  "id": "patches",
+  "title": "Заплатки",
+  "items": [
+    {
+      "type": "file",
+      "label": "Age of Mythology (патч 1.01)",
+      "id": "age-of-mythology",
+      "src": "patches/age-of-mythology.html"
+    },
+    {
+      "type": "file",
+      "label": "Arx Fatalis (патч 1.15)",
+      "id": "arx-fatalis",
+      "src": "patches/arx-fatalis.html"
+    },
+    {
+      "type": "file",
+      "label": "Civilization III: Play the World (патч 1.04)",
+      "id": "civilization-iii-play-the-world",
+      "src": "patches/civilization-iii-play-the-world.html"
+    },
+    {
+      "type": "file",
+      "label": "Divine Divinity (патч 1.32)",
+      "id": "divine-divinity",
+      "src": "patches/divine-divinity.html"
+    },
+    {
+      "type": "file",
+      "label": "Hearts of Iron (патч 1.01)",
+      "id": "hearts-of-iron",
+      "src": "patches/hearts-of-iron.html"
+    },
+    {
+      "type": "file",
+      "label": "Hitman 2: Silent Assassin (патч 1.01)",
+      "id": "hitman-2-silent-assassin",
+      "src": "patches/hitman-2-silent-assassin.html"
+    },
+    {
+      "type": "file",
+      "label": "Soldiers of Anarchy (патч 1.1.2.178)",
+      "id": "soldiers-of-anarchy",
+      "src": "patches/soldiers-of-anarchy.html"
+    },
+    {
+      "type": "file",
+      "label": "Warcraft III (патч 1.04)",
+      "id": "warcraft-iii",
+      "src": "patches/warcraft-iii.html"
+    },
+    {
+      "type": "file",
+      "label": "Европа II (патч 1.05)",
+      "id": "europa-ii",
+      "src": "patches/europa-ii.html"
+    }
+  ]
+}

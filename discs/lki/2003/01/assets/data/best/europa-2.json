@@ -1,0 +1,29 @@
+{
+  "id": "europa-2",
+  "title": "Europa II",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Europa II...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Карты",
+      "id": "maps",
+      "src": "best/europa-2/maps.html"
+    },
+    {
+      "type": "file",
+      "label": "Генератор сценариев",
+      "id": "scenario-generator",
+      "src": "best/europa-2/scenario-generator.html"
+    },
+    {
+      "type": "file",
+      "label": "Музыка",
+      "id": "music",
+      "src": "best/europa-2/music.html"
+    }
+  ]
+}

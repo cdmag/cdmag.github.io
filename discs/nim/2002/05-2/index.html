@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Все для стратега — Часть 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <div class="panel-left">
+      <ul class="tree" id="tree"></ul>
+    </div>
+
+    <div class="panel-right">
+      <div class="content-area" id="content"></div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-img-wrap" id="lightbox-wrap">
+        <img id="lightbox-img" src="" alt="" draggable="false">
+        <div class="lightbox-hit" id="lightbox-hit"></div>
+        <div class="lightbox-hint">Щелкните левой кнопкой для того, чтобы закрыть это окно
+Щелкните правой кнопкой, чтобы выбрать действие над картинкой
+Для перебора картинок, используйте клавиши:
+Стрелка влево, PgUp          - предыдущая картинка
+Стрелка вправо, PgDown     - следующая картинка</div>
+      </div>
+    </div>
+
+    <div class="btn-slot" id="btn-fp" data-prefix="fp" title="Operation Flashpoint">
+      <img src="assets/img/ui/fp1.webp" alt="Operation Flashpoint">
+    </div>
+    <div class="btn-slot" id="btn-starcb" data-prefix="starcb" title="StarCraft">
+      <img src="assets/img/ui/starcb1.webp" alt="StarCraft">
+    </div>
+    <div class="btn-slot" id="btn-heroes" data-prefix="heroes" title="Heroes of Might and Magic III">
+      <img src="assets/img/ui/heroes1.webp" alt="Heroes III">
+    </div>
+    <div class="btn-slot" id="btn-redalert" data-prefix="redalert" title="Command &amp; Conquer: Red Alert 2">
+      <img src="assets/img/ui/redalert1.webp" alt="Red Alert 2">
+    </div>
+    <div class="btn-slot" id="btn-cossacb" data-prefix="cossacb" title="Казаки: Европейские войны">
+      <img src="assets/img/ui/cossacb1.webp" alt="Казаки">
+    </div>
+    <div class="btn-slot" id="btn-sstrike" data-prefix="sstrike" title="Противостояние III">
+      <img src="assets/img/ui/sstrike1.webp" alt="Противостояние III">
+    </div>
+
+    <!-- Intro Video Modal -->
+    <div id="intro-modal">
+      <div class="intro-wrapper">
+        <button id="btn-intro-close" title="Закрыть">Пропустить / Закрыть ✕</button>
+        <iframe id="intro-iframe" src="" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" referrerpolicy="no-referrer" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

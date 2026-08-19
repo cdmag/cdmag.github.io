@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навигатор игрового мира</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="shell">
+        <div id="link-status"></div>
+        <!-- Category buttons -->
+        <img id="btn-demos"   class="cat-btn" data-section="demos"   src="assets/img/ui/demos1.webp"   alt="Demos"      width="146" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-video"   class="cat-btn" data-section="video"   src="assets/img/ui/video1.webp"   alt="Videos"     width="168" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-files"   class="cat-btn" data-section="files"   src="assets/img/ui/files1.webp"   alt="Files"      width="164" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-patches" class="cat-btn" data-section="patches" src="assets/img/ui/patches1.webp" alt="Patches"    width="190" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-drvs"    class="cat-btn" data-section="drivers" src="assets/img/ui/drvs1.webp"    alt="Drivers"    width="172" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-bonus"   class="cat-btn" data-section="free"    src="assets/img/ui/free1.webp"    alt="Freeware"   width="158" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-cyber"   class="cat-btn" data-section="cyber"   src="assets/img/ui/cyber1.webp"   alt="Cybersport" width="182" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+        <img id="btn-free"    class="cat-btn" data-section="bonus"   src="assets/img/ui/bonus1.webp"   alt="Bonus"      width="194" height="110" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+
+        <!-- Action button -->
+        <img id="btn-action" src="assets/img/ui/install1.webp" alt="Install" width="202" height="76" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+
+        <!-- Left panel: list -->
+        <div id="panel-left">
+            <ul id="item-list"></ul>
+        </div>
+
+        <!-- Right panel: details -->
+        <div id="panel-right">
+            <div id="right-content">
+                <div class="item-title" id="item-title"></div>
+                <table class="meta-table" id="meta-table"></table>
+                <div class="item-desc" id="item-desc"></div>
+                <div class="item-images" id="item-images"></div>
+            </div>
+            <div class="empty-hint" id="empty-hint">Выберите элемент в списке слева</div>
+        </div>
+
+        <!-- Fullsize Image Modal Viewer -->
+        <div id="img-modal">
+            <div class="modal-wrapper">
+                <img draggable="false" id="modal-img" src="" alt="Fullsize" data-ya-action="disable" data-yandex-image-search="disable">
+                <div class="modal-click-layer"></div>
+                <div class="modal-tooltip">Щелкните левой кнопкой для того, чтобы закрыть это окно
+Щелкните правой кнопкой, чтобы выбрать действие над картинкой
+Для перебора картинок, используйте клавиши:
+  Стрелка влево, PgUp        - предыдущая картинка
+  Стрелка вправо, PgDown      - следующая картинка</div>
+            </div>
+        </div>
+
+        <!-- Guides Overlay Window -->
+        <div id="guides-modal">
+            <div id="guides-container">
+                <img id="btn-guide-print" class="guide-btn" src="assets/img/ui/guides_print_1.webp" alt="Print" width="58" height="54" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+                <img id="btn-guide-close" class="guide-btn" src="assets/img/ui/guides_close_1.webp" alt="Close" width="58" height="54" draggable="false" data-ya-action="disable" data-yandex-image-search="disable">
+                <iframe id="guide-iframe" src="about:blank"></iframe>
+            </div>
+        </div>
+        <!-- Intro Video Modal -->
+<div id="intro-modal">
+    <div class="intro-wrapper">
+        <button id="btn-intro-close" title="Закрыть">Пропустить / Закрыть ✕</button>
+        <iframe id="intro-iframe" src="" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" referrerpolicy="no-referrer" frameborder="0"></iframe>
+    </div>
+</div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

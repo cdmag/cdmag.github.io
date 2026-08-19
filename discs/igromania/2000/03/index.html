@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игромания CD-Book №3 (2000)</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="app-viewport">
+  <div class="app-window" id="appWindow">
+    
+    <!-- ЛЕВАЯ СТРАНИЦА -->
+    <div class="page-zone page-left" id="pageLeft"></div>
+
+    <!-- ПРАВАЯ СТРАНИЦА -->
+    <div class="page-zone page-right" id="pageRight"></div>
+
+    <!-- БОКОВЫЕ ВКЛАДКИ СПРАВА -->
+    <div class="side-tabs">
+      <img src="assets/img/ui/menu-right-1-demos.webp" class="tab-side-img tab-demki" alt="Демки" onclick="openSection('demki')">
+      <img src="assets/img/ui/menu-right-2-soft.webp" class="tab-side-img tab-soft" alt="Софт" onclick="openSection('soft')">
+      <img src="assets/img/ui/menu-right-3-zone.webp" class="tab-side-img tab-zone" alt="Z-Оны" onclick="openSection('zone')">
+      <img src="assets/img/ui/menu-right-4-dlh.webp" class="tab-side-img tab-dlh" alt="DLH" onclick="openSection('dlh')">
+    </div>
+
+    <!-- НИЖНИЕ ВКЛАДКИ СНИЗУ -->
+    <div class="bottom-tabs">
+      <img src="assets/img/ui/menu-bot-install-off.webp" id="btnInstall" class="tab-bottom-img disabled" title="Установить / Открыть" onclick="triggerInstall()" alt="Установка">
+      <img src="assets/img/ui/menu-bot-bell.webp" id="btnMusic" class="tab-bottom-img" title="Музыка" onclick="openSection('music')" alt="Музыка">
+      <img src="assets/img/ui/menu-bot-main.webp" id="btnHome" class="tab-bottom-img" title="На главную" onclick="goHome()" alt="Главное меню">
+    </div>
+
+  </div>
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

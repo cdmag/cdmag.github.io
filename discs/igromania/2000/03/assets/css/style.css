@@ -1,0 +1,323 @@
+/* ---------------- ПОДКЛЮЧЕНИЕ ШРИФТОВ ---------------- */
+@font-face {
+  font-family: 'OldBook';
+  src: url('../fonts/oldbook.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #1a0f08;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.app-viewport {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.app-window {
+  position: relative;
+  width: 1600px;
+  height: 1200px;
+  background: url('../img/ui/book.webp') no-repeat center/contain;
+  transform-origin: center center;
+  flex-shrink: 0;
+}
+
+/* ---------------- СТРАНИЦЫ КНИГИ ---------------- */
+.page-zone {
+  position: absolute;
+  top: 140px;
+  height: 860px;
+  width: 500px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.page-left, .page-right {
+  font-family: 'OldBook', Georgia, serif;
+}
+
+.page-left {
+  left: 210px;
+}
+
+.page-right {
+  left: 770px;
+}
+
+/* ---------------- ГЛАВНАЯ ЛЕВАЯ СТРАНИЦА ---------------- */
+.home-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.home-left-text {
+  width: 100%;
+  text-align: left;
+  font-size: 2.4rem;
+  line-height: 1.35;
+  font-style: normal;
+  color: #1a0f07;
+  margin: 20px 0;
+}
+
+.home-left-text p {
+  margin-bottom: 25px;
+}
+
+/* ---------------- ГЛАВНАЯ ПРАВАЯ СТРАНИЦА ---------------- */
+.front-right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: 'OldBook', Georgia, serif;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.front-title {
+  font-size: 4.5rem;
+  font-weight: normal;
+  margin-top: 0;
+  color: #1a0f07;
+  text-align: center;
+  line-height: 1.0;
+}
+
+.front-subtitle {
+  font-size: 2.8rem;
+  margin-top: 5px;
+  color: #1a0f07;
+  text-align: center;
+}
+
+.front-nox-img {
+  width: 380px;
+  height: auto;
+  margin-top: 10px;
+  pointer-events: none;
+}
+
+.front-copyright {
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  color: #1a0f07;
+}
+
+/* ---------------- ЭЛЕМЕНТЫ КАРТОЧКИ И МЕНЮ ---------------- */
+.page-title {
+  font-family: 'OldBook', Georgia, serif;
+  font-size: 3.2rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #1a0f07;
+  margin-bottom: 15px;
+}
+
+.menu-list, .file-list {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+.page-left .menu-item, .page-right .menu-item {
+  font-family: 'OldBook', Georgia, serif;
+  font-size: 2.8rem;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #1a0f07;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.page-left .menu-item:hover, .page-right .menu-item:hover {
+  color: #8b0000;
+  transform: scale(1.03);
+}
+
+.page-left .menu-item.active {
+  color: #900000;
+  text-shadow: 0 0 1px #900000;
+}
+
+.page-right .file-item {
+  font-family: 'OldBook', Georgia, serif;
+  font-size: 2.2rem;
+  padding: 8px 0;
+  cursor: pointer;
+  color: #1a0f07;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.page-right .file-item:hover {
+  color: #8b0000;
+  transform: scale(1.02);
+}
+
+.divider-img {
+  width: 380px;
+  height: auto;
+  display: block;
+  margin: 5px 0;
+}
+
+/* ---------------- СТИЛИ КОНТЕНТА КАРТОЧКИ (INTER) ---------------- */
+.item-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #000000;
+}
+
+.item-card .item-title {
+  width: 100%;
+  font-family: 'OldBook', Georgia, serif;
+  font-size: 3rem;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.item-meta-block {
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.item-meta-row {
+  margin-bottom: 2px;
+}
+
+.item-image-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.item-image {
+  max-width: 380px;
+  height: auto;
+  border: 2px solid #2b1a0e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.item-description {
+  width: 100%;
+  font-size: 1.45rem;
+  line-height: 1.4;
+  text-align: left;
+  color: #0c0805;
+}
+
+/* ---------------- БОКОВЫЕ ВКЛАДКИ (ИЗОБРАЖЕНИЯ) ---------------- */
+.side-tabs {
+  position: absolute;
+  left: 1285px;
+  top: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 5;
+}
+
+.tab-side-img {
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s;
+  transform: translateX(10px);
+}
+
+.tab-side-img:hover {
+  filter: brightness(1.1);
+}
+
+.tab-side-img.active {
+  transform: translateX(-25px);
+  filter: brightness(1.15);
+}
+
+/* ---------------- НИЖНИЕ ВКЛАДКИ (ИЗОБРАЖЕНИЯ) ---------------- */
+.bottom-tabs {
+  position: absolute;
+  top: 1018px;
+  left: 855px;
+  display: flex;
+  gap: 30px;
+  z-index: 10;
+}
+
+.tab-bottom-img {
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+.tab-bottom-img:hover:not(.disabled) {
+  transform: translateY(4px);
+}
+
+.tab-bottom-img.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.tab-bottom-img.active-install {
+  opacity: 1;
+  filter: drop-shadow(0 0 10px #ffea00);
+  animation: pulse 1.2s infinite alternate;
+}
+
+@keyframes pulse {
+  from { filter: drop-shadow(0 0 4px #ffea00); }
+  to   { filter: drop-shadow(0 0 14px #ffff80); }
+}
+
+/* ---------------- ВИДЕО В КАРТОЧКЕ ---------------- */
+.item-video-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.item-video {
+  width: 380px;
+  height: 215px; /* Пропорция 16:9 при ширине 380px */
+  border: 2px solid #2b1a0e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+}

@@ -1,0 +1,18 @@
+{
+  "id": "about",
+  "title": "О компакте",
+  "items": [
+    {
+      "type": "file",
+      "label": "О КОМПАКТ-ДИСКЕ",
+      "id": "o-kompakt-diske",
+      "src": "about/o-kompakt-diske.html",
+      "unpack": false
+    },
+    {
+      "type": "folder",
+      "label": "СОХРАНЕННЫЕ ИГРЫ",
+      "id": "sohranennye-igry"
+    }
+  ]
+}

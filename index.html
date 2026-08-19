@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDmag — Архив дисковых оболочек</title>
+
+  <script src="assets/js/webamp.lazy-bundle.min.js"></script>
+
+  <!-- Официальный скрипт VK API (подключаем один раз) -->
+  <script src="https://vk.com/js/api/openapi.js?169" charset="windows-1251"></script>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <main class="main-workspace">
+    
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo" id="logo-btn">
+          CDmag <span>АРХИВ</span>
+        </div>
+
+        <button class="select-btn" id="select-btn">
+          Выбрать выпуск <span class="arrow-icon">▼</span>
+        </button>
+
+        <div class="dropdown-menu" id="dropdown-menu">
+          <div class="popover-row">
+            <span class="popover-label">Журнал:</span>
+            <div class="pill-grid" id="magazines-grid"></div>
+          </div>
+          <div class="popover-row">
+            <span class="popover-label">Год:</span>
+            <div class="pill-grid" id="years-grid"></div>
+          </div>
+          <div class="popover-row">
+            <span class="popover-label">Выпуск:</span>
+            <div class="pill-grid" id="issues-grid"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="media-grid">
+        <div class="media-card">
+          <img id="cover-img" src="assets/img/cover-default.webp" class="preview-zoomable" onclick="openImageModal(this.src)" alt="Обложка">
+          <div class="media-title">Журнал</div>
+          <a id="magazine-link" href="#" target="_blank" class="media-link">Читать</a>
+        </div>
+        <div class="media-card">
+          <img id="disc-img" src="assets/img/disc-default.webp" class="preview-zoomable" onclick="openImageModal(this.src)" alt="Скан диска">
+          <div class="media-title">Образ диска</div>
+          <a id="iso-link" href="#" target="_blank" rel="noopener noreferrer" class="media-link">Скачать</a>
+        </div>
+      </div>
+
+      <div class="note-box">
+        <h3 id="disc-title">Выберите диск</h3>
+        <p id="disc-note">Нажмите кнопку «Выбрать выпуск» слева сверху, чтобы открыть нужную интерактивную оболочку.</p>
+      </div>
+
+      <div class="player-section">
+        <div class="player-header">
+          <span>Саундтрек выпуска</span>
+          <div class="player-toggle">
+            <label class="autoplay-toggle" title="Автозапуск саундтрека при выборе выпуска">
+              <input type="checkbox" id="autoplay-check" />
+              <span class="autoplay-switch"></span>
+              <span class="autoplay-label">Auto</span>
+            </label>
+            <button id="toggle-webamp" class="toggle-btn" onclick="switchPlayer('webamp')">WinAMP</button>
+            <button id="toggle-vk" class="toggle-btn" onclick="switchPlayer('vk')">VK</button>
+          </div>
+        </div>
+        <!-- Единый контейнер для обоих плееров -->
+        <div id="player-container" class="vk-container"></div>
+      </div>
+
+      <div class="sidebar-donate">
+        <a href="https://pay.cloudtips.ru/p/82ac52c2" target="_blank" rel="noopener noreferrer">Поддержать проект</a>
+      </div>
+    </aside>
+
+    <section class="viewport">
+      <div class="welcome-screen" id="welcome-screen">
+        <div class="welcome-card">
+          <h1>Добро пожаловать в CDmag!</h1>
+          <p class="welcome-lead">
+            Это онлайн-архив оцифрованных дисковых приложений к легендарным игровым журналам 90-х и 2000-х годов.<br>
+            Выберите нужный журнал в меню навигации <b>слева сверху</b>, укажите год и номер выпуска, чтобы запустить оригинальную оболочку прямо в браузере.
+          </p>
+
+          <h2>Об авторских правах</h2>
+          <p class="legal-text">
+            CDmag создан в некоммерческих архивных и культурно-исторических целях — для сохранения и изучения цифрового наследия игровой эпохи. Все права на оригинальные программы, тексты, изображения, музыку и другие материалы принадлежат их авторам и правообладателям.
+          </p>
+
+          <h2>Персональные данные</h2>
+          <p class="legal-text">
+            Личные контактные данные из старых материалов по возможности скрываются или сокращаются и не используются для рекламы, рассылок или иных целей. Если вы являетесь автором или правообладателем и хотите сообщить о нарушении своих прав или попросить изменить или удалить материал, напишите на <b>cdmag [at] inbox.ru</b>.
+          </p>
+
+          <h2>Нашли ошибку?</h2>
+          <p class="legal-text">
+            Если при просмотре вы обнаружили ошибку, неточность или что-то, что было некорректно восстановлено при оцифровке, напишите на <b>cdmag [at] inbox.ru</b> или сообщите об этом в нашем сообществе ВКонтакте — ссылка ниже.
+          </p>
+
+          <div class="welcome-actions">
+            <a href="https://vk.ru/cdmag" target="_blank" class="vk-community-btn">Сообщество ВКонтакте</a>
+          </div>
+        </div>
+      </div>
+
+      <iframe id="disc-frame" class="disc-iframe" src="about:blank"></iframe>
+    </section>
+
+  </main>
+
+  
+
+  <!-- Окно просмотра обложки -->
+  <div id="image-modal" class="image-modal" onclick="closeImageModal(event)">
+    <span class="image-modal-close">&times;</span>
+    <img id="image-modal-img" src="" alt="Обложка в полном размере">
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

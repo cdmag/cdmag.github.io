@@ -1,0 +1,23 @@
+{
+  "id": "neverwinter-nights",
+  "title": "Neverwinter Nights",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Neverwinter Nights...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Модули",
+      "id": "modules",
+      "src": "best/neverwinter-nights/modules.html"
+    },
+    {
+      "type": "file",
+      "label": "Для разработчика модулей",
+      "id": "developer",
+      "src": "best/neverwinter-nights/developer.html"
+    }
+  ]
+}

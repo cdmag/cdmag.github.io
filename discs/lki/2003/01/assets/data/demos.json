@@ -1,0 +1,16 @@
+{
+  "id": "demos",
+  "title": "Демо и видео",
+  "items": [
+    {
+      "type": "folder",
+      "label": "Демо-версии",
+      "id": "demo-versions"
+    },
+    {
+      "type": "folder",
+      "label": "Видео",
+      "id": "video"
+    }
+  ]
+}

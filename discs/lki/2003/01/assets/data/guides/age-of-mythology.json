@@ -1,0 +1,30 @@
+{
+  "id": "age-of-mythology",
+  "title": "Age of Mythology",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Age of Mythology...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Age of Mythology: Блок №1",
+      "id": "aom-block-1",
+      "src": "guides/age-of-mythology/aom-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Age of Mythology: Блок №2",
+      "id": "aom-block-2",
+      "src": "guides/age-of-mythology/aom-block-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Age of Mythology: Блок №3",
+      "id": "aom-block-3",
+      "src": "guides/age-of-mythology/aom-block-3.html"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "demo-versions",
+  "title": "Демо-версии",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Демо-версии...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Archangel",
+      "id": "archangel",
+      "src": "demos/demo/archangel.html"
+    },
+    {
+      "type": "file",
+      "label": "Blastorama",
+      "id": "blastorama",
+      "src": "demos/demo/blastorama.html"
+    },
+    {
+      "type": "file",
+      "label": "Highland Warriors",
+      "id": "highland-warriors",
+      "src": "demos/demo/highland-warriors.html"
+    },
+    {
+      "type": "file",
+      "label": "Hoyle Games 2003",
+      "id": "hoyle-games-2003",
+      "src": "demos/demo/hoyle-games-2003.html"
+    },
+    {
+      "type": "file",
+      "label": "Magic Sokoban 2.0",
+      "id": "magic-sokoban",
+      "src": "demos/demo/magic-sokoban.html"
+    },
+    {
+      "type": "file",
+      "label": "Molelines",
+      "id": "molelines",
+      "src": "demos/demo/molelines.html"
+    },
+    {
+      "type": "file",
+      "label": "Realm of Hepumia",
+      "id": "realm-of-hepumia",
+      "src": "demos/demo/realm-of-hepumia.html"
+    }
+  ]
+}

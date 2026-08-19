@@ -1,0 +1,23 @@
+{
+  "id": "poleznye-programmy",
+  "title": "Полезные программы",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Полезные программы...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "KeyCraft 1.20",
+      "id": "keycraft",
+      "src": "best/warcraft-3/keycraft.html"
+    },
+    {
+      "type": "file",
+      "label": "Просмотрщики и конвертеры",
+      "id": "viewers-converters",
+      "src": "best/warcraft-3/viewers-converters.html"
+    }
+  ]
+}

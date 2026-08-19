@@ -1,0 +1,102 @@
+{
+  "id": "warcraft-3",
+  "title": "Warcraft III: Reign of Chaos",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Warcraft III...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Введение и основы",
+      "id": "wr3-block-1",
+      "src": "guides/warcraft-3/wr3-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Люди: юниты",
+      "id": "wr3-block-2",
+      "src": "guides/warcraft-3/wr3-block-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Люди: герои, здания, апгрейды",
+      "id": "wr3-block-3",
+      "src": "guides/warcraft-3/wr3-block-3.html"
+    },
+    {
+      "type": "file",
+      "label": "Орки: юниты",
+      "id": "wr3-block-4",
+      "src": "guides/warcraft-3/wr3-block-4.html"
+    },
+    {
+      "type": "file",
+      "label": "Орки: герои, здания, апгрейды",
+      "id": "wr3-block-5",
+      "src": "guides/warcraft-3/wr3-block-5.html"
+    },
+    {
+      "type": "file",
+      "label": "Нежить: юниты",
+      "id": "wr3-block-6",
+      "src": "guides/warcraft-3/wr3-block-6.html"
+    },
+    {
+      "type": "file",
+      "label": "Нежить: герои, здания, апгрейды",
+      "id": "wr3-block-7",
+      "src": "guides/warcraft-3/wr3-block-7.html"
+    },
+    {
+      "type": "file",
+      "label": "Ночные эльфы: юниты",
+      "id": "wr3-block-8",
+      "src": "guides/warcraft-3/wr3-block-8.html"
+    },
+    {
+      "type": "file",
+      "label": "Ночные эльфы: герои, здания, апгрейды",
+      "id": "wr3-block-9",
+      "src": "guides/warcraft-3/wr3-block-9.html"
+    },
+    {
+      "type": "file",
+      "label": "Нейтралы, артефакты, коды",
+      "id": "wr3-block-10",
+      "src": "guides/warcraft-3/wr3-block-10.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: пролог и люди",
+      "id": "wr3-block-11",
+      "src": "guides/warcraft-3/wr3-block-11.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: нежить",
+      "id": "wr3-block-12",
+      "src": "guides/warcraft-3/wr3-block-12.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: орки",
+      "id": "wr3-block-13",
+      "src": "guides/warcraft-3/wr3-block-13.html"
+    },
+    {
+      "type": "file",
+      "label": "Прохождение: ночные эльфы",
+      "id": "wr3-block-14",
+      "src": "guides/warcraft-3/wr3-block-14.html"
+    },
+    {
+      "type": "file",
+      "label": "Мультиплеер",
+      "id": "wr3-block-15",
+      "src": "guides/warcraft-3/wr3-block-15.html"
+    }
+  ]
+}

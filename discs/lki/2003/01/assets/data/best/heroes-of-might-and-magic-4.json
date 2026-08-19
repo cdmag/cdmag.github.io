@@ -1,0 +1,215 @@
+{
+  "id": "heroes-of-might-and-magic-4",
+  "title": "Герои Меча и Магии IV",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Герои Меча и Магии IV...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "О конкурсе и о картах",
+      "id": "about-contest",
+      "src": "best/heroes-of-might-and-magic-4/about-contest.html"
+    },
+    {
+      "type": "file",
+      "label": "1 место: Драконы Меча и Магии",
+      "id": "map-01",
+      "src": "best/heroes-of-might-and-magic-4/map-01.html"
+    },
+    {
+      "type": "file",
+      "label": "2 место: Legend about Baikal",
+      "id": "map-02",
+      "src": "best/heroes-of-might-and-magic-4/map-02.html"
+    },
+    {
+      "type": "file",
+      "label": "3 место: Jumanji",
+      "id": "map-03",
+      "src": "best/heroes-of-might-and-magic-4/map-03.html"
+    },
+    {
+      "type": "file",
+      "label": "4 место: Головоломка",
+      "id": "map-04",
+      "src": "best/heroes-of-might-and-magic-4/map-04.html"
+    },
+    {
+      "type": "file",
+      "label": "5 место: Сон геймера",
+      "id": "map-05",
+      "src": "best/heroes-of-might-and-magic-4/map-05.html"
+    },
+    {
+      "type": "file",
+      "label": "6 место: Return of the Igromania",
+      "id": "map-06",
+      "src": "best/heroes-of-might-and-magic-4/map-06.html"
+    },
+    {
+      "type": "file",
+      "label": "7 место: Aria",
+      "id": "map-07",
+      "src": "best/heroes-of-might-and-magic-4/map-07.html"
+    },
+    {
+      "type": "file",
+      "label": "8 место: Competition",
+      "id": "map-08",
+      "src": "best/heroes-of-might-and-magic-4/map-08.html"
+    },
+    {
+      "type": "file",
+      "label": "9 место: Duke Nukem's Story",
+      "id": "map-09",
+      "src": "best/heroes-of-might-and-magic-4/map-09.html"
+    },
+    {
+      "type": "file",
+      "label": "10 место: Путешествие Эгмонта",
+      "id": "map-10",
+      "src": "best/heroes-of-might-and-magic-4/map-10.html"
+    },
+    {
+      "type": "file",
+      "label": "11 место: Gamer vs Kate",
+      "id": "map-11",
+      "src": "best/heroes-of-might-and-magic-4/map-11.html"
+    },
+    {
+      "type": "file",
+      "label": "12 место: Как эльф и гном искали приключения...",
+      "id": "map-12",
+      "src": "best/heroes-of-might-and-magic-4/map-12.html"
+    },
+    {
+      "type": "file",
+      "label": "13 место: Brian's Revenge",
+      "id": "map-13",
+      "src": "best/heroes-of-might-and-magic-4/map-13.html"
+    },
+    {
+      "type": "file",
+      "label": "14 место: ChinaTown",
+      "id": "map-14",
+      "src": "best/heroes-of-might-and-magic-4/map-14.html"
+    },
+    {
+      "type": "file",
+      "label": "15 место: Necrothic War",
+      "id": "map-15",
+      "src": "best/heroes-of-might-and-magic-4/map-15.html"
+    },
+    {
+      "type": "file",
+      "label": "16 место: Gamers Revenge",
+      "id": "map-16",
+      "src": "best/heroes-of-might-and-magic-4/map-16.html"
+    },
+    {
+      "type": "file",
+      "label": "17 место: The True Necromancer",
+      "id": "map-17",
+      "src": "best/heroes-of-might-and-magic-4/map-17.html"
+    },
+    {
+      "type": "file",
+      "label": "18 место: В поисках истины",
+      "id": "map-18",
+      "src": "best/heroes-of-might-and-magic-4/map-18.html"
+    },
+    {
+      "type": "file",
+      "label": "19 место: Resident Death",
+      "id": "map-19",
+      "src": "best/heroes-of-might-and-magic-4/map-19.html"
+    },
+    {
+      "type": "file",
+      "label": "20 место: Oldwood — the Empire Province",
+      "id": "map-20",
+      "src": "best/heroes-of-might-and-magic-4/map-20.html"
+    },
+    {
+      "type": "file",
+      "label": "21 место: Last Hero",
+      "id": "map-21",
+      "src": "best/heroes-of-might-and-magic-4/map-21.html"
+    },
+    {
+      "type": "file",
+      "label": "22 место: The ballad of two rivers",
+      "id": "map-22",
+      "src": "best/heroes-of-might-and-magic-4/map-22.html"
+    },
+    {
+      "type": "file",
+      "label": "23 место: Проклятые земли",
+      "id": "map-23",
+      "src": "best/heroes-of-might-and-magic-4/map-23.html"
+    },
+    {
+      "type": "file",
+      "label": "24 место: Ведьмак",
+      "id": "map-24",
+      "src": "best/heroes-of-might-and-magic-4/map-24.html"
+    },
+    {
+      "type": "file",
+      "label": "25 место: World of Alahor",
+      "id": "map-25",
+      "src": "best/heroes-of-might-and-magic-4/map-25.html"
+    },
+    {
+      "type": "file",
+      "label": "26 место: Search For The Power Of Truth",
+      "id": "map-26",
+      "src": "best/heroes-of-might-and-magic-4/map-26.html"
+    },
+    {
+      "type": "file",
+      "label": "27 место: Charn's Crusade",
+      "id": "map-27",
+      "src": "best/heroes-of-might-and-magic-4/map-27.html"
+    },
+    {
+      "type": "file",
+      "label": "28 место: Дельта реки жизни",
+      "id": "map-28",
+      "src": "best/heroes-of-might-and-magic-4/map-28.html"
+    },
+    {
+      "type": "file",
+      "label": "29 место: Front",
+      "id": "map-29",
+      "src": "best/heroes-of-might-and-magic-4/map-29.html"
+    },
+    {
+      "type": "file",
+      "label": "30 место: Wanders of Mage",
+      "id": "map-30",
+      "src": "best/heroes-of-might-and-magic-4/map-30.html"
+    },
+    {
+      "type": "file",
+      "label": "Спецприз №1: Book Troubles",
+      "id": "special-1",
+      "src": "best/heroes-of-might-and-magic-4/special-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Спецприз №2: Look in two eyes",
+      "id": "special-2",
+      "src": "best/heroes-of-might-and-magic-4/special-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Дополнительные карты от \"ЛКИ\"",
+      "id": "misc-maps",
+      "src": "best/heroes-of-might-and-magic-4/misc-maps.html"
+    }
+  ]
+}

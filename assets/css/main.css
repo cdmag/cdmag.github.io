@@ -1,0 +1,552 @@
+:root {
+      --bg-main: #0f1117;
+      --bg-panel: #181b24;
+      --bg-card: #222634;
+      --accent-color: #6366f1;
+      --accent-hover: #4f46e5;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border-color: #2e3447;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --font-stack: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: var(--font-stack);
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .main-workspace {
+      display: flex;
+      justify-content: center; /* сайдбар + оболочка как группа по центру */
+      align-items: stretch;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #000; /* пустота слева/справа от группы */
+    }
+
+    /* Сайдбар: ещё −60px от предыдущих ~420 → 360px на 1080p */
+    .sidebar {
+      flex: 0 0 360px;
+      background-color: var(--bg-panel);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 12px;
+      overflow-y: auto;
+      overflow-x: visible;
+      height: 100vh;
+    }
+
+    .sidebar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+      position: relative;
+    }
+
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .logo span {
+      background: var(--accent-color);
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: var(--radius-sm);
+      font-size: 0.7rem;
+    }
+
+    .select-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .select-btn:hover, .select-btn.active {
+      border-color: var(--accent-color);
+      background: var(--accent-color);
+      color: #fff;
+    }
+
+    .arrow-icon { font-size: 0.65rem; }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      margin-top: 8px;
+      background: #1f2432;
+      border: 1px solid var(--accent-color);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 1000;
+    }
+
+    .dropdown-menu.show { display: flex !important; }
+
+    .popover-row {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .popover-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .pill-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .pill-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.15s ease;
+    }
+
+    .pill-btn:hover { color: #fff; border-color: var(--accent-color); }
+    .pill-btn.active { background: var(--accent-color); color: #fff; border-color: var(--accent-color); }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .media-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .media-card img {
+      width: 100%;
+      height: 135px;
+      object-fit: contain;
+      border-radius: var(--radius-sm);
+      background: rgba(0,0,0,0.2);
+    }
+
+    .media-title { font-size: 0.75rem; color: var(--text-muted); margin-top: 6px; font-weight: 600; }
+    .media-link { margin-top: 4px; font-size: 0.75rem; color: var(--accent-color); text-decoration: none; font-weight: bold; }
+    .media-link:hover { text-decoration: underline; }
+
+    .note-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 10px;
+    }
+
+    .note-box h3 { font-size: 0.9rem; margin-bottom: 4px; color: #fff; }
+    .note-box p { font-size: 0.8rem; color: var(--text-muted); line-height: 1.35; }
+
+    .player-header {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    /* Контейнер для плеера VK — высота по контенту, скролл снаружи */
+    .vk-container {
+      width: 100%;
+      min-height: 0;
+      border-radius: var(--radius-sm);
+    }
+
+    .vk-container iframe {
+      width: 100% !important;
+      border: none;
+      /* высоту задаёт сам виджет VK по числу треков */
+    }
+
+    .viewport {
+      /* фикс. ширина 4:3 от высоты; вместе с сайдбаром центрируется */
+      flex: 0 0 auto;
+      width: min(calc(100vh * 4 / 3), calc(100vw - 360px));
+      height: 100vh;
+      background-color: #000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .disc-iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: #000;
+      display: block;
+    }
+
+    .welcome-screen {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: radial-gradient(circle at center, #1e2330 0%, #0f1117 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+      z-index: 5;
+    }
+
+    .welcome-screen.hidden { display: none; }
+
+    .welcome-card {
+      max-width: 640px;
+      max-height: min(90vh, 820px);
+      overflow-y: auto;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-color);
+      padding: 28px 32px 32px;
+      border-radius: var(--radius-md);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      text-align: left;
+    }
+
+    .welcome-card h1 {
+      font-size: 1.65rem;
+      margin-bottom: 12px;
+      color: #fff;
+      text-align: center;
+    }
+    .welcome-card > .welcome-lead {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+    .welcome-card h2 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 14px 0 6px;
+      letter-spacing: 0.02em;
+    }
+    .welcome-card h2:first-of-type { margin-top: 4px; }
+    .welcome-card .legal-text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin: 0;
+    }
+    .welcome-actions {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .vk-community-btn {
+      display: inline-block;
+      background: #0077ff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9rem;
+      transition: background 0.2s ease;
+    }
+
+    .vk-community-btn:hover { background: #005bb5; }
+
+    /* Просмотр обложек во весь экран */
+    .preview-zoomable {
+      cursor: zoom-in;
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+    .preview-zoomable:hover {
+      filter: brightness(1.1);
+      transform: scale(1.02);
+    }
+    .image-modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      left: 0; top: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(4px);
+      justify-content: center;
+      align-items: center;
+    }
+    .image-modal img {
+      max-width: 90vw;
+      max-height: 90vh;
+      object-fit: contain;
+      background: transparent;
+      /* без box-shadow: на круглых дисках с прозрачностью он даёт квадратную «подложку» */
+      box-shadow: none;
+      border-radius: 0;
+      animation: zoomIn 0.2s ease;
+    }
+    .image-modal-close {
+      position: absolute;
+      top: 20px; right: 30px;
+      color: #fff;
+      font-size: 36px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    @keyframes zoomIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* Переключатель плееров Webamp / VK */
+    .player-toggle {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+    }
+    .toggle-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.15s ease;
+    }
+    .toggle-btn:hover {
+      color: #fff;
+      border-color: var(--accent-color);
+    }
+    .toggle-btn.active {
+      background: var(--accent-color);
+      color: #fff;
+      border-color: var(--accent-color);
+    }
+
+    /* Autoplay — компактный switch */
+    .autoplay-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+      margin: 0 6px;
+    }
+    .autoplay-toggle input {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .autoplay-switch {
+      position: relative;
+      width: 28px;
+      height: 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 99px;
+      transition: background 0.2s ease, border-color 0.2s ease;
+      flex-shrink: 0;
+    }
+    .autoplay-switch::after {
+      content: "";
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      width: 12px;
+      height: 12px;
+      background: var(--text-muted);
+      border-radius: 50%;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .autoplay-toggle input:checked + .autoplay-switch {
+      background: var(--accent-color);
+      border-color: var(--accent-color);
+    }
+    .autoplay-toggle input:checked + .autoplay-switch::after {
+      transform: translateX(12px);
+      background: #fff;
+    }
+    .autoplay-toggle:hover .autoplay-switch {
+      border-color: var(--accent-color);
+    }
+    .autoplay-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+    .autoplay-toggle input:checked ~ .autoplay-label {
+      color: var(--text-main);
+    }
+
+    /* Донат — тихо внизу сайдбара */
+    .sidebar-donate {
+      flex-shrink: 0;
+      text-align: center;
+      padding: 4px 0 2px;
+    }
+    .sidebar-donate a {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      opacity: 0.55;
+      transition: opacity 0.15s ease, color 0.15s ease;
+    }
+    .sidebar-donate a:hover {
+      opacity: 1;
+      color: var(--text-main);
+      text-decoration: underline;
+    }
+
+    /* =========================================
+       WEBAMP — контейнер + масштаб
+       ========================================= */
+
+    .player-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1 1 auto;
+      min-height: 0;
+      /* клип по секции — скролл только у #player-container */
+      overflow: hidden;
+    }
+
+    #player-container {
+      position: relative;
+      width: 100%;
+      flex: 1 1 auto;
+      min-height: 0;
+      /* VK: длинный список крутится здесь, а не весь сайдбар */
+      overflow-x: hidden;
+      overflow-y: auto;
+      display: block;
+    }
+
+    /* Webamp: не клипать окна/меню (контекстное меню всё равно уходит в body) */
+    #player-container:has(#webamp-host) {
+      overflow: visible;
+    }
+
+    /* Хост Webamp: нативная ширина 275px, по центру блока.
+       Масштаб только вниз, если контейнер уже 275px. */
+    #webamp-host {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 275px;
+      height: var(--webamp-host-height, 348px);
+      transform: scale(var(--webamp-scale, 1));
+      transform-origin: top center;
+      z-index: 10;
+      overflow: visible;
+      /* Edge/Chrome: не выделять текст при dblclick и drag по marquee */
+      -webkit-user-select: none !important;
+      user-select: none !important;
+      -webkit-user-drag: none !important;
+      -webkit-touch-callout: none !important;
+    }
+
+    /* Webamp внутри хоста — без лишних transform */
+    #webamp-host #webamp,
+    #webamp-host #webamp * {
+      -webkit-user-select: none !important;
+      user-select: none !important;
+      -webkit-user-drag: none !important;
+    }
+
+    #webamp-host #webamp {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      margin: 0 !important;
+      overflow: visible !important;
+    }
+
+    /* Меню Presets / контекстные меню — поверх всего */
+    #webamp-context-menu {
+      z-index: 100000 !important;
+      overflow: visible !important;
+    }
+    #webamp-context-menu .context-menu {
+      z-index: 100001 !important;
+      overflow: visible !important;
+    }
+
+    /* Кириллица в бегущей строке: у скина нет спрайтов TEXT.BMP для non-ASCII.
+       Для таких символов показываем системный шрифт в цвете Winamp. */
+    #webamp #marquee .character.cdmag-unicode {
+      text-indent: 0 !important;
+      background-image: none !important;
+      background: transparent !important;
+      color: #00e800 !important;
+      font-family: Tahoma, "MS Sans Serif", "Segoe UI", sans-serif !important;
+      font-size: 9px !important;
+      font-weight: bold !important;
+      line-height: 6px !important;
+      width: auto !important;
+      min-width: 5px !important;
+      height: 6px !important;
+      overflow: visible !important;
+    }

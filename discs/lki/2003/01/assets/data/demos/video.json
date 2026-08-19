@@ -1,0 +1,23 @@
+{
+  "id": "video",
+  "title": "Видео",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Видео...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Age of Mythology",
+      "id": "age-of-mythology",
+      "src": "demos/video/age-of-mythology.html"
+    },
+    {
+      "type": "file",
+      "label": "Hearts of Iron",
+      "id": "hearts-of-iron",
+      "src": "demos/video/hearts-of-iron.html"
+    }
+  ]
+}

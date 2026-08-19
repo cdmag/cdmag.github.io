@@ -1,0 +1,30 @@
+{
+  "id": "arx-fatalis",
+  "title": "Arx Fatalis",
+  "parent": "guides",
+  "items": [
+    {
+      "type": "back",
+      "label": "...Arx Fatalis...",
+      "id": "back"
+    },
+    {
+      "type": "file",
+      "label": "Arx Fatalis: Блок №1",
+      "id": "arx-block-1",
+      "src": "guides/arx-fatalis/arx-block-1.html"
+    },
+    {
+      "type": "file",
+      "label": "Arx Fatalis: Блок №2",
+      "id": "arx-block-2",
+      "src": "guides/arx-fatalis/arx-block-2.html"
+    },
+    {
+      "type": "file",
+      "label": "Arx Fatalis: Этажи (иллюстрации)",
+      "id": "arx-block-3",
+      "src": "guides/arx-fatalis/arx-block-3.html"
+    }
+  ]
+}
