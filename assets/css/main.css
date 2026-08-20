@@ -24,17 +24,17 @@
 
     .main-workspace {
       display: flex;
-      justify-content: center; /* сайдбар + оболочка как группа по центру */
-      align-items: stretch;
+      justify-content: center; /* сайдбар + оболочка по центру */
+      align-items: center;
       width: 100vw;
       height: 100vh;
       overflow: hidden;
-      background-color: #000; /* пустота слева/справа от группы */
+      background-color: #000;
     }
 
-    /* Сайдбар: ещё −60px от предыдущих ~420 → 360px на 1080p */
     .sidebar {
       flex: 0 0 360px;
+      align-self: stretch; /* на всю высоту окна */
       background-color: var(--bg-panel);
       border-right: 1px solid var(--border-color);
       display: flex;
@@ -216,7 +216,7 @@
     }
 
     .viewport {
-      /* фикс. ширина 4:3 от высоты; вместе с сайдбаром центрируется */
+      /* размеры задаёт JS по пропорциям оболочки (fallback 4:3) */
       flex: 0 0 auto;
       width: min(calc(100vh * 4 / 3), calc(100vw - 360px));
       height: 100vh;

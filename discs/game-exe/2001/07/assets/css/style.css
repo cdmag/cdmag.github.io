@@ -33,10 +33,27 @@ img {
     width: 1620px;
     height: 1278px;
     flex-shrink: 0;
-    background-image: url('../img/ui/frame_bg.webp');
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    background-color: #050505;
     transform-origin: center center;
+    overflow: hidden;
+    /* убираем субпиксельные щели по краям после scale */
+    box-shadow: 0 0 0 1px #050505;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frame-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1620px;
+    height: 1278px;
+    object-fit: fill;
+    object-position: center center;
+    z-index: 0;
+    pointer-events: none !important;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 /* Кнопки окна в шапке */
@@ -67,6 +84,7 @@ img {
     height: 1200px;
     display: flex;
     flex-direction: row;
+    z-index: 1;
 }
 
 /* --- ЛЕВАЯ КОЛОНКА (295x1200) --- */

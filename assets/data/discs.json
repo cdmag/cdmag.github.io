@@ -1,6 +1,8 @@
 [
   {
     "id": "igromania-2000-03",
+    "width": 1600,
+    "height": 1200,
     "magazine": "igromania",
     "magazine_title": "Игромания",
     "year": 2000,
@@ -69,7 +71,7 @@
     "disc_image": "discs/game-exe/2001/07/assets/img/disc.webp",
     "download_iso": "https://vk.ru/wall-240437459_20",
     "vk_playlist_url": "https://vk.ru/audio_playlist-240437459_2",
-    "note": "Июльский диск Game.EXE за 2001. Вторая оцифровка. Рекламные баннеры, странные звуки и кастомные курсоры в дисковом приложении - безумие, скажете вы? УЧУ, отвечу я вам.",
+    "note": "Вторая оцифровка. Рекламные баннеры, странные звуки и кастомные курсоры в дисковом приложении - безумие, скажете вы? УЧУ, отвечу я вам.",
     "webamp_tracks": [
       {
         "metaData": {
@@ -271,10 +273,14 @@
         "url": "music/game-exe/2001/07/red_faction04.mp3",
         "duration": 95
       }
-    ]
+    ],
+    "width": 1620,
+    "height": 1278
   },
   {
     "id": "nim-2002-05-1",
+    "width": 1600,
+    "height": 1200,
     "magazine": "nim",
     "magazine_title": "Навигатор игрового мира",
     "year": 2002,
@@ -316,6 +322,8 @@
   },
   {
     "id": "nim-2002-05-2",
+    "width": 1600,
+    "height": 1200,
     "magazine": "nim",
     "magazine_title": "Навигатор игрового мира",
     "year": 2002,
@@ -373,6 +381,8 @@
   },
   {
     "id": "lki-2003-01",
+    "width": 1600,
+    "height": 1200,
     "magazine": "lki",
     "magazine_title": "Лучшие компьютерные игры",
     "year": 2003,

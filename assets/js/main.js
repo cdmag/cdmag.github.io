@@ -9,9 +9,8 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
     let webampInstance = null;
     let autoplayEnabled = false;
 
-    // Пауза саундтрека на время HTML5-видео внутри оболочки (same-origin)
-    let soundtrackPausedByVideo = false;
-    let discPlayingVideos = new Set();
+    // Пропорции текущей оболочки (ширина/высота), fallback 4:3
+    let currentDiscAspect = 4 / 3;
 
     let discsDatabase = [];
     let state = {
@@ -51,7 +50,7 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       if (logoBtn) logoBtn.addEventListener("click", showWelcomeScreen);
 
       initAutoplayToggle();
-      initDiscVideoSoundtrackSync();
+      initDiscViewportFit();
 
       document.addEventListener("click", (e) => {
         const menu = document.getElementById("dropdown-menu");
@@ -242,6 +241,15 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
 
       document.getElementById("disc-title").innerText = disc.title;
       document.getElementById("disc-note").innerText = disc.note || "Описание отсутствует.";
+
+      if (disc.width && disc.height) {
+        currentDiscAspect = disc.width / disc.height;
+        applyViewportSize(currentDiscAspect);
+      } else if (disc.aspect) {
+        currentDiscAspect = Number(disc.aspect) || (4 / 3);
+        applyViewportSize(currentDiscAspect);
+      }
+
       document.getElementById("disc-frame").src = disc.path;
 
       const coverImg = document.getElementById("cover-img");
@@ -652,99 +660,146 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
     }
 
     window.addEventListener("resize", () => {
+      applyViewportSize(currentDiscAspect);
       if (webampInstance && document.getElementById("webamp-host")) {
         applyWebampScale();
       }
     });
 
-    // --- Саундтрек ↔ видео в оболочке диска ---
-    // Работает для same-origin оболочек и HTML5 <video>.
-    // Встроенный iframe VK Video (другой origin) play/pause снаружи не отдаёт.
+    // --- Подгонка viewport под пропорции оболочки ---
 
-    function isWebampPlaying() {
-      if (!webampInstance) return false;
-      try {
-        const status =
-          (typeof webampInstance.getMediaStatus === "function" && webampInstance.getMediaStatus()) ||
-          (typeof webampInstance.getPlayerMediaStatus === "function" && webampInstance.getPlayerMediaStatus());
-        return status === "PLAYING";
-      } catch (e) {
-        return false;
+    function applyViewportSize(aspect) {
+      const a = aspect && aspect > 0.3 && aspect < 5 ? aspect : 4 / 3;
+      currentDiscAspect = a;
+      const maxH = window.innerHeight;
+      const maxW = Math.max(200, window.innerWidth - 360);
+      let h = maxH;
+      let w = h * a;
+      if (w > maxW) {
+        w = maxW;
+        h = w / a;
       }
+      const vp = document.querySelector(".viewport");
+      if (!vp) return;
+      vp.style.width = Math.round(w) + "px";
+      vp.style.height = Math.round(h) + "px";
     }
 
-    function pauseSoundtrackForVideo() {
-      if (soundtrackPausedByVideo) return;
-      if (activePlayer !== "webamp" || !webampInstance) return;
-      if (!isWebampPlaying()) return;
-      soundtrackPausedByVideo = true;
-      try {
-        webampInstance.pause();
-      } catch (e) {}
+    function extractBgUrls(styleBg) {
+      if (!styleBg || styleBg === "none") return [];
+      const urls = [];
+      const re = /url\(\s*["']?([^"')]+)["']?\s*\)/gi;
+      let m;
+      while ((m = re.exec(styleBg))) urls.push(m[1]);
+      return urls;
     }
 
-    function resumeSoundtrackAfterVideo() {
-      if (!soundtrackPausedByVideo) return;
-      soundtrackPausedByVideo = false;
-      if (activePlayer !== "webamp" || !webampInstance) return;
-      try {
-        webampInstance.play();
-      } catch (e) {}
-    }
-
-    function onDiscVideoPlay(video) {
-      if (!video || discPlayingVideos.has(video)) return;
-      discPlayingVideos.add(video);
-      if (discPlayingVideos.size === 1) pauseSoundtrackForVideo();
-    }
-
-    function onDiscVideoStop(video) {
-      if (!video || !discPlayingVideos.has(video)) return;
-      discPlayingVideos.delete(video);
-      if (discPlayingVideos.size === 0) resumeSoundtrackAfterVideo();
-    }
-
-    function hookDiscHtml5Videos(doc) {
-      if (!doc) return;
-
-      const hook = (video) => {
-        if (!video || video._cdmagVideoHooked) return;
-        video._cdmagVideoHooked = true;
-        video.addEventListener("play", () => onDiscVideoPlay(video));
-        video.addEventListener("pause", () => onDiscVideoStop(video));
-        video.addEventListener("ended", () => onDiscVideoStop(video));
-        video.addEventListener("emptied", () => onDiscVideoStop(video));
-      };
-
-      doc.querySelectorAll("video").forEach(hook);
-
-      if (doc._cdmagVideoObserver) return;
-      doc._cdmagVideoObserver = new MutationObserver(() => {
-        doc.querySelectorAll("video").forEach(hook);
-      });
-      try {
-        doc._cdmagVideoObserver.observe(doc.documentElement || doc.body, {
-          childList: true,
-          subtree: true
-        });
-      } catch (e) {}
-    }
-
-    function initDiscVideoSoundtrackSync() {
-      const frame = document.getElementById("disc-frame");
-      if (!frame || frame._cdmagVideoSyncBound) return;
-      frame._cdmagVideoSyncBound = true;
-
-      frame.addEventListener("load", () => {
-        discPlayingVideos = new Set();
-        // Смена страницы оболочки: не автозапуск музыки, только сброс флага
-        soundtrackPausedByVideo = false;
+    function naturalAspectFromUrl(url, baseHref) {
+      return new Promise((resolve) => {
         try {
-          const doc = frame.contentDocument;
-          if (!doc) return; // cross-origin
-          hookDiscHtml5Videos(doc);
+          const abs = new URL(url, baseHref).href;
+          const img = new Image();
+          img.onload = () => {
+            if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+              resolve({ w: img.naturalWidth, h: img.naturalHeight });
+            } else resolve(null);
+          };
+          img.onerror = () => resolve(null);
+          img.src = abs;
         } catch (e) {
-          // оболочка с другого origin — нет доступа
+          resolve(null);
         }
       });
+    }
+
+    async function detectAspectFromDoc(doc) {
+      if (!doc || !doc.defaultView) return null;
+      const base = doc.baseURI || doc.location?.href;
+      const candidates = [];
+
+      // Фоновые картинки у html/body и крупных контейнеров
+      const els = [doc.documentElement, doc.body, ...Array.from(doc.querySelectorAll("body > *"))].filter(Boolean);
+      for (const el of els) {
+        try {
+          const bg = doc.defaultView.getComputedStyle(el).backgroundImage;
+          for (const u of extractBgUrls(bg)) candidates.push(u);
+        } catch (e) {}
+      }
+
+      // Крупные <img>
+      doc.querySelectorAll("img").forEach((img) => {
+        if (img.src) candidates.push(img.src);
+      });
+
+      let best = null;
+      for (const u of candidates) {
+        const dim = await naturalAspectFromUrl(u, base);
+        if (!dim) continue;
+        // Берём самую крупную «подложку» (отсекаем иконки)
+        if (dim.w < 400 || dim.h < 300) continue;
+        if (!best || dim.w * dim.h > best.w * best.h) best = dim;
+      }
+      if (best) return best.w / best.h;
+
+      // Фиксированные размеры корневого блока в px
+      for (const el of els) {
+        try {
+          const st = doc.defaultView.getComputedStyle(el);
+          const w = parseFloat(st.width);
+          const h = parseFloat(st.height);
+          if (w >= 640 && h >= 480) {
+            const ratio = w / h;
+            if (ratio > 0.5 && ratio < 3) return ratio;
+          }
+        } catch (e) {}
+      }
+      return null;
+    }
+
+    function getCurrentDisc() {
+      return discsDatabase.find(
+        (d) =>
+          d.magazine === state.selectedMagazine &&
+          d.year === state.selectedYear &&
+          d.issue === state.selectedIssue
+      ) || null;
+    }
+
+    function initDiscViewportFit() {
+      const frame = document.getElementById("disc-frame");
+      if (!frame || frame._cdmagFitBound) return;
+      frame._cdmagFitBound = true;
+
+      frame.addEventListener("load", async () => {
+        if (!frame.src || frame.src === "about:blank" || frame.src.endsWith("about:blank")) {
+          applyViewportSize(4 / 3);
+          return;
+        }
+
+        const disc = getCurrentDisc();
+        if (disc && disc.width && disc.height) {
+          applyViewportSize(disc.width / disc.height);
+          return;
+        }
+        if (disc && disc.aspect) {
+          applyViewportSize(Number(disc.aspect) || 4 / 3);
+          return;
+        }
+
+        try {
+          const doc = frame.contentDocument;
+          if (!doc) {
+            applyViewportSize(currentDiscAspect || 4 / 3);
+            return;
+          }
+          // Дать оболочке чуть времени отрисовать фоны
+          await new Promise((r) => setTimeout(r, 50));
+          const detected = await detectAspectFromDoc(doc);
+          applyViewportSize(detected || currentDiscAspect || 4 / 3);
+        } catch (e) {
+          applyViewportSize(currentDiscAspect || 4 / 3);
+        }
+      });
+
+      applyViewportSize(currentDiscAspect);
     }

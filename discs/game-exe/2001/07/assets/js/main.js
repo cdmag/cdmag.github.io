@@ -50,8 +50,9 @@ function scaleApp() {
     if (!app) return;
     const scaleX = window.innerWidth / 1620;
     const scaleY = window.innerHeight / 1278;
-    const scale = Math.min(scaleX, scaleY);
-    app.style.transform = `scale(${scale})`;
+    // Небольшое перекрытие (1.001), чтобы не было субпиксельных полос по краям
+    const scale = Math.min(scaleX, scaleY) * 1.001;
+    app.style.transform = `scale(${scale}) translateZ(0)`;
 }
 
 function loadSection(sectionKey) {
