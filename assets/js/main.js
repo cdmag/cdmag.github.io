@@ -9,6 +9,10 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
     let webampInstance = null;
     let autoplayEnabled = false;
 
+    // Пауза саундтрека на время HTML5-видео внутри оболочки (same-origin)
+    let soundtrackPausedByVideo = false;
+    let discPlayingVideos = new Set();
+
     let discsDatabase = [];
     let state = {
       selectedMagazine: null,
@@ -47,6 +51,7 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       if (logoBtn) logoBtn.addEventListener("click", showWelcomeScreen);
 
       initAutoplayToggle();
+      initDiscVideoSoundtrackSync();
 
       document.addEventListener("click", (e) => {
         const menu = document.getElementById("dropdown-menu");
@@ -651,3 +656,95 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         applyWebampScale();
       }
     });
+
+    // --- Саундтрек ↔ видео в оболочке диска ---
+    // Работает для same-origin оболочек и HTML5 <video>.
+    // Встроенный iframe VK Video (другой origin) play/pause снаружи не отдаёт.
+
+    function isWebampPlaying() {
+      if (!webampInstance) return false;
+      try {
+        const status =
+          (typeof webampInstance.getMediaStatus === "function" && webampInstance.getMediaStatus()) ||
+          (typeof webampInstance.getPlayerMediaStatus === "function" && webampInstance.getPlayerMediaStatus());
+        return status === "PLAYING";
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function pauseSoundtrackForVideo() {
+      if (soundtrackPausedByVideo) return;
+      if (activePlayer !== "webamp" || !webampInstance) return;
+      if (!isWebampPlaying()) return;
+      soundtrackPausedByVideo = true;
+      try {
+        webampInstance.pause();
+      } catch (e) {}
+    }
+
+    function resumeSoundtrackAfterVideo() {
+      if (!soundtrackPausedByVideo) return;
+      soundtrackPausedByVideo = false;
+      if (activePlayer !== "webamp" || !webampInstance) return;
+      try {
+        webampInstance.play();
+      } catch (e) {}
+    }
+
+    function onDiscVideoPlay(video) {
+      if (!video || discPlayingVideos.has(video)) return;
+      discPlayingVideos.add(video);
+      if (discPlayingVideos.size === 1) pauseSoundtrackForVideo();
+    }
+
+    function onDiscVideoStop(video) {
+      if (!video || !discPlayingVideos.has(video)) return;
+      discPlayingVideos.delete(video);
+      if (discPlayingVideos.size === 0) resumeSoundtrackAfterVideo();
+    }
+
+    function hookDiscHtml5Videos(doc) {
+      if (!doc) return;
+
+      const hook = (video) => {
+        if (!video || video._cdmagVideoHooked) return;
+        video._cdmagVideoHooked = true;
+        video.addEventListener("play", () => onDiscVideoPlay(video));
+        video.addEventListener("pause", () => onDiscVideoStop(video));
+        video.addEventListener("ended", () => onDiscVideoStop(video));
+        video.addEventListener("emptied", () => onDiscVideoStop(video));
+      };
+
+      doc.querySelectorAll("video").forEach(hook);
+
+      if (doc._cdmagVideoObserver) return;
+      doc._cdmagVideoObserver = new MutationObserver(() => {
+        doc.querySelectorAll("video").forEach(hook);
+      });
+      try {
+        doc._cdmagVideoObserver.observe(doc.documentElement || doc.body, {
+          childList: true,
+          subtree: true
+        });
+      } catch (e) {}
+    }
+
+    function initDiscVideoSoundtrackSync() {
+      const frame = document.getElementById("disc-frame");
+      if (!frame || frame._cdmagVideoSyncBound) return;
+      frame._cdmagVideoSyncBound = true;
+
+      frame.addEventListener("load", () => {
+        discPlayingVideos = new Set();
+        // Смена страницы оболочки: не автозапуск музыки, только сброс флага
+        soundtrackPausedByVideo = false;
+        try {
+          const doc = frame.contentDocument;
+          if (!doc) return; // cross-origin
+          hookDiscHtml5Videos(doc);
+        } catch (e) {
+          // оболочка с другого origin — нет доступа
+        }
+      });
+    }

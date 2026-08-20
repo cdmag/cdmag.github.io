@@ -118,10 +118,9 @@ table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] td:last-child{text-align:r
 table[bordercolor="#006570"] table[bgcolor="#e5e8eb"] a{color:#0033cc !important;font-size:13px !important;}
 
 /* Guide meta (bordercolor #d8271a and similar non-teal) — keep original row colors */
-table[bordercolor="#d8271a"],
-table[bordercolor="#D8271A"]{
-width:500px !important;
-max-width:min(500px,100%) !important;
+table[bordercolor="#d8271a"],table[bordercolor="#D8271A"]{
+width:max-content !important;
+max-width:100% !important;
 border-collapse:collapse;
 background:transparent !important;
 }
@@ -154,7 +153,7 @@ table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] tr[bgcolor="e5e4df"] td,
 table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] tr[bgcolor="#e5e4df"] td{
 background-color:#e5e4df !important;
 }
-table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] td:first-child{white-space:nowrap;}
+
 table[bordercolor="#d8271a"] table[bgcolor="#e5e8eb"] td:last-child{text-align:right;}
 
 /* Screenshot frames only — scoped to bordercolor green used in some articles, NOT meta */
@@ -205,4 +204,61 @@ table[bgcolor="#e5e8eb"][width="500"] a{font-size:13px !important;}
 table[bgcolor="#e5e8eb"][width="500"] > tbody > tr:not([bgcolor]) > td,
 table[bgcolor="#e5e8eb"][width="500"] > tr:not([bgcolor]) > td{
 background-color:#e5e8eb !important;
+}
+
+/* Meta tables with explicit width keep 500; sideboxes (Между прочим) shrink-wrap */
+table[bordercolor="#d8271a"][width="500"],
+table[bordercolor="#d8271a"][width="500"],
+table[bordercolor="#D8271A"][width="500"]{
+width:500px !important;
+max-width:min(500px,100%) !important;
+}
+table[bordercolor="#d8271a"] > tbody > tr > td,
+table[bordercolor="#d8271a"] > tr > td{
+padding:0 !important;
+vertical-align:top;
+}
+/* Inner table fills the outer border box completely */
+table[bordercolor="#d8271a"] table{
+width:100% !important;
+border-collapse:collapse;
+}
+table[bordercolor="#d8271a"] table td{
+width:auto !important;
+}
+table[bordercolor="#d8271a"] table tr[bgcolor="e5e8eb"] td,
+table[bordercolor="#d8271a"] table tr[bgcolor="#e5e8eb"] td{
+background-color:#e5e8eb !important;
+color:#000 !important;
+padding:6px 10px !important;
+font-size:13px !important;
+line-height:1.35 !important;
+white-space:normal !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#000000"]{
+background-color:#000 !important;
+width:100% !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#000000"] td{
+background-color:#000 !important;
+color:#fff !important;
+text-align:center;
+padding:4px 8px !important;
+}
+table[bordercolor="#d8271a"] table[bgcolor="#000000"] h3,
+table[bordercolor="#d8271a"] table[bgcolor="#000000"] center{
+color:#fff !important;
+margin:0 !important;
+}
+
+/* sidebox-fullcell: single-column callout boxes fill width */
+table[bordercolor="#d8271a"] table[bgcolor="#000000"] td,
+table[bordercolor="#d8271a"] table tr[bgcolor="e5e8eb"] td{
+width:100% !important;
+max-width:none !important;
+white-space:normal !important;
+}
+table[bordercolor="#d8271a"] table[width="400"]{
+width:400px !important;
+max-width:100% !important;
 }
