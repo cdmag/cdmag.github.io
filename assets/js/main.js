@@ -51,6 +51,7 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
 
       initAutoplayToggle();
       initDiscViewportFit();
+      initMetrikaContentGoals();
 
       document.addEventListener("click", (e) => {
         const menu = document.getElementById("dropdown-menu");
@@ -236,6 +237,14 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       );
 
       if (!disc) return;
+
+      if (typeof ym === "function") {
+        ym(111827753, "reachGoal", "open_disc", {
+          journal: String(disc.magazine),
+          year: String(disc.year),
+          issue: String(disc.issue)
+        });
+      }
 
       document.getElementById("welcome-screen").classList.add("hidden");
 
@@ -541,6 +550,8 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         }
       });
 
+      bindWebampPlayMusicTracking(webampInstance);
+
       webampInstance.renderInto(host).then(() => {
         applyWebampScale();
         requestAnimationFrame(applyWebampScale);
@@ -763,6 +774,101 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
           d.year === state.selectedYear &&
           d.issue === state.selectedIssue
       ) || null;
+    }
+
+    function reachPlayMusicGoal() {
+      if (typeof ym !== "function") return;
+      try {
+        const disc = getCurrentDisc();
+        if (disc) {
+          ym(111827753, "reachGoal", "play_music", {
+            journal: String(disc.magazine),
+            year: String(disc.year),
+            issue: String(disc.issue)
+          });
+        } else {
+          ym(111827753, "reachGoal", "play_music");
+        }
+      } catch (e) {}
+    }
+
+    // play_music: факт статуса PLAYING в store Webamp, а не Redux PLAY/PLAY_TRACK
+    function bindWebampPlayMusicTracking(webamp) {
+      if (!webamp || !webamp.store || webamp._cdmagPlayMusicBound) return;
+      webamp._cdmagPlayMusicBound = true;
+
+      let lastEmittedTrackId = null;
+
+      webamp.store.subscribe(() => {
+        try {
+          const status =
+            (typeof webamp.getMediaStatus === "function" && webamp.getMediaStatus()) ||
+            (typeof webamp.getPlayerMediaStatus === "function" && webamp.getPlayerMediaStatus());
+          const state = webamp.store.getState();
+          const pl = state.playlist || {};
+          const trackId = pl.currentTrack;
+          const isPlaying = status === "PLAYING";
+
+          if (isPlaying && trackId != null) {
+            if (lastEmittedTrackId !== trackId) {
+              lastEmittedTrackId = trackId;
+              reachPlayMusicGoal();
+            }
+          } else {
+            lastEmittedTrackId = null;
+          }
+        } catch (e) {}
+      });
+    }
+
+    function initMetrikaContentGoals() {
+      const magLink = document.getElementById("magazine-link");
+      if (magLink) {
+        magLink.addEventListener("click", () => {
+          if (typeof ym !== "function") return;
+          try {
+            const disc = getCurrentDisc();
+            if (disc) {
+              ym(111827753, "reachGoal", "read_magazine", {
+                journal: String(disc.magazine),
+                year: String(disc.year),
+                issue: String(disc.issue)
+              });
+            } else {
+              ym(111827753, "reachGoal", "read_magazine");
+            }
+          } catch (e) {}
+        });
+      }
+
+      const isoLink = document.getElementById("iso-link");
+      if (isoLink) {
+        isoLink.addEventListener("click", () => {
+          if (typeof ym !== "function") return;
+          try {
+            const disc = getCurrentDisc();
+            if (disc) {
+              ym(111827753, "reachGoal", "download_iso", {
+                journal: String(disc.magazine),
+                year: String(disc.year),
+                issue: String(disc.issue)
+              });
+            } else {
+              ym(111827753, "reachGoal", "download_iso");
+            }
+          } catch (e) {}
+        });
+      }
+
+      const donateLink = document.querySelector(".sidebar-donate a");
+      if (donateLink) {
+        donateLink.addEventListener("click", () => {
+          if (typeof ym !== "function") return;
+          try {
+            ym(111827753, "reachGoal", "donate_click");
+          } catch (e) {}
+        });
+      }
     }
 
     function initDiscViewportFit() {
