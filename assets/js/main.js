@@ -239,11 +239,12 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       if (!disc) return;
 
       if (typeof ym === "function") {
-        ym(111827753, "reachGoal", "open_disc", {
-          journal: String(disc.magazine),
-          year: String(disc.year),
-          issue: String(disc.issue)
-        });
+        const params = getCurrentDiscMetricParams();
+        if (params) {
+          ym(111827753, "reachGoal", "open_disc", params);
+        } else {
+          ym(111827753, "reachGoal", "open_disc");
+        }
       }
 
       document.getElementById("welcome-screen").classList.add("hidden");
@@ -776,16 +777,21 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       ) || null;
     }
 
+    function getCurrentDiscMetricParams() {
+      const disc = getCurrentDisc();
+      if (!disc) return null;
+
+      return {
+        disc: `${disc.magazine}_${disc.year}_${disc.issue}`
+      };
+    }
+
     function reachPlayMusicGoal() {
       if (typeof ym !== "function") return;
       try {
-        const disc = getCurrentDisc();
-        if (disc) {
-          ym(111827753, "reachGoal", "play_music", {
-            journal: String(disc.magazine),
-            year: String(disc.year),
-            issue: String(disc.issue)
-          });
+        const params = getCurrentDiscMetricParams();
+        if (params) {
+          ym(111827753, "reachGoal", "play_music", params);
         } else {
           ym(111827753, "reachGoal", "play_music");
         }
@@ -827,13 +833,9 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         magLink.addEventListener("click", () => {
           if (typeof ym !== "function") return;
           try {
-            const disc = getCurrentDisc();
-            if (disc) {
-              ym(111827753, "reachGoal", "read_magazine", {
-                journal: String(disc.magazine),
-                year: String(disc.year),
-                issue: String(disc.issue)
-              });
+            const params = getCurrentDiscMetricParams();
+            if (params) {
+              ym(111827753, "reachGoal", "read_magazine", params);
             } else {
               ym(111827753, "reachGoal", "read_magazine");
             }
@@ -846,13 +848,9 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         isoLink.addEventListener("click", () => {
           if (typeof ym !== "function") return;
           try {
-            const disc = getCurrentDisc();
-            if (disc) {
-              ym(111827753, "reachGoal", "download_iso", {
-                journal: String(disc.magazine),
-                year: String(disc.year),
-                issue: String(disc.issue)
-              });
+            const params = getCurrentDiscMetricParams();
+            if (params) {
+              ym(111827753, "reachGoal", "download_iso", params);
             } else {
               ym(111827753, "reachGoal", "download_iso");
             }
