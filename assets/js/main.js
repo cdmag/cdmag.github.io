@@ -39,7 +39,35 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         try {
           localStorage.setItem(AUTOPLAY_KEY, autoplayEnabled ? "1" : "0");
         } catch (e) {}
+
+        // Включение Auto при уже загруженном плейлисте — сразу старт воспроизведения
+        if (autoplayEnabled) {
+          startWebampPlaybackIfPossible();
+        }
       });
+    }
+
+    function startWebampPlaybackIfPossible() {
+      if (!webampInstance || !webampInstance.store) return;
+      try {
+        const status =
+          (typeof webampInstance.getMediaStatus === "function" && webampInstance.getMediaStatus()) ||
+          (typeof webampInstance.getPlayerMediaStatus === "function" && webampInstance.getPlayerMediaStatus());
+        if (status === "PLAYING") return;
+
+        const pl = webampInstance.store.getState().playlist || {};
+        if (pl.currentTrack != null) {
+          if (typeof webampInstance.play === "function") {
+            webampInstance.play();
+          } else {
+            webampInstance.store.dispatch({ type: "PLAY" });
+          }
+          return;
+        }
+        if (Array.isArray(pl.trackOrder) && pl.trackOrder.length > 0) {
+          webampInstance.store.dispatch({ type: "PLAY_TRACK", id: pl.trackOrder[0] });
+        }
+      } catch (e) {}
     }
 
     document.addEventListener("DOMContentLoaded", () => {
