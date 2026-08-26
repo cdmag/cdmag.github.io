@@ -9,8 +9,8 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
     let webampInstance = null;
     let autoplayEnabled = false;
 
-    // Пропорции текущей оболочки (ширина/высота), fallback 4:3
-    let currentDiscAspect = 4 / 3;
+    // Пропорции текущей оболочки; на главной — как 1600×1200 (4:3)
+    let currentDiscAspect = 1600 / 1200;
 
     let discsDatabase = [];
     let state = {
@@ -98,6 +98,7 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         })
         .then(data => {
           discsDatabase = data;
+          initUpdatesUI();
           initApp();
         })
         .catch(err => {
@@ -142,25 +143,133 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       }
     }
 
+    function setLegalBarVisible(visible) {
+      const bar = document.querySelector(".legal-bar");
+      if (!bar) return;
+      bar.classList.toggle("hidden", !visible);
+    }
+
     function showWelcomeScreen() {
       document.getElementById("welcome-screen").classList.remove("hidden");
+      const updatesScreen = document.getElementById("updates-screen");
+      if (updatesScreen) updatesScreen.classList.add("hidden");
+      setLegalBarVisible(true);
+      currentDiscAspect = 1600 / 1200;
+      applyViewportSize(currentDiscAspect);
       document.getElementById("disc-frame").src = "about:blank";
-      
+
       const menu = document.getElementById("dropdown-menu");
       const selectBtn = document.getElementById("select-btn");
       if (menu) menu.classList.remove("show");
       if (selectBtn) selectBtn.classList.remove("active");
-      
+
       document.getElementById("disc-title").innerText = "Выберите диск";
       document.getElementById("disc-note").innerText = "Нажмите кнопку «Выбрать выпуск» слева сверху, чтобы открыть нужную интерактивную оболочку.";
-      
+
       document.getElementById("cover-img").src = DEFAULT_COVER;
       document.getElementById("disc-img").src = DEFAULT_DISC;
       document.getElementById("magazine-link").style.display = "none";
       document.getElementById("iso-link").style.display = "none";
-      
+
       destroyPlayers();
+      renderWelcomeUpdates();
       window.history.pushState(null, '', window.location.pathname);
+    }
+
+    function compareDiscsByAdded(a, b) {
+      const da = a.added || "";
+      const db = b.added || "";
+      if (da !== db) return db.localeCompare(da); // новее сверху
+      const ta = (a.magazine_title || a.magazine || "").toString();
+      const tb = (b.magazine_title || b.magazine || "").toString();
+      if (ta !== tb) return ta.localeCompare(tb, "ru");
+      if (a.year !== b.year) return a.year - b.year;
+      return String(a.issue).localeCompare(String(b.issue), "ru", { numeric: true });
+    }
+
+    function formatUpdateDate(iso) {
+      if (!iso) return "";
+      const m = String(iso).match(/^(\d{4})-(\d{2})-(\d{2})/);
+      if (!m) return String(iso);
+      return `${m[3]}.${m[2]}.${m[1]}`;
+    }
+
+    function formatUpdateLabel(disc) {
+      const title = disc.magazine_title || disc.magazine || "";
+      return `${title} №${disc.issue} · ${disc.year}`;
+    }
+
+    function sortedDiscsByAdded() {
+      return discsDatabase.slice().sort(compareDiscsByAdded);
+    }
+
+    function renderUpdatesInto(container, discs) {
+      if (!container) return;
+      container.innerHTML = discs.map((disc) => {
+        const date = formatUpdateDate(disc.added);
+        const label = formatUpdateLabel(disc);
+        const mag = String(disc.magazine).replace(/"/g, "");
+        const year = String(disc.year).replace(/"/g, "");
+        const issue = String(disc.issue).replace(/"/g, "");
+        return `<button type="button" class="updates-item" data-mag="${mag}" data-year="${year}" data-issue="${issue}"><span class="updates-item-date">${date}</span>${label}</button>`;
+      }).join("");
+    }
+
+    function renderWelcomeUpdates() {
+      renderUpdatesInto(
+        document.getElementById("welcome-updates-list"),
+        sortedDiscsByAdded().slice(0, 5)
+      );
+    }
+
+    function renderAllUpdates() {
+      renderUpdatesInto(
+        document.getElementById("all-updates-list"),
+        sortedDiscsByAdded()
+      );
+    }
+
+    function showAllUpdatesScreen() {
+      renderAllUpdates();
+      document.getElementById("welcome-screen").classList.add("hidden");
+      document.getElementById("updates-screen").classList.remove("hidden");
+      setLegalBarVisible(true);
+      document.getElementById("disc-frame").src = "about:blank";
+      destroyPlayers();
+    }
+
+    function openDiscFromUpdate(magazine, year, issue) {
+      state.selectedMagazine = magazine;
+      state.selectedYear = parseInt(year, 10);
+      state.selectedIssue = issue;
+      renderMenuGrids();
+      const menu = document.getElementById("dropdown-menu");
+      const selectBtn = document.getElementById("select-btn");
+      if (menu) menu.classList.remove("show");
+      if (selectBtn) selectBtn.classList.remove("active");
+      loadSelectedDisc();
+      const newUrl = `?mag=${state.selectedMagazine}&year=${state.selectedYear}&issue=${state.selectedIssue}`;
+      window.history.pushState(null, "", newUrl);
+    }
+
+    function initUpdatesUI() {
+      const welcomeList = document.getElementById("welcome-updates-list");
+      const allList = document.getElementById("all-updates-list");
+      const allBtn = document.getElementById("show-all-updates-btn");
+      const backBtn = document.getElementById("updates-back-btn");
+
+      const onListClick = (e) => {
+        const btn = e.target && e.target.closest ? e.target.closest(".updates-item") : null;
+        if (!btn) return;
+        openDiscFromUpdate(btn.dataset.mag, btn.dataset.year, btn.dataset.issue);
+      };
+
+      if (welcomeList) welcomeList.addEventListener("click", onListClick);
+      if (allList) allList.addEventListener("click", onListClick);
+      if (allBtn) allBtn.addEventListener("click", showAllUpdatesScreen);
+      if (backBtn) backBtn.addEventListener("click", showWelcomeScreen);
+
+      renderWelcomeUpdates();
     }
 
     function toggleIssueMenu(event) {
@@ -276,6 +385,9 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       }
 
       document.getElementById("welcome-screen").classList.add("hidden");
+      const updatesScreen = document.getElementById("updates-screen");
+      if (updatesScreen) updatesScreen.classList.add("hidden");
+      setLegalBarVisible(false);
 
       document.getElementById("disc-title").innerText = disc.title;
       document.getElementById("disc-note").innerText = disc.note || "Описание отсутствует.";
@@ -709,6 +821,8 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
     // --- Подгонка viewport под пропорции оболочки ---
 
     function applyViewportSize(aspect) {
+      // Внешний размер правого блока по aspect (главная / 1600×1200 → 4:3).
+      // Legal-бар внутри блока, на внешние пропорции не влияет.
       const a = aspect && aspect > 0.3 && aspect < 5 ? aspect : 4 / 3;
       currentDiscAspect = a;
       const maxH = window.innerHeight;

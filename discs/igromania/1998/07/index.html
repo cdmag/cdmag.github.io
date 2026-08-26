@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игромания — Демо-диск №1 (1998)</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="app-viewport">
+  <div class="app-window" id="appWindow">
+
+    <!-- ===== SCREEN: MAIN (license) ===== -->
+    <div class="screen active" id="screenMain">
+      <div class="header">
+        <img src="assets/img/ui/bg.webp" class="bg-img" alt="">
+        <div class="header-texts">
+          <div class="demo-title">ДЕМО-ДИСК № 1</div>
+          <div class="not-for-sale">
+            <div class="line1">Не для продажи!</div>
+            <div class="line2">Распространяется только как приложение к журналу</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-main">
+        <div class="license-panel">
+          <div class="license-title">Лицензионное Соглашение</div>
+          <div class="license-body">
+            <div class="license-scroll" id="licenseScroll">
+              <div class="license-text" id="licenseText">Все представленные на данном компакт-диске Программы являются демонстрационными версиями соответствующих продуктов и не предназначены для совершения каких-либо действий, отличных от демонстрационных. Данные программные продукты, являясь собственностью соответствующих компаний, защищены законами об авторских и смежных правах и международными соглашениями.
+Конечный Пользователь, установивший данные Программы, ИМЕЕТ право:
+ - использовать эти Программы на отдельном компьютере;
+ - использовать Программы в локальной сети с обязательным соблюдением наличия у каждого Пользователя копии данного Лицензионного Соглашения, если это не противоречит условиям соответствующей лицензии данного продукта;
+ - использовать Программы на другом компьютере, если на первом они уже не используются;
+ - копировать Программы с целью резервного сохранения с обязательным соблюдением наличия в каждом архиве соответствующей лицензии и данного Лицензионного Соглашения;
+Конечный Пользователь, установивший данные Программы, НЕ ИМЕЕТ право:
+ - допускать других Пользователей к использованию данных продуктов по основаниям, не предусмотренным данным Лицензионным Соглашением;
+ - допускать одновременное использование Программ, если иное не предусмотрено условиями соответствующей лицензии данного продукта;
+ - изменять, преобразовывать, вносить поправки в исходный код, декомпилировать, дисассемблировать или создавать производные продукты на основе данных Программ;
+ - копировать Программы по основаниям, не предусмотренным данным Лицензионным Соглашением;
+ - продавать, тиражировать или как-либо распространять Программы с целью получение прибыли;
+ - давать напрокат, сдавать в наем или каким-либо иным образом передавать права на использование этих Программ;
+ - удалять любые товарные знаки, торговые марки и лицензионные документы, содержащиеся в данных Программах, равно как и уничтожать данное Лицензионное Соглашение;
+Распространение данных Программ разрешено только с письменного согласия соответствующих компаний, если иное не предусмотрено условиями соответствующей лицензии данного продукта.
+Программы, являющиеся условно-бесплатными (Shareware) разрешено использовать только в течение срока действия лицензии соответствующего продукта (если таковой указан), по истечение данного срока вы обязаны либо приобрести данный продукт, тем самым заключив новое соглашение, либо прекратить его дальнейшее использование, удалить его и не устанавливать вновь. Несоблюдение данного требования будет расцениваться как нарушение авторских и смежных прав соответствующих компаний.
+ВНИМАНИЕ! Нарушение данного Лицензионного Соглашения или его части, равно как и нарушение условий соответствующей лицензии любой из Программ, влечет гражданскую и уголовную ответственность.
+Если вы не согласны с данным Лицензионным Соглашением или его частью, то вы должны НЕМЕДЛЕННО прекратить использование любых программных продуктов, представленных на данном компакт-диске Программ.
+Все указанные товарные знаки и торговые марки являются зарегистрированной собственностью соответствующих компаний.</div>
+            </div>
+            <div class="custom-scrollbar">
+              <div class="sb-btn" id="sbUp" title="Вверх"><span class="sb-arrow-up"></span></div>
+              <div class="sb-track" id="sbTrack">
+                <div class="sb-thumb" id="sbThumb"></div>
+              </div>
+              <div class="sb-btn" id="sbDown" title="Вниз"><span class="sb-arrow-down"></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-main">
+          <div class="menu-item" data-section="demos">Демоверсии игр</div>
+          <div class="menu-item" data-section="soft">Программы</div>
+          <div class="menu-item" data-section="patches">Патчи и<br>обновления игр</div>
+        </div>
+      </div>
+
+      <div class="exit-btn-main" id="btnExitMain">ВЫХОД</div>
+    </div>
+
+    <!-- ===== SCREEN: SECTION (list + detail) ===== -->
+    <div class="screen" id="screenSection">
+      <div class="section-title" id="sectionTitle">ДЕМО и SHAREWARE ВЕРСИИ ИГР</div>
+
+      <!-- demos layout: left list + right detail -->
+      <div class="section-body" id="demosBody">
+        <div class="list-panel">
+          <ul class="list-items" id="listItems"></ul>
+        </div>
+        <div class="detail-panel" id="detailPanel">
+          <div class="detail-image-wrap" id="detailImage">
+            <div class="placeholder">нет изображения</div>
+          </div>
+          <div class="detail-desc" id="detailDesc"></div>
+        </div>
+      </div>
+
+      <!-- soft layout: two columns + bottom detail -->
+      <div class="soft-body" id="softBody">
+        <div class="soft-cols">
+          <div class="soft-col" id="softColLeft">
+            <ul class="list-items" id="softListLeft"></ul>
+          </div>
+          <div class="soft-col" id="softColRight">
+            <ul class="list-items" id="softListRightTop"></ul>
+            <div class="zone-block" id="zoneBlock">
+              <div class="zone-header">Зона особого внимания!</div>
+              <ul class="list-items" id="softListZone"></ul>
+              <div class="zone-bl"></div>
+              <div class="zone-br"></div>
+              <div class="zone-bottom-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="soft-detail" id="softDetail"></div>
+      </div>
+
+      <!-- patches layout: 3 columns + bottom detail -->
+      <div class="patches-body" id="patchesBody">
+        <div class="patches-cols">
+          <div class="patches-col" id="patchesCol1">
+            <ul class="list-items" id="patchesList1"></ul>
+          </div>
+          <div class="patches-col" id="patchesCol2">
+            <ul class="list-items" id="patchesList2"></ul>
+          </div>
+          <div class="patches-col" id="patchesCol3">
+            <ul class="list-items" id="patchesList3"></ul>
+          </div>
+        </div>
+        <div class="patches-detail" id="patchesDetail"></div>
+      </div>
+
+      <div class="connector-line" id="connectorLine"></div>
+      <div class="connector-line-v" id="connectorLineV"></div>
+
+      <div class="section-nav">
+        <span id="btnExitSection">ВЫХОД</span>
+        <span id="btnMainMenu">ГЛАВНОЕ МЕНЮ</span>
+      </div>
+    </div>
+
+    <!-- Splash (once per session) -->
+    <div id="splashOverlay" aria-hidden="true">
+      <canvas id="splashCanvas" width="1600" height="1200"></canvas>
+    </div>
+
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

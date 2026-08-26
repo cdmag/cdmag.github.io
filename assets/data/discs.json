@@ -1,6 +1,7 @@
 [
   {
     "id": "igromania-2000-03",
+    "added": "2026-08-21",
     "width": 1600,
     "height": 1200,
     "magazine": "igromania",
@@ -60,6 +61,7 @@
   },
   {
     "id": "gameexe-2001-07",
+    "added": "2026-08-21",
     "magazine": "gameexe",
     "magazine_title": "Game.EXE",
     "year": 2001,
@@ -279,6 +281,7 @@
   },
   {
     "id": "nim-2002-05-1",
+    "added": "2026-08-21",
     "width": 1600,
     "height": 1200,
     "magazine": "nim",
@@ -322,6 +325,7 @@
   },
   {
     "id": "nim-2002-05-2",
+    "added": "2026-08-21",
     "width": 1600,
     "height": 1200,
     "magazine": "nim",
@@ -381,6 +385,7 @@
   },
   {
     "id": "lki-2003-01",
+    "added": "2026-08-21",
     "width": 1600,
     "height": 1200,
     "magazine": "lki",
@@ -469,5 +474,24 @@
       }
     ],
     "note": "Пятая оцифровка. Как будто не так много контента, но все написано на HTML, который надо переписывать и править, править... Зря я жаловался на 200+ картинок."
+  },
+  {
+    "id": "igromania-1998-07",
+    "added": "2026-08-26",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "igromania",
+    "magazine_title": "Игромания",
+    "year": 1998,
+    "issue": "07",
+    "title": "Игромания №07 (10) — Июль 1998",
+    "path": "discs/igromania/1998/07/index.html",
+    "cover_image": "discs/igromania/1998/07/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Igromania_1998-07",
+    "disc_image": "discs/igromania/1998/07/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "",
+    "webamp_tracks": [],
+    "note": "Шестая оцифровка. Первый разобранный диск, написанный на Macromedia Director! И еще это первый диск Игромании вообще."
   }
 ]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "mcafee-scan",
+    "title": "McAfee Scan for Windows 95",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 3.1.6                    <b>Date:</b> 01-Apr-98\nPublished by McAfee\nСамый популярный среди shareware антивирусный пакет"
+  },
+  {
+    "id": "esafe-protect",
+    "title": "eSafe Protect",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 1.1                    <b>Date:</b> 30-Dec-97\nExpires after 30 Days Published by eSafe Technologies\nАнтивирусов никогда не бывает много. Сканер, который постоянно контролирует все программы и документы, которые вы запускаете на компьютере, открываете или скачиваете из Интернет."
+  },
+  {
+    "id": "cuteftp",
+    "title": "CuteFTP 2.0",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Author:</b> GlobalSCAPE, Inc.\nЛучший FTP-клиент. Прекрасный удобный интерфейс, возможность докачки файлов после разрыва линии. Полная поддержка технологии drag-n-drop. Простая и удобная работа даже для тех, кто ничего не знает про FTP-протокол. Развитый язык написания скриптов."
+  },
+  {
+    "id": "calypso",
+    "title": "Calypso",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 2.40.41                    <b>Date:</b> April 20, 1998\nLicense: Shareware (30 day evaluation) Home Page: http://www.mcsdallas.com\nОтличная многофункциональная почтовая программа. Поддержка нескольких аккаунтов одновременно. Мощная система фильтрации почты. Возможность скачивать только заголовки писем, а затем удалять их прямо на сервере."
+  },
+  {
+    "id": "vdomail",
+    "title": "VDOMail",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 1.21                    <b>Date:</b> March 23, 1998\nLicense: Shareware (30 day trial) Home Page: http://www.vdo.net/vdostore/\nПрограмма для посылки аудио и видео сообщение по электронной почте, включая программу для их проигрывания, если у вашего адресата ее нет."
+  },
+  {
+    "id": "clickmail",
+    "title": "ClickMail",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 1.08                    <b>Date:</b> February 14, 1998\nLicense: Freeware Home Page: http://datastod.simplenet.com/ClickMail32.htm\nМаленькая почтовая программа, которая используется для быстрой посылки писем. Она постоянно запущена и минимизирована, один клик - и она сама дозванивается и отправляет ваше письмо."
+  },
+  {
+    "id": "quiklink",
+    "title": "QuikLink Explorer Gold",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 3.0 Pre-Release 1                    <b>Date:</b> March 3, 1998\nLicense: Shareware, 30 day evaluation Home Page: http://www.quiklinks.com\nУтилита, которая заменяет ваш букмак и файлы ссылок, позволяя попасть куда вам угодно одним кликом мыши. Она также может использоваться для конвертации ссылок между различными броузерами."
+  },
+  {
+    "id": "freezip",
+    "title": "FreeZip",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 1.4.5                    <b>Date:</b> May 10, 1998\nLicense: Freeware Home Page: http://www.healey.com.au/~nu-lifetv/freezip/\nМаленькая, быстрая и очень эффективная программа для архивации и разархивации файлов и директорий. Полностью интегрируется с Windows, встраивается в контекстное меню."
+  },
+  {
+    "id": "winrar",
+    "title": "WinRAR",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 2.02                    <b>Date:</b> September 25, 1997\nLicense: Freeware Home Page: http://www.zetnet.co.uk/RAR.T-Mail/index.html\nRAR-компрессия мощнее, чем популярная всюду ZIP, а WinRAR - самая лучшая программа для работы в этом формате."
+  },
+  {
+    "id": "hypersnap",
+    "title": "Hyper Snap-DX Pro",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 3.11.00 Home Page: http://www.hyperionics.com\nЛучший граббер экрана. Поддерживает DirectX и GLIDE. Незарегистрированная версия в левом верхним углу ставит надпись Snapped with HyperSnap-DX"
+  },
+  {
+    "id": "getright",
+    "title": "GetRight",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 3.1                    <b>Date:</b> February 27, 1998\nLicense: Shareware (30 day trial) Home Page: http://www.headlightsw.com/\nПозволяет возобновлять прерванную закачку файла, как по FTP, так и по HTTP протоколу. Возможность задание расписания и поиск сервера с наилучшей скоростью, на котором имеется такой же файл."
+  },
+  {
+    "id": "gozilla",
+    "title": "Go!Zilla",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 3.0                    <b>Date:</b> March 4, 1998\nLicense: Shareware Home Page: http://www.gizmo.net/gozilla\nПростая в использовании программа для выкачивания файлов из Сети. Выкачка по расписанию, докачка после обрыва, автоматический дозвон, отсоединение от сети после окончания выкачки и даже автоматическое выключение компьютера."
+  },
+  {
+    "id": "dunce",
+    "title": "Dunce",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 2.52                    <b>Date:</b> January 20, 1997\nLicense: Freeware Home Page: http://www.vecdev.com/\nМаленькая программка, которая сама нажимает кнопку Connect в окне дозвонки Windows95"
+  },
+  {
+    "id": "mtu-speed-pro",
+    "title": "MTU Speed Pro",
+    "column": "left",
+    "zone": false,
+    "description": "<b>Version:</b> 4.03                    <b>Date:</b> February 2, 1998\nLicense: Freeware Home Page: http://www.mjs.u-net.com/home.htm\nПрограмма, которая позволяет изменять установки MTU для TCP соединения в регистрационном файле, что значительно увеличивает скорость вашей работы в Интернет."
+  },
+  {
+    "id": "unmozify-ie",
+    "title": "UnMozify for Internet Explorer",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 6.1 Build 613\n<b>Date:</b> January 5, 1998\nLicense: Shareware; 30 day trial\nHome Page: http://www.evolve.co.uk/unmozify\nОфф-лайновый просмотрщик кеша Internet Explorer"
+  },
+  {
+    "id": "unmozify-ns",
+    "title": "UnMozify for Netscape",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 6.1 Build 613\n<b>Date:</b> January 5, 1998\n<b>License:</b> Shareware; 30 day trial\n<b>Home Page:</b> http://www.evolve.co.uk/unmozify\nОфф-лайновый просмотрщик кеша Netscape"
+  },
+  {
+    "id": "system-cleaner-98",
+    "title": "System Cleaner 98",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 2.0                    <b>Date:</b> March 27, 1998\nLicense: Shareware (30 days evaluation) Home Page: http://infortech.reedcs.com\nУтилита, которая сканирует ваш диск на предмет ненужных файлов и удаляет их. Задание расписания - включаться, когда вы не работаете или при каждом включении компьютера."
+  },
+  {
+    "id": "discplay",
+    "title": "DiscPlay",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 4.1.0 beta 4                    <b>Date:</b> April 26, 1998\nLicense: Shareware (30 day trial) Home Page: http://www.obvion.com/discplay/\nПроигрыватель компакт-дисков со множеством разнообразных функций. Может автоматически связываться с сервером в Интернет и скачивать название альбома, имя исполнителя и список песен диска, который вы слушаете."
+  },
+  {
+    "id": "winamp",
+    "title": "WinAmp",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 1.90                    <b>Date:</b> March 31, 1998\nLicense: Shareware, 30 day evaluation Home Page: http://winamp.lh.net/\nЛучший проигрыватель самого прогрессивного формата аудиозаписей .MP3 (Mpeg Layer-3). Включает графический эквалайзер, спектральный анализатор, список песен и многое другое!"
+  },
+  {
+    "id": "icq",
+    "title": "ICQ",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 98 A DLL 1.26                    <b>Date:</b> May, 1998\nLicense: Beta Home Page: http://www.icq.com\nРеволюционная технология ICQ делает людей во всем мире ближе друг к другу. Простое и удобное общение по сети в режиме реального времени, чат, письма и пересылка файлов."
+  },
+  {
+    "id": "infopro",
+    "title": "InfoPro",
+    "column": "right",
+    "zone": false,
+    "description": "<b>Version:</b> 1.60\nLicense: 14-day evaluation Home Page: http://www.sorostm.ro/edc\nПолнофункциональный тест компьютера, всех его комплектующих. Сравнение с другими моделями."
+  },
+  {
+    "id": "netscape-communicator",
+    "title": "Netscape Communicator 4.05",
+    "column": "right",
+    "zone": true,
+    "description": "<b>Version:</b> 4.05\nОдна из самых популярных программ для прогулок по Интернет от компании Netscape. Стандартная версия программы, включающая, кроме броузера, еще и программы для работы с почтой и группами новостей, редактор для создания собственных web-страниц и еще многие другие полезные функции."
+  },
+  {
+    "id": "netscape-navigator",
+    "title": "Netscape Navigator 4.05",
+    "column": "right",
+    "zone": true,
+    "description": "<b>Version:</b> 4.05\nОдна из самых популярных программ для прогулок по Интернет от компании Netscape. Версия без почтовой программы, чтения новостей и создания страниц - чистый броузер, никаких излишеств занимающих место на диске."
+  },
+  {
+    "id": "msie-eng",
+    "title": "MS Internet Explorer 4.01 eng.",
+    "column": "right",
+    "zone": true,
+    "description": "<b>Version:</b> 4.01 английская версия\nОдна из самых популярных программ для прогулок по Интернет от компании Microsoft, включающая, кроме броузера, еще и программы для работы с почтой и группами новостей, редактор для создания собственных web-страниц и еще многие другие полезные функции."
+  },
+  {
+    "id": "msie-rus",
+    "title": "MS Internet Explorer 4.01 rus.",
+    "column": "right",
+    "zone": true,
+    "description": "<b>Version:</b> 4.01 полностью русская версия\nОдна из самых популярных программ для прогулок по Интернет от компании Microsoft, включающая, кроме броузера, еще и программы для работы с почтой и группами новостей, редактор для создания собственных web-страниц и еще многие другие полезные функции."
+  },
+  {
+    "id": "directx-eng",
+    "title": "DirectX 5.2 eng.",
+    "column": "right",
+    "zone": true,
+    "description": "<b>Разработчик:</b> Microsoft\nСамая последняя версия набора драйверов для английской и пан-европейской версий Microsoft Windows 95. Абсолютно необходим для многих игр, в том числе и для некоторых демоверсий на этом диске"
+  },
+  {
+    "id": "directx-rus",
+    "title": "DirectX 5.2 rus",
+    "column": "right",
+    "zone": true,
+    "description": "<b>Разработчик:</b> Microsoft\nСамая последняя версия набора драйверов для русской версии Microsoft Windows 95. Абсолютно необходим для многих игр, в том числе и для некоторых демоверсий на этом диске"
+  }
+]

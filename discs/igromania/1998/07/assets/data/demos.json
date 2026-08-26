@@ -1,0 +1,80 @@
+[
+  {
+    "id": "outwars",
+    "title": "Outwars",
+    "image": "8.webp",
+    "description": "<b>Издатель:</b> Microsoft\n<b>Жанр:</b> 3D Action на открытом воздухе. Вы в роли крутого парня против инопланетных чудищ.\nДве полные одиночные миссии и возможность сетевой игры\n<b>Сис. требования:</b> Pentium133, 16 MB RAM, SVGA w/ 1MB\n<red>Необходим DirectX 5.2</red> (его вы найдете в разделе программы)"
+  },
+  {
+    "id": "jazz-jackrabbit-2",
+    "title": "Jazz Jackrabbit 2",
+    "image": "6.webp",
+    "description": "<b>Издатель:</b> Epic MegaGames\n<b>Разработчик:</b> Gathering of Developers\n<b>Жанр:</b> Страшно смешная и приятная платформенная аркада. Кролик-супермен выходит на бой с разнообразными противниками, которые столь же комичны, сколь и опасны.\n<b>Сис. требования:</b> Pentium-90, 16 MB RAM, Windows 95"
+  },
+  {
+    "id": "industry-giant",
+    "title": "Industry Giant",
+    "image": "4.webp",
+    "description": "<b>Издатель:</b> Interactive Magic\n<b>Разработчик:</b> JoWood Productions\n<b>Жанр:</b> Экономический симулятор в стиле SimCity и Transport Tycoon Deluxe"
+  },
+  {
+    "id": "forsaken",
+    "title": "Forsaken",
+    "image": "3.webp",
+    "description": "<b>Разработчик:</b> Probe Entertainment\n<b>Издатель:</b> Acclaim Entertainment\n<b>Жанр:</b> Самая красивая трехмерная аркада под 3Dfx из всех, созданных до сих пор. В результате катастрофы Земля погибла и теперь просторы некогда цветущей планеты стали ареной, на которой соревнуются байкеры будущего. Победителем станет лучший – ВЫ."
+  },
+  {
+    "id": "specops-net-demo",
+    "title": "Specops Net Demo",
+    "image": "10.webp",
+    "description": "<b>Издатель:</b> Zombie\n<b>Разработчик:</b> Ripcord Games\n<b>Жанр:</b> Симулятор американского ренджера - крутейший 3D-action.\n<b>Сис. требования:</b> Pentium-166, 16 MB RAM, Windows 95, <red>3Dfx-обязательно</red>"
+  },
+  {
+    "id": "juggernaut-corps",
+    "title": "Juggernaut Corps: First Assault",
+    "image": "5.webp",
+    "description": "<b>Разработчик:</b> English Software\n<b>Издатель:</b> Interactive Magic\n<b>Жанр:</b> стратегия в реальном времени, продолжение знаменитой игры\n<b>Сис. требования:</b> Windows 95, Pentium, 16 Mb RAM"
+  },
+  {
+    "id": "liberation-day",
+    "title": "Liberation Day",
+    "image": "7.webp",
+    "description": "<b>Издатель:</b> Interactive Magic\n<b>Разработчик:</b> Les Productions Micomeq\n<b>Жанр:</b> Походовая стратегия. Командуйте небольшой армией, противостоящей куда более многочисленным захватчикам на далекой планете.\n<b>Сис. требования:</b> Pentium-90, 16 MB RAM, Windows 95"
+  },
+  {
+    "id": "semper-fi",
+    "title": "Semper Fi",
+    "image": "9.webp",
+    "description": "<b>Издатель:</b> Interactive Magic\n<b>Разработчик:</b> Stanley Associates\n<b>Жанр:</b> Wargame - сражения между нашими и американцами. Вот прекрасный повод задать жару звездно-полосатым...\n<b>Сис. требования:</b> Pentium-90, 16 MB RAM, SVGA, Windows 95"
+  },
+  {
+    "id": "flying-saucer-demo",
+    "title": "Flying Saucer Demo",
+    "image": "2.webp",
+    "description": "<b>Разработчик:</b> PostLinear Entertainment\n<b>Жанр:</b> авиасимулятор будущего - фантастические маневренность и вооружение.\n<b>Сис. требования:</b> Pentium-100, 16 MB RAM, SVGA 1MB, Windows 95\nДля управления очень рекомендуется джойстик."
+  },
+  {
+    "id": "armor-command",
+    "title": "Armor Command",
+    "image": "1.webp",
+    "description": "<b>Разработчик:</b> Ronin Entertainment\n<b>Издатель:</b> Ripcord Games\n<b>Жанр:</b> трехмерная стратегия в реальном времени\n<b>Сис. требования:</b> Pentium-90, 16 MB RAM, SVGA 1MB, Windows 95\nРекомендуется 3D-ускоритель"
+  },
+  {
+    "id": "seven-kingdoms-aa",
+    "title": "Seven Kingdoms Ancient Adversaries",
+    "image": "12.webp",
+    "description": "<b>Разработчик:</b> English Software\n<b>Издатель:</b> Interactive Magic\n<b>Жанр:</b> стратегия в реальном времени, продолжение знаменитой игры\n<b>Сис. требования:</b> Windows 95, Pentium, 16 Mb RAM"
+  },
+  {
+    "id": "stratosphere",
+    "title": "Stratosphere",
+    "image": "13.webp",
+    "description": "<b>Разработчик:</b> Sculptured Software\n<b>Издатель:</b> Ripcord Games\n<b>Жанр:</b> стратегическая стрелялка, полеты на огромном тяжело вооруженном летающем острове и отстрел других таких же островов. Освободим родную стратосферу!\n<b>Сис. требования:</b> Windows 95, Pentium 133, 32 Mb RAM"
+  },
+  {
+    "id": "monster-truck-madness-2",
+    "title": "Monster Truck Madness 2",
+    "image": "11.webp",
+    "description": "<b>Разработчик:</b> Microsoft\n<b>Издатель:</b> Microsoft\n<b>Жанр:</b> гонки по пересеченной местности на четырехколесных монстрах, машинами их назвать трудно\n<b>Сис. требования:</b> Windows 95, Pentium 133, 16 Mb RAM, рекомендуется 3D ускоритель.\n<red>Необходим DirectX 5.2</red> (его вы найдете в разделе программы)"
+  }
+]
