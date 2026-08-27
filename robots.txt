@@ -1,0 +1,9 @@
+# CDmag — правила для поисковых роботов
+User-agent: *
+Allow: /
+
+# Не индексировать служебные скрипты генерации (если попадут на хостинг)
+Disallow: /scripts/
+
+# Карта сайта
+Sitemap: https://cdmag.github.io/sitemap.xml

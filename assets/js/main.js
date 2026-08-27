@@ -1,7 +1,17 @@
-const DEFAULT_COVER = "assets/img/cover-default.webp";
-    const DEFAULT_DISC = "assets/img/disc-default.webp";
+const DEFAULT_COVER = "/assets/img/cover-default.webp";
+    const DEFAULT_DISC = "/assets/img/disc-default.webp";
 
     const MEDIA_BASE = "https://pub-458fa612ee1e4b929955e64ec40245a2.r2.dev/";
+
+    /** Пути из discs.json → от корня сайта (иначе на /view/... ломаются relative). */
+    function rootAssetUrl(path) {
+      if (path == null || path === "") return path;
+      const p = String(path).trim();
+      if (!p || p === "about:blank") return p;
+      if (/^(https?:|data:|blob:)/i.test(p)) return p;
+      if (p.startsWith("/")) return p;
+      return "/" + p.replace(/^\.\//, "");
+    }
     const DEFAULT_PLAYER = "webamp";
     const AUTOPLAY_KEY = "cdmag-autoplay";
 
@@ -91,7 +101,7 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         }
       });
 
-      fetch('assets/data/discs.json')
+      fetch('/assets/data/discs.json')
         .then(response => {
           if (!response.ok) throw new Error("Не удалось загрузить discs.json");
           return response.json();
@@ -107,26 +117,54 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         });
     });
 
-    function initApp() {
+    function parseDiscLocation() {
+      // 1) boot с SEO-страницы /view/.../index.html
+      if (window.__CDMAG_BOOT__ && window.__CDMAG_BOOT__.magazine != null) {
+        const b = window.__CDMAG_BOOT__;
+        return {
+          magazine: String(b.magazine),
+          year: parseInt(b.year, 10),
+          issue: String(b.issue)
+        };
+      }
+      // 2) path /view/{mag}/{year}/{issue}/
+      const pathMatch = window.location.pathname.match(
+        /\/view\/([^/]+)\/([^/]+)\/([^/]+)\/?$/
+      );
+      if (pathMatch) {
+        return {
+          magazine: decodeURIComponent(pathMatch[1]),
+          year: parseInt(pathMatch[2], 10),
+          issue: decodeURIComponent(pathMatch[3])
+        };
+      }
+      // 3) старый query ?mag=&year=&issue=
       const urlParams = new URLSearchParams(window.location.search);
-      const magParam = urlParams.get('mag');
-      const yearParam = parseInt(urlParams.get('year'), 10);
-      const issueParam = urlParams.get('issue');
+      const magParam = urlParams.get("mag");
+      const yearParam = parseInt(urlParams.get("year"), 10);
+      const issueParam = urlParams.get("issue");
+      if (magParam && yearParam && issueParam) {
+        return { magazine: magParam, year: yearParam, issue: String(issueParam) };
+      }
+      return null;
+    }
 
+    function initApp() {
+      const fromUrl = parseDiscLocation();
       let loadedFromUrl = false;
 
-      if (magParam && yearParam && issueParam) {
-        const discExists = discsDatabase.some(d => 
-          d.magazine === magParam && 
-          d.year === yearParam && 
-          String(d.issue) === String(issueParam)
+      if (fromUrl) {
+        const discExists = discsDatabase.some(
+          (d) =>
+            d.magazine === fromUrl.magazine &&
+            d.year === fromUrl.year &&
+            String(d.issue) === String(fromUrl.issue)
         );
 
         if (discExists) {
-          state.selectedMagazine = magParam;
-          state.selectedYear = yearParam;
-          state.selectedIssue = issueParam;
-          
+          state.selectedMagazine = fromUrl.magazine;
+          state.selectedYear = fromUrl.year;
+          state.selectedIssue = fromUrl.issue;
           loadSelectedDisc();
           loadedFromUrl = true;
         }
@@ -135,7 +173,7 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       if (!loadedFromUrl) {
         if (discsDatabase.length > 0) {
           state.selectedMagazine = discsDatabase[0].magazine;
-          const magDiscs = discsDatabase.filter(d => d.magazine === state.selectedMagazine);
+          const magDiscs = discsDatabase.filter((d) => d.magazine === state.selectedMagazine);
           state.selectedYear = magDiscs[0].year;
           state.selectedIssue = magDiscs[0].issue;
         }
@@ -173,7 +211,34 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
 
       destroyPlayers();
       renderWelcomeUpdates();
-      window.history.pushState(null, '', window.location.pathname);
+      setDocumentMeta(null);
+      try {
+        window.__CDMAG_BOOT__ = null;
+      } catch (e) {}
+      window.history.pushState(null, "", "/");
+    }
+
+    const DEFAULT_DOC_TITLE = "CDmag — Архив дисковых оболочек";
+    const DEFAULT_DOC_DESCRIPTION =
+      "Онлайн-архив оцифрованных дисковых оболочек игровых журналов 90-х и 2000-х: Игромания, Game.EXE, Навигатор игрового мира, ЛКИ и другие. Запуск оригинальных оболочек в браузере.";
+
+    function setDocumentMeta(disc) {
+      const meta = document.getElementById("meta-description") ||
+        document.querySelector('meta[name="description"]');
+      if (!disc) {
+        document.title = DEFAULT_DOC_TITLE;
+        if (meta) meta.setAttribute("content", DEFAULT_DOC_DESCRIPTION);
+        return;
+      }
+      const title = disc.title || formatUpdateLabel(disc);
+      document.title = `${title} — CDmag`;
+      if (meta) {
+        const note = (disc.note || "").trim();
+        const desc = note
+          ? `${title}. ${note}`
+          : `${title} — дисковая оболочка онлайн в архиве CDmag.`;
+        meta.setAttribute("content", desc.slice(0, 300));
+      }
     }
 
     function compareDiscsByAdded(a, b) {
@@ -203,6 +268,23 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       return discsDatabase.slice().sort(compareDiscsByAdded);
     }
 
+    function discPageHref(magazine, year, issue) {
+      const mag = encodeURIComponent(String(magazine));
+      const y = encodeURIComponent(String(year));
+      const iss = encodeURIComponent(String(issue));
+      return `/view/${mag}/${y}/${iss}/`;
+    }
+
+    /** @deprecated query; оставлен для совместимости */
+    function discQueryHref(magazine, year, issue) {
+      const q = new URLSearchParams({
+        mag: String(magazine),
+        year: String(year),
+        issue: String(issue)
+      });
+      return `?${q.toString()}`;
+    }
+
     function renderUpdatesInto(container, discs) {
       if (!container) return;
       container.innerHTML = discs.map((disc) => {
@@ -211,7 +293,8 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         const mag = String(disc.magazine).replace(/"/g, "");
         const year = String(disc.year).replace(/"/g, "");
         const issue = String(disc.issue).replace(/"/g, "");
-        return `<button type="button" class="updates-item" data-mag="${mag}" data-year="${year}" data-issue="${issue}"><span class="updates-item-date">${date}</span>${label}</button>`;
+        const href = discPageHref(mag, year, issue);
+        return `<a class="updates-item" href="${href}" data-mag="${mag}" data-year="${year}" data-issue="${issue}"><span class="updates-item-date">${date}</span>${label}</a>`;
       }).join("");
     }
 
@@ -248,8 +331,11 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       if (menu) menu.classList.remove("show");
       if (selectBtn) selectBtn.classList.remove("active");
       loadSelectedDisc();
-      const newUrl = `?mag=${state.selectedMagazine}&year=${state.selectedYear}&issue=${state.selectedIssue}`;
-      window.history.pushState(null, "", newUrl);
+      window.history.pushState(
+        null,
+        "",
+        discPageHref(state.selectedMagazine, state.selectedYear, state.selectedIssue)
+      );
     }
 
     function initUpdatesUI() {
@@ -259,9 +345,12 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       const backBtn = document.getElementById("updates-back-btn");
 
       const onListClick = (e) => {
-        const btn = e.target && e.target.closest ? e.target.closest(".updates-item") : null;
-        if (!btn) return;
-        openDiscFromUpdate(btn.dataset.mag, btn.dataset.year, btn.dataset.issue);
+        const link = e.target && e.target.closest ? e.target.closest("a.updates-item") : null;
+        if (!link) return;
+        // Обычный href оставляем для поисковиков; без перезагрузки страницы
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1) return;
+        e.preventDefault();
+        openDiscFromUpdate(link.dataset.mag, link.dataset.year, link.dataset.issue);
       };
 
       if (welcomeList) welcomeList.addEventListener("click", onListClick);
@@ -362,8 +451,11 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       document.getElementById('select-btn').classList.remove('active');
       loadSelectedDisc();
 
-      const newUrl = `?mag=${state.selectedMagazine}&year=${state.selectedYear}&issue=${state.selectedIssue}`;
-      window.history.pushState(null, '', newUrl);
+      window.history.pushState(
+        null,
+        "",
+        discPageHref(state.selectedMagazine, state.selectedYear, state.selectedIssue)
+      );
     }
 
     function loadSelectedDisc() {
@@ -374,6 +466,8 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       );
 
       if (!disc) return;
+
+      setDocumentMeta(disc);
 
       if (typeof ym === "function") {
         const params = getCurrentDiscMetricParams();
@@ -400,11 +494,14 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
         applyViewportSize(currentDiscAspect);
       }
 
-      document.getElementById("disc-frame").src = disc.path;
+      document.getElementById("disc-frame").src = rootAssetUrl(disc.path);
 
       const coverImg = document.getElementById("cover-img");
-      coverImg.src = disc.cover_image && disc.cover_image.trim() !== "" ? disc.cover_image : DEFAULT_COVER;
-      
+      coverImg.src =
+        disc.cover_image && disc.cover_image.trim() !== ""
+          ? rootAssetUrl(disc.cover_image)
+          : DEFAULT_COVER;
+
       const magLink = document.getElementById("magazine-link");
       if (disc.magazine_url) {
         magLink.href = disc.magazine_url;
@@ -414,7 +511,10 @@ const DEFAULT_COVER = "assets/img/cover-default.webp";
       }
 
       const discImg = document.getElementById("disc-img");
-      discImg.src = disc.disc_image && disc.disc_image.trim() !== "" ? disc.disc_image : DEFAULT_DISC;
+      discImg.src =
+        disc.disc_image && disc.disc_image.trim() !== ""
+          ? rootAssetUrl(disc.disc_image)
+          : DEFAULT_DISC;
 
       const isoLink = document.getElementById("iso-link");
       if (disc.download_iso) {
