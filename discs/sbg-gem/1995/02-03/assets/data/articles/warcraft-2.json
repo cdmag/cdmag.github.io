@@ -1,0 +1,59 @@
+{
+  "id": "warcraft-2",
+  "title": "Warcraft II",
+  "music": "str.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/13-1-wc1.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 750,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/13-1-wc1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/13-1-wc2.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 200,
+          "w": 575,
+          "h": 400,
+          "popup": "assets/img/content/13-1-wc2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/13-1-wc3.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 700,
+          "w": 575,
+          "h": 375,
+          "popup": "assets/img/content/13-1-wc3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/13-1-wc4.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 450,
+          "w": 575,
+          "h": 375,
+          "popup": "assets/img/content/13-1-wc4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/13-1-wc5.webp",
+      "hotspots": []
+    }
+  ]
+}

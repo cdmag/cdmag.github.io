@@ -1,0 +1,63 @@
+{
+  "id": "vdoomatsya",
+  "title": "вDOOMаться",
+  "music": "doom.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/15-doom1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom9.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/15-doom14.webp",
+      "hotspots": []
+    }
+  ]
+}

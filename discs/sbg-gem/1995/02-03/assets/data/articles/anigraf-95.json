@@ -1,0 +1,13 @@
+{
+  "id": "anigraf-95",
+  "title": "Аниграф'95",
+  "music": "editor.opus",
+  "pages": [
+    { "image": "assets/img/content/01-4-anigraf1.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-4-anigraf2.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-4-anigraf3.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-4-anigraf4.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-4-anigraf5.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-4-anigraf6.webp", "hotspots": [] }
+  ]
+}

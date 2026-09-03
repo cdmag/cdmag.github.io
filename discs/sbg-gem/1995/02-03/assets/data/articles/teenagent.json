@@ -1,0 +1,76 @@
+{
+  "id": "teenagent",
+  "title": "TeenAgent",
+  "music": "adv.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/09-2-ta1.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 750,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/09-2-ta2.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 125,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta2-screen1.webp"
+        },
+        {
+          "x": 1000,
+          "y": 700,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/09-2-ta3.webp",
+      "hotspots": [
+        {
+          "x": 100,
+          "y": 750,
+          "w": 550,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta3-screen1.webp"
+        },
+        {
+          "x": 1000,
+          "y": 750,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/09-2-ta4.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 125,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta4-screen1.webp"
+        },
+        {
+          "x": 500,
+          "y": 700,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/09-2-ta4-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

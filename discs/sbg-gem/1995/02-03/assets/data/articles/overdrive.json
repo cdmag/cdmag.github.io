@@ -1,0 +1,62 @@
+{
+  "id": "overdrive",
+  "title": "Overdrive",
+  "music": "ovrdrv.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/08-ovd1.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 550,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/08-ovd1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/08-ovd2.webp",
+      "hotspots": [
+        {
+          "x": 950,
+          "y": 200,
+          "w": 550,
+          "h": 350,
+          "popup": "assets/img/content/08-ovd2-screen1.webp"
+        },
+        {
+          "x": 100,
+          "y": 625,
+          "w": 550,
+          "h": 375,
+          "popup": "assets/img/content/08-ovd2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/08-ovd3.webp",
+      "hotspots": [
+        {
+          "x": 450,
+          "y": 450,
+          "w": 600,
+          "h": 400,
+          "popup": "assets/img/content/08-ovd3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/08-ovd4.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 700,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/08-ovd4-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

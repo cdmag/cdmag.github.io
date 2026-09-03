@@ -1,0 +1,57 @@
+{
+  "id": "fx-fighter",
+  "title": "FX FIGHTER",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/07-5-fxf1.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 125,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/07-5-fxf1-screen1.webp"
+        },
+        {
+          "x": 500,
+          "y": 625,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/07-5-fxf1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-5-fxf2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 375,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/07-5-fxf2-screen1.webp"
+        },
+        {
+          "x": 1000,
+          "y": 700,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/07-5-fxf2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-5-fxf3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-5-fxf4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-5-fxf5.webp",
+      "hotspots": []
+    }
+  ]
+}

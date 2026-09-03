@@ -1,0 +1,115 @@
+{
+  "id": "quake-fight",
+  "title": "QUAKE",
+  "music": "quake.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/07-7-quake1.webp",
+      "hotspots": [
+        {
+          "x": 1050,
+          "y": 100,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake1-screen1.webp"
+        },
+        {
+          "x": 1050,
+          "y": 425,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake1-screen2.webp"
+        },
+        {
+          "x": 1050,
+          "y": 750,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake1-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-7-quake2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake2-screen1.webp"
+        },
+        {
+          "x": 75,
+          "y": 425,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake2-screen2.webp"
+        },
+        {
+          "x": 75,
+          "y": 750,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake2-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-7-quake3.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 100,
+          "w": 575,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake3-screen1.webp"
+        },
+        {
+          "x": 500,
+          "y": 425,
+          "w": 575,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake3-screen2.webp"
+        },
+        {
+          "x": 500,
+          "y": 750,
+          "w": 575,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake3-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-7-quake4.webp",
+      "hotspots": [
+        {
+          "x": 1050,
+          "y": 100,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake4-screen1.webp"
+        },
+        {
+          "x": 1050,
+          "y": 425,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake4-screen2.webp"
+        },
+        {
+          "x": 1050,
+          "y": 750,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-7-quake4-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-7-quake5.webp",
+      "hotspots": []
+    }
+  ]
+}

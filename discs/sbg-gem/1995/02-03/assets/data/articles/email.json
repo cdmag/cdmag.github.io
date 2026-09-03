@@ -1,0 +1,14 @@
+{
+  "id": "email",
+  "title": "E-mail",
+  "music": "editor.opus",
+  "pages": [
+    { "image": "assets/img/content/01-3-email1.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-3-email2.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-3-email3.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-3-email4.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-3-email5.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-3-email6.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-3-email7.webp", "hotspots": [] }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rating-populyarnosti",
+  "title": "Рейтинг популярности игр",
+  "music": "top100.opus",
+  "mode": "scroll",
+  "pages": [
+    {
+      "image": "assets/img/content/04-top100.webp",
+      "width": 640,
+      "height": 1820,
+      "hotspots": []
+    }
+  ]
+}

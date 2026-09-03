@@ -1,0 +1,95 @@
+{
+  "id": "heretic-3",
+  "title": "Heretic III",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/07-2-heretic1.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 575,
+          "w": 488,
+          "h": 312,
+          "popup": "assets/img/content/07-2-heretic1-screen1.webp"
+        },
+        {
+          "x": 100,
+          "y": 775,
+          "w": 500,
+          "h": 325,
+          "popup": "assets/img/content/07-2-heretic1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-2-heretic2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 500,
+          "w": 525,
+          "h": 362,
+          "popup": "assets/img/content/07-2-heretic2-screen1.webp"
+        },
+        {
+          "x": 1050,
+          "y": 700,
+          "w": 450,
+          "h": 350,
+          "popup": "assets/img/content/07-2-heretic2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-2-heretic3.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 125,
+          "w": 500,
+          "h": 325,
+          "popup": "assets/img/content/07-2-heretic3-screen1.webp"
+        },
+        {
+          "x": 75,
+          "y": 800,
+          "w": 500,
+          "h": 325,
+          "popup": "assets/img/content/07-2-heretic3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-2-heretic4.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 138,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/07-2-heretic4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-2-heretic5.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 500,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/07-2-heretic5-screen1.webp"
+        },
+        {
+          "x": 1000,
+          "y": 500,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/07-2-heretic5-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "kyrandia-3",
+  "title": "Kyrandia III",
+  "music": "adv.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/09-3-kyr1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr9.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/09-3-kyr14.webp",
+      "hotspots": []
+    }
+  ]
+}

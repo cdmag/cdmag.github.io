@@ -1,0 +1,11 @@
+{
+  "id": "wanted-gamemakers",
+  "title": "Wanted: Gamemakers",
+  "music": "editor.opus",
+  "pages": [
+    { "image": "assets/img/content/01-5-wanted1.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-5-wanted2.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-5-wanted3.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-5-wanted4.webp", "hotspots": [] }
+  ]
+}

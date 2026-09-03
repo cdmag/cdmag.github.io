@@ -1,0 +1,217 @@
+{
+  "id": "obzor-45-manipulyatorov",
+  "title": "Обзор 45 игровых манипуляторов",
+  "music": "hard.opus",
+  "mode": "list",
+  "listImage": "assets/img/content/06-45review.webp",
+  "listWidth": 640,
+  "listHeight": 480,
+  "items": [
+    {
+      "x": 457,
+      "y": 141,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 1
+    },
+    {
+      "x": 457,
+      "y": 208,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 3
+    },
+    {
+      "x": 457,
+      "y": 275,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 3
+    },
+    {
+      "x": 457,
+      "y": 342,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 7
+    },
+    {
+      "x": 457,
+      "y": 409,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 7
+    },
+    {
+      "x": 457,
+      "y": 476,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 7
+    },
+    {
+      "x": 457,
+      "y": 543,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 8
+    },
+    {
+      "x": 457,
+      "y": 610,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 9
+    },
+    {
+      "x": 457,
+      "y": 677,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 10
+    },
+    {
+      "x": 457,
+      "y": 744,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 10
+    },
+    {
+      "x": 457,
+      "y": 811,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 14
+    },
+    {
+      "x": 457,
+      "y": 878,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 15
+    },
+    {
+      "x": 457,
+      "y": 945,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 16
+    },
+    {
+      "x": 457,
+      "y": 1012,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 16
+    },
+    {
+      "x": 457,
+      "y": 1079,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 18
+    },
+    {
+      "x": 457,
+      "y": 1146,
+      "w": 697,
+      "h": 45,
+      "pageIndex": 21
+    }
+  ],
+  "pages": [
+    {
+      "image": "assets/img/content/06-45review1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review9.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review15.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review18.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review19.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review22.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/06-45review23.webp",
+      "hotspots": []
+    }
+  ]
+}

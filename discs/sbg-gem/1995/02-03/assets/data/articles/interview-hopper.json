@@ -1,0 +1,10 @@
+{
+  "id": "interview-hopper",
+  "title": "Интервью с Деннисом Хоппером: HELL",
+  "music": "hell.opus",
+  "pages": [
+    { "image": "assets/img/content/05-hell1.webp", "hotspots": [] },
+    { "image": "assets/img/content/05-hell2.webp", "hotspots": [] },
+    { "image": "assets/img/content/05-hell3.webp", "hotspots": [] }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "credits",
+  "title": "Credits",
+  "music": "credits.opus",
+  "pages": [
+    { "image": "assets/img/content/01-8-credits.webp", "hotspots": [] }
+  ]
+}

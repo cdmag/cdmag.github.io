@@ -1,0 +1,295 @@
+:root {
+      --cur-red: url("../img/ui/cursor-red.webp") 2 16, auto;
+      --cur-green: url("../img/ui/cursor-green.webp") 2 16, auto;
+      --cur-zoom: url("../img/ui/cursor-zoom.webp") 16 14, auto;
+      --cur-prev: url("../img/ui/page-prev.webp") 46 8, auto;
+      --cur-next: url("../img/ui/page-next.webp") 46 44, auto;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden; background: #000;
+      -webkit-user-select: none; user-select: none;
+      -webkit-user-drag: none; user-drag: none;
+      -webkit-tap-highlight-color: transparent;
+      cursor: var(--cur-red);
+    }
+    .viewport {
+      position: fixed; inset: 0; width: 100%; height: 100%;
+      background: #000; overflow: hidden;
+    }
+    .stage {
+      position: absolute; width: 1600px; height: 1200px;
+      transform-origin: 0 0;
+      overflow: hidden;
+    }
+
+    /* ===== MENU ===== */
+    #view-menu { display: block; }
+    .menu-scroll {
+      position: relative; width: 1600px; height: 1200px;
+      overflow-x: hidden; overflow-y: auto;
+      -ms-overflow-style: none; scrollbar-width: none;
+      cursor: var(--cur-red);
+    }
+    .menu-scroll::-webkit-scrollbar { display: none; width: 0; height: 0; }
+    .menu-scroll.edge-active {
+      cursor: var(--cur-red);
+    }
+    .menu-image {
+      display: block; position: relative; width: 1600px; height: 4350px;
+      /* image is an <img> child — hotspots share this box */
+    }
+    .menu-image > img {
+      display: block;
+      width: 1600px; height: 4350px;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+      -ms-interpolation-mode: nearest-neighbor;
+      pointer-events: none;
+      -webkit-user-drag: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .hotspot {
+      position: absolute;
+      cursor: var(--cur-green);
+      z-index: 10;
+    }
+
+    /* ===== VIEWER ===== */
+    #view-viewer { display: none; }
+    .page-image {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background-size: 1600px 1200px;
+      background-repeat: no-repeat; background-position: 0 0;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+      -ms-interpolation-mode: nearest-neighbor;
+      pointer-events: none;
+      -webkit-user-drag: none;
+    }
+    .edge-zone {
+      position: absolute; left: 0; width: 100%; height: 10%; z-index: 20;
+    }
+    .edge-zone.top { top: 0; }
+    .edge-zone.bottom { bottom: 0; }
+    .edge-zone.top.active { cursor: var(--cur-prev); }
+    .edge-zone.bottom.active { cursor: var(--cur-next); }
+    .edge-zone.inactive { cursor: var(--cur-red); }
+
+    /* Tall scroll mode */
+    .tall-scroll {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      overflow-x: hidden; overflow-y: auto;
+      -ms-overflow-style: none; scrollbar-width: none;
+      display: none;
+      cursor: var(--cur-red);
+    }
+    .tall-scroll::-webkit-scrollbar { display: none; width: 0; height: 0; }
+    .tall-scroll.edge-active {
+      cursor: var(--cur-red);
+    }
+    .tall-content {
+      position: relative;
+      width: 1600px;
+      /* height set by JS to match scaled image */
+    }
+    .tall-image {
+      display: block; width: 1600px;
+      background-repeat: no-repeat; background-position: 0 0;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+      -ms-interpolation-mode: nearest-neighbor;
+      pointer-events: none;
+    }
+
+    /* Screenshot popup */
+    .popup-overlay {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background: rgba(0,0,0,0.85);
+      display: none;
+      z-index: 50;
+      cursor: none;
+    }
+    .popup-overlay.visible { display: block; }
+    .popup-image {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background-size: 1600px 1200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      pointer-events: none; /* prevent browser image UI */
+    }
+    .popup-hit {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      z-index: 1;
+      /* transparent layer that receives all mouse events */
+    }
+    .page-hotspot {
+      position: absolute;
+      cursor: var(--cur-green);
+      z-index: 15;
+    }
+    .page-hotspot.zoom {
+      cursor: var(--cur-zoom);
+    }
+
+    /* ===== TRANSITIONS ===== */
+    #tx-overlay {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      z-index: 100;
+      display: none;
+      overflow: hidden;
+      pointer-events: all;
+      background: #000;
+    }
+    #tx-overlay.active { display: block; }
+    .tx-layer {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background-size: 1600px 1200px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+    .tx-half {
+      position: absolute; top: 0;
+      width: 800px; height: 1200px;
+      background-size: 1600px 1200px;
+      background-repeat: no-repeat;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+    .tx-half.left { left: 0; background-position: 0 0; }
+    .tx-half.right { left: 800px; background-position: -800px 0; }
+
+    /* ===== LEFT PANEL ===== */
+    #left-edge-zone {
+      position: absolute; left: 0; top: 0;
+      width: 80px; height: 1200px;
+      z-index: 60;
+      pointer-events: none;
+    }
+    #left-panel {
+      position: absolute; left: -235px; top: 0;
+      width: 235px; height: 1125px;
+      background: url("../img/ui/panel_left.webp") no-repeat 0 0;
+      background-size: 235px 1125px;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      z-index: 70;
+      transition: left 0.35s ease-out;
+      pointer-events: auto;
+    }
+    #left-panel.open { left: 0; }
+    #left-panel .slider-handle {
+      position: absolute;
+      width: 40px; height: 14px;
+      background: url("../img/ui/slider.webp") no-repeat 0 0;
+      background-size: 40px 14px;
+      image-rendering: pixelated;
+      cursor: var(--cur-green);
+      z-index: 2;
+    }
+    #left-panel .panel-btn {
+      position: absolute;
+      cursor: var(--cur-green);
+      z-index: 2;
+    }
+    #overlay-screen {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background-size: 1600px 1200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      z-index: 90;
+      display: none;
+      cursor: none;
+      opacity: 0;
+      transition: opacity 0.4s linear;
+      background-color: #000;
+    }
+    #overlay-screen.visible {
+      display: block;
+      opacity: 1;
+    }
+
+    /* ===== RIGHT PANEL ===== */
+    #right-panel {
+      position: absolute; left: 1600px; top: 0;
+      width: 248px; height: 1130px;
+      background: url("../img/ui/panel_right.webp") no-repeat 0 0;
+      background-size: 248px 1130px;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      z-index: 70;
+      transition: left 0.35s ease-out;
+      pointer-events: auto;
+    }
+    #right-panel.open { left: 1352px; }
+
+    #right-panel .pg-btn {
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      cursor: var(--cur-green);
+      z-index: 2;
+    }
+
+    /* ===== SPLASH ===== */
+    #view-splash {
+      display: none;
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background: #000;
+      z-index: 80;
+      cursor: none;
+      -webkit-user-select: none; user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
+      overflow: hidden;
+    }
+    #view-splash.visible { display: block; }
+    #splash-image {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      background-size: 1600px 1200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      opacity: 1;
+      transition: opacity 0.45s linear;
+      pointer-events: none !important;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
+    }
+    #splash-hit {
+      position: absolute; left: 0; top: 0;
+      width: 1600px; height: 1200px;
+      z-index: 2;
+      cursor: none;
+      /* nearly invisible fill so browser image-toolbar never sees the bg layer */
+      background: rgba(0,0,0,0.002);
+      -webkit-user-select: none; user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
+    }

@@ -1,0 +1,39 @@
+{
+  "id": "reklama",
+  "title": "Реклама",
+  "music": "credits.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/01-9-marketing1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/01-9-marketing8.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "star-control-2",
+  "title": "Star Control 2",
+  "music": "sc2.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/16-sc1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc9.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/16-sc13.webp",
+      "hotspots": []
+    }
+  ]
+}

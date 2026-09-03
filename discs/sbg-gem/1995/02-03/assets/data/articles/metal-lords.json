@@ -1,0 +1,31 @@
+{
+  "id": "metal-lords",
+  "title": "Metal Lords",
+  "music": "str.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/13-3-ml1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/13-3-ml2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/13-3-ml3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/13-3-ml4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/13-3-ml5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/13-3-ml6.webp",
+      "hotspots": []
+    }
+  ]
+}

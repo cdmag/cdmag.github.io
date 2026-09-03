@@ -1,0 +1,12 @@
+{
+  "id": "doom-championship",
+  "title": "II-й Российский чемпионат по DOOM",
+  "music": "doom.opus",
+  "pages": [
+    { "image": "assets/img/content/01-6-doom1.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-6-doom2.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-6-doom3.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-6-doom4.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-6-doom5.webp", "hotspots": [] }
+  ]
+}

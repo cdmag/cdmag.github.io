@@ -1,0 +1,9 @@
+{
+  "id": "hotite-zarabotat",
+  "title": "Хотите заработать?",
+  "music": "editor.opus",
+  "pages": [
+    { "image": "assets/img/content/01-2-earn1.webp", "hotspots": [] },
+    { "image": "assets/img/content/01-2-earn2.webp", "hotspots": [] }
+  ]
+}

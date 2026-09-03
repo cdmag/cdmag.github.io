@@ -1,0 +1,69 @@
+{
+  "id": "hi-octane",
+  "title": "HI-OCTANE",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/07-3-hio1.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 750,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/07-3-hio1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-3-hio2.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 125,
+          "w": 500,
+          "h": 338,
+          "popup": "assets/img/content/07-3-hio2-screen1.webp"
+        },
+        {
+          "x": 100,
+          "y": 775,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/07-3-hio2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-3-hio3.webp",
+      "hotspots": [
+        {
+          "x": 450,
+          "y": 125,
+          "w": 600,
+          "h": 350,
+          "popup": "assets/img/content/07-3-hio3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-3-hio4.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 550,
+          "w": 500,
+          "h": 338,
+          "popup": "assets/img/content/07-3-hio4-screen1.webp"
+        },
+        {
+          "x": 100,
+          "y": 775,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/07-3-hio4-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+{
+  "id": "obzor-250-igr",
+  "title": "Обзор 250 игр, находящихся в стадии разработки",
+  "music": "prj.opus",
+  "mode": "list",
+  "listImage": "assets/img/content/03-250games.webp",
+  "listWidth": 640,
+  "listHeight": 900,
+  "items": [
+    {
+      "x": 195,
+      "y": 133,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 0
+    },
+    {
+      "x": 793,
+      "y": 133,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 24
+    },
+    {
+      "x": 195,
+      "y": 196,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 2
+    },
+    {
+      "x": 793,
+      "y": 196,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 24
+    },
+    {
+      "x": 195,
+      "y": 259,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 2
+    },
+    {
+      "x": 793,
+      "y": 259,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 25
+    },
+    {
+      "x": 195,
+      "y": 322,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 3
+    },
+    {
+      "x": 793,
+      "y": 322,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 26
+    },
+    {
+      "x": 195,
+      "y": 385,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 3
+    },
+    {
+      "x": 793,
+      "y": 385,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 27
+    },
+    {
+      "x": 195,
+      "y": 448,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 3
+    },
+    {
+      "x": 793,
+      "y": 448,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 28
+    },
+    {
+      "x": 195,
+      "y": 511,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 4
+    },
+    {
+      "x": 793,
+      "y": 511,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 30
+    },
+    {
+      "x": 195,
+      "y": 574,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 5
+    },
+    {
+      "x": 793,
+      "y": 574,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 30
+    },
+    {
+      "x": 195,
+      "y": 637,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 5
+    },
+    {
+      "x": 793,
+      "y": 637,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 30
+    },
+    {
+      "x": 195,
+      "y": 700,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 6
+    },
+    {
+      "x": 793,
+      "y": 700,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 32
+    },
+    {
+      "x": 195,
+      "y": 763,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 7
+    },
+    {
+      "x": 793,
+      "y": 763,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 33
+    },
+    {
+      "x": 195,
+      "y": 826,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 8
+    },
+    {
+      "x": 793,
+      "y": 826,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 33
+    },
+    {
+      "x": 195,
+      "y": 889,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 10
+    },
+    {
+      "x": 793,
+      "y": 889,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 35
+    },
+    {
+      "x": 195,
+      "y": 952,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 11
+    },
+    {
+      "x": 793,
+      "y": 952,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 36
+    },
+    {
+      "x": 195,
+      "y": 1015,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 12
+    },
+    {
+      "x": 793,
+      "y": 1015,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 36
+    },
+    {
+      "x": 195,
+      "y": 1078,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 13
+    },
+    {
+      "x": 793,
+      "y": 1078,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 37
+    },
+    {
+      "x": 195,
+      "y": 1141,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 13
+    },
+    {
+      "x": 793,
+      "y": 1141,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 38
+    },
+    {
+      "x": 195,
+      "y": 1204,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 14
+    },
+    {
+      "x": 793,
+      "y": 1204,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 39
+    },
+    {
+      "x": 195,
+      "y": 1267,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 16
+    },
+    {
+      "x": 793,
+      "y": 1267,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 39
+    },
+    {
+      "x": 195,
+      "y": 1330,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 16
+    },
+    {
+      "x": 793,
+      "y": 1330,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 40
+    },
+    {
+      "x": 195,
+      "y": 1393,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 17
+    },
+    {
+      "x": 793,
+      "y": 1393,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 40
+    },
+    {
+      "x": 195,
+      "y": 1456,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 17
+    },
+    {
+      "x": 793,
+      "y": 1456,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 42
+    },
+    {
+      "x": 195,
+      "y": 1519,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 18
+    },
+    {
+      "x": 793,
+      "y": 1519,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 44
+    },
+    {
+      "x": 195,
+      "y": 1582,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 18
+    },
+    {
+      "x": 793,
+      "y": 1582,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 44
+    },
+    {
+      "x": 195,
+      "y": 1645,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 18
+    },
+    {
+      "x": 793,
+      "y": 1645,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 45
+    },
+    {
+      "x": 195,
+      "y": 1708,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 19
+    },
+    {
+      "x": 793,
+      "y": 1708,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 47
+    },
+    {
+      "x": 195,
+      "y": 1771,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 19
+    },
+    {
+      "x": 793,
+      "y": 1771,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 47
+    },
+    {
+      "x": 195,
+      "y": 1834,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 19
+    },
+    {
+      "x": 793,
+      "y": 1834,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 48
+    },
+    {
+      "x": 195,
+      "y": 1897,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 20
+    },
+    {
+      "x": 793,
+      "y": 1897,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 48
+    },
+    {
+      "x": 195,
+      "y": 1960,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 22
+    },
+    {
+      "x": 793,
+      "y": 1960,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 49
+    },
+    {
+      "x": 195,
+      "y": 2023,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 22
+    },
+    {
+      "x": 793,
+      "y": 2023,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 49
+    },
+    {
+      "x": 195,
+      "y": 2086,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 23
+    },
+    {
+      "x": 793,
+      "y": 2083,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 49
+    },
+    {
+      "x": 195,
+      "y": 2149,
+      "w": 565,
+      "h": 54,
+      "pageIndex": 23
+    }
+  ],
+  "pages": [
+    {
+      "image": "assets/img/content/03-250games1.webp",
+      "hotspots": [
+        {
+          "x": 888,
+          "y": 712,
+          "w": 462,
+          "h": 312,
+          "popup": "assets/img/content/03-250games1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games2.webp",
+      "hotspots": [
+        {
+          "x": 938,
+          "y": 438,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/03-250games2-screen1.webp"
+        },
+        {
+          "x": 112,
+          "y": 800,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/03-250games2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games3.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 638,
+          "w": 525,
+          "h": 362,
+          "popup": "assets/img/content/03-250games3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games9.webp",
+      "hotspots": [
+        {
+          "x": 938,
+          "y": 400,
+          "w": 488,
+          "h": 312,
+          "popup": "assets/img/content/03-250games9-screen1.webp"
+        },
+        {
+          "x": 112,
+          "y": 762,
+          "w": 525,
+          "h": 338,
+          "popup": "assets/img/content/03-250games9-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games12.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 312,
+          "w": 525,
+          "h": 362,
+          "popup": "assets/img/content/03-250games12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games13.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 525,
+          "w": 525,
+          "h": 362,
+          "popup": "assets/img/content/03-250games13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games15.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 288,
+          "w": 525,
+          "h": 362,
+          "popup": "assets/img/content/03-250games15-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games16.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 212,
+          "w": 488,
+          "h": 325,
+          "popup": "assets/img/content/03-250games16-screen1.webp"
+        },
+        {
+          "x": 112,
+          "y": 762,
+          "w": 488,
+          "h": 325,
+          "popup": "assets/img/content/03-250games16-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games18.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games19.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games22.webp",
+      "hotspots": [
+        {
+          "x": 125,
+          "y": 712,
+          "w": 500,
+          "h": 338,
+          "popup": "assets/img/content/03-250games22-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games23.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games24.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games25.webp",
+      "hotspots": [
+        {
+          "x": 125,
+          "y": 575,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/03-250games25-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games26.webp",
+      "hotspots": [
+        {
+          "x": 100,
+          "y": 762,
+          "w": 550,
+          "h": 350,
+          "popup": "assets/img/content/03-250games26-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games27.webp",
+      "hotspots": [
+        {
+          "x": 125,
+          "y": 238,
+          "w": 525,
+          "h": 362,
+          "popup": "assets/img/content/03-250games27-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games28.webp",
+      "hotspots": [
+        {
+          "x": 925,
+          "y": 138,
+          "w": 500,
+          "h": 362,
+          "popup": "assets/img/content/03-250games28-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games29.webp",
+      "hotspots": [
+        {
+          "x": 925,
+          "y": 225,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/03-250games29-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games30.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games31.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games32.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games33.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games34.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games35.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games36.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games37.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games38.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 762,
+          "w": 550,
+          "h": 350,
+          "popup": "assets/img/content/03-250games38-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games39.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games40.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games41.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games42.webp",
+      "hotspots": [
+        {
+          "x": 100,
+          "y": 125,
+          "w": 550,
+          "h": 350,
+          "popup": "assets/img/content/03-250games42-screen1.webp"
+        },
+        {
+          "x": 925,
+          "y": 125,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/03-250games42-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games43.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games44.webp",
+      "hotspots": [
+        {
+          "x": 112,
+          "y": 750,
+          "w": 525,
+          "h": 350,
+          "popup": "assets/img/content/03-250games44-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/03-250games45.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games46.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games47.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games48.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games49.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games50.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games51.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/03-250games52.webp",
+      "hotspots": []
+    }
+  ]
+}

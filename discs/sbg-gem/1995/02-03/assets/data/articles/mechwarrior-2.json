@@ -1,0 +1,147 @@
+{
+  "id": "mechwarrior-2",
+  "title": "MechWarrior II",
+  "music": "mw2.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/07-4-mw1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-4-mw2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw2-screen1.webp"
+        },
+        {
+          "x": 75,
+          "y": 425,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw2-screen2.webp"
+        },
+        {
+          "x": 75,
+          "y": 750,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw2-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-4-mw3.webp",
+      "hotspots": [
+        {
+          "x": 1000,
+          "y": 700,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/07-4-mw3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-4-mw4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-4-mw5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-4-mw6.webp",
+      "hotspots": [
+        {
+          "x": 1050,
+          "y": 100,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw6-screen1.webp"
+        },
+        {
+          "x": 1050,
+          "y": 425,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw6-screen2.webp"
+        },
+        {
+          "x": 1050,
+          "y": 750,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw6-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-4-mw7.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw7-screen1.webp"
+        },
+        {
+          "x": 75,
+          "y": 425,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw7-screen2.webp"
+        },
+        {
+          "x": 75,
+          "y": 750,
+          "w": 488,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw7-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-4-mw8.webp",
+      "hotspots": [
+        {
+          "x": 1050,
+          "y": 100,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw8-screen1.webp"
+        },
+        {
+          "x": 1050,
+          "y": 425,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw8-screen2.webp"
+        },
+        {
+          "x": 1050,
+          "y": 750,
+          "w": 475,
+          "h": 300,
+          "popup": "assets/img/content/07-4-mw8-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/07-4-mw9.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-4-mw10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/07-4-mw11.webp",
+      "hotspots": []
+    }
+  ]
+}

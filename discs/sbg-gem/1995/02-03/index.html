@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SBG 1995 02-03</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div class="viewport" id="viewport">
+    <div class="stage" id="stage">
+
+      <!-- ===== SPLASH ===== -->
+      <div id="view-splash">
+        <div id="splash-image"></div>
+        <div id="splash-hit"></div>
+      </div>
+
+      <!-- ===== MENU VIEW ===== -->
+      <div id="view-menu">
+        <div class="menu-scroll" id="menuScroll">
+          <div class="menu-image" id="menuImage">
+            <img id="menuImg" src="assets/img/ui/main-menu.webp" width="1600" height="4350" draggable="false" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== VIEWER VIEW ===== -->
+      <div id="view-viewer">
+        <div class="page-image" id="pageImage"></div>
+        <div class="edge-zone top inactive" id="edgeTop"></div>
+        <div class="edge-zone bottom inactive" id="edgeBottom"></div>
+
+        <div class="popup-overlay" id="popupOverlay">
+          <div class="popup-image" id="popupImage"></div>
+          <div class="popup-hit" id="popupHit"></div>
+        </div>
+        <div class="tall-scroll" id="tallScroll">
+          <div class="tall-content" id="tallContent">
+            <div class="tall-image" id="tallImage"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Left control panel -->
+      <div id="left-edge-zone"></div>
+      <div id="left-panel">
+        <div class="slider-handle" id="sliderSfx"></div>
+        <div class="slider-handle" id="sliderMusic"></div>
+        <div class="panel-btn" id="btnHelp" style="left:96px;top:813px;width:106px;height:60px;"></div>
+        <div class="panel-btn" id="btnBoss" style="left:96px;top:886px;width:106px;height:60px;"></div>
+        <div class="panel-btn" id="btnOs" style="left:96px;top:958px;width:106px;height:60px;"></div>
+      </div>
+      <div id="right-panel"></div>
+      <div id="overlay-screen"></div>
+      <div id="tx-overlay"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

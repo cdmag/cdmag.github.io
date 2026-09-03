@@ -1,0 +1,14 @@
+{
+  "id": "dist-sites",
+  "title": "Dist sites",
+  "music": "dist.opus",
+  "mode": "scroll",
+  "pages": [
+    {
+      "image": "assets/img/content/01-7-dist.webp",
+      "width": 640,
+      "height": 1500,
+      "hotspots": []
+    }
+  ]
+}

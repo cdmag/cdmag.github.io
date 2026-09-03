@@ -1,0 +1,52 @@
+{
+  "id": "nba-live-95",
+  "title": "NBA Live'95",
+  "music": "sport.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/14-1-nba1.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 100,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/14-1-nba1-screen1.webp"
+        },
+        {
+          "x": 500,
+          "y": 625,
+          "w": 575,
+          "h": 375,
+          "popup": "assets/img/content/14-1-nba1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/14-1-nba2.webp",
+      "hotspots": [
+        {
+          "x": 500,
+          "y": 100,
+          "w": 575,
+          "h": 350,
+          "popup": "assets/img/content/14-1-nba2-screen1.webp"
+        },
+        {
+          "x": 75,
+          "y": 750,
+          "w": 550,
+          "h": 350,
+          "popup": "assets/img/content/14-1-nba2-screen2.webp"
+        },
+        {
+          "x": 1000,
+          "y": 750,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/14-1-nba2-screen3.webp"
+        }
+      ]
+    }
+  ]
+}
