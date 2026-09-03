@@ -293,8 +293,8 @@
 
       // --- Cursor size: full at ≥2K, half below (nearest-neighbor) ---
       const CURSOR_DEFS = {
-        red:   { src: 'assets/img/ui/cursor-red.webp',   hx: 2,  hy: 16 },
-        green: { src: 'assets/img/ui/cursor-green.webp', hx: 2,  hy: 16 },
+        red:   { src: 'assets/img/ui/cursor-red.webp',   hx: 2,  hy: 8 },
+        green: { src: 'assets/img/ui/cursor-green.webp', hx: 2,  hy: 8 },
         zoom:  { src: 'assets/img/ui/cursor-zoom.webp',  hx: 16, hy: 14 },
         prev:  { src: 'assets/img/ui/page-prev.webp',    hx: 46, hy: 8  },
         next:  { src: 'assets/img/ui/page-next.webp',    hx: 46, hy: 44 }
@@ -794,10 +794,12 @@
       // ========== LEFT / RIGHT PANELS ==========
       const PANEL_W = 235;
       const RIGHT_PANEL_W = 248;
-      const SLIDER_TOP = 261;   // center Y at 100%
-      const SLIDER_BOT = 774;   // center Y at 0%
-      const SLIDER_H = 14;
+      const SLIDER_TOP = 261;   // track position Y at 100%
+      const SLIDER_BOT = 774;   // track position Y at 0%
       const SLIDER_W = 40;
+      const SLIDER_H = 14;
+      // visual handle sits a few px lower than raw track coords (cursor hotspot feel)
+      const SLIDER_Y_NUDGE = 6;
       const leftPanel = document.getElementById('left-panel');
       const rightPanel = document.getElementById('right-panel');
       const leftEdgeZone = document.getElementById('left-edge-zone');
@@ -822,13 +824,18 @@
         return Math.max(0, Math.min(1, 1 - t));
       }
       function placeSlider(el, centerX, vol) {
-        const cy = volToY(vol);
+        const cy = volToY(vol) + SLIDER_Y_NUDGE;
         el.style.left = (centerX - SLIDER_W / 2) + 'px';
         el.style.top = (cy - SLIDER_H / 2) + 'px';
+        el.style.width = SLIDER_W + 'px';
+        el.style.height = SLIDER_H + 'px';
+        el.style.backgroundSize = SLIDER_W + 'px 14px';
+        el.style.backgroundPosition = '0 0';
       }
       function updateSliderPositions() {
-        placeSlider(sliderSfx, 120, sfxVol);
-        placeSlider(sliderMusic, 175, musicVol);
+        // left (note icon) = music, right (speaker) = SFX
+        placeSlider(sliderMusic, 120, musicVol);
+        placeSlider(sliderSfx, 175, sfxVol);
       }
       updateSliderPositions();
 
@@ -1057,14 +1064,15 @@
         const scale = rect.height / STAGE_H;
         const y = (e.clientY - rect.top) / scale;
         // clamp to track
-        const cy = Math.max(SLIDER_TOP, Math.min(SLIDER_BOT, y));
+        // account for visual nudge so drag tracks the handle
+        const cy = Math.max(SLIDER_TOP, Math.min(SLIDER_BOT, y - SLIDER_Y_NUDGE));
         const vol = yToVol(cy);
         if (draggingSlider === 'sfx') {
           setSfxVolume(vol);
-          placeSlider(sliderSfx, 120, sfxVol);
+          placeSlider(sliderSfx, 175, sfxVol);
         } else {
           setMusicVolume(vol);
-          placeSlider(sliderMusic, 175, musicVol);
+          placeSlider(sliderMusic, 120, musicVol);
         }
       });
       document.addEventListener('mouseup', function () {
