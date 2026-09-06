@@ -294,9 +294,9 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       });
 
       if (window.visualViewport) {
-        window.visualViewport.addEventListener("resize", () => {
-          applyViewportSize(currentDiscAspect);
-        });
+        const onVv = () => applyViewportSize(currentDiscAspect);
+        window.visualViewport.addEventListener("resize", onVv);
+        window.visualViewport.addEventListener("scroll", onVv);
       }
 
       syncCompactLayout();
@@ -1049,20 +1049,32 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
 
     // --- Подгонка viewport под пропорции оболочки ---
 
+    function getVisibleLayoutSize() {
+      // На мобильных/планшетах 100vh часто больше видимой области (адресная строка).
+      // Берём минимум из inner* и visualViewport.
+      let w = window.innerWidth || document.documentElement.clientWidth || 320;
+      let h = window.innerHeight || document.documentElement.clientHeight || 480;
+      const vv = window.visualViewport;
+      if (vv && vv.width && vv.height) {
+        w = Math.min(w, vv.width);
+        h = Math.min(h, vv.height);
+      }
+      return { w: Math.round(w), h: Math.round(h) };
+    }
+
     function applyViewportSize(aspect) {
-      // Вписать правый блок целиком в доступное CSS-пространство (без обрезки).
+      // Вписать правый блок целиком в видимую область (без обрезки сверху/снизу).
       const a = aspect && aspect > 0.3 && aspect < 5 ? aspect : 4 / 3;
       currentDiscAspect = a;
 
-      const vv = window.visualViewport;
-      const winW = vv && vv.width ? vv.width : window.innerWidth;
-      const winH = vv && vv.height ? vv.height : window.innerHeight;
-
+      const { w: winW, h: winH } = getVisibleLayoutSize();
       const compact = isCompactLayout();
       // В compact сайдбар поверх — резервируем только полоску-rail (~48px)
       const sidebarReserve = compact ? 48 : 360;
-      const maxW = Math.max(160, winW - sidebarReserve);
-      const maxH = Math.max(120, winH);
+      // Небольшой запас под округление и UI браузера на планшетах
+      const pad = compact ? 8 : 0;
+      const maxW = Math.max(160, winW - sidebarReserve - pad);
+      const maxH = Math.max(120, winH - pad);
 
       let h = maxH;
       let w = h * a;
@@ -1072,7 +1084,7 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       }
       if (h > maxH) {
         h = maxH;
-        w = h * a;
+        w = Math.min(maxW, h * a);
       }
 
       const vp = document.querySelector(".viewport");

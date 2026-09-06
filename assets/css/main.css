@@ -459,7 +459,12 @@
 
     body.layout-compact .main-workspace {
       justify-content: flex-start;
+      /* не center: иначе блок высотой ~100vh уезжает под chrome браузера */
+      align-items: flex-start;
       position: relative;
+      height: 100dvh;
+      max-height: 100dvh;
+      overflow: hidden;
     }
 
     body.layout-compact .sidebar-rail {
@@ -470,7 +475,9 @@
       gap: 6px;
       flex: 0 0 var(--sidebar-rail-w);
       width: var(--sidebar-rail-w);
-      height: 100vh;
+      height: 100%;
+      height: 100dvh;
+      max-height: 100dvh;
       margin: 0;
       padding: 8px 4px;
       border: none;
@@ -638,16 +645,23 @@
       display: none;
       position: fixed;
       z-index: 9999;
-      left: 0; top: 0;
-      width: 100vw; height: 100vh;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      max-height: 100dvh;
       background: rgba(0, 0, 0, 0.85);
       backdrop-filter: blur(4px);
       justify-content: center;
       align-items: center;
+      padding: 12px;
+      box-sizing: border-box;
+      overflow: hidden;
     }
     .image-modal img {
-      max-width: 90vw;
-      max-height: 90vh;
+      max-width: min(92vw, 100%);
+      max-height: min(85dvh, 90vh, 100%);
+      width: auto;
+      height: auto;
       object-fit: contain;
       background: transparent;
       /* без box-shadow: на круглых дисках с прозрачностью он даёт квадратную «подложку» */
@@ -657,11 +671,15 @@
     }
     .image-modal-close {
       position: absolute;
-      top: 20px; right: 30px;
+      top: max(12px, env(safe-area-inset-top, 0px));
+      right: max(16px, env(safe-area-inset-right, 0px));
       color: #fff;
       font-size: 36px;
       font-weight: bold;
       cursor: pointer;
+      z-index: 1;
+      padding: 8px 12px;
+      -webkit-tap-highlight-color: transparent;
     }
     @keyframes zoomIn {
       from { opacity: 0; transform: scale(0.9); }
