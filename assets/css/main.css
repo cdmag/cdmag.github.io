@@ -19,6 +19,7 @@
       color: var(--text-main);
       font-family: var(--font-stack);
       height: 100vh;
+      height: 100dvh;
       overflow: hidden;
     }
 
@@ -44,10 +45,20 @@
       overflow-y: auto;
       overflow-x: visible;
       height: 100vh;
+      z-index: 40;
+    }
+
+    .sidebar-rail,
+    .sidebar-backdrop,
+    .sidebar-collapse-btn {
+      display: none;
     }
 
     .sidebar-header {
       display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
       align-items: center;
       justify-content: space-between;
       gap: 8px;
@@ -385,16 +396,40 @@
 
     .legal-bar {
       flex-shrink: 0;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 14px 18px;
-      padding: 16px 16px 18px;
       background: #12151c;
       border-top: 1px solid var(--border-color);
       z-index: 6;
     }
     .legal-bar.hidden {
       display: none;
+    }
+    .legal-bar-toggle {
+      display: none;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px 14px;
+      background: transparent;
+      border: none;
+      color: #d1d5db;
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: left;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    .legal-bar-chevron {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+    }
+    .legal-bar-body {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px 18px;
+      padding: 16px 16px 18px;
     }
     .legal-col-title {
       font-size: 0.78rem;
@@ -412,8 +447,167 @@
     .legal-col b { color: #9ca3af; font-weight: 600; }
 
     @media (max-width: 900px) {
-      .legal-bar {
+      .legal-bar-body {
         grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* ---- Компактный layout (CSS-пиксели, не физические) ---- */
+    body.layout-compact {
+      --sidebar-rail-w: 48px;
+    }
+
+    body.layout-compact .main-workspace {
+      justify-content: flex-start;
+      position: relative;
+    }
+
+    body.layout-compact .sidebar-rail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      flex: 0 0 var(--sidebar-rail-w);
+      width: var(--sidebar-rail-w);
+      height: 100vh;
+      margin: 0;
+      padding: 8px 4px;
+      border: none;
+      border-right: 1px solid var(--border-color);
+      background: var(--bg-panel);
+      color: var(--text-main);
+      cursor: pointer;
+      z-index: 35;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    body.layout-compact .sidebar-rail-icon {
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+    body.layout-compact .sidebar-rail-label {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+    }
+    body.layout-compact.sidebar-expanded .sidebar-rail {
+      display: none;
+    }
+
+    body.layout-compact .sidebar-backdrop {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 38;
+      border: none;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body.layout-compact .sidebar-backdrop[hidden] {
+      display: none !important;
+    }
+
+    body.layout-compact .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: min(360px, 88vw);
+      height: 100%;
+      height: 100dvh;
+      flex: none;
+      transform: translateX(-105%);
+      transition: transform 0.22s ease;
+      box-shadow: 8px 0 28px rgba(0, 0, 0, 0.45);
+      z-index: 40;
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+    }
+    body.layout-compact.sidebar-expanded .sidebar {
+      transform: translateX(0);
+    }
+    /* В compact весь сайдбар скроллится — Webamp не обрезаем */
+    body.layout-compact .player-section {
+      flex: 0 0 auto;
+      overflow: visible;
+    }
+    body.layout-compact #player-container {
+      flex: none;
+      overflow: visible;
+      min-height: 0;
+    }
+    body.layout-compact #player-container:has(#webamp-host) {
+      overflow: visible;
+      /* место под масштабированный Webamp (высота хоста × scale) */
+      min-height: calc(var(--webamp-host-height, 348px) * var(--webamp-scale, 1) + 12px);
+      height: calc(var(--webamp-host-height, 348px) * var(--webamp-scale, 1) + 12px);
+    }
+
+    body.layout-compact .sidebar-collapse-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      min-height: 40px;
+      margin-left: auto;
+      padding: 0 10px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      background: var(--bg-card);
+      color: var(--text-main);
+      font-size: 1.25rem;
+      line-height: 1;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    body.layout-compact .sidebar .select-btn {
+      width: 100%;
+      min-height: 44px;
+    }
+    body.layout-compact .sidebar .pill-btn,
+    body.layout-compact .toggle-btn {
+      min-height: 40px;
+      min-width: 40px;
+    }
+
+    body.layout-compact .viewport {
+      /* ширину/высоту задаёт JS; fallback — почти весь экран */
+      width: calc(100vw - var(--sidebar-rail-w));
+      max-width: 100%;
+    }
+
+    body.layout-compact .legal-bar-toggle {
+      display: flex;
+    }
+    body.layout-compact .legal-bar.is-collapsed .legal-bar-body {
+      display: none;
+    }
+    body.layout-compact .legal-bar.is-collapsed .legal-bar-chevron {
+      transform: rotate(-90deg);
+    }
+    body.layout-compact .legal-bar:not(.is-collapsed) .legal-bar-body {
+      padding-top: 4px;
+    }
+    body.layout-compact .legal-bar-body {
+      grid-template-columns: 1fr;
+      gap: 12px;
+      max-height: min(40vh, 280px);
+      overflow-y: auto;
+      padding: 8px 14px 14px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @media (max-width: 900px) {
+      body.layout-compact .legal-bar-body {
+        grid-template-columns: 1fr;
       }
     }
 

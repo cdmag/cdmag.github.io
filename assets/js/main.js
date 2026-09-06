@@ -87,6 +87,7 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       if (selectBtn) selectBtn.addEventListener("click", toggleIssueMenu);
       if (logoBtn) logoBtn.addEventListener("click", showWelcomeScreen);
 
+      initResponsiveLayout();
       initAutoplayToggle();
       initDiscViewportFit();
       initMetrikaContentGoals();
@@ -187,11 +188,131 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       bar.classList.toggle("hidden", !visible);
     }
 
+    /** Компактный layout: CSS-ширина/высота, не физические пиксели. */
+    function isCompactLayout() {
+      return window.matchMedia("(max-width: 1000px), (max-height: 720px)").matches;
+    }
+
+    function isWelcomeVisible() {
+      const welcome = document.getElementById("welcome-screen");
+      const updates = document.getElementById("updates-screen");
+      const welcomeOn = welcome && !welcome.classList.contains("hidden");
+      const updatesOn = updates && !updates.classList.contains("hidden");
+      return !!(welcomeOn || updatesOn);
+    }
+
+    function setSidebarExpanded(expanded) {
+      if (!isCompactLayout()) {
+        document.body.classList.remove("sidebar-expanded", "sidebar-collapsed");
+        const backdrop = document.getElementById("sidebar-backdrop");
+        if (backdrop) backdrop.hidden = true;
+        return;
+      }
+      document.body.classList.toggle("sidebar-expanded", !!expanded);
+      document.body.classList.toggle("sidebar-collapsed", !expanded);
+      const backdrop = document.getElementById("sidebar-backdrop");
+      if (backdrop) backdrop.hidden = !expanded;
+    }
+
+    function setLegalCollapsed(collapsed) {
+      const bar = document.getElementById("legal-bar");
+      if (!bar) return;
+      bar.classList.toggle("is-collapsed", !!collapsed);
+      const toggle = document.getElementById("legal-bar-toggle");
+      if (toggle) toggle.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    }
+
+    function syncCompactLayout() {
+      const compact = isCompactLayout();
+      document.body.classList.toggle("layout-compact", compact);
+      if (compact) {
+        // Сайдбар по умолчанию свёрнут; открытие только через «Меню»
+        setSidebarExpanded(false);
+        if (isWelcomeVisible()) {
+          setLegalCollapsed(true);
+        }
+      } else {
+        document.body.classList.remove("sidebar-expanded", "sidebar-collapsed");
+        const backdrop = document.getElementById("sidebar-backdrop");
+        if (backdrop) backdrop.hidden = true;
+        setLegalCollapsed(false);
+      }
+      applyViewportSize(currentDiscAspect);
+    }
+
+    function initResponsiveLayout() {
+      const mq = window.matchMedia("(max-width: 1000px), (max-height: 720px)");
+      const onChange = () => syncCompactLayout();
+      if (typeof mq.addEventListener === "function") mq.addEventListener("change", onChange);
+      else if (typeof mq.addListener === "function") mq.addListener(onChange);
+
+      const rail = document.getElementById("sidebar-rail");
+      const collapseBtn = document.getElementById("sidebar-collapse-btn");
+      const backdrop = document.getElementById("sidebar-backdrop");
+      const legalToggle = document.getElementById("legal-bar-toggle");
+
+      if (rail) {
+        rail.addEventListener("click", (e) => {
+          e.stopPropagation();
+          setSidebarExpanded(true);
+          applyViewportSize(currentDiscAspect);
+        });
+      }
+      if (collapseBtn) {
+        collapseBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          setSidebarExpanded(false);
+          applyViewportSize(currentDiscAspect);
+        });
+      }
+      if (backdrop) {
+        backdrop.addEventListener("click", () => {
+          setSidebarExpanded(false);
+          applyViewportSize(currentDiscAspect);
+        });
+      }
+      if (legalToggle) {
+        legalToggle.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const bar = document.getElementById("legal-bar");
+          if (!bar || bar.classList.contains("hidden")) return;
+          setLegalCollapsed(!bar.classList.contains("is-collapsed"));
+          applyViewportSize(currentDiscAspect);
+        });
+      }
+
+      // Клик вне legal-бара — свернуть (только compact + развёрнутый legal)
+      document.addEventListener("click", (e) => {
+        if (!isCompactLayout()) return;
+        const bar = document.getElementById("legal-bar");
+        if (!bar || bar.classList.contains("hidden") || bar.classList.contains("is-collapsed")) {
+          return;
+        }
+        if (bar.contains(e.target)) return;
+        setLegalCollapsed(true);
+        applyViewportSize(currentDiscAspect);
+      });
+
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", () => {
+          applyViewportSize(currentDiscAspect);
+        });
+      }
+
+      syncCompactLayout();
+    }
+
     function showWelcomeScreen() {
       document.getElementById("welcome-screen").classList.remove("hidden");
       const updatesScreen = document.getElementById("updates-screen");
       if (updatesScreen) updatesScreen.classList.add("hidden");
       setLegalBarVisible(true);
+      if (isCompactLayout()) {
+        setLegalCollapsed(true);
+        setSidebarExpanded(false);
+      } else {
+        setLegalCollapsed(false);
+      }
       currentDiscAspect = 1600 / 1200;
       applyViewportSize(currentDiscAspect);
       document.getElementById("disc-frame").src = "about:blank";
@@ -317,8 +438,13 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       document.getElementById("welcome-screen").classList.add("hidden");
       document.getElementById("updates-screen").classList.remove("hidden");
       setLegalBarVisible(true);
+      if (isCompactLayout()) {
+        setLegalCollapsed(true);
+        setSidebarExpanded(false);
+      }
       document.getElementById("disc-frame").src = "about:blank";
       destroyPlayers();
+      applyViewportSize(currentDiscAspect);
     }
 
     function openDiscFromUpdate(magazine, year, issue) {
@@ -482,6 +608,9 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       const updatesScreen = document.getElementById("updates-screen");
       if (updatesScreen) updatesScreen.classList.add("hidden");
       setLegalBarVisible(false);
+      if (isCompactLayout()) {
+        setSidebarExpanded(false);
+      }
 
       document.getElementById("disc-title").innerText = disc.title;
       document.getElementById("disc-note").innerText = disc.note || "Описание отсутствует.";
@@ -921,18 +1050,31 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
     // --- Подгонка viewport под пропорции оболочки ---
 
     function applyViewportSize(aspect) {
-      // Внешний размер правого блока по aspect (главная / 1600×1200 → 4:3).
-      // Legal-бар внутри блока, на внешние пропорции не влияет.
+      // Вписать правый блок целиком в доступное CSS-пространство (без обрезки).
       const a = aspect && aspect > 0.3 && aspect < 5 ? aspect : 4 / 3;
       currentDiscAspect = a;
-      const maxH = window.innerHeight;
-      const maxW = Math.max(200, window.innerWidth - 360);
+
+      const vv = window.visualViewport;
+      const winW = vv && vv.width ? vv.width : window.innerWidth;
+      const winH = vv && vv.height ? vv.height : window.innerHeight;
+
+      const compact = isCompactLayout();
+      // В compact сайдбар поверх — резервируем только полоску-rail (~48px)
+      const sidebarReserve = compact ? 48 : 360;
+      const maxW = Math.max(160, winW - sidebarReserve);
+      const maxH = Math.max(120, winH);
+
       let h = maxH;
       let w = h * a;
       if (w > maxW) {
         w = maxW;
         h = w / a;
       }
+      if (h > maxH) {
+        h = maxH;
+        w = h * a;
+      }
+
       const vp = document.querySelector(".viewport");
       if (!vp) return;
       vp.style.width = Math.round(w) + "px";
