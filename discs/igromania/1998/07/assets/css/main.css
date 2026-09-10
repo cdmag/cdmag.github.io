@@ -708,3 +708,36 @@
       display: none;
       pointer-events: none;
     }
+
+/* ========== Install toast (click on list items) ========== */
+.install-toast {
+  position: absolute;
+  inset: 0;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.install-toast[hidden] {
+  display: none !important;
+}
+.install-toast-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+.install-toast-box {
+  position: relative;
+  z-index: 1;
+  font-family: 'Fixedsys Excelsior', 'Courier New', monospace;
+  font-size: 28px;
+  color: #00ff00;
+  background: #000;
+  border: 4px solid #00ff00;
+  padding: 28px 40px;
+  text-align: center;
+  max-width: 90%;
+  line-height: 1.3;
+  box-shadow: 0 0 0 2px #000;
+}

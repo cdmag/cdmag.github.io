@@ -1,0 +1,99 @@
+{
+  "topright": "Укажите мышкой на\nинтересующую Вас\nкомпанию или\nнажмите \"Выход\"...",
+  "url": "http://www.gameland.ru",
+  "companies": {
+    "1c": {
+      "hoverText": "Игры от компании \"1С\"",
+      "items": [
+        {
+          "text": "Демо-версия игры \"Бородино\"",
+          "info": "БОРОДИНО Стратегия Wargame\nИздатель: 1С\nРазработчик: 1С\nДата выхода: 22 сентября 1997 года\nСистемные требования:\nPentium-90, 16 MB RAM, 8x CD-ROM, Win 95,\nSound card\n1С: www.1c.ru, e-mail: admin1c@1c.ru",
+          "link": null
+        },
+        {
+          "text": "Демо-версия игры \"Братья пилоты\"",
+          "info": "БРАТЬЯ ПИЛОТЫ. ПО СЛЕДАМ ПОЛОСАТОГО СЛОНА\nЮмористический квест\nИздатель: 1С\nРазработчик: GAMOS\nДата выхода: 22 сентября 1997 года\nСистемные требования:\nDX2-66, 8 MB RAM, 2x CD-ROM, Win 95, Sound\ncard\n1С: www.1c.ru, e-mail: admin1c@1c.ru\nGAMOS: www.gamos.ru, e-mail: root@gamos.ru",
+          "link": null
+        },
+        {
+          "text": "Демо-версия игры \"Pike\"",
+          "info": "PIKE, ОПЕРАЦИЯ ГРОМОВЕРЖЕЦ\nACTION\nИздатель: 1С\nРазработчик: 1С\nСистемные требования:\nDX4-100, 8 MB RAM, 2x CD-ROM, Win 95\n1С: www.1c.ru, e-mail: admin1c@1c.ru",
+          "link": null
+        },
+        {
+          "text": "Видео-ролик игры \"Всеслав чародей\"",
+          "info": "ВСЕСЛАВ ЧАРОДЕЙ: КЛАН ДРАГОМИРА\nRealtime strategy с элементами RPG\nИздатель: 1С\nРазработчик: Snowball Interactive\nДата выхода: ноябрь 1997 года\nСистемные требования:\nМинимальные: P-100, 16 MB RAM, 4x CD-ROM, Win\n95\nОптимальные: P-166, 32 MB RAM, 4x CD-ROM, Win\n95\n1С: www.snowball.ru, e-mail:\nwarprayer@snowball.ru",
+          "link": {
+            "type": "video",
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239024&hash=85bb869c1557c170&hd=1&autoplay=1"
+          }
+        },
+        {
+          "text": "Локальная версия Web-сайта \"Snowball\"",
+          "info": "Локальная версия Web-сайта \"Snowball\"\nДля просмотра необходимо иметь Web Browser,\nнапример Microsoft Internet Explorer или\nNetscape Navigator",
+          "link": {
+            "type": "url",
+            "src": "assets/data/Snowball/www/index.htm"
+          }
+        }
+      ]
+    },
+    "buka": {
+      "hoverText": "Игры от компании \"Бука\"",
+      "items": [
+        {
+          "text": "Демо-версия игры \"Вангеры\"",
+          "info": "VANGERS: O.F.T.R.  ACTION/RACING/RPG\nИздатель: БУКА\nРазработчик: KD-LAB\nДата выхода: Февраль 1998 года\nСистемные требования:\nPentium-166, 16 MB RAM, 4x CD-ROM, VESA SVGA,\nDirectX, Win 95/NT\nBUKA: www.buka.com,  email: games@buka.com\nПосле установки необходимо перейти в\nвыбранную Вами директорию и запустить\n\"run.bat\"",
+          "link": null
+        },
+        {
+          "text": "Видео-ролик игры \"Русская рулетка 2\"",
+          "info": "РУССКАЯ РУЛЕТКА 2: NEXT WORLDS  ACTION/RPG\nИздатель: БУКА; Разработчик: LOGOS;\nДата выхода: Февраль 1998 года\nСистемные требования:\nМинимальные: Pentium-120, 16 MB RAM, 4x\nCD-ROM, VESA SVGA, DirectX, Win 95/NT\nОптимальные: Pentium-166, 24 MB RAM, 4x\nCD-ROM, VESA SVGA, DirectX, Win 95/NT, 3Dfx\nboard\nBUKA: www.buka.com,  email: games@buka.com",
+          "link": {
+            "type": "video",
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239025&hash=0807f66bef4d417b&hd=1&autoplay=1"
+          }
+        },
+        {
+          "text": "Видео-ролик игры \"Allods\"",
+          "info": "ALLODS: SEALED MYSTERY\nСтратегия в реальном времени с элементами RPG\nИздатель: БУКА\nРазработчик: NIVAL ENT.\nДата выхода: Март-апрель 1998 года\nСистемные требования:\nPentium-166, 16 MB RAM, 4x CD-ROM, VESA SVGA,\nDirectX, Win 95/NT\nNIVAL: www.nival.com\nBUKA: www.buka.com,  email: games@buka.com",
+          "link": {
+            "type": "video",
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239026&hash=cc3bfd344ae75d69&hd=1&autoplay=1"
+          }
+        }
+      ]
+    },
+    "doka": {
+      "hoverText": "Игры от компании \"Дока\"",
+      "items": [
+        {
+          "text": "Видео-ролик игры \"Вьюга в пустыни\"",
+          "info": "ВЬЮГА В ПУСТЫНЕ\nСтратегия в реальном времени\nИздатель: ДОКА\nРазработчик: ДОКА\nДата выхода: Декабрь 1997 года\nСистемные требования:\nМинимальные: DX4-120, 8 MB RAM, 4x CD-ROM,\nWin 95\nОптимальные: Pentium-133, 16 MB RAM, 4x\nCD-ROM, Win 95\nДОКА: www.doka.ru",
+          "link": {
+            "type": "video",
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239023&hash=ba8cc1311e6ee44b&hd=1&autoplay=1"
+          }
+        }
+      ]
+    }
+  },
+  "exit": {
+    "hoverText": "Для выхода нажмите на кнопку \"Выход\""
+  },
+  "notice": "Все файлы доступны в образе диска",
+  "links": [
+    {
+      "name": "1C",
+      "link": "../1c.html"
+    },
+    {
+      "name": "Buka",
+      "link": "../buka.html"
+    },
+    {
+      "name": "Doka",
+      "link": "../doka.html"
+    }
+  ]
+}

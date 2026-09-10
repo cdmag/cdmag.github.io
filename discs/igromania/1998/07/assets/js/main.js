@@ -207,6 +207,20 @@
     requestAnimationFrame(updateConnector);
   }
 
+  var installToastTimer = null;
+  function showInstallToast() {
+    var toast = document.getElementById('installToast');
+    if (!toast) return;
+    toast.hidden = false;
+    toast.setAttribute('aria-hidden', 'false');
+    if (installToastTimer) clearTimeout(installToastTimer);
+    installToastTimer = setTimeout(function () {
+      toast.hidden = true;
+      toast.setAttribute('aria-hidden', 'true');
+      installToastTimer = null;
+    }, 1000);
+  }
+
   function makeListItem(data) {
     var li = document.createElement('li');
     li.className = 'list-item';
@@ -217,6 +231,9 @@
     li.appendChild(lab);
     li.addEventListener('mouseenter', function () {
       selectItem(li, data);
+    });
+    li.addEventListener('click', function () {
+      showInstallToast();
     });
     return li;
   }

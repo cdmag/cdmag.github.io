@@ -1,0 +1,98 @@
+<html>
+
+<head>
+<meta charset="windows-1251">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Task N3</title>
+</head>
+
+<body background="../images/tile.webp" bgcolor="#000000" text="#7B98DB" link="#7B98DB" vlink="#7B98DB">
+<div align="center"><center>
+
+<table border="0" cellspacing="1" width="720">
+  <tr>
+    <td colspan="2" width="716"><font face="Arial" color="#7B98DB"><big><big>Задание N3</big></big></font></td>
+  </tr>
+  <tr>
+    <td colspan="2" width="716"></td>
+  </tr>
+  <tr>
+    <td colspan="2" width="716">&nbsp;<p><em><font face="Arial" color="#7B98DB"><big>Multithreading</big></font></em></td>
+  </tr>
+  <tr>
+    <td colspan="2" width="716"></td>
+  </tr>
+  <tr>
+    <td colspan="2" width="716">&nbsp;<p><font face="Arial" color="#7B98DB"><strong>Дано</strong>:</font></p>
+    <p><font face="Arial" color="#7B98DB">Следующий game loop:</font></p>
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="320"><img src="task3.gif" alt="task3.gif (6215 bytes)" width="309" height="875"></td>
+    <td width="392"><p align="center"><font face="Arial" color="#7B98DB"><strong>Примечания
+    и пояснения к схеме:</strong></font></p>
+    <table border="0">
+      <tr>
+        <td valign="top"><font face="Arial" color="#7B98DB">0.</font></td>
+        <td><font face="Arial" color="#7B98DB">Ожидание флажка таймера,
+        устанавливаемого через равные промежутки
+        времени</font></td>
+      </tr>
+      <tr>
+        <td valign="top"><font face="Arial" color="#7B98DB">1.</font></td>
+        <td><font face="Arial" color="#7B98DB">В данном блоке происходит
+        изменение координат объектов, создание новых и
+        уничтожение ненужных объектов</font></td>
+      </tr>
+      <tr>
+        <td valign="top"><font face="Arial" color="#7B98DB">2.</font></td>
+        <td><font face="Arial" color="#7B98DB">В данном блоке происходит
+        передача состояния объектов в систему
+        рендеринга</font></td>
+      </tr>
+      <tr>
+        <td valign="top"><font face="Arial" color="#7B98DB">3.</font></td>
+        <td><font face="Arial" color="#7B98DB">Система рендеринга:
+        используется двойная буферизация, то есть пока
+        отсчитывается текущий кадр доступен предыдущий
+        кадр</font></td>
+      </tr>
+      <tr>
+        <td valign="top"><font face="Arial" color="#7B98DB">4.</font></td>
+        <td><font face="Arial" color="#7B98DB">Отрисовка готового кадра с
+        использованием результата блока 3 и наложение на
+        него интерфейсных элементов (курсора, рамок и
+        т.д.)</font></td>
+      </tr>
+    </table>
+    <p><strong><font face="Arial" color="#7B98DB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Замечания:</font></strong><ol>
+      <li><font face="Arial" color="#7B98DB">Передача данных о состоянии
+        объектов (2) не может происходить одновременно с
+        блоком 1 и с блоком 3</font></li>
+      <li><font face="Arial" color="#7B98DB">Блок 4 копирует данные из
+        того буфера блока 3, в котором отрисовка
+        завершена полностью.</font></li>
+    </ol>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" width="716">&nbsp;<p><strong><font face="Arial" color="#7B98DB">Необходимо:</font></strong></p>
+    <p><font face="Arial" color="#7B98DB">Предложить способ
+    распараллеливания данного цикла на несколько
+    независимых threads в виде схемы с указанием всех
+    необходимых для этого семафоров, таймеров и
+    ключевых частей кода.</font></p>
+    <p align="center"><a href="pc97_task4.htm"><font face="Arial" size="3" color="#7B98DB">Перейти
+    к следующему заданию</font></a></p>
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" width="716"><p align="center"><font face="Arial" size="1" color="#7B98DB"><tt><big>Text
+    and images are (c) 1997 by Snowball Interactive Entertainment, Inc. All rights reserved.</big></tt></font></td>
+  </tr>
+</table>
+</center></div>
+
+<script src="../../../../js/archive-link.js"></script>
+</body>
+</html>

@@ -1,0 +1,599 @@
+<html>
+
+<head>
+<meta charset="windows-1251">
+<title>Registration</title>
+</head>
+
+<body background="../images/tile.webp" link="#7B98DB" bgcolor="#000000" text="#7B98DB">
+
+<p align="left">&nbsp;</p>
+<script language="JavaScript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  if (theForm.realname.value == "")
+  {
+    alert("Please enter a value for the \"name\" field.");
+    theForm.realname.focus();
+    return (false);
+  }
+
+  if (theForm.realname.value.length > 70)
+  {
+    alert("Please enter at most 70 characters in the \"name\" field.");
+    theForm.realname.focus();
+    return (false);
+  }
+
+  if (theForm.email.value == "")
+  {
+    alert("Please enter a value for the \"email\" field.");
+    theForm.email.focus();
+    return (false);
+  }
+
+  if (theForm.email.value.length > 40)
+  {
+    alert("Please enter at most 40 characters in the \"email\" field.");
+    theForm.email.focus();
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a01_C.length;  i++)
+  {
+    if (theForm.a01_C[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"cpp\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a02_Intel_x86.length;  i++)
+  {
+    if (theForm.a02_Intel_x86[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"asm\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a03_Prog_in_32bit.length;  i++)
+  {
+    if (theForm.a03_Prog_in_32bit[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"32bit\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a04_Exp_as_programmer.length;  i++)
+  {
+    if (theForm.a04_Exp_as_programmer[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"experience\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a05_Mathematica.length;  i++)
+  {
+    if (theForm.a05_Mathematica[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"math\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a06_Basic_algorythms.length;  i++)
+  {
+    if (theForm.a06_Basic_algorythms[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"algorithms\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a07_Own_projects.length;  i++)
+  {
+    if (theForm.a07_Own_projects[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"projects\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a08_Exp_in_multimedis_industry.length;  i++)
+  {
+    if (theForm.a08_Exp_in_multimedis_industry[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"mmexp\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a09_Exp_in_MMX.length;  i++)
+  {
+    if (theForm.a09_Exp_in_MMX[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"mmx\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a10_Exp_in_images.length;  i++)
+  {
+    if (theForm.a10_Exp_in_images[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"images\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a11_Prog_3D.length;  i++)
+  {
+    if (theForm.a11_Prog_3D[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"3d programming\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a12_Win32_API.length;  i++)
+  {
+    if (theForm.a12_Win32_API[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"win32\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a13_Prog_multimedia_applic.length;  i++)
+  {
+    if (theForm.a13_Prog_multimedia_applic[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"threads\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a14_Prog_AI.length;  i++)
+  {
+    if (theForm.a14_Prog_AI[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"ai prog\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a15_DirectX.length;  i++)
+  {
+    if (theForm.a15_DirectX[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"directx\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a16_watcom.length;  i++)
+  {
+    if (theForm.a16_watcom[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"watcom\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a17_Visual_C.length;  i++)
+  {
+    if (theForm.a17_Visual_C[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"visualc\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a18_Education.length;  i++)
+  {
+    if (theForm.a18_Education[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"education\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a21_Salary.length;  i++)
+  {
+    if (theForm.a21_Salary[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"salary\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.a22_HomePC.length;  i++)
+  {
+    if (theForm.a22_HomePC[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"homepc\" options.");
+    return (false);
+  }
+  return (true);
+}
+//--></script>
+
+
+<form method="post" action="/cgi/FormMail.pl"
+onsubmit="return FrontPage_Form1_Validator(this)" name="FrontPage_Form1">
+  <input type="hidden" name="recipient" value="pcontest@snowball.ru"><input type="hidden"
+  name="subject" value="Programmers Contest"><input type="hidden" name="redirect"
+  value="http://www.snowball.ru/pcontest/pc97_registration_over.htm"><input type="hidden"
+  name="sort" value="alphabetic"><div align="center"><center><table border="0" width="720">
+    <tr>
+      <td align="left"><div align="center"><center><p><font face="Arial" size="5"
+      color="#7B98DB"><strong>(picture)</strong></font></p>
+      </center></div><div align="center"><center><p><font face="Arial" size="5" color="#7B98DB"><strong>Регистрация
+      участников</strong></font></td>
+    </tr>
+    <tr align="center">
+      <td align="left">&nbsp;<p><font face="Arial" size="3" color="#7B98DB">Чтобы принять
+      участие в конкурсе, вам необходимо:</font></p>
+      <p><font face="Arial" size="3" color="#7B98DB">(1) заполнить
+      приведенную ниже форму;</font></p>
+      <p><font face="Arial" size="3" color="#7B98DB">(2) загрузить задания;</font></p>
+      <p><font face="Arial" size="3" color="#7B98DB">(3) решить их не позднее
+      31-го октября и отправить результаты своего по
+      адресу <a href="mailto:pcontest@snowball.ru">pcontest@snowball.ru</font></a></td>
+    </tr>
+    <tr align="center">
+      <td align="left">  <p>  </p>
+      <p>   </td>
+    </tr>
+    <tr align="center">
+      <td align="left"><font size="3" color="#7B98DB"><strong>Ваши имя и фамилия</strong></font><p><font
+      face="Arial" size="3" color="#7B98DB"><input type="text" name="realname" size="40"
+      maxlength="70"></font></td>
+    </tr>
+    <tr align="center">
+      <td align="left"><font face="Arial" size="3" color="#7B98DB"></font></td>
+    </tr>
+    <tr align="center">
+      <td align="left"><font size="3" color="#7B98DB"><strong>Ваш email</strong></font><p><font
+      face="Arial" size="3" color="#7B98DB"><input type="text" name="email" size="40"
+      maxlength="40"></font></td>
+    </tr>
+  </table>
+  </center></div><div align="center"><center><table border="0" width="735" cellspacing="0"
+  bordercolor="#808080" bordercolordark="#808080" bordercolorlight="#C0C0C0" cellpadding="2">
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">1</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Знание C++?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" value="best" name="a01_C"><font
+      face="Arial" size="2" color="#7B98DB">Отличное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" value="good" name="a01_C"><font
+      face="Arial" size="2" color="#7B98DB">Хорошее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" value="bad" name="a01_C">С<font
+      face="Arial" size="2" color="#7B98DB">лабое</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">2</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Знание
+      32bit Intel x86?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" value="best"
+      name="a02_Intel_x86"><font face="Arial" size="2" color="#7B98DB">Отличное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" value="good"
+      name="a02_Intel_x86"><font face="Arial" size="2" color="#7B98DB">Хорошее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" value="bad"
+      name="a02_Intel_x86">С<font face="Arial" size="2" color="#7B98DB">лабое</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">3</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Опыт
+      программирования 32-х битных аппликаций?</font></td>
+      <td align="left" width="105" valign="top"><div align="left"><p><input type="radio"
+      name="a03_Prog_in_32bit" value="Big"><font face="Arial" size="2" color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a03_Prog_in_32bit"
+      value="Medium"><font face="Arial" size="2" color="#7B98DB">Средний</font></td>
+      <td width="105" align="left" valign="top"><div align="left"><p><input type="radio"
+      name="a03_Prog_in_32bit" value="not_at_all"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">4</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Стаж
+      работы на должности программиста?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a04_Exp_as_programmer"
+      value="&gt;4"><font face="Arial" size="2" color="#7B98DB">Более 4 лет</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a04_Exp_as_programmer"
+      value="1-4"><font face="Arial" size="2" color="#7B98DB">1-4 года</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a04_Exp_as_programmer"
+      value="&lt;1"><font face="Arial" size="2" color="#7B98DB">Менее года</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">5</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Знание
+      математики?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a05_Mathematica"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Отличное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a05_Mathematica"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Хорошее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a05_Mathematica"
+      value="bad">С<font face="Arial" size="2" color="#7B98DB">лабое</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">6</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Знание
+      базовых алгоритмов?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a06_Basic_algorythms"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Отличное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a06_Basic_algorythms"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Хорошее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a06_Basic_algorythms"
+      value="bad">С<font face="Arial" size="2" color="#7B98DB">лабое</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">7</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Количество
+      завершенных проектов?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a07_Own_projects"
+      value="&gt;2"><font face="Arial" size="2" color="#7B98DB">2+</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a07_Own_projects"
+      value="1"><font face="Arial" size="2" color="#7B98DB">1</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a07_Own_projects"
+      value="0"><font face="Arial" size="2" color="#7B98DB">В процессе</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">8</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Опыт
+      работы в игровой или multimedia индустрии?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio"
+      name="a08_Exp_in_multimedis_industry" value="big"><font face="Arial" size="2"
+      color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio"
+      name="a08_Exp_in_multimedis_industry" value="medium"><font face="Arial" size="2"
+      color="#7B98DB">Средний</font></td>
+      <td width="105" align="left" valign="top"><input type="radio"
+      name="a08_Exp_in_multimedis_industry" value="not_at_all"><font face="Arial" size="2"
+      color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">9</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Знание MMX
+      и опыт написания MMX-aware приложений?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a09_Exp_in_MMX"
+      value="big"><font face="Arial" size="2" color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a09_Exp_in_MMX"
+      value="only_in_theory"><font face="Arial" size="2" color="#7B98DB">Только в<br>
+            теории</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a09_Exp_in_MMX"
+      value="not_at_all"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">10</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Опыт
+      работы в области обработки изображений?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a10_Exp_in_images"
+      value="big"><font face="Arial" size="2" color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a10_Exp_in_images"
+      value="medium"><font face="Arial" size="2" color="#7B98DB">Средний</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a10_Exp_in_images"
+      value="not_at_all"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">11</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Опыт 3D
+      программирования?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a11_Prog_3D"
+      value="big"><font face="Arial" size="2" color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a11_Prog_3D"
+      value="Medium"><font face="Arial" size="2" color="#7B98DB">Средний</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a11_Prog_3D"
+      value="not_at_all"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">12</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Знание и
+      практическое применение Win32 API?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a12_Win32_API"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Отличное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a12_Win32_API"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Хорошее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a12_Win32_API"
+      value="bad"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">13</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Программирование
+      multithreaded аппликаций?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio"
+      name="a13_Prog_multimedia_applic" value="best"><font face="Arial" size="2" color="#7B98DB">Отличное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio"
+      name="a13_Prog_multimedia_applic" value="good"><font face="Arial" size="2" color="#7B98DB">Хорошее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio"
+      name="a13_Prog_multimedia_applic" value="bad"><font face="Arial" size="2" color="#7B98DB">Слабое</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">14</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Навыки
+      программирования искусственного интеллекта?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a14_Prog_AI"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Хорошие</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a14_Prog_AI"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Нормальные</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a14_Prog_AI"
+      value="bad"><font face="Arial" size="2" color="#7B98DB">Отсутствуют</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">15</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Практическое
+      использование DirectX и Direct3D/OpenGL?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a15_DirectX"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Прекрасное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a15_DirectX"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Нормальное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a15_DirectX"
+      value="not_at_all"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">16</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Опыт
+      применения Watcom C/C++?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a16_watcom"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a16_watcom"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Средний</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a16_watcom"
+      value="not_at_all"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">17</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Опыт
+      применения Visual C/C++?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a17_Visual_C"
+      value="best"><font face="Arial" size="2" color="#7B98DB">Большой</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a17_Visual_C"
+      value="good"><font face="Arial" size="2" color="#7B98DB">Средний</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a17_Visual_C"
+      value="bad"><font face="Arial" size="2" color="#7B98DB">Отсутствует</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">18</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Образование?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a18_Education"
+      value="High"><font face="Arial" size="2" color="#7B98DB">Высшее</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a18_Education"
+      value="not_finished_high"><font face="Arial" size="2" color="#7B98DB">Незакон-<br>
+            ченное</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a18_Education"
+      value="Medium"><font face="Arial" size="2" color="#7B98DB">Среднее</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">19</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Институт?</font></td>
+      <td align="left" width="260" colspan="3" valign="top"><input type="text"
+      name="a19_Institute" size="50" maxlength="70"></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">20</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Предыдущее
+      место работы/занятие?</font></td>
+      <td align="left" width="260" colspan="3" valign="top"><input type="text" name="a20_Ex_job"
+      size="50"></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">21</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Зарплата
+      на предыдущем месте работы?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a21_Salary"
+      value="1000"><font face="Arial" size="2" color="#7B98DB">$1000+</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a21_Salary"
+      value="500-1000"><font face="Arial" size="2" color="#7B98DB">$500-$1000</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a21_Salary"
+      value="500"><font face="Arial" size="2" color="#7B98DB">до $500</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">22</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Наличие
+      компьютера дома?</font></td>
+      <td align="left" width="105" valign="top"><input type="radio" name="a22_HomePC"
+      value="got_it"><font face="Arial" size="2" color="#7B98DB">Есть</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a22_HomePc" value="no"><font
+      face="Arial" size="2" color="#7B98DB">Нет</font></td>
+      <td width="105" align="left" valign="top"><input type="radio" name="a22_HomePc"
+      value="Nope"><font face="Arial" size="2" color="#7B98DB">Давно не<br>
+          проверял</font></td>
+    </tr>
+    <tr>
+      <td width="40" align="right" valign="top"><font face="Arial" size="2" color="#7B98DB">23</font></td>
+      <td width="370" valign="top"><font face="Arial" size="2" color="#7B98DB">Технические
+      характеристики?</font></td>
+      <td width="260" colspan="3" valign="top"><div align="left"><p><input type="text"
+      name="a23_HomePC_tech" size="50"></td>
+    </tr>
+  </table>
+  </center></div><div align="center"><center><p><input type="submit" name="submit1"
+  value="Послать"> <font face="Arial" size="2" color="#7B98DB">      </font></p>
+  </center></div>
+</form>
+<div align="center"><center>
+
+<table border="0" width="800" cellspacing="1">
+  <tr>
+    <td><p align="center"><a href="pc97_tasks.htm"><strong><font size="3" face="Arial">Перейти
+    к заданиям конкурса</font></strong></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<p align="center"><a href="pc97_central.htm"><font face="Arial"><strong>Вернуться
+    на основную страницу конкурса</strong></font></a></p>
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p align="center"><font face="Arial" size="1" color="#7B98DB"><tt><big>Text and images
+    are (c) 1997 by Snowball Interactive Entertainment, Inc. All rights reserved.</big></tt></font></td>
+  </tr>
+</table>
+</center></div>
+
+<script src="../../../../js/archive-link.js"></script>
+</body>
+</html>

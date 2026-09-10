@@ -45,6 +45,28 @@ function padZero(num) {
     return num < 10 ? `0${num}` : `${num}`;
 }
 
+function isBelow2K() {
+    // 2K = 2560×1440 в физических пикселях.
+    // screen.width даёт CSS-пиксели и на 4K@200% выглядит как ~1920×1080,
+    // поэтому умножаем на devicePixelRatio.
+    const dpr = window.devicePixelRatio || 1;
+    const physW = Math.round(window.screen.width * dpr);
+    const physH = Math.round(window.screen.height * dpr);
+    return physW < 2560 || physH < 1440;
+}
+
+function updateCursorSize() {
+    const cursor = document.getElementById('app-custom-cursor');
+    if (!cursor) return;
+    if (isBelow2K()) {
+        cursor.style.transform = 'scale(0.5)';
+        cursor.style.transformOrigin = 'top left';
+    } else {
+        cursor.style.transform = '';
+        cursor.style.transformOrigin = '';
+    }
+}
+
 function scaleApp() {
     const app = document.getElementById('app-window');
     if (!app) return;
@@ -53,6 +75,26 @@ function scaleApp() {
     // Небольшое перекрытие (1.001), чтобы не было субпиксельных полос по краям
     const scale = Math.min(scaleX, scaleY) * 1.001;
     app.style.transform = `scale(${scale}) translateZ(0)`;
+    updateCursorSize();
+}
+
+function showInstallToast() {
+    let toast = document.getElementById('install-toast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'install-toast';
+        toast.innerHTML = `
+            <div class="install-toast-backdrop"></div>
+            <div class="install-toast-box">Все файлы доступны в образе диска</div>
+        `;
+        document.body.appendChild(toast);
+    }
+
+    toast.classList.add('active');
+    clearTimeout(toast._hideTimer);
+    toast._hideTimer = setTimeout(() => {
+        toast.classList.remove('active');
+    }, 1000);
 }
 
 function loadSection(sectionKey) {
@@ -529,6 +571,9 @@ function bindStandardControls() {
             if (currentItem && currentItem.url && currentItem.url.trim() !== '') {
                 playSound('setup.wav');
                 openDirectUrl(currentItem.url);
+            } else {
+                playSound('setup.wav');
+                showInstallToast();
             }
         });
     }
@@ -942,6 +987,7 @@ document.addEventListener('DOMContentLoaded', () => {
         display: none;
     `;
     document.body.appendChild(cursor);
+    updateCursorSize();
 
     window.addEventListener('mousemove', (e) => {
         cursor.style.display = 'block';

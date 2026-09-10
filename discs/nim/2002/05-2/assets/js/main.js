@@ -21,6 +21,18 @@
     const clickSound = new Audio('assets/sound/click.wav');
     const click2Sound = new Audio('assets/sound/click2.wav');
 
+    let installToastTimer = null;
+    function showInstallToast() {
+      const toast = document.getElementById('install-toast');
+      if (!toast) return;
+      toast.classList.add('active');
+      if (installToastTimer) clearTimeout(installToastTimer);
+      installToastTimer = setTimeout(() => {
+        toast.classList.remove('active');
+        installToastTimer = null;
+      }, 1000);
+    }
+
     const dataCache = {};
     let currentData = null;
     let lbImages = [];
@@ -216,6 +228,7 @@
           if (instTimer) clearTimeout(instTimer);
           instImg.src = 'assets/img/ui/inst3.webp';
           instTimer = setTimeout(() => { instImg.src = 'assets/img/ui/inst1.webp'; instTimer = null; }, 100);
+          showInstallToast();
         });
       }
 

@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta charset="windows-1251">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>Task N2</title>
+</head>
+
+<body background="../images/tile.webp" bgcolor="#000000" text="#7B98DB" vlink="#7B98DB" link="#7B98DB">
+<div align="center"><center>
+
+<table border="0" cellspacing="1" width="700">
+  <tr>
+    <td><font face="Arial" color="#7B98DB"><big><big>Задание N2</big></big></font></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<p><em><font face="Arial" color="#7B98DB"><big>Распаковка</big></font></em></td>
+  </tr>
+  <tr>
+    <td>&nbsp; </td>
+  </tr>
+  <tr>
+    <td><font face="Arial" color="#7B98DB"><strong>Дано</strong>:</font><p><font face="Arial" color="#7B98DB">Фрагмент данных, запакованный
+    следующим образом: сначала копируется некоторое
+    количество байтов из начала, затем определенное
+    количество раз повторяется середина, и затем
+    копируются оставшиеся байты. Осуществить
+    реализацию следующего класса:</font></p>
+    <p><font face="Arial" color="#7B98DB"><em>class packedBuffer<br>
+    {<br>
+    public:<br>
+    &nbsp;&nbsp;&nbsp; packedBuffer(<br>
+    </em>&nbsp;&nbsp;&nbsp; <em>BYTE* src</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // адрес массива
+    данных<br>
+    &nbsp;&nbsp;&nbsp; <em>int len</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // размер массива<br>
+    &nbsp;&nbsp;&nbsp; <em>int intro_len</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // размер начала<br>
+    &nbsp;&nbsp;&nbsp; <em>int loop_len</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // размер зацикленной
+    части<br>
+    &nbsp;&nbsp;&nbsp; <em>int loop_cnt</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // необходимое
+    количество повторений зацикленной части<br>
+    &nbsp;&nbsp;&nbsp; <em>);</em> <br>
+    &nbsp;&nbsp;&nbsp; <em>int getNextBlock(void* dst, int size);</em> <br>
+    <em>}</font></em></p>
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><img src="task2.gif" alt="task2.gif (1483 bytes)" width="719" height="183"></td>
+  </tr>
+  <tr>
+    <td>&nbsp; </td>
+  </tr>
+  <tr>
+    <td><font face="Arial" color="#7B98DB"><strong>Необходимо</strong><u>:</font></u><p><font face="Arial" color="#7B98DB">Написать на C++ реализацию
+    приведенного выше класса, при этом функция</font></p>
+    <p><font face="Arial" color="#7B98DB"><em>int packedBuffer::getNextBlock(void* dst, int
+    size)</em></font></p>
+    <p><font face="Arial" color="#7B98DB">должна копировать следующие
+    size байт из запакованного массива в память по
+    адресу dst и возвращать количество реально
+    скопированных байтов или ноль, если копировать
+    больше нечего.</font></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<p><font face="Arial" color="#7B98DB"><strong>Примечание</strong><u>:</font></u></p>
+    <p><font face="Arial" color="#7B98DB">Типичное использование
+    данной функции:</font></p>
+    <p><small><font face="Arial" color="#7B98DB"><em>pBuff=new packedBuffer(packedData,
+    packedDataSize, introSize, loopedSize, loopNumber);<br>
+    dst=new BYTE[bufSz];<br>
+    while((unpackedSz=pBuff-&gt;getNextBlock(dst,bufSz))!=0)<br>
+    &nbsp;&nbsp;&nbsp; fwrite(dst,unpackedSz,1,fileHandle);<br>
+    </em></font></small></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<p align="center"><a href="pc97_task3.htm"><font face="Arial" size="3" color="#7B98DB">Перейти
+    к следующему заданию</font></a></p>
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p align="center"><font face="Arial" size="1" color="#7B98DB"><tt><big>Text and images
+    are (c) 1997 by Snowball Interactive Entertainment, Inc. All rights reserved.</big></tt></font></td>
+  </tr>
+</table>
+</center></div>
+
+<script src="../../../../js/archive-link.js"></script>
+</body>
+</html>

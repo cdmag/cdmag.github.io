@@ -156,6 +156,21 @@ function renderMetaTable(item) {
         }
     });
 
+    function showInstallMessage() {
+        let overlay = document.getElementById('install-toast-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'install-toast-overlay';
+            overlay.innerHTML = '<div class="install-toast">Все файлы доступны в образе диска</div>';
+            document.getElementById('shell').appendChild(overlay);
+        }
+        overlay.classList.add('active');
+        clearTimeout(overlay._hideTimer);
+        overlay._hideTimer = setTimeout(() => {
+            overlay.classList.remove('active');
+        }, 1000);
+    }
+
     actionBtn.addEventListener('click', () => {
         const item = findItem(selectedItemId);
         if (!item) return;
@@ -167,8 +182,8 @@ function renderMetaTable(item) {
             } else {
                 window.open(pageUrl, '_blank', 'noopener,noreferrer');
             }
-        } else if (item.url) {
-            window.open(item.url, '_blank', 'noopener,noreferrer');
+        } else {
+            showInstallMessage();
         }
     });
 

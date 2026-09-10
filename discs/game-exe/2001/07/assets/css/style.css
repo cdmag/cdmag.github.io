@@ -1017,3 +1017,42 @@ html, body, #app-window, #app-window * {
 .ctrl-btn {
     cursor: none !important;
 }
+
+/* ==========================================
+   ТОСТ «Установить» без URL
+   ========================================== */
+#install-toast {
+    position: fixed;
+    inset: 0;
+    z-index: 1000000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+#install-toast.active {
+    display: flex;
+}
+
+.install-toast-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.install-toast-box {
+    position: relative;
+    z-index: 1;
+    background: #f0f0f0;
+    border: 2px solid #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.45);
+    padding: 22px 36px;
+    font-family: 'Inter', 'Tahoma', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    line-height: 1.35;
+    max-width: 90vw;
+}

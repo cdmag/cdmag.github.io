@@ -1,0 +1,95 @@
+/* Страна Игр — 1997 №10: стили оболочки */
+  html, body {
+    margin: 0; padding: 0;
+    background: #000;
+    height: 100%;
+    overflow: hidden;
+  }
+  #stage {
+    position: absolute;
+    width: 1500px; height: 1250px;
+    transform-origin: top left;
+    background: #000;
+    font-family: 'PT Mono', monospace;
+  }
+  .ln  { position: absolute; background: #008000; z-index: 2; pointer-events: none; }
+  .lng { position: absolute; background: #555;    z-index: 2; pointer-events: none; }
+  .ln.gold, .lng.gold { background: var(--hotc, #e8ca23); }
+
+  .btn {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .btn img { display: block; width: 100%; height: 100%; pointer-events: none; }
+
+  /* big right box: interaction zone + content container */
+  #bigbox { position: absolute; left: 650px; top: 52px; width: 797px; height: 707px; z-index: 1; }
+  #topright-text {
+    position: absolute;
+    left: 250px; top: 243px; width: 460px;
+    color: #00ff00;
+    font-size: 30px;
+    line-height: 40px;
+    white-space: pre-line;
+    pointer-events: none;
+  }
+  #itemlist { position: absolute; left: 60px; top: 0; display: none; }
+  .item {
+    display: block;
+    color: #008000;
+    font-size: 32px;
+    line-height: 92px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .item span { border-bottom: 3px solid currentColor; }
+  .item.hot { color: #00ffff; }
+
+  #bottomleft-text {
+    position: absolute;
+    left: 75px; top: 830px; width: 740px; height: 340px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+  #logo-img { position: absolute; left: 952px; top: 799px; width: 500px; height: 315px; z-index: 1; pointer-events: none; }
+  #exit-btn { position: absolute; left: 1246px; top: 1104px; width: 204px; height: 94px; cursor: pointer; z-index: 1; }
+  #exit-btn img { display: block; width: 100%; height: 100%; pointer-events: none; }
+  #url-text {
+    position: absolute;
+    left: 1163px; top: 1208px; width: 289px;
+    text-align: right;
+    color: #00ff00;
+    font-size: 22px;
+    line-height: 24px;
+    pointer-events: none;
+  }
+  /* video popup */
+  #video-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 999;
+  }
+  #video-overlay iframe { display: block; width: 640px; height: 360px; border: 0; background: #000; }
+  /* short notice popup for items without an action */
+  #notice-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 998;
+  }
+  #notice-overlay .box {
+    background: #000;
+    border: 2px solid #008000;
+    padding: 16px 26px;
+    color: #00ff00;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    white-space: nowrap;
+  }

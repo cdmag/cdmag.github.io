@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Страна Игр — 1997 №10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+<div id="stage">
+
+  <!-- ===== Green frame lines ===== -->
+  <!-- Button 1 frame (1C): X49-482, Y52-241 -->
+  <div class="ln" data-gold="1c" style="left:49px;  top:52px;  width:433px; height:2px"></div>
+  <div class="ln" data-gold="1c" style="left:49px;  top:241px; width:433px; height:2px"></div>
+  <div class="ln" data-gold="1c" style="left:49px;  top:52px;  width:2px; height:191px"></div>
+  <div class="ln" data-gold="1c" style="left:481px; top:52px;  width:2px; height:191px"></div>
+
+  <!-- Button 2 frame (Buka): X49-482, Y297-486 -->
+  <div class="ln" data-gold="buka" style="left:49px;  top:297px; width:433px; height:2px"></div>
+  <div class="ln" data-gold="buka" style="left:49px;  top:486px; width:433px; height:2px"></div>
+  <div class="ln" data-gold="buka" style="left:49px;  top:297px; width:2px; height:191px"></div>
+  <div class="ln" data-gold="buka" style="left:481px; top:297px; width:2px; height:191px"></div>
+
+  <!-- Button 3 frame (Doka): X49-482, Y539-729 -->
+  <div class="ln" data-gold="doka" style="left:49px;  top:539px; width:433px; height:2px"></div>
+  <div class="ln" data-gold="doka" style="left:49px;  top:729px; width:433px; height:2px"></div>
+  <div class="ln" data-gold="doka" style="left:49px;  top:539px; width:2px; height:191px"></div>
+  <div class="ln" data-gold="doka" style="left:481px; top:539px; width:2px; height:191px"></div>
+
+  <!-- Big right box frame: X650-1447, Y52-759 -->
+  <div class="ln" data-gold="bigbox" style="left:650px;  top:52px;  width:797px; height:2px"></div>
+  <div class="ln" data-gold="bigbox" style="left:650px;  top:759px; width:797px; height:2px"></div>
+  <div class="ln" data-gold="bigbox" style="left:650px;  top:52px;  width:2px; height:709px"></div>
+  <div class="ln" data-gold="bigbox" style="left:1445px; top:52px;  width:2px; height:709px"></div>
+
+  <!-- Bottom-left box frame: X49-859, Y799-1191 -->
+  <div class="ln" data-gold="blbox" style="left:49px;  top:799px;  width:810px; height:2px"></div>
+  <div class="ln" data-gold="blbox" style="left:49px;  top:1191px; width:810px; height:2px"></div>
+  <div class="ln" data-gold="blbox" style="left:49px;  top:799px;  width:2px; height:394px"></div>
+  <div class="ln" data-gold="blbox" style="left:857px; top:799px;  width:2px; height:394px"></div>
+
+  <!-- Grey inner frame of bottom-left box (inset 14px) -->
+  <div class="lng" style="left:63px;  top:813px;  width:782px; height:2px"></div>
+  <div class="lng" style="left:63px;  top:1177px; width:782px; height:2px"></div>
+  <div class="lng" style="left:63px;  top:813px;  width:2px; height:366px"></div>
+  <div class="lng" style="left:843px; top:813px;  width:2px; height:366px"></div>
+
+  <!-- Exit frame: X1244-1452, Y1102-1200 -->
+  <div class="ln" data-gold="exit" style="left:1244px; top:1102px; width:208px; height:2px"></div>
+  <div class="ln" data-gold="exit" style="left:1244px; top:1199px; width:208px; height:2px"></div>
+  <div class="ln" data-gold="exit" style="left:1244px; top:1102px; width:2px;   height:99px"></div>
+  <div class="ln" data-gold="exit" style="left:1450px; top:1102px; width:2px;   height:99px"></div>
+
+  <!-- ===== Connectors (original topology: trunk X571 with gaps, no crossings) ===== -->
+  <!-- Btn1 (1C): H Y100 X482-573, V X571 Y100-384, H Y384 X571-650 -->
+  <div class="ln" data-gold="1c" style="left:483px; top:100px; width:90px;  height:2px"></div>
+  <div class="ln" data-gold="1c" style="left:571px; top:100px; width:2px;   height:284px"></div>
+  <div class="ln" data-gold="1c" style="left:571px; top:384px; width:81px;  height:2px"></div>
+
+  <!-- Btn2 (Buka): H Y364 X482-538, V X536 Y364-418, H Y418 X536-650 -->
+  <div class="ln" data-gold="buka" style="left:483px; top:364px; width:55px;  height:2px"></div>
+  <div class="ln" data-gold="buka" style="left:536px; top:364px; width:2px;   height:56px"></div>
+  <div class="ln" data-gold="buka" style="left:536px; top:418px; width:116px; height:2px"></div>
+
+  <!-- Btn3 (Doka): H Y628 X482-573, V X571 Y453-629, H Y454 X571-650 -->
+  <div class="ln" data-gold="doka" style="left:483px; top:628px; width:90px;  height:2px"></div>
+  <div class="ln" data-gold="doka" style="left:571px; top:453px; width:2px;   height:177px"></div>
+  <div class="ln" data-gold="doka" style="left:571px; top:454px; width:81px;  height:2px"></div>
+
+  <!-- Bottom-left box to big box: V X571 Y723-799, H Y724 X571-650 (follows company color) -->
+  <div class="ln" data-gold="bigbox" style="left:571px; top:723px; width:2px;   height:78px"></div>
+  <div class="ln" data-gold="bigbox" style="left:571px; top:724px; width:81px;  height:2px"></div>
+
+  <!-- Exit button to bottom-left box: H Y1158 X857-1245 -->
+  <div class="ln" data-gold="exit" style="left:859px; top:1158px; width:388px; height:2px"></div>
+
+  <!-- ===== Interactive buttons (images stretched to frame inner area, as in original) ===== -->
+  <div class="btn" id="btn-1c"   data-role="btn" data-company="1c"   style="left:51px; top:54px;  width:430px; height:187px" data-img="1c"><img src="assets/img/ui/1c.webp"   alt="1С"></div>
+  <div class="btn" id="btn-buka" data-role="btn" data-company="buka" style="left:51px; top:299px; width:430px; height:187px" data-img="buka"><img src="assets/img/ui/buka.webp" alt="Бука"></div>
+  <div class="btn" id="btn-doka" data-role="btn" data-company="doka" style="left:51px; top:541px; width:430px; height:187px" data-img="doka"><img src="assets/img/ui/doka.webp" alt="Дока"></div>
+
+  <!-- Big box content -->
+  <div id="bigbox" data-role="bigbox">
+    <div id="topright-text"></div>
+    <div id="itemlist"></div>
+  </div>
+
+  <!-- Static logo -->
+  <img id="logo-img" src="assets/img/ui/logo.webp" alt="Страна Игр">
+
+  <!-- Exit -->
+  <div id="exit-btn" data-role="btn" data-company="exit"><img src="assets/img/ui/exit.webp" alt="Выход"></div>
+  <div id="url-text"></div>
+
+  <!-- Bottom-left info text -->
+  <div id="bottomleft-text"></div>
+
+</div>
+
+<script src="assets/js/main.js"></script>
+
+<script src="assets/js/archive-link.js"></script>
+</body>
+</html>
