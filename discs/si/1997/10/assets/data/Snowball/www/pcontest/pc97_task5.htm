@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<meta charset="windows-1251">
+<meta charset="utf-8">
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 <title>Task N5</title>
 </head>
@@ -12,94 +12,94 @@ vlink="#7B98DB">
 
 <table border="0" cellspacing="1" width="720">
   <tr>
-    <td><font face="Arial" color="#7B98DB"><big><big>Задание N5</big></big></font></td>
+    <td><font face="Arial" color="#7B98DB"><big><big>Р—Р°РґР°РЅРёРµ N5</big></big></font></td>
   </tr>
   <tr>
     <td></td>
   </tr>
   <tr>
-    <td>&nbsp;<p><em><font face="Arial" color="#7B98DB"><big>Обработка списка</big></font></em></td>
+    <td>&nbsp;<p><em><font face="Arial" color="#7B98DB"><big>РћР±СЂР°Р±РѕС‚РєР° СЃРїРёСЃРєР°</big></font></em></td>
   </tr>
   <tr>
     <td></td>
   </tr>
   <tr>
-    <td>&nbsp;<p><font face="Arial" color="#7B98DB"><strong>Дано</strong>:</font></p>
-    <p><font face="Arial" color="#7B98DB">Следующие структуры данных:</font></p>
+    <td>&nbsp;<p><font face="Arial" color="#7B98DB"><strong>Р”Р°РЅРѕ</strong>:</font></p>
+    <p><font face="Arial" color="#7B98DB">РЎР»РµРґСѓСЋС‰РёРµ СЃС‚СЂСѓРєС‚СѓСЂС‹ РґР°РЅРЅС‹С…:</font></p>
     <p><font face="Arial" color="#7B98DB"><em>class ListHolder<br>
     {<br>
-        ListItem* head;<br>
+    В В В  ListItem* head;<br>
     public:<br>
-        ListHolder();<br>
-        ~ListHolder();<br>
+    В В В  ListHolder();<br>
+    В В В  ~ListHolder();<br>
     }</em></font></p>
     <p><font face="Arial" color="#7B98DB"><em>class ListItem<br>
     {<br>
-        ListItem* prev;<br>
-        ListItem* next;<br>
+    В В В  ListItem* prev;<br>
+    В В В  ListItem* next;<br>
     public:<br>
-        ListItem ();<br>
-        ~ListItem ();<br>
+    В В В  ListItem ();<br>
+    В В В  ~ListItem ();<br>
     <br>
-        int getEmbeddedNumber();<br>
-        void idle();<br>
-       BOOL isItONE(int criteria);<br>
-       <br>
-        friend class ListHolder;</em></font></p>
+    В В В  int getEmbeddedNumber();<br>
+    В В В  void idle();<br>
+    В В  BOOL isItONE(int criteria);<br>
+    В В  <br>
+    В В В  friend class ListHolder;</em></font></p>
     <p><font face="Arial" color="#7B98DB"><em>}</em></font></p>
-    <p><font face="Arial" color="#7B98DB">Класс <em>ListHolder</em>
-    представляет из себя некий объект в котором
-    находится указатель на начало двунаправленного
-    списка (<em>ListItem</em>).</font></p>
-    <p><font face="Arial" color="#7B98DB">Класс <em>ListItem</em> является
-    обычным двунаправленным списком (prev – указатель
-    на предыдущий элемент, NULL – если это последний
-    элемент, next – указатель на следующий элемент, NULL
-    – если это первый элемент)</font></td>
+    <p><font face="Arial" color="#7B98DB">РљР»Р°СЃСЃ <em>ListHolder</em>
+    РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ РёР· СЃРµР±СЏ РЅРµРєРёР№ РѕР±СЉРµРєС‚ РІ РєРѕС‚РѕСЂРѕРј
+    РЅР°С…РѕРґРёС‚СЃСЏ СѓРєР°Р·Р°С‚РµР»СЊ РЅР° РЅР°С‡Р°Р»Рѕ РґРІСѓРЅР°РїСЂР°РІР»РµРЅРЅРѕРіРѕ
+    СЃРїРёСЃРєР° (<em>ListItem</em>).</font></p>
+    <p><font face="Arial" color="#7B98DB">РљР»Р°СЃСЃ <em>ListItem</em> СЏРІР»СЏРµС‚СЃСЏ
+    РѕР±С‹С‡РЅС‹Рј РґРІСѓРЅР°РїСЂР°РІР»РµРЅРЅС‹Рј СЃРїРёСЃРєРѕРј (prev вЂ“ СѓРєР°Р·Р°С‚РµР»СЊ
+    РЅР° РїСЂРµРґС‹РґСѓС‰РёР№ СЌР»РµРјРµРЅС‚, NULL вЂ“ РµСЃР»Рё СЌС‚Рѕ РїРѕСЃР»РµРґРЅРёР№
+    СЌР»РµРјРµРЅС‚, next вЂ“ СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЃР»РµРґСѓСЋС‰РёР№ СЌР»РµРјРµРЅС‚, NULL
+    вЂ“ РµСЃР»Рё СЌС‚Рѕ РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚)</font></td>
   </tr>
   <tr>
     <td>&nbsp;<p>&nbsp;</td>
   </tr>
   <tr>
-    <td><font face="Arial" color="#7B98DB"><strong>Необходимо</strong>: </font><ol>
-      <li><font face="Arial" color="#7B98DB">Реализовать механизм
-        ‘forEachMember’ в классе ListHolder, позволяющий
-        «пробегаться» по всем элементам списка и для
-        каждого из этих элементов выполнить
-        определенное действие, которое может быть
-        представлено как в данном, так и в дочернем
-        классе.</font></li>
-      <li><font face="Arial" color="#7B98DB">Реализовать дочерний класс
-        со следующими функциями:</font></li>
+    <td><font face="Arial" color="#7B98DB"><strong>РќРµРѕР±С…РѕРґРёРјРѕ</strong>: </font><ol>
+      <li><font face="Arial" color="#7B98DB">Р РµР°Р»РёР·РѕРІР°С‚СЊ РјРµС…Р°РЅРёР·Рј
+        вЂforEachMemberвЂ™ РІ РєР»Р°СЃСЃРµ ListHolder, РїРѕР·РІРѕР»СЏСЋС‰РёР№
+        В«РїСЂРѕР±РµРіР°С‚СЊСЃСЏВ» РїРѕ РІСЃРµРј СЌР»РµРјРµРЅС‚Р°Рј СЃРїРёСЃРєР° Рё РґР»СЏ
+        РєР°Р¶РґРѕРіРѕ РёР· СЌС‚РёС… СЌР»РµРјРµРЅС‚РѕРІ РІС‹РїРѕР»РЅРёС‚СЊ
+        РѕРїСЂРµРґРµР»РµРЅРЅРѕРµ РґРµР№СЃС‚РІРёРµ, РєРѕС‚РѕСЂРѕРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ
+        РїСЂРµРґСЃС‚Р°РІР»РµРЅРѕ РєР°Рє РІ РґР°РЅРЅРѕРј, С‚Р°Рє Рё РІ РґРѕС‡РµСЂРЅРµРј
+        РєР»Р°СЃСЃРµ.</font></li>
+      <li><font face="Arial" color="#7B98DB">Р РµР°Р»РёР·РѕРІР°С‚СЊ РґРѕС‡РµСЂРЅРёР№ РєР»Р°СЃСЃ
+        СЃРѕ СЃР»РµРґСѓСЋС‰РёРјРё С„СѓРЅРєС†РёСЏРјРё:</font></li>
     </ol>
     <p><font face="Arial" color="#7B98DB"><em>class ChildListHolder: public ListHolder<br>
     {<br>
     public:<br>
     <br>
-        int getListSum();<br>
-        ListItem* getRightONE(int criteria);<br>
-        void idle();<br>
+    В В В  int getListSum();<br>
+    В В В  ListItem* getRightONE(int criteria);<br>
+    В В В  void idle();<br>
     };</em></font><ol type="a">
       <li><font face="Arial" color="#7B98DB"><em>int ChildListHolder::getListSum()</em><br>
-        Данная функция должна возвращать сумму,
-        полученную от всех элементов списка ListItem (при
-        помощи функции<br>
+        Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РґРѕР»Р¶РЅР° РІРѕР·РІСЂР°С‰Р°С‚СЊ СЃСѓРјРјСѓ,
+        РїРѕР»СѓС‡РµРЅРЅСѓСЋ РѕС‚ РІСЃРµС… СЌР»РµРјРµРЅС‚РѕРІ СЃРїРёСЃРєР° ListItem (РїСЂРё
+        РїРѕРјРѕС‰Рё С„СѓРЅРєС†РёРё<br>
         <em>int ListItem::getEmbeddedNumber()</em>)</font></li>
       <li><font face="Arial" color="#7B98DB"><em>ListItem* ChildListHolder::getRightONE(int
         criteria)</em><br>
-        Данная функция должна возвращать указатель на
-        первый из тех элементов списка, которые вернули
-        ‘TRUE’ при обращении к функции<br>
+        Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РґРѕР»Р¶РЅР° РІРѕР·РІСЂР°С‰Р°С‚СЊ СѓРєР°Р·Р°С‚РµР»СЊ РЅР°
+        РїРµСЂРІС‹Р№ РёР· С‚РµС… СЌР»РµРјРµРЅС‚РѕРІ СЃРїРёСЃРєР°, РєРѕС‚РѕСЂС‹Рµ РІРµСЂРЅСѓР»Рё
+        вЂTRUEвЂ™ РїСЂРё РѕР±СЂР°С‰РµРЅРёРё Рє С„СѓРЅРєС†РёРё<br>
         <em>BOOL ListItem::isItONE(int criteria)</font></em></li>
       <li><font face="Arial" color="#7B98DB"><em>void ChildListHolder::idle()</em><br>
-        Данная функция должна вызывать функцию <em>void
-        ListItem::idle()</em> для каждого из элементов списка.</font></li>
+        Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РґРѕР»Р¶РЅР° РІС‹Р·С‹РІР°С‚СЊ С„СѓРЅРєС†РёСЋ <em>void
+        ListItem::idle()</em> РґР»СЏ РєР°Р¶РґРѕРіРѕ РёР· СЌР»РµРјРµРЅС‚РѕРІ СЃРїРёСЃРєР°.</font></li>
     </ol>
     </td>
   </tr>
   <tr>
     <td>&nbsp;<p align="center"><a href="pc97_central.htm"><font face="Arial" size="3"
-    color="#7B98DB">Вернуться на главную страницу конкурса</font></a></p>
+    color="#7B98DB">Р’РµСЂРЅСѓС‚СЊСЃСЏ РЅР° РіР»Р°РІРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ РєРѕРЅРєСѓСЂСЃР°</font></a></p>
     <p>&nbsp;</td>
   </tr>
   <tr>
