@@ -1,20 +1,20 @@
     @font-face {
       font-family: 'Fixedsys Excelsior';
-      src: url('../fonts/FixedsysExcelsior.woff2') format('woff2');
+      src: url('../../../../../shared/fonts/FixedsysExcelsior.woff2') format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
     }
     @font-face {
       font-family: 'Arimo';
-      src: url('../fonts/Arimo-Bold.woff2') format('woff2');
+      src: url('../../../../../shared/fonts/Arimo-Bold.woff2') format('woff2');
       font-weight: 700;
       font-style: normal;
       font-display: block;
     }
     @font-face {
       font-family: 'Liberation Sans';
-      src: url('../fonts/LiberationSans-Bold.woff2') format('woff2');
+      src: url('../../../../../shared/fonts/LiberationSans-Bold.woff2') format('woff2');
       font-weight: 700;
       font-style: normal;
       font-display: block;

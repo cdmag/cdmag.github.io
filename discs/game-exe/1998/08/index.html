@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg" />
+    <title>Game.EXE — Главное меню</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="screen">
+      <div class="scene">
+        <div class="splash" id="splash">
+          <img
+            class="splash-upper-el"
+            id="splash-upper-el"
+            src="assets/img/ui/splash-upper.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="splash-left-el"
+            id="splash-left-el"
+            src="assets/img/ui/splash-left.webp"
+            alt=""
+            draggable="false"
+          />
+          <p class="splash-text1" id="splash-text1">Game.EXE CD-ROM #1 август 1998</p>
+          <p class="splash-text2" id="splash-text2">
+            Дизайн: Денис Гусаков<br />Редактор: Игорь Исупов<br />© Издательский дом<br />«Компьютерра» 1998
+          </p>
+          <img
+            class="splash-upper-right-el"
+            id="splash-upper-right-el"
+            src="assets/img/ui/splash-upper-right.webp"
+            alt=""
+            draggable="false"
+          />
+        </div>
+
+        <div class="app-ui" id="app-ui" hidden>
+        <div class="page" id="page-main">
+          <button class="upper-main" id="upper-main" type="button" aria-label="Главное меню">
+            <img id="upper-main-image" src="assets/img/ui/upper-main.webp" alt="Главное меню" />
+          </button>
+
+          <img
+            class="section-title section-title-left"
+            src="assets/img/ui/main1.webp"
+            alt="Левые разделы"
+            draggable="false"
+          />
+          <img
+            id="menu-button-upravdem"
+            class="section-button section-button-left section-button-row-1"
+            src="assets/img/ui/button.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            id="menu-button-patches"
+            class="section-button section-button-left section-button-row-2"
+            src="assets/img/ui/button.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            id="menu-button-util"
+            class="section-button section-button-left section-button-row-3"
+            src="assets/img/ui/button.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="section-title section-title-right"
+            src="assets/img/ui/main2.webp"
+            alt="Правые разделы"
+            draggable="false"
+          />
+          <img
+            id="menu-button-share"
+            class="section-button section-button-right section-button-row-1"
+            src="assets/img/ui/button.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            id="menu-button-bonus"
+            class="section-button section-button-right section-button-row-2"
+            src="assets/img/ui/button.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            id="menu-button-via"
+            class="section-button section-button-right section-button-row-3"
+            src="assets/img/ui/button.webp"
+            alt=""
+            draggable="false"
+          />
+        </div>
+
+        <div class="page" id="page-upravdem" hidden>
+          <button class="upper-demo" id="upper-demo" type="button" aria-label="Управдем">
+            <img id="upper-demo-image" src="assets/img/ui/upper-demo.webp" alt="Управдем" />
+          </button>
+
+
+          <img
+            class="point-button point-col-1 point-row-1"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-2 point-row-1"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-3 point-row-1"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-1 point-row-2"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-2 point-row-2"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-3 point-row-2"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-1 point-row-3"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button point-col-2 point-row-3"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+            data-video-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239028&hash=0df142cc2394432d&hd=1&autoplay=1"
+          />
+          <img
+            class="point-button point-col-3 point-row-3"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+            data-video-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239027&hash=9912b690729efdf5&hd=1&autoplay=1"
+          />
+
+          <p class="title-text title-col-1 title-row-1">Чикаго, 1932:<br />Дон Капоне</p>
+          <p class="title-text title-col-2 title-row-1">Королевство<br />Снов</p>
+          <p class="title-text title-col-3 title-row-1">Полная труба</p>
+
+          <p class="title-text title-col-1 title-row-2">Бестиарий</p>
+          <p class="title-text title-col-2 title-row-2">Дальнобойщики</p>
+          <p class="title-text title-col-3 title-row-2">Евразия:<br />Апокалипсис</p>
+
+          <p class="title-text title-col-1 title-row-3 title-text--tight">
+            Петька и<br />Василий Иванович<br />спасают Галактику
+          </p>
+          <p class="title-text title-col-2 title-row-3">Противостояние-2</p>
+          <p class="title-text title-col-3 title-row-3">Властелин<br />морей</p>
+
+          <div class="bottom-panel-wrap">
+            <img class="bottom-panel-img" src="assets/img/ui/bottom.webp" alt="" draggable="false" />
+            <p class="bottom-text" id="bottom-text-upravdem"></p>
+          </div>
+        </div>
+
+        <div class="page" id="page-patches" hidden>
+          <button class="upper-demo" id="upper-patch" type="button" aria-label="Патчком">
+            <img id="upper-patch-image" src="assets/img/ui/upper-patch.webp" alt="Патчком" />
+          </button>
+
+          <img
+            class="point-button patch-col-1 point-row-1"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button patch-col-2 point-row-1"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button patch-col-1 point-row-2"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button patch-col-2 point-row-2"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button patch-col-1 point-row-3"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="point-button patch-col-2 point-row-3"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+
+          <p class="title-text patch-title-col-1 title-row-1">Spec Ops: US ARMY Rangers<br />патч 1</p>
+          <p class="title-text patch-title-col-2 title-row-1">Battlezone</p>
+
+          <p class="title-text patch-title-col-1 title-row-2">Spec Ops: US ARMY Rangers<br />патч 2</p>
+          <p class="title-text patch-title-col-2 title-row-2">StarCraft</p>
+
+          <p class="title-text patch-title-col-1 title-row-3">Spec Ops: US ARMY Rangers<br />патч 3</p>
+          <p class="title-text patch-title-col-2 title-row-3">Unreal</p>
+
+          <div class="bottom-panel-wrap">
+            <img class="bottom-panel-img" src="assets/img/ui/bottom.webp" alt="" draggable="false" />
+            <p class="bottom-text" id="bottom-text-patches"></p>
+          </div>
+        </div>
+
+        <div class="page" id="page-util" hidden>
+          <button class="upper-demo" id="upper-util" type="button" aria-label="Утильсырье">
+            <img id="upper-util-image" src="assets/img/ui/upper-util.webp" alt="Утильсырье" />
+          </button>
+
+          <img class="point-button util-col-1 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-2 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-3 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-4 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <img class="point-button util-col-1 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-2 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-3 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-4 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <img class="point-button util-col-1 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-2 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-3 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-4 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <p class="title-text util-title-col-1 title-row-1">Final<br />Reality 1.01</p>
+          <p class="title-text util-title-col-2 title-row-1">Bigass1</p>
+          <p class="title-text util-title-col-3 title-row-1">Best Voodoo 2<br />Config</p>
+          <p class="title-text util-title-col-4 title-row-1">HyperSnap<br />DX</p>
+
+          <p class="title-text util-title-col-1 title-row-2">WizMark 3.0</p>
+          <p class="title-text util-title-col-2 title-row-2">Massive1</p>
+          <p class="title-text util-title-col-3 title-row-2 title-text--tight">Voodoo Graphics<br />&amp; Voodoo 2 S3 Fix</p>
+          <p class="title-text util-title-col-4 title-row-2">Snap 3Dfx</p>
+
+          <p class="title-text util-title-col-1 title-row-3">Unreal<br />Timedemo 0.2</p>
+          <p class="title-text util-title-col-2 title-row-3">Crusher</p>
+          <p class="title-text util-title-col-3 title-row-3">3D Control<br />Center</p>
+          <p class="title-text util-title-col-4 title-row-3">DirectX 5.0</p>
+
+          <div class="bottom-panel-wrap">
+            <img class="bottom-panel-img" src="assets/img/ui/bottom.webp" alt="" draggable="false" />
+            <p class="bottom-text" id="bottom-text-util"></p>
+          </div>
+        </div>
+
+        <div class="page" id="page-share" hidden>
+          <button class="upper-demo" id="upper-share" type="button" aria-label="Ниишароварпоставка">
+            <img id="upper-share-image" src="assets/img/ui/upper-share.webp" alt="Ниишароварпоставка" />
+          </button>
+
+          <img class="point-button patch-col-1 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button patch-col-2 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button patch-col-1 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button patch-col-2 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button patch-col-1 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <p class="title-text patch-title-col-1 title-row-1">Pharaohs</p>
+          <p class="title-text patch-title-col-2 title-row-1">Pop!</p>
+
+          <p class="title-text patch-title-col-1 title-row-2">BOXES III</p>
+          <p class="title-text patch-title-col-2 title-row-2">Kaleidopee</p>
+
+          <p class="title-text patch-title-col-1 title-row-3">Henge</p>
+
+          <div class="bottom-panel-wrap">
+            <img class="bottom-panel-img" src="assets/img/ui/bottom.webp" alt="" draggable="false" />
+            <p class="bottom-text" id="bottom-text-share"></p>
+          </div>
+        </div>
+
+        <div class="page" id="page-bonus" hidden>
+          <button class="upper-demo" id="upper-bonus" type="button" aria-label="Горкомбонус">
+            <img id="upper-bonus-image" src="assets/img/ui/upper-bonus.webp" alt="Горкомбонус" />
+          </button>
+
+          <img class="point-button util-col-1 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-2 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-3 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-4 point-row-1" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <img class="point-button util-col-1 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-2 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-3 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-4 point-row-2" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <img class="point-button util-col-1 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-2 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-3 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+          <img class="point-button util-col-4 point-row-3" src="assets/img/ui/point.webp" alt="" draggable="false" />
+
+          <p class="title-text util-title-col-1 title-row-1">Game.EXE #1'97</p>
+          <p class="title-text util-title-col-2 title-row-1">#4'97</p>
+          <p class="title-text util-title-col-3 title-row-1">#7'97</p>
+          <p class="title-text util-title-col-4 title-row-1">#10'97</p>
+
+          <p class="title-text util-title-col-1 title-row-2">#2'97</p>
+          <p class="title-text util-title-col-2 title-row-2">#5'97</p>
+          <p class="title-text util-title-col-3 title-row-2">#8'97</p>
+          <p class="title-text util-title-col-4 title-row-2">#11'97</p>
+
+          <p class="title-text util-title-col-1 title-row-3">#3'97</p>
+          <p class="title-text util-title-col-2 title-row-3">#6'97</p>
+          <p class="title-text util-title-col-3 title-row-3">#9'97</p>
+          <p class="title-text util-title-col-4 title-row-3">#12'97</p>
+
+          <div class="bottom-panel-wrap">
+            <img class="bottom-panel-img" src="assets/img/ui/bottom.webp" alt="" draggable="false" />
+            <p class="bottom-text" id="bottom-text-bonus"></p>
+          </div>
+        </div>
+
+        <div class="page" id="page-via" hidden>
+          <button class="upper-demo" id="upper-via" type="button" aria-label="Виа Учу">
+            <img id="upper-via-image" src="assets/img/ui/upper-via.webp" alt="Виа Учу" />
+          </button>
+
+          <img class="via-photo" src="assets/img/ui/viaphoto.webp" alt="" draggable="false" />
+
+          <img
+            class="via-button"
+            id="via-hint-button"
+            src="assets/img/ui/point.webp"
+            alt=""
+            draggable="false"
+          />
+          <p class="via-hover-label" id="via-hover-label" hidden>Жмите сюда<br />и</p>
+          <p class="click-popup click-popup--via" id="via-click-popup">Запустите музыку в плеере слева от оболочки</p>
+
+          <div class="bottom-panel-small">
+            <img class="bottom-panel-small-img" src="assets/img/ui/bottom-small.webp" alt="" draggable="false" />
+            <p class="bottom-text-small" id="via-bottom-text"><strong>Еще один бонус этого диска!</strong> — Популярная московская группа .EXE, добрые друзья нашего журнала. Ребята собираются выпустить этой осенью альбом &quot;Мужская одежда&quot;, одну из песен которого — &quot;Ночная радуга&quot; (слова И.Кормильцева, музыка Д.Таравкова) — они предложили нам в качестве бонус-трека.
+Наслаждайтесь приятной музыкой! И... ждите &quot;Мужскую одежду&quot;!</p>
+          </div>
+        </div>
+
+        <div class="side-nav" id="side-nav" hidden>
+          <img class="side-static side-static-left" src="assets/img/ui/side-l.webp" alt="" draggable="false" />
+          <img class="side-static side-static-right" src="assets/img/ui/side-r.webp" alt="" draggable="false" />
+
+          <img
+            class="side-button side-button-left side-row-1"
+            id="side-left-1"
+            data-base="s-menu"
+            src="assets/img/ui/s-menu1.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="side-button side-button-left side-row-2"
+            id="side-left-2"
+            data-base="s-patches"
+            src="assets/img/ui/s-patches1.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="side-button side-button-left side-row-3"
+            id="side-left-3"
+            data-base="s-demo"
+            src="assets/img/ui/s-demo1.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="side-button side-button-right side-row-1"
+            id="side-right-1"
+            data-base="s-share"
+            src="assets/img/ui/s-share1.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="side-button side-button-right side-row-2"
+            id="side-right-2"
+            data-base="s-bonus"
+            src="assets/img/ui/s-bonus1.webp"
+            alt=""
+            draggable="false"
+          />
+          <img
+            class="side-button side-button-right side-row-3"
+            id="side-right-3"
+            data-base="s-exe"
+            src="assets/img/ui/s-exe1.webp"
+            alt=""
+            draggable="false"
+          />
+        </div>
+
+        <p class="click-popup click-popup--generic" id="generic-click-popup">
+          Все файлы доступны в образе диска
+        </p>
+
+        <button class="back-button" id="back-button" type="button" aria-label="Назад">
+          <img id="back-button-image" src="assets/img/ui/back.webp" alt="" />
+        </button>
+
+        <button class="exit-button" id="exit-button" type="button" aria-label="Выход">
+          <img id="exit-button-image" src="assets/img/ui/exit.webp" alt="" />
+        </button>
+        </div>
+      </div>
+
+      <div class="video-modal" id="video-modal" hidden>
+        <div class="video-modal-frame" id="video-modal-frame"></div>
+      </div>
+    </main>
+      <script src="assets/js/script.js"></script>
+  </body>
+</html>
