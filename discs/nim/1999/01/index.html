@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Навигатор игрового мира — Диск №1, 1999</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="screen">
+
+    <button class="hotspot" id="btn-demos" style="left:70.75%; top:5.1667%; width:21.5625%; height:6.8333%;">
+      <img src="assets/img/ui/demos.webp" alt="DEMOS">
+    </button>
+
+    <button class="hotspot" id="btn-files" style="left:74.125%; top:16.75%; width:15%; height:6.8333%;">
+      <img src="assets/img/ui/files.webp" alt="FILES">
+    </button>
+
+    <button class="hotspot" id="btn-movies" style="left:69.5%; top:28.3333%; width:23.875%; height:6.8333%;">
+      <img src="assets/img/ui/movies.webp" alt="MOVIES">
+    </button>
+
+    <button class="hotspot" id="btn-cracks" style="left:69.9375%; top:40.1667%; width:23.125%; height:6.8333%;">
+      <img src="assets/img/ui/cracks.webp" alt="CRACKS">
+    </button>
+
+    <button class="hotspot" id="btn-internet" style="left:67.75%; top:52%; width:27.8125%; height:6.6667%;">
+      <img src="assets/img/ui/internet.webp" alt="INTERNET">
+    </button>
+
+    <div class="static-img" style="left:76.25%; top:75.6667%; width:10.9375%; height:12.5%;">
+      <img src="assets/img/ui/music.webp" alt="">
+    </div>
+
+    <div id="content-panel">
+
+      <div id="content-columns"></div>
+
+      <div id="content-detail-box">
+        <img id="content-detail-thumb" src="" alt="">
+        <div id="content-detail-text"></div>
+      </div>
+
+    </div>
+
+    <button id="btn-install">
+      <img src="assets/img/ui/install.webp" alt="Install">
+    </button>
+
+    <div id="install-modal">
+      <div class="modal-box">Все файлы доступны в образе диска</div>
+    </div>
+
+    <div id="video-modal">
+      <div id="video-frame"></div>
+    </div>
+
+    <button id="egg-hotspot" class="egg-hotspot" style="left:96%; top:40%; width:4%; height:60%;"></button>
+
+    <div id="we-splash" class="fullscreen-splash">
+      <div class="splash-bg"></div>
+    </div>
+
+    <div id="session-splash" class="fullscreen-splash">
+      <div class="splash-bg"></div>
+    </div>
+
+  </div>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
