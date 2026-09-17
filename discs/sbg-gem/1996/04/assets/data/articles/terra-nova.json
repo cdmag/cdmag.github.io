@@ -1,0 +1,87 @@
+{
+  "id": "terra-nova",
+  "title": "Terra Nova: Strike Force Centauri",
+  "music": "terra.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/terra01.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 438,
+          "w": 475,
+          "h": 325,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239040&hash=b5c40c5f2c625683&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/terra02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra08.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 792,
+          "w": 450,
+          "h": 315,
+          "popup": "assets/img/content/terra08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/terra09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra12.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 802,
+          "w": 450,
+          "h": 302,
+          "popup": "assets/img/content/terra12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/terra13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/terra14.webp",
+      "hotspots": []
+    }
+  ]
+}

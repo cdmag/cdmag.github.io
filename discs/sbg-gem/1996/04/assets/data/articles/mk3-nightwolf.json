@@ -1,0 +1,15 @@
+{
+  "id": "mk3-nightwolf",
+  "title": "Nightwolf",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/wolf.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wolf2.webp",
+      "hotspots": []
+    }
+  ]
+}

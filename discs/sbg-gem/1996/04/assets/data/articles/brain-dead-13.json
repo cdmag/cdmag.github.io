@@ -1,0 +1,105 @@
+{
+  "id": "brain-dead-13",
+  "title": "Brain Dead 13",
+  "music": "arcade.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/bd13_1.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 362,
+          "popup": "assets/img/content/bd13_1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bd13_2.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/bd13_2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bd13_3.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/bd13_3-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/bd13_3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bd13_4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 125,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/bd13_4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bd13_5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/bd13_5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bd13_6.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 250,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/bd13_6-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 650,
+          "w": 462,
+          "h": 400,
+          "popup": "assets/img/content/bd13_6-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bd13_7.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 125,
+          "w": 462,
+          "h": 362,
+          "popup": "assets/img/content/bd13_7-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

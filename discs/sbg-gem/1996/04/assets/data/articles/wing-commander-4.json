@@ -1,0 +1,79 @@
+{
+  "id": "wing-commander-4",
+  "title": "Wing Commander IV - почем фунт свободы?",
+  "music": "wc4.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/wing1.webp",
+      "hotspots": [
+        {
+          "x": 1032,
+          "y": 648,
+          "w": 450,
+          "h": 328,
+          "popup": "assets/img/content/wing1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wing2.webp",
+      "hotspots": [
+        {
+          "x": 565,
+          "y": 252,
+          "w": 450,
+          "h": 328,
+          "popup": "assets/img/content/wing2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wing3.webp",
+      "hotspots": [
+        {
+          "x": 572,
+          "y": 642,
+          "w": 450,
+          "h": 328,
+          "popup": "assets/img/content/wing3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wing4.webp",
+      "hotspots": [
+        {
+          "x": 568,
+          "y": 448,
+          "w": 450,
+          "h": 328,
+          "popup": "assets/img/content/wing4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wing5.webp",
+      "hotspots": [
+        {
+          "x": 120,
+          "y": 692,
+          "w": 450,
+          "h": 328,
+          "popup": "assets/img/content/wing5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wing6.webp",
+      "hotspots": [
+        {
+          "x": 915,
+          "y": 560,
+          "w": 450,
+          "h": 328,
+          "popup": "assets/img/content/wing6-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

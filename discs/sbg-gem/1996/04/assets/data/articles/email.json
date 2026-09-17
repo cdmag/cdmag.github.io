@@ -1,0 +1,19 @@
+{
+  "id": "email",
+  "title": "E-mail: Открытое письмо к редактору",
+  "music": "editor.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/email1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/email2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/email3.webp",
+      "hotspots": []
+    }
+  ]
+}

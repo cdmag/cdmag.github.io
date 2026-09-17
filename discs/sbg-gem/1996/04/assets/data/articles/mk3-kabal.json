@@ -1,0 +1,19 @@
+{
+  "id": "mk3-kabal",
+  "title": "Kabal",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/kabal.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/kabal2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/kabal3.webp",
+      "hotspots": []
+    }
+  ]
+}

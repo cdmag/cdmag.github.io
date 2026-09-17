@@ -1,0 +1,103 @@
+{
+  "id": "terminator",
+  "title": "Terminator: Future Shock",
+  "music": "term.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/termin1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/termin2.webp",
+      "hotspots": [
+        {
+          "x": 62,
+          "y": 100,
+          "w": 488,
+          "h": 362,
+          "popup": "assets/img/content/termin2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/termin3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/termin4.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/termin4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/termin5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/termin6.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/termin6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/termin7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/termin8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/termin9.webp",
+      "hotspots": [
+        {
+          "x": 62,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/termin9-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/termin10.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/termin10-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/termin11.webp",
+      "hotspots": [
+        {
+          "x": 62,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/termin11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/termin12.webp",
+      "hotspots": []
+    }
+  ]
+}

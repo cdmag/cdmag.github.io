@@ -1,0 +1,67 @@
+{
+  "id": "comanche",
+  "title": "Commanche против Werewolf",
+  "music": "sim.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/comanch1.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/comanch1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/comanch2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/comanch2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/comanch3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/comanch3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/comanch4.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/comanch4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/comanch5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/comanch5-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

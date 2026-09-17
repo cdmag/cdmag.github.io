@@ -1,0 +1,19 @@
+{
+  "id": "mk3-kano",
+  "title": "Kano",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/kano.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/kano2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/kano3.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "draks",
+  "title": "Draks - Играют ли драконы в тетрис?",
+  "music": "logic.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/draks1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/draks1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/draks2.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/draks2-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

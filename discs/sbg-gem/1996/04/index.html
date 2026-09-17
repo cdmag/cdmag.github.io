@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SBG Magazine 1996 #4</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div class="viewport" id="viewport">
+  <div class="stage" id="stage">
+
+    <!-- ===== MAIN MENU ===== -->
+    <div id="view-menu">
+      <div class="menu-image" id="menuImage">
+        <img src="assets/img/content/contmine.webp" width="1600" height="1200" draggable="false" alt="">
+      </div>
+    </div>
+
+    <!-- ===== SUBMENU ===== -->
+    <div id="view-submenu">
+      <div class="menu-image" id="submenuImage">
+        <img id="submenuImg" src="" width="1600" height="1200" draggable="false" alt="">
+      </div>
+    </div>
+
+    <!-- ===== VIEWER ===== -->
+    <div id="view-viewer">
+      <div class="page-image" id="pageImage"></div>
+      <div class="edge-zone top inactive" id="edgeTop"></div>
+      <div class="edge-zone bottom inactive" id="edgeBottom"></div>
+      <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-image" id="popupImage"></div>
+        <div class="popup-hit" id="popupHit"></div>
+      </div>
+      <div class="video-overlay" id="videoOverlay">
+        <div class="video-frame-wrap" id="videoFrameWrap"></div>
+      </div>
+      <div class="tall-scroll" id="tallScroll">
+        <div class="tall-content" id="tallContent">
+          <div class="tall-image" id="tallImage"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left control panel -->
+    <div id="left-edge-zone"></div>
+    <div id="left-panel">
+      <div class="slider-handle" id="sliderSfx"></div>
+      <div class="slider-handle" id="sliderMusic"></div>
+      <div class="panel-btn" id="btnHelp" style="left:96px;top:813px;width:106px;height:60px;"></div>
+      <div class="panel-btn" id="btnBoss" style="left:96px;top:886px;width:106px;height:60px;"></div>
+      <div class="panel-btn" id="btnOs"   style="left:96px;top:958px;width:106px;height:60px;"></div>
+    </div>
+    <div id="right-panel"></div>
+    <div id="overlay-screen"></div>
+    <div id="tx-overlay"></div>
+    <div class="ad-interstitial" id="adInterstitial">
+      <div class="ad-interstitial-img" id="adInterstitialImg"></div>
+      <video class="ad-interstitial-vid" id="adInterstitialVid" muted playsinline></video>
+    </div>
+    <div class="splash-overlay" id="splashOverlay">
+      <div class="splash-img" id="splashImg"></div>
+      <div class="splash-hit" id="splashHit"></div>
+    </div>
+  </div>
+</div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

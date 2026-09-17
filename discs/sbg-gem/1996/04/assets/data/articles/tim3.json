@@ -1,0 +1,71 @@
+{
+  "id": "tim3",
+  "title": "The Incredible Machine 3",
+  "music": "logic.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/tim3_1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tim3_1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tim3_2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/tim3_3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tim3_3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tim3_4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tim3_4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tim3_5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tim3_5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tim3_6.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tim3_6-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

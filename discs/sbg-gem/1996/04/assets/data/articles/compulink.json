@@ -1,0 +1,12 @@
+{
+  "id": "compulink",
+  "title": "COMPULINK",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/compul.webp",
+      "hotspots": []
+    }
+  ]
+}

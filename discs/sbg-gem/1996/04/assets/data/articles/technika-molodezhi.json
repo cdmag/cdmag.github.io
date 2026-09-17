@@ -1,0 +1,16 @@
+{
+  "id": "technika-molodezhi",
+  "title": "Техника - Молодежи",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/1_tm.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/2_tm.webp",
+      "hotspots": []
+    }
+  ]
+}

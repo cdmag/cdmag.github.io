@@ -1,0 +1,86 @@
+{
+  "id": "teenagent-solution",
+  "title": "TeenAgent - solution",
+  "music": "advent.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/tenagnt1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 350,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tenagnt2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt2-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tenagnt3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tenagnt4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tenagnt5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tenagnt6.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 350,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/tenagnt6-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

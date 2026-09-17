@@ -1,0 +1,12 @@
+{
+  "id": "game-land",
+  "title": "Game Land",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/recl_gm1.webp",
+      "hotspots": []
+    }
+  ]
+}

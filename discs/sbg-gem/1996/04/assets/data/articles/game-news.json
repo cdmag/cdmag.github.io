@@ -1,0 +1,138 @@
+{
+  "id": "game-news",
+  "title": "Game News",
+  "music": "news.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/news1.webp",
+      "hotspots": [
+        {
+          "x": 1085,
+          "y": 130,
+          "w": 450,
+          "h": 312,
+          "popup": "assets/img/content/news1-screen1.webp"
+        },
+        {
+          "x": 68,
+          "y": 410,
+          "w": 450,
+          "h": 302,
+          "popup": "assets/img/content/news1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news2.webp",
+      "hotspots": [
+        {
+          "x": 68,
+          "y": 420,
+          "w": 450,
+          "h": 312,
+          "popup": "assets/img/content/news2-screen1.webp"
+        },
+        {
+          "x": 1088,
+          "y": 462,
+          "w": 450,
+          "h": 325,
+          "popup": "assets/img/content/news2-screen2.webp"
+        },
+        {
+          "x": 575,
+          "y": 782,
+          "w": 450,
+          "h": 312,
+          "popup": "assets/img/content/news2-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news3.webp",
+      "hotspots": [
+        {
+          "x": 578,
+          "y": 425,
+          "w": 450,
+          "h": 312,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239036&hash=7723c3657a412a39&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news4.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 425,
+          "w": 462,
+          "h": 338,
+          "popup": "assets/img/content/news4-screen1.webp"
+        },
+        {
+          "x": 68,
+          "y": 500,
+          "w": 450,
+          "h": 350,
+          "popup": "assets/img/content/news4-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 392,
+          "w": 450,
+          "h": 312,
+          "popup": "assets/img/content/news5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news6.webp",
+      "hotspots": [
+        {
+          "x": 68,
+          "y": 425,
+          "w": 450,
+          "h": 325,
+          "popup": "assets/img/content/news6-screen1.webp"
+        },
+        {
+          "x": 572,
+          "y": 788,
+          "w": 450,
+          "h": 312,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239037&hash=8736153a393e6d77&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news7.webp",
+      "hotspots": [
+        {
+          "x": 70,
+          "y": 258,
+          "w": 450,
+          "h": 325,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239038&hash=d85bfc427e9bb4dc&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news8.webp",
+      "hotspots": [
+        {
+          "x": 60,
+          "y": 460,
+          "w": 450,
+          "h": 325,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239039&hash=638d0a09c81f1c46&hd=1&autoplay=1"
+        }
+      ]
+    }
+  ]
+}

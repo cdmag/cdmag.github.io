@@ -1,0 +1,147 @@
+{
+  "id": "fiction",
+  "title": "Fiction / BOFH",
+  "music": "both.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/bofh01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh15.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh18.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh19.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh22.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh23.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh24.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh25.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh26.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh27.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh28.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh29.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh30.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh31.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh32.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh33.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh34.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bofh35.webp",
+      "hotspots": []
+    }
+  ]
+}

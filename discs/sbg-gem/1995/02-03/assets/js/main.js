@@ -59,7 +59,7 @@
 
 
       // ========== TRANSITIONS ==========
-      const SOUND_BASE = 'assets/sound/';
+      const SOUND_BASE = '../../shared/sound/';
       const TX_DURATION = 1000; // ms
       const MENU_FULL_H = 4350;
       const sfxCache = {};
@@ -82,7 +82,7 @@
 
       function currentSnapshot() {
         if (currentView === 'menu') {
-          return makeSnap('assets/img/ui/main-menu.webp', MENU_FULL_H, menuScroll.scrollTop);
+          return makeSnap('assets/img/content/main-menu.webp', MENU_FULL_H, menuScroll.scrollTop);
         }
         if (!article) return null;
         if (isListMode && viewerSubView === 'list') {
@@ -293,11 +293,11 @@
 
       // --- Cursor size: full at ≥2K, half below (nearest-neighbor) ---
       const CURSOR_DEFS = {
-        red:   { src: 'assets/img/ui/cursor-red.webp',   hx: 2,  hy: 8 },
-        green: { src: 'assets/img/ui/cursor-green.webp', hx: 2,  hy: 8 },
-        zoom:  { src: 'assets/img/ui/cursor-zoom.webp',  hx: 16, hy: 14 },
-        prev:  { src: 'assets/img/ui/page-prev.webp',    hx: 46, hy: 8  },
-        next:  { src: 'assets/img/ui/page-next.webp',    hx: 46, hy: 44 }
+        red:   { src: '../../shared/img/cursor-red.webp',   hx: 2,  hy: 8 },
+        green: { src: '../../shared/img/cursor-green.webp', hx: 2,  hy: 8 },
+        zoom:  { src: '../../shared/img/cursor-zoom.webp',  hx: 16, hy: 14 },
+        prev:  { src: '../../shared/img/page-prev.webp',    hx: 46, hy: 8  },
+        next:  { src: '../../shared/img/page-next.webp',    hx: 46, hy: 44 }
       };
       const cursorImgs = {};
       const cursorBlobUrls = { full: {}, half: {} };
@@ -896,7 +896,7 @@
         const el = pgBtnEls[key];
         if (!el) return;
         const name = (key === '-') ? 'btn-' : ('btn' + key);
-        el.style.backgroundImage = 'url("assets/img/ui/' + name + (on ? '_on' : '_off') + '.webp")';
+        el.style.backgroundImage = 'url("../../shared/img/' + name + (on ? '_on' : '_off') + '.webp")';
       }
 
       function resetPgBtns() {
@@ -938,7 +938,7 @@
           el.style.width = spec.w + 'px';
           el.style.height = spec.h + 'px';
           const name = (key === '-') ? 'btn-' : ('btn' + key);
-          el.style.backgroundImage = 'url("assets/img/ui/' + name + '_off.webp")';
+          el.style.backgroundImage = 'url("../../shared/img/' + name + '_off.webp")';
           el.style.backgroundSize = spec.w + 'px ' + spec.h + 'px';
           el.addEventListener('click', function (e) {
             e.preventDefault(); e.stopPropagation();

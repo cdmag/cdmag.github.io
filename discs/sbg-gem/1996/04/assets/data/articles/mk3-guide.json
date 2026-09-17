@@ -1,0 +1,157 @@
+{
+  "id": "mk3-guide",
+  "title": "НЕ краткое руководство пользователя Mortal Kombat 3",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/mk3_01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mk3_11.webp",
+      "hotspots": [
+        {
+          "x": 200,
+          "y": 175,
+          "w": 230,
+          "h": 280,
+          "article": "mk3-santsung"
+        },
+        {
+          "x": 438,
+          "y": 175,
+          "w": 228,
+          "h": 280,
+          "article": "mk3-sindel"
+        },
+        {
+          "x": 675,
+          "y": 175,
+          "w": 220,
+          "h": 280,
+          "article": "mk3-jax"
+        },
+        {
+          "x": 905,
+          "y": 175,
+          "w": 225,
+          "h": 280,
+          "article": "mk3-kano"
+        },
+        {
+          "x": 1140,
+          "y": 175,
+          "w": 222,
+          "h": 280,
+          "article": "mk3-liu-kang"
+        },
+        {
+          "x": 200,
+          "y": 462,
+          "w": 230,
+          "h": 290,
+          "article": "mk3-sonya"
+        },
+        {
+          "x": 438,
+          "y": 462,
+          "w": 228,
+          "h": 290,
+          "article": "mk3-stryker"
+        },
+        {
+          "x": 675,
+          "y": 462,
+          "w": 220,
+          "h": 290,
+          "article": "mk3-smoke"
+        },
+        {
+          "x": 905,
+          "y": 462,
+          "w": 225,
+          "h": 290,
+          "article": "mk3-sub-zero"
+        },
+        {
+          "x": 1140,
+          "y": 462,
+          "w": 222,
+          "h": 290,
+          "article": "mk3-cyrax"
+        },
+        {
+          "x": 200,
+          "y": 762,
+          "w": 230,
+          "h": 285,
+          "article": "mk3-sektor"
+        },
+        {
+          "x": 438,
+          "y": 762,
+          "w": 228,
+          "h": 285,
+          "article": "mk3-nightwolf"
+        },
+        {
+          "x": 675,
+          "y": 762,
+          "w": 220,
+          "h": 285,
+          "article": "mk3-sheeva"
+        },
+        {
+          "x": 905,
+          "y": 762,
+          "w": 225,
+          "h": 285,
+          "article": "mk3-kung-lao"
+        },
+        {
+          "x": 1140,
+          "y": 762,
+          "w": 222,
+          "h": 285,
+          "article": "mk3-kabal"
+        }
+      ]
+    }
+  ]
+}

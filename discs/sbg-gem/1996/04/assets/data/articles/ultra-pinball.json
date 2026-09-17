@@ -1,0 +1,74 @@
+{
+  "id": "ultra-pinball",
+  "title": "Ultra Pinball - Трус не играет в pinball",
+  "music": "arcade.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/pinball1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 700,
+          "w": 462,
+          "h": 325,
+          "popup": "assets/img/content/pinball1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pinball2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/pinball2-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/pinball2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pinball3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 325,
+          "popup": "assets/img/content/pinball3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pinball4.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/pinball4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pinball5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 550,
+          "w": 462,
+          "h": 325,
+          "popup": "assets/img/content/pinball5-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

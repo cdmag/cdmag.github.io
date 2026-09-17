@@ -1,0 +1,71 @@
+{
+  "id": "indycar-racing-2",
+  "title": "IndyCar Racing II",
+  "music": "nfs.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/indy1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 125,
+          "w": 450,
+          "h": 325,
+          "popup": "assets/img/content/indy1-screen1.webp"
+        },
+        {
+          "x": 575,
+          "y": 790,
+          "w": 450,
+          "h": 315,
+          "popup": "assets/img/content/indy1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/indy2.webp",
+      "hotspots": [
+        {
+          "x": 1082,
+          "y": 125,
+          "w": 450,
+          "h": 315,
+          "popup": "assets/img/content/indy2-screen1.webp"
+        },
+        {
+          "x": 68,
+          "y": 790,
+          "w": 450,
+          "h": 315,
+          "popup": "assets/img/content/indy2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/indy3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 128,
+          "w": 450,
+          "h": 315,
+          "popup": "assets/img/content/indy3-screen1.webp"
+        },
+        {
+          "x": 68,
+          "y": 498,
+          "w": 450,
+          "h": 335,
+          "popup": "assets/img/content/indy3-screen2.webp"
+        },
+        {
+          "x": 575,
+          "y": 800,
+          "w": 450,
+          "h": 300,
+          "popup": "assets/img/content/indy3-screen3.webp"
+        }
+      ]
+    }
+  ]
+}

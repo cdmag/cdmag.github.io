@@ -1,0 +1,15 @@
+{
+  "id": "mk3-jax",
+  "title": "Jax",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/jax.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/jax2.webp",
+      "hotspots": []
+    }
+  ]
+}

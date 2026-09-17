@@ -1,0 +1,15 @@
+{
+  "id": "mk3-sektor",
+  "title": "Sektor",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/sector.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/sector2.webp",
+      "hotspots": []
+    }
+  ]
+}

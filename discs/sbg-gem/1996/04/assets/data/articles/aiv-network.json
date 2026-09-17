@@ -1,0 +1,43 @@
+{
+  "id": "aiv-network",
+  "title": "A-IV Network$",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/aiv01.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/aiv01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/aiv02.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/aiv02-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/aiv03.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/aiv03-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tecnology",
+  "title": "Технология, АТЛАНТИС, TELETRADE",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/tecnology.webp",
+      "hotspots": []
+    }
+  ]
+}

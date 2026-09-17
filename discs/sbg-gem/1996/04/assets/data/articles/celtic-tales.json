@@ -1,0 +1,78 @@
+{
+  "id": "celtic-tales",
+  "title": "Celtic Tales: Balor of Evil Eye",
+  "music": "rpg.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/celtic1.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/celtic1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/celtic2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/celtic2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/celtic3.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/celtic3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/celtic4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/celtic4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/celtic5.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/celtic5-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/celtic5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/celtic6.webp",
+      "hotspots": []
+    }
+  ]
+}

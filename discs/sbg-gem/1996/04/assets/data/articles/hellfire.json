@@ -1,0 +1,81 @@
+{
+  "id": "hellfire",
+  "title": "Hellfire - В зоне \"Дьявольского огня\"",
+  "music": "arcade.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/hellfi_1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hellfi_2.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 550,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_2-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hellfi_3.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_3-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hellfi_4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hellfi_5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hellfi_5-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

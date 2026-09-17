@@ -1,0 +1,12 @@
+{
+  "id": "pc-world",
+  "title": "Весь Компьютерный Мир",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/pcworld.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "stop-rpg-suicide",
+  "title": "Остановите самоубийства любителей RPG!",
+  "music": "editor.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/work1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/work2.webp",
+      "hotspots": []
+    }
+  ]
+}

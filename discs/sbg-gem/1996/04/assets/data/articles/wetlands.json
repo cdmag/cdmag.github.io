@@ -1,0 +1,54 @@
+{
+  "id": "wetlands",
+  "title": "WetLands",
+  "music": "wetlands.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/wetlnds1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wetlnds2.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 325,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239041&hash=1b08ab7eb2ec504f&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wetlnds3.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/wetlnds3-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 125,
+          "w": 462,
+          "h": 325,
+          "popup": "assets/img/content/wetlnds3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wetlnds4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 550,
+          "w": 462,
+          "h": 350,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239042&hash=60c93b9444eda8a9&hd=1&autoplay=1"
+        }
+      ]
+    }
+  ]
+}

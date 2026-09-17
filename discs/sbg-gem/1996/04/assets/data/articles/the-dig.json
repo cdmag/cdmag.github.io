@@ -1,0 +1,81 @@
+{
+  "id": "the-dig",
+  "title": "The Dig: LucasArts + Спилберг = новый хит",
+  "music": "thedig.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/dig1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 438,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dig1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/dig2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dig2-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 125,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dig2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/dig3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 438,
+          "w": 462,
+          "h": 362,
+          "popup": "assets/img/content/dig3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/dig4.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 125,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dig4-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dig4-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/dig5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 350,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dig5-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

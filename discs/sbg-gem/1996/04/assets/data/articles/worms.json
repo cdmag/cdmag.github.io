@@ -1,0 +1,100 @@
+{
+  "id": "worms",
+  "title": "Worms - червяк червяка видит издалека",
+  "music": "logic.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/worms1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239044&hash=9eb43fc43d1ffb06&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/worms2.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239045&hash=9845baf78c7dea8f&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/worms3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/worms3-screen1.webp"
+        },
+        {
+          "x": 575,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/worms3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/worms4.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/worms4-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "video": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239043&hash=04630552d45608a7&hd=1&autoplay=1"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/worms5.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/worms5-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/worms5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/worms6.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/worms6-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mk3-cyrax",
+  "title": "Cyrax",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/cyrax.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cyrax2.webp",
+      "hotspots": []
+    }
+  ]
+}

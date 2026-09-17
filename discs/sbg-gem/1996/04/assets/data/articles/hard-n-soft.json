@@ -1,0 +1,12 @@
+{
+  "id": "hard-n-soft",
+  "title": "HARD 'n' SOFT",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/h_s.webp",
+      "hotspots": []
+    }
+  ]
+}

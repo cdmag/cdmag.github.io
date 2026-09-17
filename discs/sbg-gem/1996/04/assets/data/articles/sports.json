@@ -1,0 +1,158 @@
+{
+  "id": "sports",
+  "title": "HardBall IV / Спорт Америки: Бейсбол",
+  "music": "sports.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/hball01.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball04.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball07.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball08.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball09.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball09-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball09-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball12.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball13.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball15.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball15-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hball17.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hball17-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hball18.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "advanced-gravis",
+  "title": "Advanced Gravis - отличная компания (от других)",
+  "music": "hardw.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/gravis01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gravis11.webp",
+      "hotspots": []
+    }
+  ]
+}

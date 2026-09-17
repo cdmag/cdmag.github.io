@@ -1,0 +1,88 @@
+{
+  "id": "earthworm-jim",
+  "title": "EarthWorm Jim - Дай лапу, Джим",
+  "music": "arcade.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/jim1.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 438,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/jim1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/jim2.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 438,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/jim2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/jim3.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/jim3-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 125,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/jim3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/jim4.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 125,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/jim4-screen1.webp"
+        },
+        {
+          "x": 575,
+          "y": 700,
+          "w": 462,
+          "h": 325,
+          "popup": "assets/img/content/jim4-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/jim5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 325,
+          "popup": "assets/img/content/jim5-screen1.webp"
+        },
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/jim5-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

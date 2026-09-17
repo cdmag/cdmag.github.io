@@ -1,0 +1,157 @@
+{
+  "id": "staroe-dobroe",
+  "title": "Старое-доброе / Space Quest",
+  "music": "advent.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/spqst01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/spqst02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/spqst03.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst04.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst05.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/spqst07.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst08.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst09.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst09-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst09-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst10.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst10-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst11.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst11-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst11-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst12.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/spqst12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/spqst13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/spqst14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/spqst15.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/spqst16.webp",
+      "hotspots": []
+    }
+  ]
+}

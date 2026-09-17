@@ -1,0 +1,43 @@
+{
+  "id": "dust",
+  "title": "Dust: A Tale of the Wired West",
+  "music": "dust.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/dust1.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 438,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dust1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/dust2.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dust2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/dust3.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 125,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/dust3-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

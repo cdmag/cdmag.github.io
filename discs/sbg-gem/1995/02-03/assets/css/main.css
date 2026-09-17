@@ -1,9 +1,9 @@
 :root {
-      --cur-red: url("../img/ui/cursor-red.webp") 2 8, auto;
-      --cur-green: url("../img/ui/cursor-green.webp") 2 8, auto;
-      --cur-zoom: url("../img/ui/cursor-zoom.webp") 16 14, auto;
-      --cur-prev: url("../img/ui/page-prev.webp") 46 8, auto;
-      --cur-next: url("../img/ui/page-next.webp") 46 44, auto;
+      --cur-red: url("../../../../shared/img/cursor-red.webp") 2 8, auto;
+      --cur-green: url("../../../../shared/img/cursor-green.webp") 2 8, auto;
+      --cur-zoom: url("../../../../shared/img/cursor-zoom.webp") 16 14, auto;
+      --cur-prev: url("../../../../shared/img/page-prev.webp") 46 8, auto;
+      --cur-next: url("../../../../shared/img/page-next.webp") 46 44, auto;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body {
@@ -187,7 +187,7 @@
     #left-panel {
       position: absolute; left: -235px; top: 0;
       width: 235px; height: 1125px;
-      background: url("../img/ui/panel_left.webp") no-repeat 0 0;
+      background: url("../../../../shared/img/panel_left.webp") no-repeat 0 0;
       background-size: 235px 1125px;
       image-rendering: pixelated;
       image-rendering: crisp-edges;
@@ -199,7 +199,7 @@
     #left-panel .slider-handle {
       position: absolute;
       width: 40px; height: 14px;
-      background: url("../img/ui/slider.webp") no-repeat 0 0;
+      background: url("../../../../shared/img/slider.webp") no-repeat 0 0;
       background-size: 40px 14px;
       image-rendering: pixelated;
       image-rendering: crisp-edges;
@@ -235,7 +235,7 @@
     #right-panel {
       position: absolute; left: 1600px; top: 0;
       width: 248px; height: 1130px;
-      background: url("../img/ui/panel_right.webp") no-repeat 0 0;
+      background: url("../../../../shared/img/panel_right.webp") no-repeat 0 0;
       background-size: 248px 1130px;
       image-rendering: pixelated;
       image-rendering: crisp-edges;

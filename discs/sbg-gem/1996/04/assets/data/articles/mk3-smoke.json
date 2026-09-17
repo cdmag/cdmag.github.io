@@ -1,0 +1,15 @@
+{
+  "id": "mk3-smoke",
+  "title": "Smoke",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/smoke.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/smoke2.webp",
+      "hotspots": []
+    }
+  ]
+}

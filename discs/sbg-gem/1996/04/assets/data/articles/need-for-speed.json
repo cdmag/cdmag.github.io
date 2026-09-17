@@ -1,0 +1,50 @@
+{
+  "id": "need-for-speed",
+  "title": "Need for Speed",
+  "music": "nfs.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/nfs1.webp",
+      "hotspots": [
+        {
+          "x": 550,
+          "y": 438,
+          "w": 500,
+          "h": 362,
+          "popup": "assets/img/content/nfs1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/nfs2.webp",
+      "hotspots": [
+        {
+          "x": 62,
+          "y": 500,
+          "w": 488,
+          "h": 362,
+          "popup": "assets/img/content/nfs2-screen1.webp"
+        },
+        {
+          "x": 1050,
+          "y": 500,
+          "w": 488,
+          "h": 362,
+          "popup": "assets/img/content/nfs2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/nfs3.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 125,
+          "w": 500,
+          "h": 350,
+          "popup": "assets/img/content/nfs3-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

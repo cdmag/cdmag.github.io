@@ -1,0 +1,15 @@
+{
+  "id": "mk3-liu-kang",
+  "title": "Liu Kang",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/lukang.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/lukang2.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cheats",
+  "title": "Cheats",
+  "music": "cheats.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/cheats1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats7.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats9.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats10.webp",
+      "hotspots": []
+    }
+  ]
+}

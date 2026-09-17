@@ -1,0 +1,19 @@
+{
+  "id": "mk3-santsung",
+  "title": "Shang Tsung",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/santsun1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/santsung2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/santsung3.webp",
+      "hotspots": []
+    }
+  ]
+}

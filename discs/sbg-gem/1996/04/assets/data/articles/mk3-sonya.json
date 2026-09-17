@@ -1,0 +1,15 @@
+{
+  "id": "mk3-sonya",
+  "title": "Sonya",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/sonya.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/sonya2.webp",
+      "hotspots": []
+    }
+  ]
+}

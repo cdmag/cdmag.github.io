@@ -1,0 +1,27 @@
+{
+  "id": "goroskop",
+  "title": "Гороскоп",
+  "music": "hardw.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/gor1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gor2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gor3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gor4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/gor5.webp",
+      "hotspots": []
+    }
+  ]
+}

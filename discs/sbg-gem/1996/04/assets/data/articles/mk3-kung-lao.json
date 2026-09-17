@@ -1,0 +1,15 @@
+{
+  "id": "mk3-kung-lao",
+  "title": "Kung Lao",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/kunglao.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/kunglao2.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "homm-guide",
+  "title": "Heroes of Might and Magic - Путь к победе",
+  "music": "rpg.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/hofm_01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/hofm_14.webp",
+      "hotspots": []
+    }
+  ]
+}

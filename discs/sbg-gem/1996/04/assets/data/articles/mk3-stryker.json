@@ -1,0 +1,15 @@
+{
+  "id": "mk3-stryker",
+  "title": "Stryker",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/struker.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/struker2.webp",
+      "hotspots": []
+    }
+  ]
+}

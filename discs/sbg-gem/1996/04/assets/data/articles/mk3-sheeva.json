@@ -1,0 +1,15 @@
+{
+  "id": "mk3-sheeva",
+  "title": "Sheeva",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/sheva.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/sheva2.webp",
+      "hotspots": []
+    }
+  ]
+}

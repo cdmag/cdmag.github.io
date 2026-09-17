@@ -1,0 +1,11 @@
+{
+  "id": "where-to-buy",
+  "title": "Список фирм, в которых можно приобрести SBG Magazine",
+  "music": "editor.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/distrib.webp",
+      "hotspots": []
+    }
+  ]
+}

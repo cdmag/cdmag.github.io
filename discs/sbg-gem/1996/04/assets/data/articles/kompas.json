@@ -1,0 +1,12 @@
+{
+  "id": "kompas",
+  "title": "КомпАс",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/compass.webp",
+      "hotspots": []
+    }
+  ]
+}

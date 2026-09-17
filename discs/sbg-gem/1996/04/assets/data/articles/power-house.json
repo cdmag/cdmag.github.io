@@ -1,0 +1,59 @@
+{
+  "id": "power-house",
+  "title": "Power House",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/power1.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/power1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/power2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/power3.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/power3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/power4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/power5.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/power5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/power6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/power7.webp",
+      "hotspots": []
+    }
+  ]
+}

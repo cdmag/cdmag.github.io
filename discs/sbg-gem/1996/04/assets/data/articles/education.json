@@ -1,0 +1,43 @@
+{
+  "id": "education",
+  "title": "Привет, Америка",
+  "music": "educatio.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/hello1.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hello1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hello2.webp",
+      "hotspots": [
+        {
+          "x": 75,
+          "y": 700,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hello2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/hello3.webp",
+      "hotspots": [
+        {
+          "x": 1075,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/hello3-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

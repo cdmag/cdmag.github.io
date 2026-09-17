@@ -1,0 +1,15 @@
+{
+  "id": "mk3-sub-zero",
+  "title": "Sub-Zero",
+  "music": "mk3.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/subzero.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/subzero2.webp",
+      "hotspots": []
+    }
+  ]
+}

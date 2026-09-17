@@ -1,0 +1,11 @@
+{
+  "id": "company-news",
+  "title": "Company News",
+  "music": "news.opus",
+  "pages": [
+    { "image": "assets/img/content/compne_1.webp", "hotspots": [] },
+    { "image": "assets/img/content/compne_2.webp", "hotspots": [] },
+    { "image": "assets/img/content/compne_3.webp", "hotspots": [] },
+    { "image": "assets/img/content/compne_4.webp", "hotspots": [] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "anigraf-96",
+  "title": "Аниграф'96",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/anigr.webp",
+      "hotspots": []
+    }
+  ]
+}

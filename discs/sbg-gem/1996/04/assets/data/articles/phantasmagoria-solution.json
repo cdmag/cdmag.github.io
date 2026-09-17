@@ -1,0 +1,127 @@
+{
+  "id": "phantasmagoria-solution",
+  "title": "Phantasmagoria - solution",
+  "music": "advent.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/phntas01.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/phntas02.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 400,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas02-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/phntas03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas04.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 500,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/phntas05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas06.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/phntas07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas12.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 450,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/phntas13.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 625,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/phntas14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas15.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/phntas16.webp",
+      "hotspots": [
+        {
+          "x": 575,
+          "y": 100,
+          "w": 462,
+          "h": 350,
+          "popup": "assets/img/content/phntas16-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sbg-magazine",
+  "title": "SBG Magazine",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/lotery.webp",
+      "hotspots": []
+    }
+  ]
+}
