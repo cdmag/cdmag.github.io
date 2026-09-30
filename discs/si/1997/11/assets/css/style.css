@@ -1,0 +1,150 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen {
+  position: relative;
+  height: min(100vh, 100vw * 1250 / 1500);
+  width: min(100vw, 100vh * 1500 / 1250);
+  background: url('../img/ui/bg.webp') no-repeat center / 100% 100%;
+  image-rendering: auto;
+}
+/* Hotspots */
+.hot {
+  position: absolute;
+  width: 8.333%;  /* 125/1500 */
+  height: 10%;    /* 125/1250 */
+  cursor: pointer;
+  z-index: 10;
+}
+.hot-igry  { left: 1.4667%; top: 2.56%; }   /* 22,32 */
+.hot-video { left: 1.4667%; top: 17.2%; }   /* 22,215 */
+.hot-exit  { left: 89.2%;   top: 84.64%; }  /* 1338,1058 */
+
+/* Buttons */
+.btn {
+  position: absolute;
+  width: 8.333%;
+  height: 10%;
+  display: none;
+  pointer-events: none;
+  z-index: 5;
+  image-rendering: auto;
+}
+.btn-igry  { left: 1.4667%; top: 2.56%; }
+.btn-video { left: 1.4667%; top: 17.2%; }
+.btn-exit  { left: 89.2%;   top: 84.64%; }
+
+/* Text area */
+.text-area {
+  position: absolute;
+  left: 32.2667%; /* 484/1500 */
+  top: 20.72%;    /* 259/1250 */
+  width: 61.8667%; /* 928/1500 */
+  height: 58.24%;  /* 728/1250 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #00FF00;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 34px; /* scaled by JS */
+  line-height: 1.5;
+  white-space: pre-line;
+  pointer-events: none;
+  z-index: 2;
+}
+.text-area.list-mode {
+  display: block;
+  pointer-events: auto;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 32px; /* scaled by JS */
+  color: #C0FFC0;
+  text-align: left;
+  white-space: normal;
+  padding: 3% 3.5% 3% 4%;
+  line-height: 1.6;
+}
+.games-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65em 1.2em;
+  height: 100%;
+}
+.games-list a {
+  color: #C0FFC0;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.games-list a:hover {
+  color: #00FF00;
+  text-decoration: underline;
+}
+.games-footer {
+  position: absolute;
+  right: 4%;
+  bottom: 3.5%;
+  color: #A0E0A0;
+  font-style: italic;
+  font-size: 0.9em;
+  pointer-events: none;
+}
+.popup-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  cursor: pointer;
+}
+.popup-overlay.show {
+  display: flex;
+}
+.popup-msg {
+  color: #00FF00;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 28px; /* scaled by JS */
+  text-align: center;
+  padding: 0.6em 1.2em;
+  background: rgba(0,40,0,0.85);
+  border: 2px solid #00AA00;
+  border-radius: 4px;
+  max-width: 70%;
+  line-height: 1.4;
+}
+.video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+  cursor: pointer;
+}
+.video-overlay.show {
+  display: flex;
+}
+.video-frame {
+  width: 85%;
+  max-width: 1280px;
+  aspect-ratio: 16/9;
+  background: #000;
+  border: 3px solid #00AA00;
+  cursor: default;
+  position: relative;
+}
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}

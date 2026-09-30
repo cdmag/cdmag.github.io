@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Страна игр — Demo Disk 1997 #11</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=PT+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="screen" id="screen">
+  <!-- Buttons (hidden by default) -->
+  <img class="btn btn-igry"  id="btn-igry"  src="assets/img/ui/button1.webp" alt="">
+  <img class="btn btn-video" id="btn-video" src="assets/img/ui/button1.webp" alt="">
+  <img class="btn btn-exit"  id="btn-exit"  src="assets/img/ui/button2.webp" alt="">
+
+  <!-- Hotspots -->
+  <div class="hot hot-igry"  data-btn="igry"></div>
+  <div class="hot hot-video" data-btn="video"></div>
+  <div class="hot hot-exit"  data-btn="exit"></div>
+
+  <!-- Text -->
+  <div class="text-area" id="text-area">Для выбора подведите мышку к одному
+из желтых шариков, для выхода
+нажмите на шарик-выход...</div>
+
+  <!-- Popup -->
+  <div class="popup-overlay" id="popup">
+    <div class="popup-msg">Все файлы доступны в образе диска</div>
+  </div>
+
+  <!-- Video player -->
+  <div class="video-overlay" id="video-overlay">
+    <div class="video-frame" id="video-frame"></div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
