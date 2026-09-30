@@ -302,7 +302,23 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       syncCompactLayout();
     }
 
+    function isViewSeoPage() {
+      // Страницы /view/.../ — отдельный HTML с SEO-текстом выпуска, не настоящая главная
+      if (/\/view\//.test(window.location.pathname || "")) return true;
+      if (document.querySelector(".seo-disc-article")) return true;
+      return false;
+    }
+
     function showWelcomeScreen() {
+      // С /view/... нужен полный переход на index.html, иначе остаётся SEO-карточка выпуска
+      if (isViewSeoPage()) {
+        try {
+          destroyPlayers();
+        } catch (e) {}
+        window.location.assign("/");
+        return;
+      }
+
       document.getElementById("welcome-screen").classList.remove("hidden");
       const updatesScreen = document.getElementById("updates-screen");
       if (updatesScreen) updatesScreen.classList.add("hidden");
