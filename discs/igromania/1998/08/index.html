@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игромания — Демо-диск №2 (1998)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Open+Sans:wght@400;700&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="viewport">
+    <div class="stage">
+      <img class="bg" src="assets/img/ui/bg.webp" alt="">
+      <div class="logo-hit" id="logoHit" title="Главная"></div>
+
+      <!-- ========== MAIN SCREEN ========== -->
+      <div class="screen active" id="screenMain">
+        <div class="page-num">1</div>
+        <div class="left-panel" id="leftPanel"></div>
+        <div class="menu-list" id="menuList">
+          <div class="menu-item" data-id="demos" data-screen="demos">
+            <span class="label">ДЕМОВЕРСИИ</span><span class="num">2</span>
+          </div>
+          <div class="menu-item" data-id="soft">
+            <span class="label">ПРОГРАММЫ</span><span class="num">3</span>
+          </div>
+          <div class="menu-item" data-id="themes">
+            <span class="label">ТЕМЫ ДЛЯ WINDOWS 95</span><span class="num">4</span>
+          </div>
+          <div class="menu-item" data-id="bonus">
+            <span class="label">СУПЕРБОНУС</span><span class="num">5</span>
+          </div>
+          <div class="menu-item" data-id="video">
+            <span class="label">ВИДЕОРОЛИКИ</span><span class="num">6</span>
+          </div>
+        </div>
+        <div class="desc-block">
+          <div class="desc-title">ДОРОГИЕ<br>ИГРОМАНЫ!</div>
+          <div class="desc-text">
+            В Вашем CD-приводе второй демо-диск «Игромании». С учетом ваших пожеланий, мы несколько изменили его содержание: увеличили число игр, добавили видеоролики и темы для Windows95. И мы по-прежнему ждем ваших предложений по наполнению диска.
+          </div>
+        </div>
+        <div class="nav-next-only">
+          <img src="assets/img/ui/next.webp" id="btnNextMain" alt="next">
+        </div>
+      </div>
+
+      <!-- ========== DEMOS SCREEN ========== -->
+      <div class="screen" id="screenDemos">
+        <div class="page-num">2</div>
+
+        <div class="sec-menu" id="secMenu">
+          <div class="active" data-sec="demos">ИГРЫ</div>
+          <div data-sec="soft">ПРОГРАММЫ</div>
+          <div data-sec="themes">ТЕМЫ ДЛЯ<br>WINDOWS</div>
+          <div data-sec="bonus">СУПЕРБОНУС</div>
+          <div data-sec="video">ВИДЕО</div>
+        </div>
+
+        <div class="sec-title">ДЕМОВЕРСИИ ИГР</div>
+
+        <div class="games-list" id="gamesList">
+          <div class="col">
+            <div class="game active" data-game="astrorock">AstroRock 2000</div>
+            <div class="game" data-game="balls">Balls of Steel</div>
+            <div class="game" data-game="battlezone">Battlezone</div>
+            <div class="game" data-game="cart">CART Precision Racing</div>
+            <div class="game" data-game="gex">GEX: Enter the Gecko</div>
+            <div class="game" data-game="kknd1">KKnD 2: Krossfire (demo1)</div>
+            <div class="game" data-game="kknd2">KKnD 2: Krossfire (demo2)</div>
+            <div class="game" data-game="shanghai">Shanghai: Dynasty</div>
+            <div class="game" data-game="quake2">Quake II</div>
+          </div>
+          <div class="col col-right">
+            <div class="game" data-game="apache">Team Apache</div>
+            <div class="game" data-game="terra">Terra Victus</div>
+            <div class="game" data-game="warbreeds">WarBreeds</div>
+            <div class="game" data-game="warlords">Warlords III: Darklords Rising</div>
+            <div class="game" data-game="super">Super Touring Car</div>
+            <div class="game" data-game="robo">Robo Rumble</div>
+            <div class="game" data-game="heavy">Heavy Gear</div>
+            <div class="game" data-game="petka">Петька и Василий Иванович спасают галактику</div>
+          </div>
+        </div>
+
+        <img class="game-shot" id="gameShot" src="assets/img/content/astrorock2000.webp" alt="">
+
+        <div class="game-desc" id="gameDesc"></div>
+
+        <div class="nav-arrows">
+          <img src="assets/img/ui/prev.webp" id="btnPrev" alt="prev">
+          <img src="assets/img/ui/next.webp" id="btnNext" alt="next">
+        </div>
+
+      </div>
+
+      <!-- ========== PROGRAMS SCREEN ========== -->
+      <div class="screen" id="screenPrograms">
+        <div class="page-num">3</div>
+
+        <div class="sec-menu" id="secMenuProg">
+          <div data-sec="demos">ИГРЫ</div>
+          <div class="active" data-sec="soft">ПРОГРАММЫ</div>
+          <div data-sec="themes">ТЕМЫ ДЛЯ<br>WINDOWS</div>
+          <div data-sec="bonus">СУПЕРБОНУС</div>
+          <div data-sec="video">ВИДЕО</div>
+        </div>
+
+        <div class="sec-title">ПРОГРАММЫ</div>
+
+        <div class="prog-list" id="progList">
+          <div class="prog-item" data-prog="psp"><span class="name">Paint Shop Pro</span><span class="desc">мощный графический пакет</span></div>
+          <div class="prog-item" data-prog="drhw"><span class="name">Dr. Hardware</span><span class="desc">обновленная версия утилиты для всестороннего тестирования вашего компьютера</span></div>
+          <div class="prog-item" data-prog="modem"><span class="name">Modem Doctor</span><span class="desc">программа для тестирования модема</span></div>
+          <div class="prog-item" data-prog="dxeng"><span class="name">DirectX 5.2 eng.</span><span class="desc">абсолютно необходимый каждому игроману набор драйверов (английская версия)</span></div>
+          <div class="prog-item" data-prog="dxrus"><span class="name">DirectX 5.2 rus.</span><span class="desc">абсолютно необходимый каждому игроману набор драйверов (русская версия)</span></div>
+          <div class="prog-item" data-prog="freetheme"><span class="name">FreeTheme v1.1</span><span class="desc">программа для установки новых тем для Windows 95 и управления ими</span></div>
+          <div class="prog-item" data-prog="winzip"><span class="name">WinZip 6.3 (SR-1)</span><span class="desc">самый лучший архиватор</span></div>
+          <div class="prog-item" data-prog="ieeng"><span class="name">Microsoft Internet Explorer 4.01 eng.</span><span class="desc">английская версия обозревателя интернет от Microsoft</span></div>
+          <div class="prog-item" data-prog="ierus"><span class="name">Microsoft Internet Explorer 4.01 rus.</span><span class="desc">русская версия обозревателя интернет от Microsoft</span></div>
+          <div class="prog-item" data-prog="nscomm"><span class="name">Netscape Communicator 4.05</span><span class="desc">броузер интернет от Netscape</span></div>
+          <div class="prog-item" data-prog="nav"><span class="name">Netscape Navigator 4.05</span><span class="desc">облегченная версия броузера интернет от Netscape (без почты и новостей)</span></div>
+          <div class="prog-item" data-prog="dialer"><span class="name">Advanced Dialer</span><span class="desc">звонилка для выхода в интернет с возможностью перебора номеров и ведением статистики</span></div>
+        </div>
+
+        <div class="nav-arrows">
+          <img src="assets/img/ui/prev.webp" id="btnPrevProg" alt="prev">
+          <img src="assets/img/ui/next.webp" id="btnNextProg" alt="next">
+        </div>
+      </div>
+
+      <!-- ========== THEMES SCREEN ========== -->
+      <div class="screen" id="screenThemes">
+        <div class="page-num">4</div>
+
+        <div class="sec-menu" id="secMenuThemes">
+          <div data-sec="demos">ИГРЫ</div>
+          <div data-sec="soft">ПРОГРАММЫ</div>
+          <div class="active" data-sec="themes">ТЕМЫ ДЛЯ<br>WINDOWS</div>
+          <div data-sec="bonus">СУПЕРБОНУС</div>
+          <div data-sec="video">ВИДЕО</div>
+        </div>
+
+        <div class="sec-title">ТЕМЫ ДЛЯ WINDOWS</div>
+
+        <div class="themes-box">
+          <div class="themes-scroll" id="themesScroll">
+            <p>Все темы находятся на диске в директории <b>THEMES</b>. Название каждого из файлов достаточно красноречиво говорит само за себя, и вы легко сможете найти то, что вам интересно.</p>
+            <p>Все темы упакованы в архивы. Чтобы установить любую из них, надо развернуть выбранный архив с сохранением полного пути. Большая часть файлов устанавливается в директорию <b>PROGRAM FILES/PLUS!/THEMES</b>, где создают собственный каталог. Если архив без путей, то скопируйте файлы туда самостоятельно.</p>
+            <p>Некоторые темы устанавливают свои шрифты (в папку <b>WINDOWS\FONT</b>) и новые экраны появляющиеся при загрузке Windows 95 (в корневой каталог на диске C) и при выключении (в папку <b>WINDOWS/SYSTEM</b>). Если Windows 95 на вашем компьютере установлен в другую папку, то эти файлы также необходимо скопировать вручную в соответствующие директории.</p>
+            <p>Для подключения выбранных вами тем используйте <b>MS PLUS!</b> или программу <b>Free Theme</b> с нашего диска. В меню <b>Edit</b> укажите директорию, где лежат темы - и готово!</p>
+            <p>После этого, чтобы все изменения вступили в силу, иногда необходимо перезагрузить компьютер.</p>
+          </div>
+          <div class="themes-sb">
+            <div class="sb-btn" id="themesUp"><span class="sb-arrow-up"></span></div>
+            <div class="sb-track" id="themesTrack"><div class="sb-thumb" id="themesThumb"></div></div>
+            <div class="sb-btn" id="themesDown"><span class="sb-arrow-down"></span></div>
+          </div>
+        </div>
+
+        <div class="themes-icons">
+          <div class="themes-icon" data-action="freetheme">
+            <img src="assets/img/ui/ft.webp" alt="Free Theme">
+            <span>Free Theme</span>
+          </div>
+          <div class="themes-icon" data-action="winzip">
+            <img src="assets/img/ui/wzip.webp" alt="WinZip">
+            <span>WinZip</span>
+          </div>
+        </div>
+
+        <div class="nav-arrows">
+          <img src="assets/img/ui/prev.webp" id="btnPrevThemes" alt="prev">
+          <img src="assets/img/ui/next.webp" id="btnNextThemes" alt="next">
+        </div>
+      </div>
+
+      <!-- ========== SUPERBONUS SCREEN ========== -->
+      <div class="screen" id="screenBonus">
+        <div class="page-num">5</div>
+
+        <div class="sec-menu" id="secMenuBonus">
+          <div data-sec="demos">ИГРЫ</div>
+          <div data-sec="soft">ПРОГРАММЫ</div>
+          <div data-sec="themes">ТЕМЫ ДЛЯ<br>WINDOWS</div>
+          <div class="active" data-sec="bonus">СУПЕРБОНУС</div>
+          <div data-sec="video">ВИДЕО</div>
+        </div>
+
+        <div class="sec-title">DOOM</div>
+
+        <div class="themes-box">
+          <div class="themes-scroll" id="bonusScroll">
+            <p>В далеком уже 1994 году особенно до той поры не известная широкой публике компания <b>ID Software</b> выпустила игру с кратким названием <b>DOOM</b>.</p>
+            <p>С тех пор мир переменился раз и навсегда. DOOMомания охватила широкие массы и некоторое время вообще казалось, что отныне жанр 3D-action станет править бал в игровой индустрии.</p>
+            <p>Но после выхода второй части игры, ребята из <b>ID</b> почему-то отказались от продолжения серии и переключились на разработку нового творения, <b>Quake</b>.</p>
+            <p>Однако у <b>DOOM</b> остались множество поклонников, не желающих предавать первую любовь ради нового фаворита. Они настойчиво требовали от <b>ID</b> вернуться "к истокам" или хотя бы позволить другим сделать это.</p>
+            <p>Некоторое время <b>ID</b> отказывались отдать исходные коды (т.е. графический движок), мотивируя это священным правом авторской собственности. Но фанаты – люди упрямые, они могут и мир перевернуть, если очень захотят и их во-время никто не остановит.</p>
+            <p>Короче говоря, <b>ID</b> сдались и 23 декабря 1997 года отдали исходные коды на "растерзание", разрешив всем желающим пользоваться ими (правда, при условии, что конечный продукт будет распространяться бесплатно).</p>
+            <p>Из всех появившихся с тех пор переработок классической игры самым, на наш взгляд, удачным явился проект <b>Legacy of DOOM</b>.</p>
+            <p>Его авторы – Denis Fabrice и Boris Pereira. Они совершенно справедливо рассудили, что изобретать велосипед – дело глупое, поэтому и ограничились введением в старый добрый <b>DOOM</b> некоторых новых возможностей, сохранив сам игровой процесс в неприкосновенности, за что им огромное и сердечное спасибо.</p>
+            <p>Прежде всего, теперь в <b>DOOM</b> можно играть не только в разрешении 320x200 (что по сегодняшним стандартам не есть хорошо), но и в 640x480, 800x600 и даже 1200x768.</p>
+            <p>Далее, появились дополнительные эффекты – прозрачность (теперь заметить призраков стало еще сложнее), возможность немного подпрыгивать вверх (что в корне меняет некоторые элементы игры) и, наконец, теперь вы можете при желании задействовать freelook (т.е. двигать стволом оружия из стороны в сторону и вверх-вниз).</p>
+            <p>Есть в игре и еще много чего хорошего, но об этом вы сможете подробно узнать из текстовых файлов, составленных самими авторами, которые вы найдете в папке с игрой.</p>
+            <p>Мы же остановимся только на самом необходимом.</p>
+            <p>Для установки игры вам надо разархивировать имеющиеся на компакт диске файлы в каталог, куда вы предварительно установили <b>DOOM II</b> (с более ранними вариантами игры текущая версия <b>DOOM Legacy</b> почему-то конфликтует). Далее запустите новый исполнительный файл и в нем уже выставите все настройки (графику, управление и пр.), а про старый Setup.exe можете забыть и даже стереть его вместе с doom2.exe – они вам больше не понадобятся.</p>
+            <p>Начнем, как и водится, с графики. Хотя в <b>Legacy of DOOM</b> можно играть и из-под Win95, но на самом деле игра работает в <b>DOS</b>. Поэтому вам необходимо проинсталлировать на свою машину драйвер <b>VESA2</b>. Если вы нигде не можете найти этот драйвер, то воспользуйтесь UNIVBE или <b>SMART DISPLAY DOCTOR</b> (есть на нашем диске).</p>
+            <p>Если ваша видеокарта выполнена на чипсете S3, то вам надо перед каждым сеансом игры запускать маленькую программку <b>S3VBE</b>. Запускать программку надо из командной строки <b>DOS</b>, напечатав <span class="mono">s3vbe.exe /install</span> (Эта программа также есть на нашем диске.)</p>
+            <p>Перейдем к звуку. Звуковой драйвер, используемый Doom LEGACY, не поддерживает General Midi через MPU порт. Поэтому, если у вас есть старая 8-битная звуковая карточка, откройте любым текстовым редактором файл Sound.cfg, находящийся в директории с игрой и там найдите тип своей звуковой карточки и проставьте его. Все необходимые инструкции есть в самом файле Sound.cfg.</p>
+            <p>Ну и наконец, когда вы захотите подключить к <b>Legacy of DOOM</b> новые карты (а вы, конечно, захотите это сделать), то добиться желаемого результата можно двумя способами.</p>
+            <p>Первый – подключить карту из консоли во время самой игры. Для этого вызовите консоль (~) и наберите <span class="mono">map my1.wad</span>, где <span class="mono">my1.wad</span> – название дополнительного файла с уровнем, который вы хотите добавить.</p>
+            <p>Второй способ – все сделать по старинке, т.е. запустить <b>DOOM Legacy</b> из командной строки <b>DOS</b> с ключом: <span class="mono">doom3.exe -file my1.wad</span></p>
+            <p>Не забудьте поставить пробел после имени исполняемого файла!</p>
+            <p>Ну а теперь коды для <b>DOOM</b> (если кто-то забыл, хотя эти коды – святое для всякого уважающего себя игромана, их забывать нельзя просто по определению).</p>
+            <p><b>IDDT</b> – показывает всю карту уровня, при повторном вводе показывает всех чудовищ и предметы на уровне. При следующем вводе возвращает карту в первоначальный вид</p>
+            <p><b>IDDQD</b> – режим Бога</p>
+            <p><b>IDCLIP</b> – дает возможность ходить сквозь стены</p>
+            <p><b>IDKFA</b> – выдает полный боекомплект (но без рюкзака) и броню 200 %</p>
+            <p><b>IDBEHOLD</b> – выдает предметы:</p>
+            <p style="margin-left:1.5em">R – противорадиационный костюм<br>
+            I – частичная невидимость<br>
+            V – неуязвимость<br>
+            A – полная карта уровня<br>
+            L – усилитель света (очки ночного видения)<br>
+            S – инъекцию берсерка (восстанавливается здоровье до 100 процентов и появляется возможность убивать врагов кулаками с двух-трех ударов)</p>
+            <p><b>IDCLEV</b> плюс номер карты – переносит вас на выбранный уровень</p>
+            <p><b>IDMYPOS</b> – печатает ваши координаты</p>
+            <p><b>IDCHOPPERS</b> – выдает вам бензопилу</p>
+          </div>
+          <div class="themes-sb">
+            <div class="sb-btn" id="bonusUp"><span class="sb-arrow-up"></span></div>
+            <div class="sb-track" id="bonusTrack"><div class="sb-thumb" id="bonusThumb"></div></div>
+            <div class="sb-btn" id="bonusDown"><span class="sb-arrow-down"></span></div>
+          </div>
+        </div>
+
+        <div class="bonus-right">
+          <div class="bonus-img-wrap" id="bonusImg">
+            <img src="assets/img/content/doom3.webp" alt="DOOM">
+            <div class="bonus-label">Установить<br>DOOM Legacy</div>
+          </div>
+          <div class="bonus-links">
+            <div class="bonus-link">Установить<br>SciTech Display Doctor</div>
+            <div class="bonus-link">Установить S3VBE</div>
+          </div>
+        </div>
+
+        <div class="nav-arrows">
+          <img src="assets/img/ui/prev.webp" id="btnPrevBonus" alt="prev">
+          <img src="assets/img/ui/next.webp" id="btnNextBonus" alt="next">
+        </div>
+      </div>
+
+      <!-- ========== VIDEO SCREEN ========== -->
+      <div class="screen" id="screenVideo">
+        <div class="page-num">6</div>
+
+        <div class="sec-menu" id="secMenuVideo">
+          <div data-sec="demos">ИГРЫ</div>
+          <div data-sec="soft">ПРОГРАММЫ</div>
+          <div data-sec="themes">ТЕМЫ ДЛЯ<br>WINDOWS</div>
+          <div data-sec="bonus">СУПЕРБОНУС</div>
+          <div class="active" data-sec="video">ВИДЕО</div>
+        </div>
+
+        <div class="sec-title">ВИДЕОРОЛИКИ</div>
+
+        <div class="video-list" id="videoList">
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239078&hash=76311f818371e8ab&hd=3&autoplay=1"><span class="vname">Fifth Element</span> <span class="vpub">(Activision)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239084&hash=dfc233ebceff9417&hd=3&autoplay=1"><span class="vname">Quake II Mission Pack: The Reckoning</span> <span class="vpub">(Activision)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239085&hash=797911f8861edda3&hd=3&autoplay=1"><span class="vname">Sin</span> <span class="vpub">(Activision)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239083&hash=10a4df3a48cfea0d&hd=3&autoplay=1"><span class="vname">Tenchu</span> <span class="vpub">(Activision)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239086&hash=287ef951dd1c28e1&hd=3&autoplay=1"><span class="vname">Vigilante 8</span> <span class="vpub">(Activision)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239081&hash=a763b6d123ba2615&hd=3&autoplay=1"><span class="vname">Urban Assault</span> <span class="vpub">(Microsoft)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239082&hash=e3929a751f767289&hd=3&autoplay=1"><span class="vname">Shadow Man</span> <span class="vpub">(Acclaim Entertainment)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239080&hash=142bc7cef5ff227d&hd=3&autoplay=1"><span class="vname">Warhammer 4000</span> <span class="vpub">(Mindscape)</span></div>
+          <div class="video-item" data-src="https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239079&hash=d6d79e83e9fc999c&hd=3&autoplay=1"><span class="vname">Extreme Warfare</span> <span class="vpub">(Red Orb Entertainment)</span></div>
+        </div>
+
+        <div class="nav-arrows">
+          <div class="nav-slot"><img src="assets/img/ui/prev.webp" id="btnPrevVideo" alt="prev"></div>
+          <div class="nav-slot"></div>
+        </div>
+      </div>
+
+
+    <!-- VIDEO MODAL -->
+    <div class="overlay" id="videoOverlay">
+      <div class="video-modal" id="videoModal"></div>
+    </div>
+    <!-- TOAST -->
+    <div class="overlay" id="toastOverlay">
+      <div class="toast-msg">Все файлы доступны в образе диска</div>
+    </div>
+
+    </div><!-- stage -->
+  </div><!-- viewport -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
