@@ -32,7 +32,7 @@
       left: 7.5625%; top: 90.583%;
       width: 3.75%; height: 3%;
       font-family: 'ArimoBoldLocal', 'Arimo', sans-serif;
-      font-weight: 700; font-size: 1.9vw; color: #000;
+      font-weight: 700; font-size: 1.9cqw; color: #000;
       display: flex; align-items: center; justify-content: center;
       z-index: 10;
     }
@@ -45,14 +45,14 @@
       font-weight: 700; color: #e30613;
       text-align: left; line-height: 1.22;
       pointer-events: none; overflow: hidden;
-      padding: 0.4% 0.5% 0 0.6%;
+      padding: 0.3% 0.3% 0 0.35%;
     }
     .left-panel .big-num {
-      font-size: 3.6vw; line-height: 0.95;
+      font-size: 4.2cqw; line-height: 0.95;
       margin-bottom: 0.12em; display: block;
       text-align: center;
     }
-    .left-panel .left-text { font-size: 1.25vw; line-height: 1.26; }
+    .left-panel .left-text { font-size: 2.0cqw; line-height: 1.2; }
     .left-panel .left-text.no-num { margin-top: 0.5em; }
 
     .menu-list {
@@ -97,8 +97,8 @@
       width: 14.0625%;
       z-index: 10;
       font-family: 'ArimoBoldLocal', 'Arimo', sans-serif;
-      font-weight: 700; font-size: 1.15vw;
-      line-height: 1.9;
+      font-weight: 700; font-size: 1.75cqw;
+      line-height: 1.85;
       text-transform: uppercase;
       text-align: center;
     }
