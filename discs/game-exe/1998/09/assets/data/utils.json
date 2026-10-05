@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dx6core-exe",
+    "file": "dx6core.exe",
+    "text": "Ядро DirectX 6.0. Не содержит драйверов устройств. Для Windows 98 и Windows 95."
+  },
+  {
+    "id": "dx6eng-exe",
+    "file": "dx6eng.exe",
+    "text": "DirectX 6.0 и драйверы устройств с поддержкой английского языка. Только для windows 95."
+  },
+  {
+    "id": "rkv2-exe",
+    "file": "RkV2.exe",
+    "text": "Эталонные (Reference) драйверы Voodoo 2 для Windows 95/98 (версия 2.1)"
+  },
+  {
+    "id": "win9x-cp-zip",
+    "file": "Win9x_CP.zip",
+    "text": "Панель управления для драйверов Voodoo 2 (под Windows 95/98), содержащая дополнительные настройки."
+  },
+  {
+    "id": "nt40v2-exe",
+    "file": "Nt40v2.exe",
+    "text": "Эталонные драйверы Voodoo 2 для Windows NT (релиз 2.0, версия 1.03.00)."
+  },
+  {
+    "id": "winnt-cp-zip",
+    "file": "WinNT_CP.zip",
+    "text": "Панель управления для драйверов Voodoo 2 (под Windows NT), содержащая дополнительные настройки."
+  },
+  {
+    "id": "rkvg-exe",
+    "file": "RkVG.exe",
+    "text": "Эталонные драйверы Voodoo Graphics для Windows 95/98 (версия 3.0)."
+  },
+  {
+    "id": "nt40vg-exe",
+    "file": "NT40VG.exe",
+    "text": "Эталонные драйверы Voodoo Graphics для Windows NT (версия 3.0)."
+  },
+  {
+    "id": "21win9x-zip",
+    "file": "21WIN9X.ZIP",
+    "text": "Драйверы I740 (Intel) для Windows 95/98 (версия 2.1) с поддержкой OpenGL."
+  },
+  {
+    "id": "20-winnt-zip",
+    "file": "20_WINNT.ZIP",
+    "text": "Драйверы I740 (Intel) для Windows NT (версия 2.0) с поддержкой OpenGL."
+  },
+  {
+    "id": "win95pci-zip",
+    "file": "Win95pci.zip",
+    "text": "Драйверы Riva 128 PCI (NVidia) для Windows 95/98 (версия 1.50H) с поддержкой OpenGL."
+  },
+  {
+    "id": "win95agp-zip",
+    "file": "Win95agp.zip",
+    "text": "Драйверы Riva 128 AGP (NVidia) для Windows 95/98 (версия 1.50H) с поддержкой OpenGL."
+  },
+  {
+    "id": "nt-zip",
+    "file": "Nt.zip",
+    "text": "Драйверы Riva 128 AGP/PCI (NVidia) для Windows NT (версия 1.50H) с поддержкой OpenGL."
+  },
+  {
+    "id": "1677-411-exe",
+    "file": "1677_411.exe",
+    "text": "Драйверы Millennium, Millennium II, Mystique, Mystique 220, Productiva G100, Millennium G200 (Matrox) для Windows 95/98 (версия 4.11)."
+  },
+  {
+    "id": "1597-311-exe",
+    "file": "1597_311.exe",
+    "text": "Драйверы Millennium, Millennium II, Mystique, Mystique 220, Productiva G100, Millennium G200 (Matrox) для Windows 95/98 (версия 4.11)."
+  },
+  {
+    "id": "sbw95up-exe",
+    "file": "sbw95up.exe",
+    "text": "Драйверы Sound Blaster 16/32/AWE (Creative) для Windows 95/98 (версия 14)."
+  },
+  {
+    "id": "95devapp-exe",
+    "file": "95devapp.exe",
+    "text": "Основные утилиты Sound Blaster 16/32/AWE (Creative) для DOS."
+  },
+  {
+    "id": "awent40-exe",
+    "file": "awent40.exe",
+    "text": "Драйверы Sound Blaster 16/32/AWE (Creative) для Windows NT (версия 8)."
+  }
+]

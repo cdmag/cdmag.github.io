@@ -193,6 +193,27 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       return window.matchMedia("(max-width: 1000px), (max-height: 720px)").matches;
     }
 
+    function getUiScale() {
+      const raw = getComputedStyle(document.documentElement).getPropertyValue("--ui-scale").trim();
+      const n = parseFloat(raw);
+      return n > 0 ? n : 1;
+    }
+
+    /** Масштаб UI выше базы ~1920×1080; compact всегда 1. */
+    function updateUiScale() {
+      let scale = 1;
+      if (!isCompactLayout()) {
+        const { w, h } = getVisibleLayoutSize();
+        scale = Math.min(w / 1920, h / 1080);
+        scale = Math.max(1, Math.min(1.45, scale));
+        // мелкий шаг, чтобы не дёргалось
+        scale = Math.round(scale * 100) / 100;
+      }
+      document.documentElement.style.setProperty("--ui-scale", String(scale));
+      return scale;
+    }
+
+
     function isWelcomeVisible() {
       const welcome = document.getElementById("welcome-screen");
       const updates = document.getElementById("updates-screen");
@@ -223,6 +244,7 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
     }
 
     function syncCompactLayout() {
+      updateUiScale();
       const compact = isCompactLayout();
       document.body.classList.toggle("layout-compact", compact);
       if (compact) {
@@ -294,7 +316,13 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       });
 
       if (window.visualViewport) {
-        const onVv = () => applyViewportSize(currentDiscAspect);
+        const onVv = () => {
+          updateUiScale();
+          applyViewportSize(currentDiscAspect);
+          if (webampInstance && document.getElementById("webamp-host")) {
+            applyWebampScale();
+          }
+        };
         window.visualViewport.addEventListener("resize", onVv);
         window.visualViewport.addEventListener("scroll", onVv);
       }
@@ -806,15 +834,20 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       const minPlaylist = 116;
       const minNativeTotal = headerBlock + minPlaylist; // 246
 
-      // Нативная ширина 275px; масштабируем только вниз, если блок уже
+      // Нативная ширина 275px; вниз — всегда, вверх — умеренно на больших экранах
       const scaleByWidth = w / 275;
       const scaleByHeight = h / minNativeTotal;
-      const scale = Math.max(0.35, Math.min(1, scaleByWidth, scaleByHeight));
+      const maxScale = isCompactLayout() ? 1 : Math.min(1.4, Math.max(1, getUiScale() * 1.05));
+      const scale = Math.max(0.35, Math.min(maxScale, scaleByWidth, scaleByHeight));
 
-      // Плейлист тянется вниз на всё доступное место (шаги по 29px)
+      // Плейлист: тянем вниз, но с потолком (~6 видимых строк как на 1080p)
       const availableNative = Math.floor(h / scale);
       const roomForPlaylist = Math.max(minPlaylist, availableNative - headerBlock);
-      const extraHeight = Math.max(0, Math.floor((roomForPlaylist - minPlaylist) / 29));
+      const maxExtraHeight = isCompactLayout() ? 99 : 5; // 116 + 5*29 ≈ эталон
+      const extraHeight = Math.min(
+        maxExtraHeight,
+        Math.max(0, Math.floor((roomForPlaylist - minPlaylist) / 29))
+      );
       const playlistHeightPx = minPlaylist + 29 * extraHeight;
       const hostHeight = headerBlock + playlistHeightPx;
 
@@ -1057,6 +1090,7 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
     }
 
     window.addEventListener("resize", () => {
+      updateUiScale();
       applyViewportSize(currentDiscAspect);
       if (webampInstance && document.getElementById("webamp-host")) {
         applyWebampScale();
@@ -1085,8 +1119,8 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
 
       const { w: winW, h: winH } = getVisibleLayoutSize();
       const compact = isCompactLayout();
-      // В compact сайдбар поверх — резервируем только полоску-rail (~48px)
-      const sidebarReserve = compact ? 48 : 360;
+      // В compact — rail; иначе ширина сайдбара с учётом --ui-scale
+      const sidebarReserve = compact ? 48 : Math.round(360 * getUiScale());
       // Небольшой запас под округление и UI браузера на планшетах
       const pad = compact ? 8 : 0;
       const maxW = Math.max(160, winW - sidebarReserve - pad);

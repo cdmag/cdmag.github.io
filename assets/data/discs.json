@@ -681,5 +681,98 @@
     "webamp_tracks": [],
     "note": "13 оцифровка. Второй диск Игромании, довольно простое, но изящное оформление.",
     "viewpage_description": "Восьмой номер «Игромании» за 1998 год — уже не первый диск приложения, а уверенное продолжение серии: на нём собраны играбельные демо вроде Quake II, Battlezone, Heavy Gear и отечественного «Петьки», плюс утилиты, темы для Windows 95 и набор видеороликов к ожидаемым новинкам. Отдельный бонус — DOOM Legacy с историей исходников и читами. Диск хорошо передаёт, чем жили игроманы в тот сезон: от 3D-шутеров до «звонилок» и тем рабочего стола."
+  },
+  {
+    "id": "gameexe-1998-09",
+    "added": "2026-10-05",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "gameexe",
+    "magazine_title": "Game.EXE",
+    "year": 1998,
+    "issue": "09",
+    "title": "Game.EXE №09 — Сентябрь 1998",
+    "path": "/discs/game-exe/1998/09/index.html",
+    "cover_image": "/discs/game-exe/1998/09/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Game.EXE_09_1998",
+    "disc_image": "",
+    "download_iso": "",
+    "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_10_11deed3133699b9c62",
+    "webamp_tracks": [
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Main Theme"
+    },
+    "url": "music/game-exe/1998/09/02_main_theme.opus",
+    "duration": 174
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Fostral"
+    },
+    "url": "music/game-exe/1998/09/03_fostral.opus",
+    "duration": 110
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Glorx"
+    },
+    "url": "music/game-exe/1998/09/04_glorx.opus",
+    "duration": 130
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Necross"
+    },
+    "url": "music/game-exe/1998/09/05_necross.opus",
+    "duration": 240
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Xplo"
+    },
+    "url": "music/game-exe/1998/09/06_xplo.opus",
+    "duration": 130
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Outer Worlds"
+    },
+    "url": "music/game-exe/1998/09/07_outer_worlds.opus",
+    "duration": 184
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Death"
+    },
+    "url": "music/game-exe/1998/09/08_death.opus",
+    "duration": 122
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Vangers Forever"
+    },
+    "url": "music/game-exe/1998/09/09_vangers_forever.opus",
+    "duration": 154
+  },
+  {
+    "metaData": {
+      "artist": "Вангеры",
+      "title": "Infernals"
+    },
+    "url": "music/game-exe/1998/09/10_infernals.opus",
+    "duration": 200
+  }
+],
+    "note": "14 оцифровка. Где еще найдете такую милую ручную отрисовку интерфейса? Навигация непростая, зато есть фото Кранка, Рубера и музыка из Вангеров.",
+    "viewpage_description": "На диске к Game.EXE за сентябрь 1998 — плотная подборка демо: приключения (Grim Fandango, The Last Express, Larry), шутеры и стратегии, симуляторы вроде Grand Prix. Рядом — свежие патчи, набор драйверов и служебных утилит «на все случаи». Для любителей саундтреков — бонус-трек с музыкой к «Вангерам». Всё упаковано в фирменную интерактивную оболочку в духе парка развлечений, так что даже просто полистать разделы приятно."
   }
 ]
