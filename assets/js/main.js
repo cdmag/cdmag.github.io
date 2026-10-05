@@ -700,34 +700,74 @@ const DEFAULT_COVER = "/assets/img/cover-default.webp";
       renderPlayer(disc);
     }
 
+    function parseVkPlaylistRef(urlOrCode) {
+      // Старые: audio_playlist-240437459_1
+      // Новые:  music/playlist/-240437459_10_11deed3133699b9c62
+      //         playlist/-240437459_10/hash  или ?access_hash=hash
+      const s = String(urlOrCode || "").trim();
+      if (!s) return null;
+
+      let ownerId, playlistId, hash = "";
+
+      let m = s.match(/(?:music\/)?playlist\/(-?\d+)_(\d+)(?:[_/]|%2F)([a-f0-9]+)/i);
+      if (m) {
+        ownerId = parseInt(m[1], 10);
+        playlistId = parseInt(m[2], 10);
+        hash = m[3] || "";
+      } else {
+        m = s.match(/audio_playlist\/?(-?\d+)_(\d+)(?:(?:[_/]|%2F)([a-f0-9]+))?/i);
+        if (m) {
+          ownerId = parseInt(m[1], 10);
+          playlistId = parseInt(m[2], 10);
+          hash = m[3] || "";
+        } else {
+          m = s.match(/(-?\d+)[_\s,](\d+)/);
+          if (!m) return null;
+          ownerId = parseInt(m[1], 10);
+          playlistId = parseInt(m[2], 10);
+        }
+      }
+
+      const hashQ = s.match(/[?&]access_hash=([a-f0-9]+)/i);
+      if (hashQ) hash = hashQ[1];
+
+      if (!Number.isFinite(ownerId) || !Number.isFinite(playlistId)) return null;
+      return { ownerId, playlistId, hash: hash || "" };
+    }
+
     function renderVkPlaylist(urlOrCode) {
       const playerDiv = document.getElementById("player-container");
       playerDiv.innerHTML = '<div id="vk_playlist_widget"></div>';
 
       if (!urlOrCode || !urlOrCode.trim()) return;
 
-      const match = urlOrCode.match(/audio_playlist(-?\d+)_(\d+)/) ||
-                    urlOrCode.match(/(-?\d+)[_,\s]+(\d+)/);
-
-      if (match) {
-        const ownerId = parseInt(match[1], 10);
-        const playlistId = parseInt(match[2], 10);
-        // width — единственная опция API; высота = по числу треков
-        const width = Math.max(280, Math.floor(playerDiv.clientWidth || 320));
-
-        const initWidget = () => {
-          if (window.VK && window.VK.Widgets && window.VK.Widgets.Playlist) {
-            window.VK.Widgets.Playlist("vk_playlist_widget", ownerId, playlistId, "", { width: width });
-          }
-        };
-
-        if (window.VK && window.VK.Widgets) {
-          initWidget();
-        } else {
-          setTimeout(initWidget, 200);
-        }
-      } else {
+      const parsed = parseVkPlaylistRef(urlOrCode);
+      if (!parsed) {
         playerDiv.innerHTML = `<div style="color:#9ca3af; font-size:11px; padding:10px;">Неверный формат плейлиста</div>`;
+        return;
+      }
+
+      const { ownerId, playlistId, hash } = parsed;
+      // width — единственная опция API; высота = по числу треков
+      const width = Math.max(280, Math.floor(playerDiv.clientWidth || 320));
+
+      const initWidget = () => {
+        if (window.VK && window.VK.Widgets && window.VK.Widgets.Playlist) {
+          // hash обязателен в API; для старых публичных ссылок часто достаточно ""
+          window.VK.Widgets.Playlist(
+            "vk_playlist_widget",
+            ownerId,
+            playlistId,
+            hash || "",
+            { width: width }
+          );
+        }
+      };
+
+      if (window.VK && window.VK.Widgets) {
+        initWidget();
+      } else {
+        setTimeout(initWidget, 200);
       }
     }
 
