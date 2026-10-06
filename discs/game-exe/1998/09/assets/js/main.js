@@ -111,6 +111,7 @@ function updateDemoView() {
   } else if (viewMode === 'text') {
     desc.style.display = 'block';
     desc.textContent = currentDemo.text;
+    desc.scrollTop = 0;
     btnText.textContent = 'Картинки';
   } else if (viewMode === 'full') {
     full.style.display = 'flex';
@@ -174,6 +175,7 @@ function selectPatch(idx) {
   const btns = document.getElementById('patch-btns');
   desc.style.display = 'block';
   desc.textContent = currentPatch.text;
+  desc.scrollTop = 0;
   btns.style.display = 'flex';
 }
 
@@ -220,6 +222,7 @@ function selectUtil(idx) {
   const btns = document.getElementById('util-btns');
   desc.style.display = 'block';
   desc.textContent = currentUtil.text;
+  desc.scrollTop = 0;
   btns.style.display = 'flex';
 }
 
