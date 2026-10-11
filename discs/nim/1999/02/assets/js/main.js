@@ -348,7 +348,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const splashSeen = sessionStorage.getItem('nim_1999_02_splash_seen');
     if (splashSeen || !splashOverlay) {
       if (splashOverlay) splashOverlay.style.display = 'none';
-      openSection('demos');
+      if (sectionsNav) {
+        sectionsNav.classList.remove('hidden-for-overlay');
+      }
       return;
     }
 
@@ -381,7 +383,6 @@ document.addEventListener('DOMContentLoaded', () => {
         sectionsNav.classList.remove('hidden-for-overlay');
       }
       sessionStorage.setItem('nim_1999_02_splash_seen', 'true');
-      openSection('demos');
     }
 
     // Пропуск сплэша по клику в любом месте
