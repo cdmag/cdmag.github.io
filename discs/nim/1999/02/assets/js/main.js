@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const installToastOverlay = document.getElementById('install-toast-overlay');
   const imageModal = document.getElementById('image-modal');
   const modalImg = document.getElementById('modal-img');
+  const btnCloseImage = document.getElementById('btn-close-image');
   const videoModalOverlay = document.getElementById('video-modal-overlay');
   const videoModalContainer = document.getElementById('video-modal-container');
   const btnCloseVideo = document.getElementById('btn-close-video');
@@ -440,6 +441,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Закрытие модального окна скриншота по клику
   if (imageModal) {
     imageModal.addEventListener('click', closeImageModal);
+  }
+  if (btnCloseImage) {
+    btnCloseImage.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeImageModal();
+    });
   }
 
   // Закрытие видеомодалки
