@@ -1,0 +1,122 @@
+[
+  {
+    "id": "allods2",
+    "menuTitle": "Аллоды 2: Повелитель Душ",
+    "description": "Аллоды 2: Повелитель Душ\nРазработчик: Nival Entertaiment\nИздатель: 1C\nЖанр: Strategy / RPG\nСистемные требования: Windows 95/NT 4.0, DirectX 5.0, P-200MMX, 32 Mb RAM, 70 Mb HDD\n\nДанная демо-версия включает в себя три специально разработанных полноценных миссии, каждая из которых выполняется в новом регионе, со своим специфическим климатом и населением. Также в демо-версии доступен один из новых городов.",
+    "screenshots": [
+      "allod1f.webp",
+      "allod2f.webp",
+      "allod3f.webp"
+    ]
+  },
+  {
+    "id": "halflife",
+    "menuTitle": "Half-Life: Uplink",
+    "description": "Half-Life: Uplink\nРазработчик: Valve Entertaiment\nИздатель: Sierra Online\nЖанр: First Person Shooter\nСистемные требования: Windows 95/98, DirectX 6.0, P-133, 24 Mb RAM, 80 Mb HDD\n\nИгра, получившая звание лучшего 3D-Action года. И вот, спустя три месяца после появления Half-Life в продаже, Sierra выпускает демо-версию. Причем это не просто первый эпизод, каковым был Day One, это несколько новых уровней и оригинальная сюжетная линия.",
+    "screenshots": [
+      "halfl1f.webp",
+      "halfl2f.webp",
+      "halfl3f.webp"
+    ]
+  },
+  {
+    "id": "worms2",
+    "menuTitle": "Worms 2: Armageddon",
+    "description": "Worms 2: Armageddon\nРазработчик: Team 17\nИздатель: Microprose\nЖанр: Логическая аркада\nСистемные требования: Windows 95/98, DirectX 6.0, P-100, 24 Mb RAM, 25 Mb HDD\n\nОфициальное дополнение к забавной логической аркаде про червячков. Несколько новых уровней и больший арсенал оружия, \"поумневший\" противник и несколько новых команд, все остальное осталось по прежнему.",
+    "screenshots": [
+      "worms1f.webp",
+      "worms2f.webp",
+      "worms3f.webp"
+    ]
+  },
+  {
+    "id": "commandos",
+    "menuTitle": "Commandos:\nBeyond the Call of Duty",
+    "description": "Commandos: Beyond the Call of Duty\nРазработчик: Pyro Studios\nИздатель: Eidos Interactive\nЖанр: Стратегия\nСистемные требования: Windows 95/98, DirectX 6.0, P-166, 32 Mb RAM, 35 Mb HDD\n\nСборник из 8 дополнительных миссий к известной стратегической игре от Eidos. Новые возможности персонажей и новые задания, повышенная сложность сценариев. Всем фанатам оригинальной игры - рекомендуется.",
+    "screenshots": [
+      "comand1f.webp",
+      "comand2f.webp",
+      "comand3f.webp"
+    ]
+  },
+  {
+    "id": "warzone2100",
+    "menuTitle": "Warzone 2100",
+    "description": "Warzone 2100\nРазработчик: Pumpkin Studios\nИздатель: Eidos Interactive\nЖанр: Real-time Strategy\nСистемные требования: Windows 95/98, DirectX 6.0, P-200MMX, 32 Mb RAM, 25 Mb HDD\n\nТрехмерная real-time стратегия а-ля Myth 2, действие которой происходит в 2140 году на Земле. В этой демо-версии вам предоставляется возможность пройти одну миссию, либо сыграть с друзьями в multiplayer на этой же карте.",
+    "screenshots": [
+      "war1f.webp",
+      "war2f.webp",
+      "war3f.webp"
+    ]
+  },
+  {
+    "id": "lander",
+    "menuTitle": "Lander",
+    "description": "Lander\nРазработчик: Psygnosis\nИздатель: Psygnosis\nЖанр: 3-D аркада\nСистемные требования: Windows 95/98, DirectX 6.0, P-166, 16 Mb RAM, 20 Mb HDD\n\nПродукт селекции и отбора Descent-подобных клонов. Вы управляете маленьким корабликом с одним соплом и, регулируя угол наклона этого самого сопла, умудряетесь обходиться одной клавишей. Много врагов и неплохие спецэффекты.",
+    "screenshots": [
+      "lander1f.webp",
+      "lander2f.webp",
+      "lander3f.webp"
+    ]
+  },
+  {
+    "id": "imperialism2",
+    "menuTitle": "Imperialism II",
+    "description": "Imperialism II: Age of Exploration\nРазработчик: The Learning Company\nИздатель: SSI\nЖанр: Стратегия\nСистемные требования: Windows 95/98, DirectX 5.0, P-100, 16 Mb RAM, 50 Mb HDD\n\nПродолжение стратегической игры от SSI. На этот раз вам предоставляется возможность жить и развиваться в 16 веке. Традиционно неплохая экономическая модель и сносная спрайтовая графика в стиле wargame'ов.",
+    "screenshots": [
+      "imp1f.webp",
+      "imp2f.webp",
+      "imp3f.webp"
+    ]
+  },
+  {
+    "id": "avpm",
+    "menuTitle": "Alien vs. Predator: Mariner",
+    "description": "Alien vs. Predator: Marine Version\nРазработчик: Rebellion Developments\nИздатель: Fox Interactive\nЖанр: First Person Shooter\nСистемные требования: Windows 95/98, DirectX 6.0, P-200MMX, 32 Mb RAM, 40 Mb HDD\n\nДемо-версия, в которой вы можете играть бравым десантником, уничтожающим кислотнокровных тварей. Поддерживается Multiplayer режим через Internet, да и сама игра, в первую очередь, рассчитана на сеть.",
+    "screenshots": [
+      "avpm1f.webp",
+      "avpm2f.webp",
+      "avpm3f.webp"
+    ]
+  },
+  {
+    "id": "avpa",
+    "menuTitle": "Alien vs. Predator: Alien",
+    "description": "Alien vs. Predator: Alien Version\nРазработчик: Rebellion Developments\nИздатель: Fox Interactive\nЖанр: First Person Shooter\nСистемные требования: Windows 95/98, DirectX 6.0, P-200MMX, 32 Mb RAM, 30 Mb HDD\n\nОригинальный 3-D Action от компании Fox Interactive, той самой, что сняла фильмы \"Хищник\" и \"Чужой\". Игроку предоставляется на выбор два главных монстра из фильмов. В этой демо-версии вы сможете примерить на себя шкуру чужого.",
+    "screenshots": [
+      "avpa1f.webp",
+      "avpa2f.webp",
+      "avpa3f.webp"
+    ]
+  },
+  {
+    "id": "rollercoaster",
+    "menuTitle": "Rollercoaster Tycoon",
+    "description": "RollerCoaster Tycoon\nРазработчик: Microprose\nИздатель: Hasbro Interactive\nЖанр: Стратегия\nСистемные требования: Windows 95/98, DirectX 6.0, P-100, 32 Mb RAM, 45 Mb HDD\n\nГибрид Transport Tycoon и Theme Park. Вам, как управляющему парка аттракционов, необходимо строить как можно больше этих самых аттракционов, чтобы привлечь привередливую и ленивую публику.",
+    "screenshots": [
+      "roller1f.webp",
+      "roller2f.webp",
+      "roller3f.webp"
+    ]
+  },
+  {
+    "id": "machines",
+    "menuTitle": "Machines",
+    "description": "Machines\nРазработчик: Acclaim\nИздатель: Acclaim\nЖанр: Real-time Strategy\nСистемные требования: Windows 95/98, DirectX 6.1, P-233, 32 Mb RAM, 85 Mb HDD\n\nЕще одна попытка сделать стратегическую игру, непохожую на Warcraft 2 и Command&Conquer. На этот раз разработчики решили внести изменения в систему строительства и конструирования юнитов - теперь их просто выше крыши.",
+    "screenshots": [
+      "mach1f.webp",
+      "mach2f.webp",
+      "mach3f.webp"
+    ]
+  },
+  {
+    "id": "wcwnitro",
+    "menuTitle": "WCW Nitro",
+    "description": "WCW Nitro\nРазработчик: Time Warner Interactive\nИздатель: THQ\nЖанр: Fighting\nСистемные требования: Windows 95/98, DirectX 6.0, P-133, 32 Mb RAM, 30 Mb HDD\n\nПомните, была такая классная игра - Wrestlemania от Acclaim? Так вот, WCW можно считать ее продолжением. В демо-версии доступно всего два бойца, но и этого достаточно, чтобы понять, что до уровня оригинала она явно не дотягивает.",
+    "screenshots": [
+      "wcw1f.webp",
+      "wcw2f.webp",
+      "wcw3f.webp"
+    ]
+  }
+]

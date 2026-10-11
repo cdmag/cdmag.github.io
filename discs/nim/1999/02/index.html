@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Навигатор Игрового Мира 1999 #2 — Дисковая Оболочка</title>
+    <meta name="description" content="Оцифровка и интерактивная веб-оболочка диска журнала «Навигатор игрового мира» за 1999 год, выпуск 2." />
+    <meta property="og:title" content="Навигатор Игрового Мира 1999 #2 — Дисковая Оболочка" />
+    <meta property="og:description" content="Оцифровка и интерактивная веб-оболочка диска журнала «Навигатор игрового мира» за 1999 год, выпуск 2." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Font: Golos Text для текстов описания -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Основные стили оболочки -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="shell" class="shell-viewport">
+      <!-- Главный фон оболочки (1600x1200) -->
+      <img
+        id="bg-image"
+        class="shell-bg"
+        src="assets/img/ui/bg.webp"
+        alt="Фон дисковой оболочки Навигатор Игрового Мира 1999 #2"
+        draggable="false"
+      />
+
+      <!-- Всплывающий список выбранного раздела (Скрин 1, 2, 4) -->
+      <div id="menu-popup" class="menu-popup">
+        <ul class="menu-list" id="menu-list"></ul>
+      </div>
+
+      <!-- Правый блок деталей: скриншоты (в DEMOS) + карточка описания + кнопка INSTALL -->
+      <div id="details-panel" class="details-panel">
+        <div class="screenshots-bar" id="screenshots-bar">
+          <div class="screenshot-thumb" data-index="0"><img id="thumb-0" alt="Скриншот 1" draggable="false" /></div>
+          <div class="screenshot-thumb" data-index="1"><img id="thumb-1" alt="Скриншот 2" draggable="false" /></div>
+          <div class="screenshot-thumb" data-index="2"><img id="thumb-2" alt="Скриншот 3" draggable="false" /></div>
+        </div>
+
+        <div class="description-box" id="description-box">
+          <div class="game-description" id="desc-text"></div>
+          <button type="button" class="btn-install" id="btn-install">Install</button>
+        </div>
+      </div>
+
+      <!-- Модальное окно полноразмерного просмотра скриншота (Скрин 3 демок) -->
+      <div id="image-modal" class="image-modal" title="Нажмите, чтобы закрыть">
+        <div class="image-modal-frame">
+          <img id="modal-img" alt="Увеличенный скриншот" draggable="false" />
+          <div class="image-modal-shield" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <!-- Модальное окно воспроизведения ВК видео (Раздел MOVIES) -->
+      <div id="video-modal-overlay" class="video-modal-overlay">
+        <div class="video-modal-container" id="video-modal-container">
+          <button type="button" class="video-modal-close" id="btn-close-video" title="Закрыть видео">✕</button>
+          <div class="video-frame-wrapper" id="video-frame-wrapper"></div>
+        </div>
+      </div>
+
+      <!-- Всплывающее сообщение при клике INSTALL с затемнением экрана -->
+      <div id="install-toast-overlay" class="install-toast-overlay" title="Нажмите, чтобы закрыть">
+        <div class="install-toast-card">
+          <span>Все файлы доступны в образе диска</span>
+        </div>
+      </div>
+
+      <!-- Окно титров при клике на EXIT (Скриншот 1) -->
+      <div id="exit-credits-overlay" class="exit-credits-overlay" title="Нажмите в любом месте, чтобы закрыть">
+        <div class="credits-grid">
+          <!-- Ряд 1 -->
+          <div class="credits-col-left">
+            <div>ИГОРЬ ВЛАСОВ</div>
+            <div>AKA VIV</div>
+          </div>
+          <div class="credits-col-right">
+            <div>КОДИНГ,</div>
+            <div>АДАПТАЦИЯ ВИДЕО</div>
+          </div>
+
+          <!-- Ряд 2 -->
+          <div class="credits-col-left">
+            <div>АЛЕКСАНДР МЕТЕЛЬКОВ</div>
+            <div>AKA ASSA</div>
+          </div>
+          <div class="credits-col-right">
+            <div>ДИЗАЙН,</div>
+            <div>КОНЦЕПЦИЯ</div>
+          </div>
+
+          <!-- Ряд 3 -->
+          <div class="credits-col-left">
+            <div>ДМИТРИЙ ДРОНЕНКО</div>
+            <div>AKA ALRICK[ASP]</div>
+          </div>
+          <div class="credits-col-right">
+            <div>НАПОЛНЕНИЕ</div>
+            <div>РАЗДЕЛА FILES</div>
+          </div>
+
+          <!-- Ряд 4 -->
+          <div class="credits-col-left">
+            <div>ИГОРЬ БОЙКО</div>
+            <div>AKA BIB THE TALL</div>
+          </div>
+          <div class="credits-col-right">
+            <div>РУКОВОДСТВО</div>
+            <div>ПРОЕКТОМ</div>
+          </div>
+        </div>
+
+        <div class="credits-footer">
+          ИЗДАТЕЛЬСКИЙ ДОМ 'НАВИГАТОР ПАБЛИШИНГ'
+        </div>
+      </div>
+
+      <!-- Сплэш-экран при первом открытии сайта в сессии (Скриншоты 2-5) -->
+      <div id="splash-overlay" class="splash-overlay" title="Нажмите, чтобы пропустить">
+        <!-- Слайд 1: НАВИГАТОР ИГРОВОГО МИРА -->
+        <div id="splash-slide-0" class="splash-slide">
+          <div class="splash-logo">
+            <div class="splash-logo-n">Н</div>
+            <div class="splash-logo-right">
+              <div class="splash-logo-top">АВИГАТОР</div>
+              <div class="splash-logo-bottom">ИГРОВОГО МИРА</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Слайд 2: ПРЕДСТАВЛЯЕТ -->
+        <div id="splash-slide-1" class="splash-slide">
+          <div class="splash-text-decor splash-text-medium">ПРЕДСТАВЛЯЕТ</div>
+        </div>
+
+        <!-- Слайд 3: CD-ROM # 2 -->
+        <div id="splash-slide-2" class="splash-slide">
+          <div class="splash-text-decor splash-text-medium">CD-ROM # 2</div>
+        </div>
+
+        <!-- Слайд 4: ФЕВРАЛЬ 1999 -->
+        <div id="splash-slide-3" class="splash-slide">
+          <div class="splash-text-decor splash-text-medium">ФЕВРАЛЬ 1999</div>
+        </div>
+      </div>
+
+      <!-- Нижняя панель разделов диска -->
+      <nav class="sections-nav" id="sections-nav">
+        <button type="button" class="nav-item" data-section="demos" id="btn-demos">Demos</button>
+        <button type="button" class="nav-item" data-section="movies" id="btn-movies">Movies</button>
+        <button type="button" class="nav-item" data-section="patches" id="btn-patches">Patches</button>
+        <button type="button" class="nav-item" data-section="files" id="btn-files">Files</button>
+        <a
+          href="https://web.archive.org/web/199902/http://www.gamenavigator.ru"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="nav-item"
+          data-section="internet"
+          id="btn-internet"
+        >Internet</a>
+        <button type="button" class="nav-item" data-section="exit" id="btn-exit">Exit</button>
+      </nav>
+
+      <!-- Резервный выбор файла фона при необходимости -->
+      <div id="placeholder" class="drop-placeholder hidden">
+        <h2>Фон оболочки (1600×1200)</h2>
+        <p>
+          Ожидается файл <code>assets/img/ui/bg.webp</code>.<br />
+          Поместите его в эту папку в дереве файлов, либо перетащите файл <code>bg.webp</code> прямо сюда.
+        </p>
+        <button type="button" class="file-select-btn" id="upload-btn">Выбрать bg.webp</button>
+        <input type="file" id="file-input" accept="image/webp,image/*" style="display: none;" />
+      </div>
+    </div>
+
+    <!-- Основная логика оболочки -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

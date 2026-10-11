@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ar302",
+    "menuTitle": "ADOBE ACROBAT READER",
+    "description": "Adobe Acrobat Reader\n\nПозволяет читать файлы в формате Adobe Data Format."
+  },
+  {
+    "id": "adomg12",
+    "menuTitle": "ADOM",
+    "description": "Ancient Domains of Mystery\n\nКлассическая AD&D RPG'шка в текстовом режиме. Главред от нее тащится."
+  },
+  {
+    "id": "dp21",
+    "menuTitle": "DEMOPLAY",
+    "description": "Demo Play\n\nПроигрыватель демок для первого и второго Quake, а также демок в формате qwd (Quake World)."
+  },
+  {
+    "id": "demosn",
+    "menuTitle": "DEMO SCENE",
+    "description": "Demo Scene\n\nПодборка трех демок с Ассамблеи (см. статью Demo Scene в номере)."
+  },
+  {
+    "id": "dx61eng",
+    "menuTitle": "DIRECTX 6.1",
+    "description": "DirectX 6.1\n\nНабор драйверов API DirectX. Стандартная европейская поставка."
+  },
+  {
+    "id": "gozila",
+    "menuTitle": "GOZILA",
+    "description": "Gozilla\n\nПрограмма облегчающая выкачивание файлов из Интернет. Поддерживает протоколы HTTP и FTP, работает с автоматической звонилкой и с настройкой по таймеру."
+  },
+  {
+    "id": "gurps",
+    "menuTitle": "GURPS SYSTEM",
+    "description": "GURPS System\n\nПодборка различных материалов, посвященных игровой системе Gurps (см. статью в разделе RPG)."
+  },
+  {
+    "id": "mappack1",
+    "menuTitle": "HEXEN 2 MAP PACK",
+    "description": "Heretic 2 Map Pack\n\nРождественский подарок всем фанатам Heretic 2 от его создателей. Несколько новых карт для одиночной игры и Multiplayer."
+  },
+  {
+    "id": "mpfull",
+    "menuTitle": "MICROSOFT MEDIA PLAYER",
+    "description": "Microsoft Media Player\n\nПоследняя версия Multimedia Player'a от Microsoft. Играет большинство звуковых и видео файлов, поддерживает MP3, Real Audio и Quick Time Movie."
+  },
+  {
+    "id": "ngrb3221",
+    "menuTitle": "NEWS GRABBER",
+    "description": "News Grabber\n\nДанная утилита позволяет в автономном режиме выкачивать из News Group файлы, картинки и музыку."
+  },
+  {
+    "id": "q2d",
+    "menuTitle": "Q2 DEMOS",
+    "description": "Q2 Demos\n\nНесколько демок с недавно прошедшего в Формозе чемпионата по Quake 2."
+  },
+  {
+    "id": "unpk",
+    "menuTitle": "UNREAL FUSION PACK",
+    "description": "Unreal Fusion Pack\n\nОфициальный набор дополнительных карт к Unreal."
+  },
+  {
+    "id": "winth",
+    "menuTitle": "WINDOWS DESKTOP THEMES",
+    "description": "Windows Desktop Themes\n\nПодборка Wallpaper'ов и Screensaver'ов для Windows 95."
+  }
+]

@@ -1,0 +1,651 @@
+@font-face {
+  font-family: 'NocturneDeco';
+  src: url('data:font/woff2;base64,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') format('woff2'),
+       url('../fonts/NocturneDeco-Regular.woff2') format('woff2'),
+       url('/nim/1999/02/assets/fonts/NocturneDeco-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'NocturneDeco', sans-serif;
+}
+
+/* Главный контейнер оболочки: 1600x1200 (4:3), 100% высоты окна, адаптивное масштабирование */
+.shell-viewport {
+  position: relative;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100vh;
+  aspect-ratio: 1600 / 1200;
+  max-width: 100vw;
+  background-color: #02050e;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  container-type: size;
+}
+
+/* Фоновая картинка диска */
+.shell-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Нижняя панель разделов (DEMOS, MOVIES, PATCHES, FILES, INTERNET, EXIT) */
+/* Нижняя панель разделов (DEMOS, MOVIES, PATCHES, FILES, INTERNET, EXIT) — по центру относительно двух блоков выше */
+.sections-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 71.5%;
+  top: 75.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(14px, 2.6cqw, 44px);
+  z-index: 10;
+  background: transparent;
+  transition: opacity 0.4s ease;
+}
+
+/* Скрытие нижней панели при показе титров EXIT или сплэша */
+.sections-nav.hidden-for-overlay {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-item {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(21px, 4.05cqh, 63px);
+  line-height: 1;
+  color: #5587d6;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 6px rgba(85, 135, 214, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.9);
+  transition: color 0.15s ease, text-shadow 0.15s ease, transform 0.15s ease;
+  outline: none;
+  white-space: nowrap;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #ffffff;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.9), 0 0 22px rgba(100, 160, 255, 0.9), 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Всплывающее меню выбранного раздела — левый блок информации, центрирован вместе с правым блоком */
+.menu-popup {
+  position: absolute;
+  left: 14.25%;
+  top: 22.5%;
+  width: 22.5%;
+  height: 50%;
+  z-index: 20;
+  display: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: rgba(2, 6, 18, 0.92);
+  border: 1px solid rgba(40, 75, 130, 0.75);
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.9);
+  padding: 1.2cqw 1.3cqw;
+  box-sizing: border-box;
+}
+
+.menu-popup.open {
+  display: block;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.95cqh;
+}
+
+.menu-entry {
+  cursor: pointer;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(12px, 2.15cqh, 28px);
+  line-height: 1.15;
+  color: #4b7bb5;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  text-shadow: 0 0 3px rgba(75, 123, 181, 0.5), 1px 1px 2px #000;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+  word-break: break-word;
+}
+
+.menu-entry:hover,
+.menu-entry.selected {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.95), 0 0 18px rgba(85, 150, 255, 0.9), 2px 2px 4px #000;
+}
+
+.menu-multiline {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+/* В блоке роликов (MOVIES) список слева увеличен на 25% */
+.menu-popup.section-movies .menu-entry {
+  font-size: clamp(15px, 2.68cqh, 34px);
+  line-height: 1.25;
+}
+
+.menu-popup.section-movies .menu-list {
+  gap: 1.35cqh;
+}
+
+/* В разделе патчей (PATCHES) список слева увеличен на 10% */
+.menu-popup.section-patches .menu-entry {
+  font-size: clamp(13px, 2.37cqh, 30px);
+  line-height: 1.2;
+}
+
+.menu-popup.section-patches .menu-list {
+  gap: 1.05cqh;
+}
+
+/* Правый блок деталей (+25% к размерам) — центрирован вместе с левым блоком */
+.details-panel {
+  position: absolute;
+  left: 37.25%;
+  top: 22.5%;
+  width: 48.5%;
+  height: 50%;
+  z-index: 20;
+  display: none;
+  flex-direction: column;
+}
+
+.details-panel.open {
+  display: flex;
+}
+
+/* Полоса из 3 скриншотов сверху (в DEMOS) */
+.screenshots-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1cqw;
+  width: 100%;
+  height: 16cqh;
+  box-sizing: border-box;
+}
+
+.screenshot-thumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #030814;
+  border: 1px solid rgba(40, 75, 130, 0.7);
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Скриншоты без наведения: блеклый темно-синий цвет в тон фона */
+.screenshot-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(70%) brightness(0.42) sepia(100%) hue-rotate(175deg) saturate(320%);
+  transition: filter 0.18s ease;
+}
+
+/* При наведении мыши — естественные полные цвета */
+.screenshot-thumb:hover {
+  border-color: rgba(120, 170, 240, 0.95);
+  box-shadow: 0 0 12px rgba(80, 140, 230, 0.5);
+}
+
+.screenshot-thumb:hover img {
+  filter: none;
+}
+
+/* Карточка описания */
+.description-box {
+  position: relative;
+  margin-top: 1cqh;
+  flex: 1;
+  background: rgba(2, 6, 18, 0.92);
+  border: 1px solid rgba(40, 75, 130, 0.75);
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.9);
+  padding: 1.3cqw 1.6cqw 3.6cqh 1.6cqw;
+  overflow-y: auto;
+  font-family: 'Golos Text', Tahoma, "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+
+/* В разделе DEMOS (со скриншотами) размер шрифта возвращен и уменьшен всего на ~10% */
+.details-panel:not(.no-screenshots) .description-box {
+  overflow-y: auto;
+  padding: 1.1cqw 1.4cqw 3.2cqh 1.4cqw;
+}
+
+.details-panel:not(.no-screenshots) .game-description {
+  font-size: clamp(10.5px, 1.55cqh, 18px);
+  line-height: 1.35;
+}
+
+/* В разделах без скриншотов (PATCHES, FILES) карточка занимает 100% высоты панели */
+.details-panel.no-screenshots .screenshots-bar {
+  display: none;
+}
+
+.details-panel.no-screenshots .description-box {
+  margin-top: 0;
+  height: 100%;
+  padding: 1.5cqw 1.8cqw 4.2cqh 1.8cqw;
+}
+
+.details-panel.no-screenshots .game-description {
+  font-size: clamp(11.5px, 1.72cqh, 20px);
+  line-height: 1.45;
+}
+
+/* Текст описания игры / патча / файла */
+.game-description {
+  color: #72a4e8;
+  white-space: pre-line;
+  word-break: break-word;
+  user-select: text;
+  -webkit-user-select: text;
+  text-shadow: 0 0 2px rgba(114, 164, 232, 0.5), 1px 1px 2px #000;
+}
+
+/* Кнопка INSTALL в правом нижнем углу карточки */
+.btn-install {
+  position: absolute;
+  right: 1.6cqw;
+  bottom: 1.1cqh;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(14px, 2.4cqh, 34px);
+  color: #5587d6;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 4px rgba(85, 135, 214, 0.6), 1px 1px 3px #000;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+  padding: 4px 8px;
+  line-height: 1;
+}
+
+.btn-install:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.95), 0 0 18px rgba(95, 160, 255, 0.9), 1px 1px 3px #000;
+}
+
+/* Всплывающее уведомление при клике на INSTALL с затемнением экрана (+25%) */
+.install-toast-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 80;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+}
+
+.install-toast-overlay.active {
+  display: flex;
+}
+
+.install-toast-card {
+  background: rgba(2, 6, 18, 0.96);
+  border: 1px solid rgba(80, 140, 230, 0.85);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.95), 0 0 24px rgba(60, 120, 220, 0.4);
+  padding: 1.8cqh 2.6cqw;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(14px, 2.3cqh, 32px);
+  color: #6da2f8;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(109, 162, 248, 0.8), 0 0 22px rgba(60, 120, 220, 0.5), 2px 2px 4px #000;
+  text-align: center;
+  pointer-events: auto;
+  max-width: 80%;
+  animation: toastFadeIn 0.18s ease-out;
+}
+
+@keyframes toastFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Модальное окно просмотра скриншота */
+.image-modal {
+  position: absolute;
+  inset: 0;
+  z-index: 90;
+  background-color: rgba(0, 0, 0, 0.88);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 2cqw;
+}
+
+.image-modal.open {
+  display: flex;
+}
+
+.image-modal-frame {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 92%;
+  max-height: 92%;
+}
+
+.image-modal img {
+  display: block;
+  max-width: 100%;
+  max-height: 92vh;
+  object-fit: contain;
+  border: 2px solid rgba(80, 140, 230, 0.8);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.9), 0 0 20px rgba(60, 120, 220, 0.4);
+  background-color: #000;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* Прозрачный оверлей поверх скриншота, блокирующий инжекты и всплывающие тулбары Яндекс.Браузера */
+.image-modal-shield {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  background: transparent;
+  z-index: 2;
+}
+
+/* Модальное окно воспроизведения ВК видео (Раздел MOVIES) */
+.video-modal-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2cqw;
+  cursor: pointer;
+}
+
+.video-modal-overlay.open {
+  display: flex;
+}
+
+.video-modal-container {
+  position: relative;
+  width: 82%;
+  max-width: 1280px;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  border: 2px solid rgba(80, 140, 230, 0.85);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.95), 0 0 28px rgba(60, 120, 220, 0.5);
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-modal-close {
+  position: absolute;
+  top: -3.8cqh;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: #72a4e8;
+  font-size: clamp(16px, 2.6cqh, 32px);
+  cursor: pointer;
+  font-family: sans-serif;
+  padding: 4px 8px;
+  line-height: 1;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+
+.video-modal-close:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+}
+
+.video-frame-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.video-frame-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: contain;
+  display: block;
+}
+
+/* Скрываем скроллбар для сохранения ретро-вида */
+.menu-popup::-webkit-scrollbar,
+.description-box::-webkit-scrollbar {
+  width: 4px;
+}
+.menu-popup::-webkit-scrollbar-thumb,
+.description-box::-webkit-scrollbar-thumb {
+  background: rgba(40, 75, 130, 0.5);
+}
+
+/* Окно титров при клике на EXIT (Скриншот 1) */
+.exit-credits-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 95;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14.5cqh;
+  padding-bottom: 7.2cqh;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.exit-credits-overlay.open {
+  display: flex;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.8cqw;
+  row-gap: 2.8cqh;
+  width: 86%;
+  max-width: 960px;
+}
+
+.credits-col-left {
+  text-align: right;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(14px, 2.7cqh, 38px);
+  line-height: 1.22;
+  color: #6da2f8;
+  text-shadow: 0 0 10px rgba(109, 162, 248, 0.8), 0 0 22px rgba(60, 120, 220, 0.5), 2px 2px 4px #000;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.credits-col-right {
+  text-align: left;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(14px, 2.7cqh, 38px);
+  line-height: 1.22;
+  color: #6da2f8;
+  text-shadow: 0 0 10px rgba(109, 162, 248, 0.8), 0 0 22px rgba(60, 120, 220, 0.5), 2px 2px 4px #000;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.credits-footer {
+  text-align: center;
+  font-family: 'NocturneDeco', sans-serif;
+  font-size: clamp(13px, 2.3cqh, 32px);
+  color: #6da2f8;
+  text-shadow: 0 0 10px rgba(109, 162, 248, 0.8), 0 0 22px rgba(60, 120, 220, 0.5), 2px 2px 4px #000;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+/* Сплэш-экран при первом открытии в сессии (Скриншоты 2-5) */
+.splash-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 96;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.splash-overlay.active {
+  display: flex;
+}
+
+.splash-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  pointer-events: none;
+}
+
+.splash-slide.visible {
+  opacity: 1;
+}
+
+/* Слайд 1: Логотип Навигатор Игрового Мира с большой Н на 2 строки */
+.splash-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'NocturneDeco', sans-serif;
+  color: #b5d5ff;
+  text-shadow: 0 0 16px rgba(181, 213, 255, 0.85), 0 0 32px rgba(90, 150, 245, 0.6), 2px 2px 6px #000;
+}
+
+.splash-logo-n {
+  font-size: clamp(70px, 15cqh, 188px);
+  line-height: 0.88;
+  margin-right: 0.4cqw;
+  display: flex;
+  align-items: center;
+}
+
+.splash-logo-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.splash-logo-top {
+  font-size: clamp(35px, 7.75cqh, 98px);
+  line-height: 1;
+  letter-spacing: clamp(1px, 0.35cqw, 5px);
+}
+
+.splash-logo-bottom {
+  font-size: clamp(19px, 4.1cqh, 52px);
+  line-height: 1;
+  letter-spacing: clamp(1px, 0.25cqw, 4px);
+}
+
+/* Слайды 2, 3, 4: ПРЕДСТАВЛЯЕТ, CD-ROM # 2, ФЕВРАЛЬ 1999 */
+.splash-text-decor {
+  font-family: 'NocturneDeco', sans-serif;
+  color: #b5d5ff;
+  text-shadow: 0 0 16px rgba(181, 213, 255, 0.85), 0 0 32px rgba(90, 150, 245, 0.6), 2px 2px 6px #000;
+  letter-spacing: clamp(1px, 0.5cqw, 6px);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.splash-text-medium {
+  font-size: clamp(30px, 6.5cqh, 85px);
+  line-height: 1.2;
+}
+
+/* Подсказка на случай отсутствия фона */
+.drop-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #071329 0%, #01040a 100%);
+  color: #7dd3fc;
+  text-align: center;
+  padding: 24px;
+  z-index: 2;
+  border: 2px dashed rgba(56, 189, 248, 0.4);
+  margin: 16px;
+  border-radius: 8px;
+  transition: opacity 0.3s ease, border-color 0.2s ease;
+}
+
+.drop-placeholder.hidden {
+  display: none;
+}
