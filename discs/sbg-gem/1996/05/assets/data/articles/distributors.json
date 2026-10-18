@@ -1,0 +1,11 @@
+{
+  "id": "distributors",
+  "title": "Дистрибьюторы",
+  "music": "edit.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/distrib.webp",
+      "hotspots": []
+    }
+  ]
+}

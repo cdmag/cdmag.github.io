@@ -1,0 +1,51 @@
+{
+  "id": "fiction",
+  "title": "Fiction",
+  "music": "fiction.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/skazka01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/skazka11.webp",
+      "hotspots": []
+    }
+  ]
+}

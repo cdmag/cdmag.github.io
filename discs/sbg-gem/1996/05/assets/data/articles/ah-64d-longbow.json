@@ -1,0 +1,56 @@
+{
+  "id": "ah-64d-longbow",
+  "title": "AH-64D Longbow",
+  "music": "sim.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/ah-64_1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/ah-64_1-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/ah-64_1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ah-64_2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/ah-64_2-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/ah-64_2-screen2.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/ah-64_2-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ah-64_3.webp",
+      "hotspots": []
+    }
+  ]
+}

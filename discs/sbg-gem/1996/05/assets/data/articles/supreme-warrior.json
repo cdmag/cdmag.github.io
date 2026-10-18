@@ -1,0 +1,78 @@
+{
+  "id": "supreme-warrior",
+  "title": "Supreme Warrior",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/suprwr1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/suprwr1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/suprwr2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/suprwr2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/suprwr3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/suprwr3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/suprwr4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/suprwr4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/suprwr5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/suprwr5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/suprwr5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/suprwr6.webp",
+      "hotspots": []
+    }
+  ]
+}

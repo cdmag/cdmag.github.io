@@ -1,0 +1,169 @@
+{
+  "id": "shannara",
+  "title": "Shannara",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/shan01.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shan01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/shan03.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shan03-screen1.webp"
+        },
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shan03-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan04.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shan04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan05.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shan05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan06.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/shan06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan07.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shan07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan08.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shan08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan09.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/shan09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan10.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shan10-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan11.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shan11-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 190,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shan11-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan12.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 365,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shan12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shan13.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shan13-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

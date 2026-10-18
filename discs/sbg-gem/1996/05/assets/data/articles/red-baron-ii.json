@@ -1,0 +1,92 @@
+{
+  "id": "red-baron-ii",
+  "title": "Red Baron II",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/redbar01.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/redbar01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/redbar02.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 390,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/redbar02-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/redbar03.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239097&hash=3a360620e76b5952&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/redbar04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/redbar05.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/redbar05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/redbar06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/redbar07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/redbar08.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/redbar08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/redbar09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/redbar10.webp",
+      "hotspots": []
+    }
+  ]
+}

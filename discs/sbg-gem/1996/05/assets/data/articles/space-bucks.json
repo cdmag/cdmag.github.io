@@ -1,0 +1,91 @@
+{
+  "id": "space-bucks",
+  "title": "Space Bucks",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/sbucks1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/sbucks2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/sbucks2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/sbucks3.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/sbucks3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/sbucks4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/sbucks5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/sbucks5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/sbucks6.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/sbucks6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/sbucks7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/sbucks7-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/sbucks8.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/sbucks9.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/sbucks9-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

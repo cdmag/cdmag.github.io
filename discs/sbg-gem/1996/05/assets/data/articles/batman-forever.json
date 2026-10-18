@@ -1,0 +1,81 @@
+{
+  "id": "batman-forever",
+  "title": "Batman Forever",
+  "music": "https://pub-458fa612ee1e4b929955e64ec40245a2.r2.dev/music/sbg-gem/1995/02-03/ovrdrv.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/batman1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/batman2.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/batman2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batman3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/batman4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/batman4-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/batman4-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batman5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/batman5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/batman5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batman6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/batman7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/batman7-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

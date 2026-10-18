@@ -1,0 +1,12 @@
+{
+  "id": "sbg-publishing",
+  "title": "SBG Publishing",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/adv_publ.webp",
+      "hotspots": []
+    }
+  ]
+}

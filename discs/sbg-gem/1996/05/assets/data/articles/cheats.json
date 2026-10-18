@@ -1,0 +1,27 @@
+{
+  "id": "cheats",
+  "title": "Cheats",
+  "music": "cheats.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/cheats1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cheats5.webp",
+      "hotspots": []
+    }
+  ]
+}

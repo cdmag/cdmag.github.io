@@ -1,0 +1,63 @@
+{
+  "id": "this-means-war",
+  "title": "This Means War",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/tmwar1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/tmwar2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/tmwar2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tmwar3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/tmwar3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tmwar4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/tmwar4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tmwar5.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/tmwar5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tmwar6.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "fantasy-general",
+  "title": "Fantasy General",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/fgenrl1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/fgenrl1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/fgenrl2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl3-screen1.webp"
+        },
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/fgenrl4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl5.webp",
+      "hotspots": [
+        {
+          "x": 45,
+          "y": 445,
+          "w": 475,
+          "h": 340,
+          "popup": "assets/img/content/fgenrl5-screen1.webp"
+        },
+        {
+          "x": 1075,
+          "y": 450,
+          "w": 475,
+          "h": 332,
+          "popup": "assets/img/content/fgenrl5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl7.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl7-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl8.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/fgenrl8-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/fgenrl9.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl9-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/fgenrl9-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

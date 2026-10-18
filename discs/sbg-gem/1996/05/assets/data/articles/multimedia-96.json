@@ -1,0 +1,12 @@
+{
+  "id": "multimedia-96",
+  "title": "Мультимедиа '96",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/mult96.webp",
+      "hotspots": []
+    }
+  ]
+}

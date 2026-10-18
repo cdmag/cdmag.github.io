@@ -1,0 +1,98 @@
+{
+  "id": "earthsiege-ii",
+  "title": "EarthSiege II",
+  "music": "sim.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/esiege1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239100&hash=a5279f157581071c&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": true
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/esiege2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/esiege2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/esiege2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/esiege3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239101&hash=b8f42cb0b86366b1&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/esiege4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/esiege4-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 740,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/esiege4-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/esiege5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/esiege5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/esiege5-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

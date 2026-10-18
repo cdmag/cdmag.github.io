@@ -1,0 +1,90 @@
+{
+  "id": "witchaven-ii",
+  "title": "Witchaven II",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/witch1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/witch1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/witch2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/witch2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/witch2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/witch3.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/witch3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/witch4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/witch4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/witch5.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/witch5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/witch6.webp",
+      "hotspots": [
+        {
+          "x": 822,
+          "y": 100,
+          "w": 478,
+          "h": 335,
+          "popup": "assets/img/content/witch6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/witch7.webp",
+      "hotspots": []
+    }
+  ]
+}

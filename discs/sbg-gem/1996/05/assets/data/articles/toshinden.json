@@ -1,0 +1,91 @@
+{
+  "id": "toshinden",
+  "title": "Battle Arena: Toshinden",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/batosh1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/batosh1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batosh2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/batosh3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/batosh4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/batosh4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batosh5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/batosh5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batosh6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 740,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/batosh6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batosh7.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/batosh7-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batosh8.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/batosh8-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/batosh9.webp",
+      "hotspots": []
+    }
+  ]
+}

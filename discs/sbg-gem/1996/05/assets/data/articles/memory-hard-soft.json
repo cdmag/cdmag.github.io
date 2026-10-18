@@ -1,0 +1,38 @@
+{
+  "id": "memory-hard-soft",
+  "title": "Память: Hard или Soft ?",
+  "music": "hardw.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/memory1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/memory2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/memory3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/memory4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/memory4-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/memory4-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

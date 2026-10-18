@@ -1,0 +1,75 @@
+{
+  "id": "syndicate-wars",
+  "title": "Syndicate II : Syndicate Wars",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/synd2_1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/synd2_1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/synd2_2.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 615,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/synd2_2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/synd2_3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/synd2_4.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/synd2_4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/synd2_5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/synd2_6.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/synd2_6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/synd2_7.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/synd2_7-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

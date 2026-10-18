@@ -1,0 +1,159 @@
+{
+  "id": "7th-guest-ru",
+  "title": "7th Guest Russian Edition",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/7guest1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/7guest2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/7guest2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/7guest3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/7guest3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/7guest4.webp",
+      "hotspots": [
+        {
+          "x": 78,
+          "y": 110,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen01.webp"
+        },
+        {
+          "x": 352,
+          "y": 110,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen02.webp"
+        },
+        {
+          "x": 628,
+          "y": 110,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen03.webp"
+        },
+        {
+          "x": 902,
+          "y": 110,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen04.webp"
+        },
+        {
+          "x": 1178,
+          "y": 110,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen05.webp"
+        },
+        {
+          "x": 78,
+          "y": 315,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen06.webp"
+        },
+        {
+          "x": 352,
+          "y": 315,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen07.webp"
+        },
+        {
+          "x": 628,
+          "y": 315,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen08.webp"
+        },
+        {
+          "x": 902,
+          "y": 315,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen09.webp"
+        },
+        {
+          "x": 1178,
+          "y": 315,
+          "w": 270,
+          "h": 195,
+          "popup": "assets/img/content/7guest4-screen10.webp"
+        },
+        {
+          "x": 210,
+          "y": 598,
+          "w": 302,
+          "h": 235,
+          "popup": "assets/img/content/7guest4-screen11.webp"
+        },
+        {
+          "x": 505,
+          "y": 600,
+          "w": 310,
+          "h": 232,
+          "popup": "assets/img/content/7guest4-screen12.webp"
+        },
+        {
+          "x": 810,
+          "y": 600,
+          "w": 305,
+          "h": 235,
+          "popup": "assets/img/content/7guest4-screen13.webp"
+        },
+        {
+          "x": 1108,
+          "y": 595,
+          "w": 305,
+          "h": 240,
+          "popup": "assets/img/content/7guest4-screen14.webp"
+        },
+        {
+          "x": 340,
+          "y": 842,
+          "w": 308,
+          "h": 235,
+          "popup": "assets/img/content/7guest4-screen15.webp"
+        },
+        {
+          "x": 638,
+          "y": 842,
+          "w": 305,
+          "h": 238,
+          "popup": "assets/img/content/7guest4-screen16.webp"
+        },
+        {
+          "x": 938,
+          "y": 845,
+          "w": 305,
+          "h": 235,
+          "popup": "assets/img/content/7guest4-screen17.webp"
+        }
+      ]
+    }
+  ]
+}

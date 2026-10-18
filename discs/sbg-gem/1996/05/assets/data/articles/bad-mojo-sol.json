@@ -1,0 +1,184 @@
+{
+  "id": "bad-mojo-sol",
+  "title": "Bad Mojo (Solution)",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/badmjo01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmjo02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmjo03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmjo04.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmjo04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo05.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo06.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo07.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/badmjo07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo08.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo08-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo08-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmjo10.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/badmjo10-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo11.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/badmjo11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo12.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo12-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo12-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo13.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmjo13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo14.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmjo14-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo15.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo15-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/badmjo15-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmjo16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmjo17.webp",
+      "hotspots": []
+    }
+  ]
+}

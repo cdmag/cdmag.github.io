@@ -1,0 +1,23 @@
+{
+  "id": "staroe-dobroe",
+  "title": "Старое доброе",
+  "music": "old.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/dtrack1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/dtrack2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/dtrack3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/dtrack4.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "conquest-new-world",
+  "title": "Conquest Of The New World",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/cnworld1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnworld2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/cnworld2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/cnworld3.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/cnworld3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/cnworld4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/cnworld4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/cnworld5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnworld6.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/cnworld6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/cnworld7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/cnworld7-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

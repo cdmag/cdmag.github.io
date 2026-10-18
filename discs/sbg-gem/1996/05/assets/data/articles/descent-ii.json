@@ -1,0 +1,119 @@
+{
+  "id": "descent-ii",
+  "title": "Descent II",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/descent1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/descent2.webp",
+      "hotspots": [
+        {
+          "x": 865,
+          "y": 740,
+          "w": 570,
+          "h": 370,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239099&hash=98d10d5881bc2a12&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent3.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/descent3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/descent4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent5.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/descent5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent6.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/descent6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent7.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/descent7-screen1.webp"
+        },
+        {
+          "x": 865,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/descent7-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent8.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 240,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/descent8-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/descent9.webp",
+      "hotspots": [
+        {
+          "x": 865,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/descent9-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

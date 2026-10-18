@@ -1,0 +1,38 @@
+{
+  "id": "7th-legion",
+  "title": "7Th Legion",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/7leg1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 715,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/7leg1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/7leg2.webp",
+      "hotspots": [
+        {
+          "x": 52,
+          "y": 115,
+          "w": 495,
+          "h": 370,
+          "popup": "assets/img/content/7leg2-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 65,
+          "w": 495,
+          "h": 370,
+          "popup": "assets/img/content/7leg2-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

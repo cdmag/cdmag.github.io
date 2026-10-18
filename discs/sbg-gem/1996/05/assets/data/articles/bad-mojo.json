@@ -1,0 +1,71 @@
+{
+  "id": "bad-mojo",
+  "title": "Bad Mojo",
+  "music": "adv.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/badmojo1.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmojo1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmojo2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmojo3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmojo3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmojo4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmojo5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmojo5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmojo6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/badmojo7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/badmojo7-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/badmojo8.webp",
+      "hotspots": []
+    }
+  ]
+}

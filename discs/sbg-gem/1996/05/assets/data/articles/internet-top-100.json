@@ -1,0 +1,14 @@
+{
+  "id": "internet-top-100",
+  "title": "INTERNET TOP 100",
+  "music": "news.opus",
+  "mode": "scroll",
+  "pages": [
+    {
+      "image": "assets/img/content/top100_5.webp",
+      "width": 640,
+      "height": 1850,
+      "hotspots": []
+    }
+  ]
+}

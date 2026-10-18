@@ -1,0 +1,97 @@
+{
+  "id": "stonekeep",
+  "title": "Stonekeep",
+  "music": "rpg.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/stone1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/stone2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/stone2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/stone2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/stone3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/stone3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/stone4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/stone4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/stone5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/stone5-screen1.webp"
+        },
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/stone5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/stone6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/stone6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/stone7.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/stone7-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

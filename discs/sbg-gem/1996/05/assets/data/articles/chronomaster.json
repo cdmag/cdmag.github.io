@@ -1,0 +1,163 @@
+{
+  "id": "chronomaster",
+  "title": "Chronomaster",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/chrono01.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chrono01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono03.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono04.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chrono04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono06.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chrono06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono09.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 290,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chrono09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono11.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chrono11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono15.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chrono15-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono18.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono19.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chrono19-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chrono22.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 290,
+          "w": 470,
+          "h": 370,
+          "popup": "assets/img/content/chrono22-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chrono23.webp",
+      "hotspots": []
+    }
+  ]
+}

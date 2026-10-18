@@ -1,0 +1,72 @@
+{
+  "id": "granprix-ii",
+  "title": "GranPrix II",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/granp1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239095&hash=bb134d3a2d8c03c2&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/granp2.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/granp2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/granp3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/granp4.webp",
+      "hotspots": [
+        {
+          "x": 52,
+          "y": 90,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/granp4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/granp5.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 740,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/granp5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/granp6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/granp7.webp",
+      "hotspots": []
+    }
+  ]
+}

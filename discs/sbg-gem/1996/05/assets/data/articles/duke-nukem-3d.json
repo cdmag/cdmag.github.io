@@ -1,0 +1,147 @@
+{
+  "id": "duke-nukem-3d",
+  "title": "Duke Nukem 3D",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/duke_01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/duke_02.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_02-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_03.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_04.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/duke_04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_05.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 740,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/duke_05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_06.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_07.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_08.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_09.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_10.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_10-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_11.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/duke_11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_12.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 740,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/duke_12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/duke_13.webp",
+      "hotspots": []
+    }
+  ]
+}

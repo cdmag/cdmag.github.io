@@ -1,0 +1,12 @@
+{
+  "id": "tainy-500",
+  "title": "Тайны 500 игр",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/adv_sol.webp",
+      "hotspots": []
+    }
+  ]
+}

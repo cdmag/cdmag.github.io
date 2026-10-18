@@ -1,0 +1,19 @@
+{
+  "id": "comtek",
+  "title": "Кровавая резня на ComTek'e!",
+  "music": "edit.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/work0.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/work1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/work2.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "total-mayhem",
+  "title": "Total Mayhem",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/mayhem1.webp",
+      "hotspots": [
+        {
+          "x": 1070,
+          "y": 315,
+          "w": 470,
+          "h": 335,
+          "popup": "assets/img/content/mayhem1-screen1.webp"
+        },
+        {
+          "x": 558,
+          "y": 770,
+          "w": 475,
+          "h": 338,
+          "popup": "assets/img/content/mayhem1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/mayhem2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/mayhem3-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/mayhem3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/mayhem5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/mayhem5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem6.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/mayhem6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem7.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/mayhem7-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/mayhem7-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem8.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/mayhem8-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/mayhem9.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/mayhem9-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

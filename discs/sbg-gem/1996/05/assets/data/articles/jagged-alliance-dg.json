@@ -1,0 +1,50 @@
+{
+  "id": "jagged-alliance-dg",
+  "title": "Jagged Alliance : Deadly Games",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/jagal1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/jagal1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/jagal2.webp",
+      "hotspots": [
+        {
+          "x": 52,
+          "y": 90,
+          "w": 482,
+          "h": 420,
+          "popup": "assets/img/content/jagal2-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/jagal2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/jagal3.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/jagal3-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

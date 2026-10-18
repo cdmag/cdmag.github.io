@@ -1,0 +1,59 @@
+{
+  "id": "abuse",
+  "title": "Abuse",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/abuse1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/abuse2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/abuse3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/abuse4.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 540,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/abuse4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/abuse5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/abuse6.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/abuse6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/abuse7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/abuse7-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

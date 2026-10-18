@@ -1,0 +1,212 @@
+{
+  "id": "torins-passage-sol",
+  "title": "Torin's Passage (Solution)",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/torin01.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 365,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/torin03.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 290,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/torin03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin04.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin05.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin05-screen1.webp"
+        },
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin05-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/torin07.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/torin07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/torin09.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin10.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/torin10-screen1.webp"
+        },
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin10-screen2.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin10-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin11.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/torin11-screen1.webp"
+        },
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin11-screen2.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin11-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin12.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin12-screen1.webp"
+        },
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin12-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin13.webp",
+      "hotspots": [
+        {
+          "x": 40,
+          "y": 758,
+          "w": 488,
+          "h": 348,
+          "popup": "assets/img/content/torin13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin14.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 190,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/torin14-screen1.webp"
+        },
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin14-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/torin15.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/torin15-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

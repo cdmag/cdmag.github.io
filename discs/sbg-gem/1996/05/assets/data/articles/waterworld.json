@@ -1,0 +1,15 @@
+{
+  "id": "waterworld",
+  "title": "WaterWorld",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/wworld1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wworld2.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "max",
+  "title": "M.A.X.: Mechanized Assault & Exploration",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/max1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/max1-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/max1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/max2.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 320,
+          "popup": "assets/img/content/max2-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 415,
+          "w": 482,
+          "h": 320,
+          "popup": "assets/img/content/max2-screen2.webp"
+        },
+        {
+          "x": 1065,
+          "y": 740,
+          "w": 482,
+          "h": 320,
+          "popup": "assets/img/content/max2-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/max3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/max3-screen1.webp"
+        },
+        {
+          "x": 940,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/max3-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

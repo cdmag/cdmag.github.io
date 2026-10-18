@@ -1,0 +1,11 @@
+{
+  "id": "demo",
+  "title": "Demo",
+  "pages": [
+    {
+      "image": "assets/img/content/demo.webp",
+      "hotspots": []
+    }
+  ],
+  "mode": "ad"
+}

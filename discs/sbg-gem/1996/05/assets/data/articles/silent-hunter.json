@@ -1,0 +1,130 @@
+{
+  "id": "silent-hunter",
+  "title": "Silent Hunter",
+  "music": "sim.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/shunter1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shunter1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shunter2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/shunter3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/shunter3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shunter4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/shunter4-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/shunter4-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shunter5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shunter5-screen1.webp"
+        },
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/shunter5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shunter6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shunter6-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/shunter6-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shunter7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/shunter7-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/shunter8.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 320,
+          "popup": "assets/img/content/shunter8-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 415,
+          "w": 520,
+          "h": 320,
+          "popup": "assets/img/content/shunter8-screen2.webp"
+        },
+        {
+          "x": 990,
+          "y": 740,
+          "w": 520,
+          "h": 320,
+          "popup": "assets/img/content/shunter8-screen3.webp"
+        }
+      ]
+    }
+  ]
+}

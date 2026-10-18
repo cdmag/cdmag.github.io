@@ -1,0 +1,11 @@
+{
+  "id": "ot-redakcii-page",
+  "title": "От редакции",
+  "music": "edit.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/editoria.webp",
+      "hotspots": []
+    }
+  ]
+}

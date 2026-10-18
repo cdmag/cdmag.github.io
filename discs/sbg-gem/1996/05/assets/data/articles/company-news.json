@@ -1,0 +1,31 @@
+{
+  "id": "company-news",
+  "title": "Company News",
+  "music": "news.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/cnews1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnews2.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnews3.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnews4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnews5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/cnews6.webp",
+      "hotspots": []
+    }
+  ]
+}

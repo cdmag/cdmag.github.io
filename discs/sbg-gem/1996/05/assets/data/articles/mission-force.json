@@ -1,0 +1,55 @@
+{
+  "id": "mission-force",
+  "title": "Mission Force: CyberStorm",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/cyber1.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 790,
+          "w": 520,
+          "h": 320,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239096&hash=544fe6d91325ccc2&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/cyber2.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/cyber2-screen1.webp"
+        },
+        {
+          "x": 540,
+          "y": 690,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/cyber2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/cyber3.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 440,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/cyber3-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

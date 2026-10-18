@@ -1,0 +1,11 @@
+{
+  "id": "email",
+  "title": "E-mail",
+  "music": "edit.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/mail.webp",
+      "hotspots": []
+    }
+  ]
+}

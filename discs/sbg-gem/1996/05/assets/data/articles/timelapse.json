@@ -1,0 +1,59 @@
+{
+  "id": "timelapse",
+  "title": "TimeLapse",
+  "music": "sol.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/timlaps1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/timlaps1-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/timlaps1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/timlaps2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 420,
+          "h": 320,
+          "popup": "assets/img/content/timlaps2-screen1.webp"
+        },
+        {
+          "x": 540,
+          "y": 90,
+          "w": 420,
+          "h": 320,
+          "popup": "assets/img/content/timlaps2-screen2.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 420,
+          "h": 320,
+          "popup": "assets/img/content/timlaps2-screen3.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/timlaps2-screen4.webp"
+        }
+      ]
+    }
+  ]
+}

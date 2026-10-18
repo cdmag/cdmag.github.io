@@ -1,0 +1,292 @@
+{
+  "id": "game-news",
+  "title": "News",
+  "music": "news.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/news01.webp",
+      "hotspots": [
+        {
+          "x": 40,
+          "y": 530,
+          "w": 510,
+          "h": 370,
+          "popup": "assets/img/content/news01-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 525,
+          "w": 505,
+          "h": 365,
+          "popup": "assets/img/content/news01-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news02.webp",
+      "hotspots": [
+        {
+          "x": 550,
+          "y": 610,
+          "w": 510,
+          "h": 370,
+          "popup": "assets/img/content/news02-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news03.webp",
+      "hotspots": [
+        {
+          "x": 40,
+          "y": 135,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/news03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news04.webp",
+      "hotspots": [
+        {
+          "x": 545,
+          "y": 100,
+          "w": 520,
+          "h": 355,
+          "popup": "assets/img/content/news04-screen1.webp"
+        },
+        {
+          "x": 1060,
+          "y": 680,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/news04-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news05.webp",
+      "hotspots": [
+        {
+          "x": 1055,
+          "y": 100,
+          "w": 520,
+          "h": 355,
+          "popup": "assets/img/content/news05-screen1.webp"
+        },
+        {
+          "x": 40,
+          "y": 530,
+          "w": 515,
+          "h": 370,
+          "popup": "assets/img/content/news05-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news06.webp",
+      "hotspots": [
+        {
+          "x": 40,
+          "y": 530,
+          "w": 515,
+          "h": 370,
+          "popup": "assets/img/content/news06-screen1.webp"
+        },
+        {
+          "x": 1060,
+          "y": 525,
+          "w": 510,
+          "h": 370,
+          "popup": "assets/img/content/news06-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news07.webp",
+      "hotspots": [
+        {
+          "x": 1060,
+          "y": 100,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/news07-screen1.webp"
+        },
+        {
+          "x": 1055,
+          "y": 735,
+          "w": 525,
+          "h": 395,
+          "popup": "assets/img/content/news07-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news08.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 485,
+          "w": 515,
+          "h": 370,
+          "popup": "assets/img/content/news08-screen1.webp"
+        },
+        {
+          "x": 1055,
+          "y": 725,
+          "w": 520,
+          "h": 375,
+          "popup": "assets/img/content/news08-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news09.webp",
+      "hotspots": [
+        {
+          "x": 40,
+          "y": 100,
+          "w": 520,
+          "h": 365,
+          "popup": "assets/img/content/news09-screen1.webp"
+        },
+        {
+          "x": 1055,
+          "y": 730,
+          "w": 520,
+          "h": 400,
+          "popup": "assets/img/content/news09-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/news11.webp",
+      "hotspots": [
+        {
+          "x": 1055,
+          "y": 735,
+          "w": 510,
+          "h": 395,
+          "popup": "assets/img/content/news11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news12.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 100,
+          "w": 515,
+          "h": 355,
+          "popup": "assets/img/content/news12-screen1.webp"
+        },
+        {
+          "x": 550,
+          "y": 740,
+          "w": 550,
+          "h": 365,
+          "popup": "assets/img/content/news12-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news13.webp",
+      "hotspots": [
+        {
+          "x": 550,
+          "y": 735,
+          "w": 525,
+          "h": 370,
+          "popup": "assets/img/content/news13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news14.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 440,
+          "w": 505,
+          "h": 370,
+          "popup": "assets/img/content/news14-screen1.webp"
+        },
+        {
+          "x": 25,
+          "y": 735,
+          "w": 540,
+          "h": 370,
+          "popup": "assets/img/content/news14-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news15.webp",
+      "hotspots": [
+        {
+          "x": 545,
+          "y": 100,
+          "w": 520,
+          "h": 355,
+          "popup": "assets/img/content/news15-screen1.webp"
+        },
+        {
+          "x": 1055,
+          "y": 735,
+          "w": 525,
+          "h": 395,
+          "popup": "assets/img/content/news15-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news16.webp",
+      "hotspots": [
+        {
+          "x": 550,
+          "y": 740,
+          "w": 510,
+          "h": 365,
+          "popup": "assets/img/content/news16-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news17.webp",
+      "hotspots": [
+        {
+          "x": 1060,
+          "y": 100,
+          "w": 520,
+          "h": 360,
+          "popup": "assets/img/content/news17-screen1.webp"
+        },
+        {
+          "x": 35,
+          "y": 310,
+          "w": 535,
+          "h": 370,
+          "popup": "assets/img/content/news17-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/news18.webp",
+      "hotspots": [
+        {
+          "x": 550,
+          "y": 435,
+          "w": 510,
+          "h": 375,
+          "popup": "assets/img/content/news18-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pulse",
+  "title": "Пульс / Телетрейд / Технология",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/pulse.webp",
+      "hotspots": []
+    }
+  ]
+}

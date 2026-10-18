@@ -1,0 +1,55 @@
+{
+  "id": "russian-roulette",
+  "title": "Русская Рулетка",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/buka.webp",
+      "hotspots": [
+        {
+          "x": 882,
+          "y": 2,
+          "w": 358,
+          "h": 258,
+          "popup": "assets/img/content/buka-screen1.webp"
+        },
+        {
+          "x": 1240,
+          "y": 2,
+          "w": 358,
+          "h": 258,
+          "popup": "assets/img/content/buka-screen2.webp"
+        },
+        {
+          "x": 882,
+          "y": 255,
+          "w": 358,
+          "h": 258,
+          "popup": "assets/img/content/buka-screen3.webp"
+        },
+        {
+          "x": 1240,
+          "y": 255,
+          "w": 358,
+          "h": 258,
+          "popup": "assets/img/content/buka-screen4.webp"
+        },
+        {
+          "x": 882,
+          "y": 508,
+          "w": 358,
+          "h": 258,
+          "popup": "assets/img/content/buka-screen5.webp"
+        },
+        {
+          "x": 1238,
+          "y": 508,
+          "w": 358,
+          "h": 258,
+          "popup": "assets/img/content/buka-screen6.webp"
+        }
+      ]
+    }
+  ]
+}

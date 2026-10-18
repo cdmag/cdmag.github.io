@@ -1,0 +1,102 @@
+{
+  "id": "civilization-ii",
+  "title": "Civilization II",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/civil2_1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/civil2_2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/civil2_2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/civil2_3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/civil2_3-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/civil2_3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/civil2_4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 365,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/civil2_4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/civil2_5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/civil2_5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/civil2_6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/civil2_6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/civil2_7.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/civil2_7-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/civil2_8.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/civil2_8-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "warcraft-ii",
+  "title": "Warcraft II: Tides of Darkness",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/wcraft01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft03.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft04.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft06.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/wcraft06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft08.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft15.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft15-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft15-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft18.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft18-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft18-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft19.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft22.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft23.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft24.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/wcraft24-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft25.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/wcraft25-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft26.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wcraft27.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/wcraft27-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft28.webp",
+      "hotspots": [
+        {
+          "x": 668,
+          "y": 760,
+          "w": 470,
+          "h": 342,
+          "popup": "assets/img/content/wcraft28-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wcraft29.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "xwing-vs-tie",
+  "title": "X-Wing vs TIE Fighter",
+  "music": "xwing.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/tie2_01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/tie2_02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/tie2_03.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/tie2_03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_04.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/tie2_04-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/tie2_04-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_05.webp",
+      "hotspots": [
+        {
+          "x": 490,
+          "y": 440,
+          "w": 520,
+          "h": 395,
+          "popup": "assets/img/content/tie2_05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/tie2_07.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/tie2_07-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 740,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/tie2_07-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_08.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/tie2_08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_09.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 440,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/tie2_09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_10.webp",
+      "hotspots": [
+        {
+          "x": 228,
+          "y": 240,
+          "w": 545,
+          "h": 408,
+          "popup": "assets/img/content/tie2_10-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_11.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 490,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/tie2_11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/tie2_12.webp",
+      "hotspots": [
+        {
+          "x": 65,
+          "y": 90,
+          "w": 470,
+          "h": 382,
+          "popup": "assets/img/content/tie2_12-screen1.webp"
+        },
+        {
+          "x": 570,
+          "y": 725,
+          "w": 468,
+          "h": 330,
+          "popup": "assets/img/content/tie2_12-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

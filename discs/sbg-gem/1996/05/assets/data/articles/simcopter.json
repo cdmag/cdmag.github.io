@@ -1,0 +1,38 @@
+{
+  "id": "simcopter",
+  "title": "SimCopter",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/scopter1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/scopter1-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/scopter1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/scopter2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 740,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/scopter2-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

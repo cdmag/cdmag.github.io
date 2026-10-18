@@ -1,0 +1,123 @@
+{
+  "id": "pandora-directive",
+  "title": "Pandora Directive",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/pandora1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/pandora2.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 440,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pandora3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora3-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pandora4.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/pandora4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pandora5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/pandora5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pandora6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/pandora6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pandora7.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora7-screen1.webp"
+        },
+        {
+          "x": 940,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora7-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/pandora8.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/pandora8-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 740,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/pandora8-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

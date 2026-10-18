@@ -1,0 +1,35 @@
+{
+  "id": "trophy-bass",
+  "title": "Trophy Bass",
+  "music": "strat.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/trophy1.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/trophy1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/trophy2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/trophy2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/trophy3.webp",
+      "hotspots": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "chronicles-sword",
+  "title": "Chronicles of the Sword",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/chron1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron1-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chron2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/chron2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chron3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron3-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chron4.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/chron5.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 690,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/chron5-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chron6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chron7.webp",
+      "hotspots": [
+        {
+          "x": 55,
+          "y": 465,
+          "w": 478,
+          "h": 340,
+          "popup": "assets/img/content/chron7-screen1.webp"
+        },
+        {
+          "x": 1068,
+          "y": 462,
+          "w": 478,
+          "h": 345,
+          "popup": "assets/img/content/chron7-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/chron8.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron8-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/chron8-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "krylya",
+  "title": "Крылья",
+  "music": "hardw.opus",
+  "mode": "ad",
+  "pages": [
+    {
+      "image": "assets/img/content/wings.webp",
+      "hotspots": []
+    }
+  ]
+}

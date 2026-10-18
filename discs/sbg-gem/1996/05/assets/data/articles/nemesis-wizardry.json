@@ -1,0 +1,45 @@
+{
+  "id": "nemesis-wizardry",
+  "title": "Nemesis : The Wizardry Adventure",
+  "music": "proj.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/nemesis1.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 115,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/nemesis1-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 690,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/nemesis1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/nemesis2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 115,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/nemesis2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/nemesis2-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

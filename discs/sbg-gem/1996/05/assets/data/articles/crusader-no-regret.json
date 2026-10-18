@@ -1,0 +1,57 @@
+{
+  "id": "crusader-no-regret",
+  "title": "Crusader : No Regret",
+  "music": "crus.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/crus2_1.webp",
+      "hotspots": [
+        {
+          "x": 702,
+          "y": 252,
+          "w": 470,
+          "h": 395,
+          "popup": "assets/img/content/crus2_1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/crus2_2.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 78,
+          "w": 495,
+          "h": 358,
+          "popup": "assets/img/content/crus2_2-screen1.webp"
+        },
+        {
+          "x": 540,
+          "y": 678,
+          "w": 495,
+          "h": 382,
+          "popup": "assets/img/content/crus2_2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/crus2_3.webp",
+      "hotspots": [
+        {
+          "x": 52,
+          "y": 102,
+          "w": 495,
+          "h": 358,
+          "popup": "assets/img/content/crus2_3-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 102,
+          "w": 495,
+          "h": 358,
+          "popup": "assets/img/content/crus2_3-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "bermuda-syndrome",
+  "title": "Bermuda Syndrome",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/bermud1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/bermud2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239098&hash=1b4eab33966f399e&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/bermud2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bermud3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/bermud3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bermud4.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/bermud4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bermud5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/bermud5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 490,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/bermud5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/bermud6.webp",
+      "hotspots": [
+        {
+          "x": 190,
+          "y": 615,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/bermud6-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

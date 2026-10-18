@@ -1,0 +1,195 @@
+{
+  "id": "11th-hour",
+  "title": "The 11th Hour",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/11hour01.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/11hour01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/11hour02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour03.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/11hour03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/11hour04.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour06.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour09.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour11.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/11hour11-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/11hour12.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour13.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour15.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour18.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour19.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour22.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour23.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour24.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour25.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour26.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour27.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour28.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour29.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour30.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour31.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 190,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/11hour31-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/11hour32.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour33.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/11hour33-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/11hour34.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/11hour35.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/11hour35-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

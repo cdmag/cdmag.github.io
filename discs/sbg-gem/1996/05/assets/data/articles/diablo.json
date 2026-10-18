@@ -1,0 +1,115 @@
+{
+  "id": "diablo",
+  "title": "Diablo",
+  "music": "diablo.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/diabl01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/diabl02.webp",
+      "hotspots": [
+        {
+          "x": 565,
+          "y": 465,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/diabl02-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl03.webp",
+      "hotspots": [
+        {
+          "x": 565,
+          "y": 428,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/diabl03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl04.webp",
+      "hotspots": [
+        {
+          "x": 52,
+          "y": 78,
+          "w": 495,
+          "h": 358,
+          "popup": "assets/img/content/diabl04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl05.webp",
+      "hotspots": [
+        {
+          "x": 565,
+          "y": 415,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/diabl05-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl06.webp",
+      "hotspots": [
+        {
+          "x": 45,
+          "y": 202,
+          "w": 420,
+          "h": 358,
+          "popup": "assets/img/content/diabl06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/diabl08.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 78,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/diabl08-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl09.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 728,
+          "w": 482,
+          "h": 358,
+          "popup": "assets/img/content/diabl09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/diabl10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/diabl11.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 102,
+          "w": 482,
+          "h": 345,
+          "popup": "assets/img/content/diabl11-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

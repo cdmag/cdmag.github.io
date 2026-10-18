@@ -1,0 +1,177 @@
+{
+  "id": "simon-sorcerer-2",
+  "title": "Simon The Sorcerer II",
+  "music": "sol_new.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/simn2_01.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_03.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_04.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 290,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_04-screen1.webp"
+        },
+        {
+          "x": 888,
+          "y": 762,
+          "w": 480,
+          "h": 340,
+          "popup": "assets/img/content/simn2_04-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_06.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_07.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_09.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 490,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_10.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_11.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_12.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_12-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_13.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_13-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_14.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_15.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_16.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_17.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_18.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_18-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/simn2_19.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_20.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_21.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_22.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/simn2_23.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_23-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/simn2_23-screen2.webp"
+        }
+      ]
+    }
+  ]
+}

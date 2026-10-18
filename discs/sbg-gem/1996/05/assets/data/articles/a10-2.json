@@ -1,0 +1,78 @@
+{
+  "id": "a10-2",
+  "title": "A-10 II: Silent Thunder",
+  "music": "sim.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/a-10_1.webp",
+      "hotspots": [
+        {
+          "x": 540,
+          "y": 190,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/a-10_1-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/a-10_1-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/a-10_2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/a-10_2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/a-10_2-screen2.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 482,
+          "h": 370,
+          "popup": "assets/img/content/a-10_2-screen3.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/a-10_3.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 90,
+          "w": 482,
+          "h": 320,
+          "popup": "assets/img/content/a-10_3-screen1.webp"
+        },
+        {
+          "x": 1065,
+          "y": 415,
+          "w": 482,
+          "h": 320,
+          "popup": "assets/img/content/a-10_3-screen2.webp"
+        },
+        {
+          "x": 1065,
+          "y": 740,
+          "w": 482,
+          "h": 320,
+          "popup": "assets/img/content/a-10_3-screen3.webp"
+        }
+      ]
+    }
+  ]
+}

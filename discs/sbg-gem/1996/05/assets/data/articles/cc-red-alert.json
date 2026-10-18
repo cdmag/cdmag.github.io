@@ -1,0 +1,103 @@
+{
+  "id": "cc-red-alert",
+  "title": "Command & Conquer : Red Alert",
+  "music": "c_c.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/ralert01.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 715,
+          "w": 482,
+          "h": 382,
+          "popup": "assets/img/content/ralert01-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ralert02.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/ralert03.webp",
+      "hotspots": [
+        {
+          "x": 565,
+          "y": 678,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/ralert03-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ralert04.webp",
+      "hotspots": [
+        {
+          "x": 565,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/ralert04-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ralert05.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/ralert06.webp",
+      "hotspots": [
+        {
+          "x": 52,
+          "y": 115,
+          "w": 495,
+          "h": 382,
+          "popup": "assets/img/content/ralert06-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ralert07.webp",
+      "hotspots": [
+        {
+          "x": 1065,
+          "y": 490,
+          "w": 482,
+          "h": 358,
+          "popup": "assets/img/content/ralert07-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ralert08.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/ralert09.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 378,
+          "w": 495,
+          "h": 370,
+          "popup": "assets/img/content/ralert09-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/ralert10.webp",
+      "hotspots": [
+        {
+          "x": 340,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/ralert10-screen1.webp"
+        }
+      ]
+    }
+  ]
+}

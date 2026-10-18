@@ -1,0 +1,101 @@
+{
+  "id": "revolution-x",
+  "title": "Revolution X",
+  "music": "rev-x.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/revx1.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/revx2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "video": {
+            "src": "https://vkvideo.ru/video_ext.php?oid=-240437459&id=456239105&hash=5b9c152c0c22dd82&hd=3&autoplay=1",
+            "width": 1280,
+            "height": 720,
+            "sound": false
+          }
+        },
+        {
+          "x": 990,
+          "y": 240,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/revx2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/revx3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/revx3-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/revx3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/revx4.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/revx4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/revx5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/revx5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/revx5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/revx6.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 190,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/revx6-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/revx7.webp",
+      "hotspots": []
+    }
+  ]
+}

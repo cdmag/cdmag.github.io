@@ -1,0 +1,67 @@
+{
+  "id": "wwf-wrestling",
+  "title": "Все тайны WWF Wrestling Mania",
+  "music": "act.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/wmania1.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 365,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/wmania1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wmania2.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 90,
+          "w": 570,
+          "h": 395,
+          "popup": "assets/img/content/wmania2-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wmania3.webp",
+      "hotspots": [
+        {
+          "x": 440,
+          "y": 740,
+          "w": 570,
+          "h": 370,
+          "popup": "assets/img/content/wmania3-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wmania4.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/wmania4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/wmania5.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wmania6.webp",
+      "hotspots": []
+    },
+    {
+      "image": "assets/img/content/wmania7.webp",
+      "hotspots": []
+    }
+  ]
+}

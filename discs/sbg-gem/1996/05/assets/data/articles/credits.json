@@ -1,0 +1,11 @@
+{
+  "id": "credits",
+  "title": "Credits",
+  "music": "https://pub-458fa612ee1e4b929955e64ec40245a2.r2.dev/music/sbg-gem/1995/02-03/credits.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/credits.webp",
+      "hotspots": []
+    }
+  ]
+}

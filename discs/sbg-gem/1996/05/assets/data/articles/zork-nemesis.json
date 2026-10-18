@@ -1,0 +1,100 @@
+{
+  "id": "zork-nemesis",
+  "title": "Zork Nemesis",
+  "music": "adv.opus",
+  "pages": [
+    {
+      "image": "assets/img/content/zork1.webp",
+      "hotspots": [
+        {
+          "x": 990,
+          "y": 365,
+          "w": 520,
+          "h": 382,
+          "popup": "assets/img/content/zork1-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/zork2.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork2-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 90,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork2-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/zork3.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 190,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork3-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 615,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork3-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/zork4.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork4-screen1.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/zork5.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork5-screen1.webp"
+        },
+        {
+          "x": 990,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork5-screen2.webp"
+        }
+      ]
+    },
+    {
+      "image": "assets/img/content/zork6.webp",
+      "hotspots": [
+        {
+          "x": 90,
+          "y": 690,
+          "w": 520,
+          "h": 370,
+          "popup": "assets/img/content/zork6-screen1.webp"
+        }
+      ]
+    }
+  ]
+}
