@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<script>try{if(!sessionStorage.getItem("mega-1999-05-splash"))document.documentElement.classList.add("splash")}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MegaGame 1999 №5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="stage">
+<div id="main">
+  <div id="bg"></div>
+  <img class="btn" data-icon="video" data-hint='Перейти в раздел "Видеосалон"' alt="" draggable="false" style="--x:67;--y:416;--w:354;--h:352">
+  <img class="btn" data-icon="demo" data-hint='Перейти в раздел "Демоверсии"' alt="" draggable="false" style="--x:479;--y:426;--w:320;--h:300">
+  <img class="btn" data-icon="patches" data-hint='Перейти в раздел "Patches"' alt="" draggable="false" style="--x:857;--y:418;--w:322;--h:346">
+  <img class="btn" data-icon="utils" data-hint='Перейти в раздел "Полезные программы"' alt="" draggable="false" style="--x:1231;--y:426;--w:300;--h:308">
+  <img class="btn" data-icon="our" data-hint="Наши издания" alt="" draggable="false" style="--x:3;--y:1066;--w:132;--h:132">
+  <img class="btn" data-icon="about" data-hint="Авторы" alt="" draggable="false" style="--x:1469;--y:1068;--w:132;--h:132">
+  <img class="ban" src="../../shared/img/bn1.webp" data-url="https://web.archive.org/web/199905/www.submarine.ru" data-hint="Перейти на сайт www.submarine.ru" alt="" draggable="false" style="--x:333;--y:880;--w:936;--h:120">
+  <img class="ban" src="../../shared/img/bn2.webp" data-url="https://web.archive.org/web/199905/www.gamecenter.ru" data-hint="Перейти на сайт www.gamecenter.ru" alt="" draggable="false" style="--x:333;--y:1044;--w:936;--h:120">
+</div>
+<div id="video">
+  <div id="vbg"></div>
+  <img id="back" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="list"></div>
+  <div id="det">
+    <div id="shot"></div>
+    <div id="shotcap"></div>
+    <div id="dtitle" class="dt"></div>
+    <div id="dpub" class="dt"></div>
+    <div id="durl" class="dt"></div>
+    <div id="ddesc" class="dt"></div>
+    <img id="play" class="btn" data-icon="play_video" data-hint="Посмотреть видеофрагмент" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="demo">
+  <div id="dbg"></div>
+  <img id="dback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="dlist"></div>
+  <div id="ddet">
+    <div id="dshot"></div>
+    <div id="dshot2"></div>
+    <div id="dshotcap"></div>
+    <div id="dtext"></div>
+    <img id="inst" class="btn" data-icon="install_demo" data-hint="Установить демоверсию" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="patch">
+  <div id="pbg"></div>
+  <img id="pback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="pver"></div>
+  <div id="plist"></div>
+  <div id="pdet">
+    <div id="ptext"></div>
+    <img id="pinst" class="btn" data-icon="install_patch" data-hint="Установить patch" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="util">
+  <div id="ubg"></div>
+  <img id="uback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="ulist"></div>
+  <div id="udet">
+    <div id="utext"></div>
+    <img id="uinst" class="btn" data-icon="install_util" data-hint="Установка программы" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="our">
+  <div id="obg"></div>
+  <img id="oback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="ointro"></div>
+  <div id="otext"></div>
+  <div id="oimg"></div>
+  <div id="oimgcap"></div>
+</div>
+<div id="about">
+  <div id="abg"></div>
+  <div id="acl" class="acol"></div>
+  <div id="acr" class="acol"></div>
+  <div id="amm"></div>
+  <div id="ath"></div>
+</div>
+  <img id="music" class="icon" alt="" draggable="false">
+  <img id="exit" class="icon" alt="" draggable="false">
+  <div id="hint"></div>
+</div>
+<div id="fs"><div id="fsimg"></div></div>
+<div id="spl"><div id="splimg"></div></div>
+<div id="pl"></div>
+<div id="pm"><div>Все файлы доступны в образе диска</div></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
