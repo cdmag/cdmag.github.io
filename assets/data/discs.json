@@ -875,5 +875,25 @@
     "webamp_tracks": [],
     "note": "17 оцифровка. Первый диск MegaGame! Не хотел браться из-за Macromedia Director, но оказалось, что сконвертировать ассеты вполне реально.",
     "viewpage_description": "Диск журнала MegaGame, пятый номер 1999 года, собрал в одной оболочке то, что тогда интересовало любого игрока. Здесь демоверсии Descent 3, Kingpin, Aliens vs Predator, X-Wing Alliance, Worms Armageddon и Roller Coaster Tycoon, видеоролики Shogun, Rainbow Six: Eagle Watch и Star Trek: Starfleet Command, а также патчи для Half-Life, Heroes of Might and Magic III, Sin и Blood II. Есть и полезные программы: DirectX 6.1, Winamp, ICQ, WinZip."
+  },
+  {
+    "id": "igromania-1998-09",
+    "added": "2026-10-27",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "igromania",
+    "magazine_title": "Игромания",
+    "year": 1998,
+    "issue": "09",
+    "title": "Игромания №09 (12) — Сентябрь 1998",
+    "path": "discs/igromania/1998/09/index.html",
+    "cover_image": "discs/igromania/1998/09/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Igromania_1998-09/",
+    "disc_image": "discs/igromania/1998/09/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "",
+    "webamp_tracks": [],
+    "note": "18 оцифровка. Третий диск Игромании, оформление разбавили анимацией. Зацените, ролик Heretic 2 выложен в разрешении 160х120 пикселей (для архива я его чуть подтянул). Вот так мы смотрели трейлеры в 98м! Из-за кризиса дальше дисков не будет до 1999 года.",
+    "viewpage_description": "Диск к сентябрьскому номеру «Игромании» за 1998 год — типичный спутник журнала того времени: сразу поставить и пощупать игры, а не только читать о них. В разделе «Играем» собраны демоверсии — от танкового «Panzer Commander» и «Wing Commander» до «Sin» и «Longbow 2»; отдельно вынесен супербонус — полная (доработанная автором) Battlecruiser 3000 AD. Рядом патчи, ролики к грядущим релизам и привычный набор утилит, от антивирусов до WinAMP со скинами."
   }
 ]

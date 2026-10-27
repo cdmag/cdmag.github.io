@@ -1,0 +1,1123 @@
+@font-face {
+      font-family: 'ArimoBoldLocal';
+      src: url('../../../../../shared/fonts/Arimo-Bold.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #000; }
+    .viewport { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+    .stage {
+      position: relative; height: 100%; aspect-ratio: 1600 / 1200; max-width: 100%;
+      background: #fff; overflow: hidden; container-type: inline-size;
+    }
+    .bg {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: fill; pointer-events: none; user-select: none; z-index: 0;
+    }
+    .screen { position: absolute; inset: 0; display: none; z-index: 5; }
+    .screen.active { display: block; }
+
+    .page-num {
+      position: absolute; left: 5.25%; top: 91.5%; width: 3.56%; height: 3.08%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.5cqw; color: #000;
+      display: flex; align-items: center; justify-content: center; z-index: 10;
+    }
+    .exit-label {
+      position: absolute; right: 10.5%; bottom: 2.6%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 3.2cqw; color: #000; letter-spacing: 0.03em; z-index: 15;
+      text-transform: lowercase; cursor: pointer; user-select: none;
+      transform-origin: center bottom;
+      transition: transform 0.12s ease;
+    }
+    .exit-label:hover { transform: scale(1.3); }
+    .nav-next, .nav-prev {
+      position: absolute; bottom: 3.2%; height: 2.2cqw; width: auto;
+      aspect-ratio: 60 / 124; cursor: pointer; z-index: 20;
+    }
+    .nav-next { right: 2.5%; }
+    .nav-prev { right: 5.8%; }
+    .nav-next img, .nav-prev img { height: 100%; width: auto; display: block; }
+    .nav-next:hover, .nav-prev:hover { filter: brightness(1.25); }
+
+    .grow-hover {
+      display: block; width: fit-content;
+      transform-origin: left center; transition: transform 0.12s ease; cursor: pointer;
+    }
+    .grow-hover:hover { transform: scale(1.3); }
+
+    /* CONTENTS */
+    .contents-title {
+      position: absolute; left: 16.2%; top: 4.9%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 5.5cqw; color: #e30613; letter-spacing: -0.01em; line-height: 1;
+      z-index: 5; text-transform: uppercase;
+    }
+    .section { position: absolute; left: 21.875%; width: 56.25%; z-index: 10; }
+    .section .head {
+      display: flex; justify-content: space-between; align-items: flex-end; width: 100%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 3.35cqw; line-height: 1; letter-spacing: 0.01em;
+    
+      opacity: 0;
+    }
+    .section .head.anim-left,
+    .section .head.main-shown { opacity: 1; }
+    .section .head .num { font-size: 1em; flex-shrink: 0; }
+    .section .sub {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.1cqw; color: #000; line-height: 1.5; letter-spacing: 0.02em;
+      text-transform: uppercase; margin-top: 0.75em;
+    }
+    .section .sub .item {
+      display: block; width: fit-content; cursor: pointer;
+      opacity: 0;
+    }
+    .section .sub .item.anim-right,
+    .section .sub .item.main-shown { opacity: 1; }
+    .sec-play { top: 20.0%; } .sec-play .head { color: #0088cc; }
+    .sec-hard { top: 48.15%; } .sec-hard .head { color: #22b14c; }
+    .sec-super { top: 75.9%; } .sec-super .head { color: #c000c0; }
+
+    /* GAMES shared */
+    .games-title {
+      position: absolute; left: 16.2%; top: 4.9%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 5.5cqw; color: #319cff; letter-spacing: -0.01em; line-height: 1;
+      z-index: 5; text-transform: uppercase;
+    }
+    .side-panel {
+      position: absolute; left: 0; width: 19.06%; top: 27.2%; height: 38%;
+      background: #319cff; z-index: 11;
+      transform: translateY(120%);
+      transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
+      overflow: hidden;
+      will-change: transform;
+    }
+    .side-panel.in { transform: translateY(0); }
+    .side-panel.no-anim {
+      transition: none !important;
+      transform: translateY(0) !important;
+    }
+    .side-menu {
+      position: absolute; inset: 0; padding: 8% 4% 4%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      color: #000; text-align: center; line-height: 1.35; text-transform: uppercase; z-index: 12;
+    }
+    .side-menu .sm-item {
+      font-size: 1.7cqw; cursor: pointer; padding: 0.12em 0;
+      transition: color 0.1s ease; color: #000;
+      text-transform: uppercase;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+    }
+    .side-menu .sm-main {
+      font-size: 1.7cqw; margin-top: 0.5em;
+      text-transform: uppercase;
+      color: #000 !important;
+    }
+    .side-menu .sm-main:hover { color: #000 !important; }
+    .side-menu .sm-main.active { color: #fff !important; }
+    .side-menu .sm-sub {
+      font-size: 1.25cqw; line-height: 1.45; margin-top: 0.12em;
+      text-transform: none;
+    }
+    .side-menu .sm-sub .sm-item.sm-winamp {
+      text-transform: none;
+      font-size: 1.45cqw;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif;
+    }
+    .side-menu .sm-sub .sm-item {
+      font-size: 1.25cqw;
+      text-transform: lowercase;
+      color: #000;
+    }
+    .side-menu .sm-sub .sm-item:hover { color: #c41e3a; }
+    .side-menu .sm-sub .sm-item.active { color: #fff; }
+    .side-menu .sm-sub .sm-item.active:hover { color: #c41e3a; }
+
+    .games-list {
+      position: absolute; left: 22%; right: 8%; top: 18%; bottom: 12%; z-index: 10;
+      display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+      gap: 0.35em;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 1.85cqw; color: #000; letter-spacing: 0.04em; text-transform: uppercase;
+      overflow: hidden;
+    }
+    .games-list .game {
+      cursor: pointer; transform-origin: center center; opacity: 0;
+      white-space: nowrap; display: block; width: fit-content;
+    }
+    .games-list .game.from-left { transform: translateX(-120%); }
+    .games-list .game.from-right { transform: translateX(120%); }
+    .games-list .game.visible {
+      opacity: 1; transform: translateX(0);
+      transition: transform 0.35s ease-out, opacity 0.25s ease-out;
+    }
+    .games-list .game.visible:hover {
+      transform: translateX(0) scale(1.3); transition: transform 0.12s ease;
+    }
+    .games-list.hidden { display: none; }
+
+    /* layout lines for page switch */
+
+    /* games_section_enter edge lines @640×480 ×2.5 */
+    /* games_section_enter edges ×2.5
+       L: left0 top25.5 h151  R: right0 full h */
+    .blue-chrome {
+      position: absolute; inset: 0; z-index: 6; pointer-events: none;
+      visibility: hidden;
+    }
+    .blue-chrome.on { visibility: visible; }
+    .blue-chrome .bc-left {
+      position: absolute;
+      left: 0;
+      top: 5.3125%;
+      width: 12.5px;
+      height: 31.458%;
+      background: #319cff;
+      transform: translateY(-150%);
+      transition: none;
+    }
+    .blue-chrome .bc-right {
+      position: absolute;
+      right: 0; top: 0;
+      width: 12.5px;
+      height: 100%;
+      background: #319cff;
+      transform: translateY(150%);
+      transition: none;
+    }
+    .blue-chrome.in .bc-left {
+      transform: translateY(0);
+      transition: transform 0.4s ease-out;
+    }
+    .blue-chrome.in .bc-right {
+      transform: translateY(0);
+      transition: transform 0.5s ease-out 0.12s;
+    }
+
+    /* games_page_switch final frame @ 640x480 ×2.5
+       H: left 134 top 119 w 436 h 2
+       V: left 408 top 102 w 2   h 328
+       H from left, V from bottom */
+    .layout-lines {
+      position: absolute; inset: 0; z-index: 7; pointer-events: none;
+      visibility: hidden;
+    }
+    .layout-lines.show { visibility: visible; }
+    .layout-lines .hline {
+      position: absolute;
+      left: 20.9375%;   /* 134/640 */
+      top: 24.7917%;    /* 119/480 */
+      width: 68.125%;   /* 436/640 */
+      height: 5px;      /* 2×2.5 */
+      background: #319cff;
+      transform: translateX(-110%);
+      transition: transform 0.4s ease-out;
+    }
+    .layout-lines .vline {
+      position: absolute;
+      left: 63.75%;     /* 408/640 */
+      top: 21.25%;      /* 102/480 */
+      width: 5px;       /* 2×2.5 */
+      height: 68.333%;  /* 328/480 */
+      background: #319cff;
+      transform: translateY(110%);
+      transition: transform 0.4s ease-out 0.05s;
+    }
+    .layout-lines.show .hline { transform: translateX(0); }
+    .layout-lines.show .vline { transform: translateY(0); }
+
+    /* DETAIL — text strictly outside the cross */
+    .detail { position: absolute; inset: 0; z-index: 9; pointer-events: none; }
+    .detail .d-install { pointer-events: auto; }
+    /* title ABOVE horizontal line */
+    .detail .d-title {
+      position: absolute;
+      left: 22%; right: 4%;
+      top: 8%;
+      bottom: auto;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.5cqw; color: #000; text-align: center; text-transform: uppercase;
+      letter-spacing: 0.03em;
+      transform: translateY(-150%); opacity: 0;
+      transition: transform 0.5s ease-out, opacity 0.4s ease-out;
+    }
+    /* desc LEFT of vertical, BELOW horizontal */
+    .detail .d-desc {
+      position: absolute;
+      left: 22%;
+      top: 27%;          /* below H at 24.8% */
+      width: 40%;        /* ends before V at 63.75% */
+      max-height: 48%;
+      overflow: hidden;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.45cqw; color: #000; line-height: 1.4;
+      text-align: left;
+      white-space: normal;
+      word-spacing: normal;
+      letter-spacing: normal;
+      transform: translateY(120%); opacity: 0;
+      transition: transform 0.55s ease-out, opacity 0.4s ease-out;
+    }
+    /* info RIGHT of vertical, BELOW horizontal */
+    .detail .d-info {
+      position: absolute;
+      left: 65.5%;       /* right of V at 63.75% */
+      right: 3.5%;
+      top: 27%;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.45cqw; color: #000; line-height: 1.4;
+      text-align: left;
+      transform: translateX(120%); opacity: 0;
+      transition: transform 0.55s ease-out, opacity 0.4s ease-out;
+    }
+    .detail .d-info b {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif;
+      font-weight: 700;
+    }
+    .detail .d-shot {
+      position: absolute;
+      left: 65.5%;
+      top: 52%;
+      width: 390px; height: auto; max-width: 28%;
+      image-rendering: pixelated;
+      transform: translateX(120%); opacity: 0;
+      transition: transform 0.55s ease-out 0.05s, opacity 0.4s ease-out 0.05s;
+    }
+    .detail .d-install {
+      position: absolute;
+      left: 22%;
+      top: 80%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2cqw; color: #000; text-transform: uppercase; letter-spacing: 0.04em;
+      cursor: pointer;
+      transform: translateX(-150%); opacity: 0;
+      transition: transform 0.5s ease-out, opacity 0.4s ease-out;
+    }
+    .detail .d-install:hover { color: #e30613; }
+    .detail.in .d-title { transform: translateY(0); opacity: 1; }
+    .detail.in .d-desc { transform: translateY(0); opacity: 1; }
+    .detail.in .d-info { transform: translateX(0); opacity: 1; }
+    .detail.in .d-shot { transform: translateX(0); opacity: 1; }
+    .detail.in .d-install { transform: translateX(0); opacity: 1; }
+    .detail.instant .d-title,
+    .detail.instant .d-desc,
+    .detail.instant .d-info,
+    .detail.instant .d-shot,
+    .detail.instant .d-install {
+      transition: none !important;
+    }
+
+
+    /* PATCHES */
+    .patches-view {
+      position: absolute; left: 24%; right: 5%; top: 11%; bottom: 9%;
+      z-index: 10; display: none;
+    }
+    .patches-view.show { display: block; }
+    .patches-heading {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.4cqw; color: #000; text-align: center; text-transform: uppercase;
+      letter-spacing: 0.02em; margin-bottom: 0.55em;
+      transform: translateY(80vh); opacity: 0;
+      transition: transform 0.45s ease-out, opacity 0.35s ease-out;
+    }
+    .patches-heading.in { transform: translateY(0); opacity: 1; }
+    .patches-cols {
+      display: grid; grid-template-columns: 1.55fr 1fr; gap: 0.15em 3em;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 1.55cqw; color: #000; line-height: 1.5;
+      position: relative; z-index: 12;
+    }
+    .patches-cols .col-left { text-align: left; padding-left: 1.5%; }
+    .patches-cols .col-right { text-align: right; padding-right: 2%; }
+    .patches-cols .col-right .patch { margin-left: auto; transform-origin: right center; }
+    .patches-cols .col-left .patch { transform-origin: left center; }
+    .patches-cols .patch {
+      cursor: pointer; width: fit-content;
+      opacity: 0;
+      transition: transform 0.4s ease-out, opacity 0.35s ease-out;
+      position: relative; z-index: 12;
+    }
+    .patches-cols .patch.visible { opacity: 1; transform: translate(0,0) !important; }
+    .patches-cols .col-left .patch:hover {
+      transform: scale(1.25) !important;
+      transition: transform 0.12s ease;
+      z-index: 13;
+    }
+    .patches-cols .col-right .patch:hover {
+      transform: scale(1.25) !important;
+      transition: transform 0.12s ease;
+      z-index: 13;
+    }
+    .patch-desc {
+      position: absolute; left: 0; right: 0; bottom: 0;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.7cqw; color: #000; line-height: 1.4;
+      min-height: 4em; pointer-events: none;
+      padding-top: 0.4em;
+    }
+
+
+
+
+    /* green section screen edge chrome (from hard_section_enter) */
+    /* hard_section_enter edge lines @640×480 ×2.5
+       left:  [5,2,4,5,341]   right: [5,637,265,5,538]
+       panel slides up (sidePanelHard) */
+    .green-chrome {
+      position: absolute; inset: 0; z-index: 6; pointer-events: none;
+      visibility: hidden;
+    }
+    .green-chrome.on { visibility: visible; }
+    .green-chrome .gc-left {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 12.5px;
+      height: 71.04%; /* 341/480 */
+      background: #22b14c;
+      transform: translateY(-120%);
+      transition: transform 0.35s ease-out;
+    }
+    .green-chrome .gc-right {
+      position: absolute;
+      right: 0; top: 0;
+      width: 12.5px;
+      height: 100%;
+      background: #22b14c;
+      transform: translateY(120%);
+      transition: transform 0.45s ease-out 0.15s;
+    }
+    .green-chrome.in .gc-left { transform: translateY(0); }
+    .green-chrome.in .gc-right { transform: translateY(0); }
+
+    /* HARD / soft green section */
+    .side-panel.green {
+      background: #00de00;
+    }
+    .hard-view {
+      position: absolute; left: 22%; right: 5%; top: 15%; bottom: 11%;
+      z-index: 10; display: none;
+      overflow: hidden;
+    }
+    .hard-view.show { display: block; }
+    .super-title {
+      position: absolute; left: 16.2%; top: 4.9%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 5.5cqw; color: #c000c0; letter-spacing: -0.01em; line-height: 1;
+      z-index: 5; text-transform: uppercase;
+    }
+    .hard-title {
+      position: absolute; left: 16.2%; top: 4.9%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 5.5cqw; color: #22b14c; letter-spacing: -0.01em; line-height: 1;
+      z-index: 5; text-transform: uppercase;
+    }
+    .hard-view .h-section-title {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.9cqw; color: #e30613; text-align: center;
+      margin: 0.45em 0 0.35em;
+      line-height: 1.15;
+      opacity: 0;
+    }
+    .h-section-title.anim-top, .h-section-title.anim-bottom { opacity: 1; }
+    .h-item {
+      opacity: 0;
+    }
+    .h-item.anim-right { opacity: 1; }
+
+    .hard-view .h-item {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 1.75cqw; color: #000; line-height: 1.35;
+      cursor: pointer; width: 100%; max-width: 100%;
+      transform-origin: left center;
+      position: relative;
+      min-height: 2.35em;
+      margin-bottom: 0.15em;
+    }
+    .hard-view .h-item .h-name {
+      display: inline-block;
+      transition: transform 0.12s ease;
+      transform-origin: left center;
+    }
+    .hard-view .h-item:hover .h-name { transform: scale(1.12); }
+    .hard-view .h-item .h-desc {
+      display: block;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.1cqw; color: #222;
+      line-height: 1.25;
+      max-width: 98%;
+      visibility: hidden;
+      margin-top: 0.08em;
+    }
+    .hard-view .h-item:hover .h-desc { visibility: visible; }
+
+
+
+
+
+    /* superbonus_page edge lines */
+    .magenta-chrome {
+      position: absolute; inset: 0; z-index: 6; pointer-events: none;
+      visibility: hidden;
+    }
+    .magenta-chrome.on { visibility: visible; }
+    .magenta-chrome .mc-left {
+      position: absolute; left: 0; top: 5.2%; width: 12.5px; height: 29.8%;
+      background: #e000a0;
+      transform: translateY(-120%);
+      transition: transform 0.35s ease-out;
+    }
+    .magenta-chrome .mc-right {
+      position: absolute; right: 0; top: 0; width: 12.5px; height: 100%;
+      background: #e000a0;
+      transform: translateY(120%);
+      transition: transform 0.45s ease-out 0.15s;
+    }
+    .magenta-chrome.in .mc-left { transform: translateY(0); }
+    .magenta-chrome.in .mc-right { transform: translateY(0); }
+
+    /* SUPERBONUS */
+    .side-panel.magenta { background: #e000a0; }
+    .super-view {
+      position: absolute; inset: 0; z-index: 10; display: none;
+    }
+    .super-view.show { display: block; }
+    /* superbonus_page H/V @640×480 ×2.5
+       H: left 132.5 top 118 w 299 h 2
+       V: left 408   top 83  w 2   h 344 */
+    .super-view .su-hline {
+      position: absolute;
+      left: 20.703%;   /* 132.5/640 */
+      top: 24.583%;    /* 118/480 */
+      width: 46.719%;  /* 299/640 */
+      height: 5px;
+      background: #e000a0;
+      transform: translateX(-110%);
+      transition: transform 0.4s ease-out;
+      z-index: 8;
+    }
+    .super-view .su-vline {
+      position: absolute;
+      left: 63.75%;    /* 408/640 */
+      top: 17.292%;    /* 83/480 */
+      width: 5px;
+      height: 71.667%; /* 344/480 */
+      background: #e000a0;
+      transform: translateY(110%);
+      transition: transform 0.4s ease-out 0.05s;
+      z-index: 8;
+    }
+    .super-view.lines-in .su-hline { transform: translateX(0); }
+    .super-view.lines-in .su-vline { transform: translateY(0); }
+    .super-view .su-game-title {
+      position: absolute; left: 21%; top: 15.5%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.4cqw; color: #000;
+      opacity: 0;
+    }
+    
+    .super-view .su-text-wrap {
+      position: absolute;
+      left: 21%; top: 27%;
+      width: 40%;
+      bottom: 11%; /* ends ~ with V line bottom 89% */
+      display: flex; overflow: hidden;
+      background: transparent;
+      border: none;
+      opacity: 0;
+      z-index: 10;
+    }
+    
+    .super-view .su-text {
+      flex: 1; overflow-y: auto; padding: 0.5cqw 0.6cqw;
+      font-family: 'Arimo', sans-serif; font-size: 1.25cqw; line-height: 1.35;
+      scrollbar-width: none;
+    }
+    .super-view .su-text::-webkit-scrollbar { width: 0; }
+    .super-view .su-text b { font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700; }
+    .super-view .su-scrollbar {
+      width: 1.3cqw; min-width: 16px; flex-shrink: 0; background: #fff;
+      border-left: 1px solid #000; display: flex; flex-direction: column;
+    }
+    .super-view .su-sb-up, .super-view .su-sb-dn {
+      height: 1.2cqw; min-height: 14px; background: #fff; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      border-bottom: 1px solid #000;
+    }
+    .super-view .su-sb-dn { border-bottom: none; border-top: 1px solid #000; }
+    .super-view .su-sb-up::after {
+      content: ''; border-left: 0.35cqw solid transparent; border-right: 0.35cqw solid transparent;
+      border-bottom: 0.45cqw solid #fff;
+      filter: drop-shadow(0 0 0.6px #000) drop-shadow(0 0 0.6px #000);
+    }
+    .super-view .su-sb-dn::after {
+      content: ''; border-left: 0.35cqw solid transparent; border-right: 0.35cqw solid transparent;
+      border-top: 0.45cqw solid #fff;
+      filter: drop-shadow(0 0 0.6px #000) drop-shadow(0 0 0.6px #000);
+    }
+    .super-view .su-sb-track {
+      flex: 1; position: relative;
+      background-image: radial-gradient(#000 0.7px, transparent 1px);
+      background-size: 3px 3px;
+    }
+    .super-view .su-sb-thumb {
+      position: absolute; left: 0; width: 100%; height: 40px; background: #fff;
+      border-top: 1px solid #000; border-bottom: 1px solid #000; box-sizing: border-box;
+    }
+    .super-view .su-shot {
+      position: absolute;
+      left: 65.5%;
+      top: 20%;
+      width: 487px;
+      max-width: 30%;
+      height: auto;
+      image-rendering: pixelated;
+      z-index: 12;
+      opacity: 0;
+    }
+    
+    .super-view .su-shot.anim-top { opacity: 1; }
+    .super-view .su-btns {
+      position: absolute;
+      left: 65.5%;
+      top: 58%;
+      width: 30%;
+      max-width: 487px;
+      text-align: center;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 1.7cqw; color: #000; text-transform: uppercase; line-height: 1.3;
+    }
+    .super-view .su-btn {
+      cursor: pointer; margin: 0.8em 0;
+      transition: transform 0.12s ease; display: inline-block;
+      opacity: 0;
+    }
+    .super-view .su-btn.anim-right,
+    .super-view .su-btn.anim-done,
+    .super-view .su-game-title.anim-left,
+    .super-view .su-game-title.anim-done,
+    .super-view .su-shot.anim-top,
+    .super-view .su-shot.anim-done,
+    .super-view .su-text-wrap.anim-bottom,
+    .super-view .su-text-wrap.anim-done {
+      opacity: 1;
+    }
+    .super-view .su-btn:hover { transform: scale(1.15) !important; }
+
+    /* WINAMP page — hard_subpage_B lines @ 640×480 ×2.5
+       H: left 138.5 top 118 w 449 h 2
+       V: left 287   top 92  w 2   h 322 */
+    .winamp-view {
+      position: absolute; inset: 0; z-index: 10; display: none;
+    }
+    .winamp-view.show { display: block; }
+    .winamp-view .wa-hline {
+      position: absolute;
+      left: 21.64%; top: 24.58%; width: 70.16%; height: 5px;
+      background: #22b14c;
+      transform: translateX(-110%);
+      transition: transform 0.4s ease-out;
+    }
+    .winamp-view .wa-vline {
+      position: absolute;
+      left: 44.84%; top: 19.17%; width: 5px; height: 67.08%;
+      background: #22b14c;
+      transform: translateY(110%);
+      transition: transform 0.4s ease-out 0.05s;
+    }
+    .winamp-view.lines-in .wa-hline { transform: translateX(0); }
+    .winamp-view.lines-in .wa-vline { transform: translateY(0); }
+    .winamp-view .wa-img {
+      position: absolute; left: 23%; top: 27%;
+      width: 312.5px; height: 182.5px;
+      max-width: 20%;
+      image-rendering: pixelated;
+      opacity: 0;
+    }
+    /* wa-img opacity only via animateWinamp */
+    .winamp-view .wa-left {
+      position: absolute; left: 22%; top: 48%; width: 21%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 1.55cqw; color: #000; text-align: center;
+      text-transform: uppercase; line-height: 1.35;
+      opacity: 0; transition: opacity 0.3s ease-out 0.25s;
+    }
+    .winamp-view.lines-in .wa-left { opacity: 1; }
+    .winamp-view .wa-btn {
+      cursor: pointer; margin: 0.55em 0;
+      transition: transform 0.12s ease;
+      transform-origin: center center;
+    }
+    .winamp-view .wa-btn:hover { transform: scale(1.15) !important; }
+    .winamp-view .wa-btn .wa-hint {
+      display: block; visibility: hidden;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.05cqw; text-transform: none; color: #333;
+      margin-top: 0.15em;
+    }
+    .winamp-view .wa-btn:hover .wa-hint { visibility: visible; }
+    .winamp-view .wa-red {
+      color: #e30613; font-size: 1.35cqw; margin-top: 1.2em;
+      line-height: 1.25; cursor: default; pointer-events: none;
+    }
+    .winamp-view .wa-red-sub:hover { transform: scale(1.15) !important; }
+    .winamp-view .wa-red-sub {
+      color: #000; font-size: 1.55cqw; margin-top: 0.35em;
+      cursor: pointer; transition: transform 0.12s ease;
+      display: inline-block;
+    }
+    .winamp-view .wa-red-sub:hover { transform: scale(1.15) !important; }
+    .winamp-view .wa-right {
+      position: absolute; left: 47%; right: 6%; top: 26%; bottom: 12%;
+      opacity: 0; transition: opacity 0.3s ease-out 0.2s;
+    }
+    .winamp-view.lines-in .wa-right { opacity: 1; }
+    .winamp-view .wa-note {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 1.55cqw; color: #e30613; text-align: center;
+      text-transform: uppercase; margin-bottom: 0.4em;
+    }
+    .winamp-view .wa-scroll-wrap {
+      position: relative; height: calc(100% - 2.2em);
+      display: flex; overflow: hidden;
+      border: none; background: transparent;
+    }
+    .winamp-view .wa-text {
+      flex: 1; overflow-y: auto; overflow-x: hidden;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.35cqw; color: #000; line-height: 1.4;
+      text-align: left; padding: 0.5cqw 0.7cqw;
+      scrollbar-width: none;
+    }
+    .winamp-view .wa-text::-webkit-scrollbar { width: 0; height: 0; }
+    .winamp-view .wa-text b {
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+    }
+    .winamp-view .wa-scrollbar {
+      width: 1.3cqw; min-width: 16px; flex-shrink: 0;
+      background: #fff; border-left: 1px solid #000;
+      display: flex; flex-direction: column;
+    }
+    .winamp-view .wa-sb-up,
+    .winamp-view .wa-sb-dn {
+      width: 100%; height: 1.2cqw; min-height: 14px;
+      background: #fff; border: none; border-bottom: 1px solid #000;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; flex-shrink: 0; padding: 0;
+      font-size: 0; position: relative;
+    }
+    .winamp-view .wa-sb-dn { border-bottom: none; border-top: 1px solid #000; }
+    .winamp-view .wa-sb-up::after {
+      content: ''; width: 0; height: 0;
+      border-left: 0.35cqw solid transparent;
+      border-right: 0.35cqw solid transparent;
+      border-bottom: 0.45cqw solid #fff;
+      filter: drop-shadow(0 0 0.6px #000) drop-shadow(0 0 0.6px #000);
+    }
+    .winamp-view .wa-sb-dn::after {
+      content: ''; width: 0; height: 0;
+      border-left: 0.35cqw solid transparent;
+      border-right: 0.35cqw solid transparent;
+      border-top: 0.45cqw solid #fff;
+      filter: drop-shadow(0 0 0.6px #000) drop-shadow(0 0 0.6px #000);
+    }
+    .winamp-view .wa-sb-track {
+      flex: 1; position: relative; background: #fff;
+      background-image: radial-gradient(#000 0.7px, transparent 1px);
+      background-size: 3px 3px;
+    }
+    .winamp-view .wa-sb-thumb {
+      position: absolute; left: 0; width: 100%; height: 40px;
+      background: #fff; border-top: 1px solid #000; border-bottom: 1px solid #000;
+      box-sizing: border-box; cursor: pointer;
+    }
+
+    /* UTILITIES — hard_subpage_A ×2.5
+       lines left 19.61% w 76.72%
+       y tops 13.75, 27.71, 41.67, 62.29, 76.04% */
+    .utils-view {
+      position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+      z-index: 10; display: none;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      overflow: hidden;
+    }
+    .utils-view.show { display: block; }
+    .utils-view .ug-line {
+      position: absolute;
+      left: 19.61%; width: 76.72%; height: 5px;
+      background: #22b14c;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 0.4s ease-out;
+    }
+    .utils-view.lines-in .ug-line { transform: scaleX(1); }
+    .utils-view .ug-label {
+      position: absolute; right: 3.2%;
+      font-size: 1.55cqw; color: #22b14c; letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: transparent;
+      opacity: 0; transition: opacity 0.35s ease-out;
+      margin-top: 0.35em;
+    }
+    .utils-view.lines-in .ug-label { opacity: 1; }
+    .utils-view .ug-label.anim-right { opacity: 1; }
+    .utils-view .ug-item.anim-bottom { opacity: 1; }
+    .utils-view .ug-item {
+      position: absolute; left: 21%;
+      font-size: 1.7cqw; color: #000;
+      cursor: pointer; width: 72%;
+      max-width: 72%;
+      line-height: 1.15;
+      min-height: 3.2em;
+      opacity: 0;
+    }
+    .utils-view .ug-item .ug-title {
+      display: inline-block;
+      transition: transform 0.12s ease;
+      transform-origin: left center;
+    }
+    .utils-view .ug-item:hover .ug-title { transform: scale(1.15); }
+    .utils-view .ug-item .ug-desc {
+      display: block;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.1cqw; color: #222;
+      line-height: 1.25;
+      width: 100%;
+      max-width: 100%;
+      visibility: hidden;
+      margin-top: 0.15em;
+      pointer-events: none;
+    }
+    .utils-view .ug-item:hover .ug-desc { visibility: visible; }
+
+    /* VIDEOS */
+    .videos-view {
+      position: absolute; left: 24%; right: 8%; top: 22%; bottom: 10%;
+      z-index: 10; display: none;
+    }
+    .videos-view.show { display: block; }
+    .videos-list {
+      position: absolute; left: 0; right: 0; top: 8%; bottom: 8%;
+      display: flex; flex-direction: column; justify-content: center;
+      gap: 0;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.35cqw; color: #000; line-height: 1.15;
+    }
+    .videos-list .vid {
+      cursor: pointer; width: fit-content; max-width: 90%;
+      opacity: 0;
+      transform-origin: left center;
+      position: relative;
+      height: 3.8em;
+      flex-shrink: 0;
+      margin-bottom: 0.4em;
+      overflow: visible;
+    }
+    .videos-list .vid.from-top { transform: translateY(-120%); }
+    .videos-list .vid.from-bottom { transform: translateY(120%); }
+    .videos-list .vid.visible {
+      opacity: 1; transform: translateY(0);
+      transition: transform 0.45s ease-out, opacity 0.35s ease-out;
+    }
+    .videos-list .vid.visible:hover {
+      transform: scale(1.18);
+      transition: transform 0.12s ease;
+      z-index: 5;
+    }
+    .videos-list .vid .vid-title { display: block; line-height: 1.2; }
+    .videos-list .vid .vid-info {
+      display: block;
+      font-family: 'Arimo', sans-serif; font-weight: 400;
+      font-size: 1.15cqw; color: #444;
+      line-height: 1.2;
+      margin-top: 0.15em;
+      visibility: hidden; /* space reserved, no overlap, no layout shift */
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    .videos-list .vid.visible:hover .vid-info { visibility: visible; }
+
+    .video-modal-dim {
+      position: absolute; inset: 0; background: rgba(0,0,0,0.55);
+      z-index: 50; display: none;
+    }
+    .video-modal-dim.show { display: block; }
+    .video-frame-wrap {
+      position: absolute; left: 50%; top: 50%;
+      transform: translate(-50%, -50%);
+      width: min(90%, 960px); aspect-ratio: 16/9;
+      z-index: 51; display: none;
+      background: #000;
+      box-shadow: 0 0.8cqw 2cqw rgba(0,0,0,0.5);
+    }
+    .video-frame-wrap.show { display: block; }
+    .video-frame-wrap iframe {
+      width: 100%; height: 100%; border: 0;
+    }
+
+    /* modal */
+    .modal-dim {
+      position: absolute; inset: 0; background: rgba(0,0,0,0.45);
+      z-index: 40; display: none;
+    }
+    .modal-dim.show { display: block; }
+    .modal-msg {
+      position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.4cqw; color: #000; background: #fff;
+      border: 0.25cqw solid #888; padding: 1.2em 1.8em;
+      z-index: 41; display: none; text-align: center; max-width: 70%;
+      box-shadow: 0 0.5cqw 1.5cqw rgba(0,0,0,0.25);
+    }
+    .modal-msg.show { display: block; }
+  
+    @keyframes slideFromTop { from { transform: translateY(-120%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes slideFromBottom { from { transform: translateY(120%); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes slideFromLeft { from { transform: translateX(-120%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+    @keyframes slideFromRight { from { transform: translateX(120%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+    .anim-top { animation: slideFromTop 0.45s ease-out both; }
+    .anim-bottom { animation: slideFromBottom 0.45s ease-out both; }
+    .anim-left { animation: slideFromLeft 0.45s ease-out both; }
+    .anim-right { animation: slideFromRight 0.45s ease-out both; }
+    .winamp-view .wa-img,
+    .winamp-view .wa-btn,
+    .winamp-view .wa-red,
+    .winamp-view .wa-red-sub,
+    .winamp-view .wa-note,
+    .winamp-view .wa-scroll-wrap {
+      opacity: 0;
+    }
+    .winamp-view .anim-top,
+    .winamp-view .anim-bottom,
+    .winamp-view .anim-left,
+    .winamp-view .anim-right,
+    .winamp-view .anim-done {
+      opacity: 1;
+    }
+      40% { opacity: 0.6; filter: contrast(1.5); }
+      100% { opacity: 1; filter: none; }
+    }
+    .license-title {
+      position: absolute; left: 20%; top: 12.5%; right: 8%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.8cqw; color: #000; text-align: center;
+      text-transform: uppercase; letter-spacing: 0.02em;
+    }
+    .license-box {
+      position: absolute;
+      left: 19.5%; top: 20.5%; width: 72%; height: 55%;
+      border: 3px solid #000; background: #fff;
+      display: flex; overflow: hidden;
+    }
+    .license-text {
+      flex: 1; overflow-y: auto; padding: 0.8cqw 1cqw;
+      font-family: 'Arimo', sans-serif; font-size: 1.45cqw; line-height: 1.35;
+      color: #000; scrollbar-width: none;
+    }
+    .license-text::-webkit-scrollbar { width: 0; }
+    .license-text p { margin: 0 0 0.55em; text-indent: 1.5em; }
+    .license-text p:first-child { text-indent: 1.5em; }
+    .license-text b { font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700; }
+    .license-sb {
+      width: 1.3cqw; min-width: 16px; flex-shrink: 0;
+      border-left: 1px solid #000; background: #fff;
+      display: flex; flex-direction: column;
+    }
+    .license-sb .sb-up, .license-sb .sb-dn {
+      height: 1.2cqw; min-height: 14px; background: #fff; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      border-bottom: 1px solid #000;
+    }
+    .license-sb .sb-dn { border-bottom: none; border-top: 1px solid #000; }
+    .license-sb .sb-up::after {
+      content: ''; border-left: 0.35cqw solid transparent; border-right: 0.35cqw solid transparent;
+      border-bottom: 0.45cqw solid #fff;
+      filter: drop-shadow(0 0 0.6px #000) drop-shadow(0 0 0.6px #000);
+    }
+    .license-sb .sb-dn::after {
+      content: ''; border-left: 0.35cqw solid transparent; border-right: 0.35cqw solid transparent;
+      border-top: 0.45cqw solid #fff;
+      filter: drop-shadow(0 0 0.6px #000) drop-shadow(0 0 0.6px #000);
+    }
+    .license-sb .sb-track {
+      flex: 1; position: relative;
+      background-image: radial-gradient(#000 0.7px, transparent 1px);
+      background-size: 3px 3px;
+    }
+    .license-sb .sb-thumb {
+      position: absolute; left: 0; width: 100%; height: 40px; background: #fff;
+      border-top: 1px solid #000; border-bottom: 1px solid #000; box-sizing: border-box;
+    }
+    .license-q {
+      position: absolute; left: 20%; right: 10%; top: 77%;
+      font-family: 'Arimo', sans-serif; font-size: 1.55cqw; color: #000;
+      text-align: center;
+    }
+    .license-yes, .license-no {
+      position: absolute; top: 83%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.6cqw; color: #000; cursor: pointer;
+      transition: transform 0.12s ease;
+    }
+    .license-yes { left: 32%; }
+    .license-no { right: 32%; }
+    .license-yes:hover, .license-no:hover { transform: scale(1.3); }
+    #screenIntro .exit-label {
+      /* orange theme exit already positioned */
+    }
+
+
+    /* ===== INTRO (exact Director frames ×2.5 via %) ===== */
+    #screenIntro { background: #fff; }
+    .intro-canvas {
+      position: absolute; inset: 0; z-index: 1;
+      overflow: hidden; background: #fff;
+    }
+    .intro-canvas .sp {
+      position: absolute; pointer-events: none; image-rendering: pixelated;
+    }
+    .intro-canvas .sp-wordmark {
+      object-fit: fill;
+    }
+    .intro-canvas .sp-wordmark.black {
+      filter: brightness(0);
+    }
+    .intro-canvas .sp-bar {
+      background: #c8c8c8;
+    }
+    .intro-canvas .sp-red {
+      background: #e30613;
+    }
+    .intro-canvas .sp-line {
+      background: #000;
+    }
+    .intro-canvas .sp-target {
+      object-fit: fill;
+    }
+    .intro-pixel {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      z-index: 2; pointer-events: none; display: none;
+      image-rendering: pixelated;
+    }
+    .license-ui {
+      position: absolute; inset: 0; z-index: 10;
+      opacity: 0; pointer-events: none;
+    }
+    .license-ui.show .license-box,
+    .license-ui.show .license-title,
+    .license-ui.show .license-q,
+    .license-ui.show .license-yes,
+    .license-ui.show .license-no,
+    .license-ui.show .page-num,
+    .license-ui.show .exit-label {
+      opacity: 1;
+      animation: none;
+    }
+    .license-ui.show {
+      opacity: 1; pointer-events: auto;
+    }
+    @keyframes introPixelIn {
+      0%   { opacity: 0; transform: scale(1.08); filter: blur(0); }
+      1%   { opacity: 1; transform: scale(1.08); }
+      15%  { transform: scale(1.06); }
+      30%  { transform: scale(1.04); }
+      50%  { transform: scale(1.02); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    /* chunky pixel reveal via stepped opacity + contrast */
+    @keyframes introChunk { from { opacity: 1; } to { opacity: 1; } }
+      12%  { opacity: 1; filter: contrast(4) brightness(2) saturate(0); }
+      25%  { filter: contrast(3) brightness(1.6) saturate(0.2); }
+      40%  { filter: contrast(2.2) brightness(1.3) saturate(0.5); }
+      60%  { filter: contrast(1.5) brightness(1.1) saturate(0.8); }
+      100% { opacity: 1; filter: none; }
+    }
+    .license-ui.show .license-box,
+    .license-ui.show .license-title,
+    .license-ui.show .license-q,
+    .license-ui.show .license-yes,
+    .license-ui.show .license-no,
+    .license-ui.show .page-num,
+    .license-ui.show .exit-label {
+      animation: introChunk 0.7s steps(8) both;
+    }
+    .license-ui.show .license-title { animation-delay: 0.04s; }
+    .license-ui.show .license-box { animation-delay: 0.06s; }
+    .license-ui.show .license-q { animation-delay: 0.18s; }
+    .license-ui.show .license-yes,
+    .license-ui.show .license-no { animation-delay: 0.25s; }
+    .license-ui.show .page-num,
+    .license-ui.show .exit-label { animation-delay: 0.25s; }
+
+    .license-title {
+      position: absolute; left: 20%; top: 12.5%; right: 8%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.8cqw; color: #000; text-align: center;
+      text-transform: uppercase; letter-spacing: 0.02em;
+    }
+    .license-box {
+      position: absolute;
+      left: 18.9%; top: 19.8%; width: 78.75%; height: 62.5%;
+      border: 2.5px solid #000; background: #fff;
+      display: flex; overflow: hidden;
+      box-sizing: border-box;
+    }
+    /* frame final from anim: H at y=95 and y=395, V at x=121 and x=624, size 504×2 / 2×301
+       top line cy=95 h=2 → top 94/480=19.58%; bottom cy=395 → 394/480=82.08%; height ≈62.5%
+       left cx=121 w=2 → left 120/640=18.75%; width 503/640≈78.6% */
+    .license-text {
+      flex: 1; overflow-y: auto; padding: 0.7cqw 1cqw;
+      font-family: 'Arimo', sans-serif; font-size: 1.45cqw; line-height: 1.35;
+      color: #000; scrollbar-width: none;
+    }
+    .license-text::-webkit-scrollbar { width: 0; }
+    .license-text p { margin: 0 0 0.55em; text-indent: 1.5em; }
+    .license-text b { font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700; }
+    .license-sb {
+      width: 1.3cqw; min-width: 16px; flex-shrink: 0;
+      border-left: 1px solid #000; background: #fff;
+      display: flex; flex-direction: column;
+    }
+    .license-sb .sb-up, .license-sb .sb-dn {
+      height: 1.2cqw; min-height: 14px; background: #fff; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      border-bottom: 1px solid #000;
+    }
+    .license-sb .sb-dn { border-bottom: none; border-top: 1px solid #000; }
+    .license-sb .sb-up::after {
+      content: ''; border-left: 0.35cqw solid transparent; border-right: 0.35cqw solid transparent;
+      border-bottom: 0.45cqw solid #000;
+    }
+    .license-sb .sb-dn::after {
+      content: ''; border-left: 0.35cqw solid transparent; border-right: 0.35cqw solid transparent;
+      border-top: 0.45cqw solid #000;
+    }
+    .license-sb .sb-track {
+      flex: 1; position: relative;
+      background-image: radial-gradient(#000 0.7px, transparent 1px);
+      background-size: 3px 3px;
+    }
+    .license-sb .sb-thumb {
+      position: absolute; left: 0; width: 100%; height: 40px; background: #fff;
+      border-top: 1px solid #000; border-bottom: 1px solid #000; box-sizing: border-box;
+    }
+    .license-q {
+      position: absolute; left: 20%; right: 10%; top: 84.5%;
+      font-family: 'Arimo', sans-serif; font-size: 1.55cqw; color: #000;
+      text-align: center;
+    }
+    .license-yes, .license-no {
+      position: absolute; top: 89%;
+      font-family: 'ArimoBoldLocal', 'Arimo', sans-serif; font-weight: 700;
+      font-size: 2.6cqw; color: #000; cursor: pointer;
+      transition: transform 0.12s ease;
+    }
+    .license-yes { left: 32%; }
+    .license-no { right: 32%; }
+    .license-yes:hover, .license-no:hover { transform: scale(1.3); }

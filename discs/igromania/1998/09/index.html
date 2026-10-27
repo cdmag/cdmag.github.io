@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игромания — Демо-диск №3 (1998/09)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="viewport">
+    <div class="stage" id="stage">
+      <img class="bg" id="bgImg" src="assets/img/ui/bg.webp" alt="">
+
+      <div class="screen active" id="screenIntro">
+        <div class="intro-canvas" id="introCanvas"></div>
+        <canvas class="intro-pixel" id="introPixel" width="640" height="480"></canvas>
+        <div class="license-ui" id="licenseUi">
+          <div class="page-num">1</div>
+          <div class="exit-label" id="exitIntro">выход</div>
+          <div class="license-title">ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ</div>
+          <div class="license-box">
+            <div class="license-text" id="licenseText"><p>Все представленные на данном компакт-диске программы являются демонстрационными версиями соответствующих продуктов и не предназначены для совершения каких-либо действий, отличных от демонстрационных. Данные программные продукты, являясь собственностью соответствующих компаний, защищены законами об авторских и смежных правах и международными соглашениями.</p><p>Конечный пользователь, установивший данные программы, <b>ИМЕЕТ</b> право:</p><p>– использовать эти программы на отдельном компьютере;</p><p>– использовать программы в локальной сети с обязательным соблю- дением наличия у каждого пользователя копии данного лицензионного соглашения, если это не противоречит условиям соответствующей лицензии данного продукта;</p><p>– использовать программы на другом компьютере, если на первом они уже не используются;</p><p>– копировать программы с целью резервного сохранения с обязательным соблюдением наличия в каждом архиве соответствующей лицензии и данного лицензионного соглашения.</p><p>Конечный пользователь, установивший данные программы, <b>НЕ <b>ИМЕЕТ</b></b> права:</p><p>– допускать других пользователей к использованию данных продуктов по основаниям, не предусмотренным данным лицензионным соглашением;</p><p>– допускать одновременное использование программ, если иное не предусмотрено условиями соответствующей лицензии данного продукта;</p><p>– изменять, преобразовывать, вносить поправки в исходный код, декомпилировать, дисассемблировать или создавать производные продукты на основе данных программ;</p><p>– копировать программы по основаниям, не предусмотренным данным лицензионным соглашением;</p><p>– продавать, тиражировать или как-либо распространять программы с целью получения прибыли;</p><p>– давать напрокат, сдавать в наем или каким-либо иным образом передавать права на использование этих программ;</p><p>– удалять любые товарные знаки, торговые марки и лицензионные документы, содержащиеся в данных программах, равно как и уничтожать данное лицензионное соглашение.</p><p>Распространение данных программ разрешено только с письменного согласия соответствующих компаний, если иное не предусмотрено условиями соответствующей лицензии данного продукта.</p><p>Программы, являющиеся условно-бесплатными (Shareware) разрешено использовать только в течение срока действия лицензии соответствующего продукта (если таковой указан), по истечении данного срока вы обязаны либо приобрести данный продукт, тем самым заключив новое соглашение, либо прекратить его дальнейшее использование, удалить его и не устанавливать вновь. Несоблюдение данного требования будет расцениваться как нарушение авторских и смежных прав соответствующих компаний.</p><p>ВНИМАНИЕ! Нарушение данного лицензионного соглашения или его части, равно как и нарушение условий соответствующей лицензии любой из программ, влечет гражданскую и уголовную ответственность.</p><p>Если вы не согласны с данным лицензионным соглашением или его частью, то вы должны НЕМЕДЛЕННО прекратить использование любых программных продуктов, представленных на данном компакт-диске программ.</p><p>Все указанные товарные знаки и торговые марки являются зарегистрированной собственностью соответствующих компаний.</p><p>Все программы были протестированны, однако пользователь использует их на свой риск. Игромания не несет ответственности за любой ущерб, который может произойти от использования размещенных на диске программ.</p></div>
+            <div class="license-sb">
+              <div class="sb-up" id="licUp"></div>
+              <div class="sb-track"><div class="sb-thumb" id="licThumb"></div></div>
+              <div class="sb-dn" id="licDn"></div>
+            </div>
+          </div>
+          <div class="license-q">Вы согласны со всеми пунктами данного лицензионного соглашения</div>
+          <div class="license-yes" id="btnYes">ДА</div>
+          <div class="license-no" id="btnNo">НЕТ</div>
+        </div>
+      </div>
+
+      <div class="screen" id="screenMain">
+        <div class="page-num">2</div>
+        <div class="contents-title">СОДЕРЖАНИЕ</div>
+        <div class="section sec-play">
+          <div class="head"><span>ИГРАЕМ</span><span class="num">3</span></div>
+          <div class="sub">
+            <div class="item grow-hover" data-id="demos">ДЕМОВЕРСИИ</div>
+            <div class="item grow-hover" data-id="patches">ПАТЧИ</div>
+            <div class="item grow-hover" data-id="video">ВИДЕОРОЛИКИ</div>
+          </div>
+        </div>
+        <div class="section sec-hard">
+          <div class="head"><span>ВООРУЖАЕМСЯ</span><span class="num">22</span></div>
+          <div class="sub">
+            <div class="item grow-hover" data-id="internet">ПРОГРАММЫ ДЛЯ ИНТЕРНЕТ</div>
+            <div class="item grow-hover" data-id="soft">ПРОГРАММЫ ДЛЯ ВСЕХ</div>
+            <div class="item grow-hover" data-id="winamp">WinAMP И ВСЕ-ВСЕ-ВСЕ</div>
+          </div>
+        </div>
+        <div class="section sec-super">
+          <div class="head"><span>СУПЕРБОНУС</span><span class="num">25</span></div>
+          <div class="sub">
+            <div class="item grow-hover" data-id="battlecruiser">BATTLECRUISER 3000</div>
+          </div>
+        </div>
+        <div class="exit-label">выход</div>
+        <div class="nav-next" id="btnNextMain"><img src="assets/img/ui/next.webp" alt="next"></div>
+      </div>
+
+      <div class="screen" id="screenGames">
+        <div class="blue-chrome" id="blueChrome">
+          <div class="bc-left"></div>
+          <div class="bc-right"></div>
+        </div>
+        <div class="page-num" id="gamesPageNum">3</div>
+        <div class="games-title">ИГРАЕМ</div>
+
+        <div class="side-panel" id="sidePanel">
+          <div class="side-menu" id="sideMenu">
+            <div class="sm-item" data-go="contents">СОДЕРЖАНИЕ</div>
+            <div class="sm-item sm-main active" data-go="games">ИГРАЕМ</div>
+            <div class="sm-sub">
+              <div class="sm-item active" data-id="demos">демоверсии</div>
+              <div class="sm-item" data-id="patches">патчи</div>
+              <div class="sm-item" data-id="video">видеоролики</div>
+            </div>
+            <div class="sm-item sm-main" data-go="hard">ВООРУЖАЕМСЯ</div>
+            <div class="sm-item sm-main" data-go="super">СУПЕРБОНУС</div>
+          </div>
+        </div>
+
+        <div class="layout-lines" id="layoutLines">
+          <div class="hline"></div>
+          <div class="vline"></div>
+        </div>
+
+        <div class="games-list" id="gamesList"></div>
+
+        <div class="detail" id="detail">
+          <div class="d-title" id="dTitle"></div>
+          <div class="d-desc" id="dDesc"></div>
+          <div class="d-info" id="dInfo"></div>
+          <img class="d-shot" id="dShot" alt="">
+          <div class="d-install" id="dInstall">УСТАНОВИТЬ ИГРУ</div>
+        </div>
+
+        <div class="patches-view" id="patchesView">
+          <div class="patches-heading" id="patchesHeading">ПАТЧИ И ОБНОВЛЕНИЯ ИГР</div>
+          <div class="patches-cols" id="patchesCols"></div>
+          <div class="patch-desc" id="patchDesc"></div>
+        </div>
+
+        <div class="videos-view" id="videosView">
+          <div class="videos-list" id="videosList"></div>
+        </div>
+
+        <div class="exit-label">выход</div>
+        <div class="nav-prev" id="btnPrevGames"><img src="assets/img/ui/prev.webp" alt="prev"></div>
+        <div class="nav-next" id="btnNextGames"><img src="assets/img/ui/next.webp" alt="next"></div>
+      </div>
+
+
+      <!-- HARD -->
+      <div class="screen" id="screenHard">
+        <div class="green-chrome" id="greenChrome">
+          <div class="gc-left"></div>
+          <div class="gc-right"></div>
+        </div>
+        <div class="page-num" id="hardPageNum">22</div>
+        <div class="hard-title">ВООРУЖАЕМСЯ</div>
+        <div class="side-panel green in" id="sidePanelHard">
+          <div class="side-menu" id="sideMenuHard">
+            <div class="sm-item" data-go="contents">СОДЕРЖАНИЕ</div>
+            <div class="sm-item sm-main" data-go="games">ИГРАЕМ</div>
+            <div class="sm-item sm-main active" data-go="hard">ВООРУЖАЕМСЯ</div>
+            <div class="sm-sub">
+              <div class="sm-item active" data-id="internet">программы<br>для интернет</div>
+              <div class="sm-item" data-id="softall">программы<br>для всех</div>
+              <div class="sm-item sm-winamp" data-id="winamp">WinAMP<br>и все-все-все</div>
+            </div>
+            <div class="sm-item sm-main" data-go="super">СУПЕРБОНУС</div>
+          </div>
+        </div>
+        <div class="utils-view" id="utilsView"></div>
+        <div class="winamp-view" id="winampView">
+          <div class="wa-hline"></div>
+          <div class="wa-vline"></div>
+          <img class="wa-img" src="assets/img/ui/winamp.webp" alt="winamp">
+          <div class="wa-left">
+            <div class="wa-btn" data-act="install-wa">УСТАНОВИТЬ WINAMP</div>
+            <div class="wa-btn" data-act="skin">ВЫБРАТЬ СКИН<span class="wa-hint">запустите файл _skins.html</span></div>
+            <div class="wa-btn" data-act="plugin">ВЫБРАТЬ ПЛАГИН</div>
+            <div class="wa-red" data-act="mp3">ПРОГРАММА ДЛЯ<br>СОЗДАНИЯ СОБСТВЕННЫХ<br>MP3 ФАЙЛОВ</div>
+            <div class="wa-red-sub" data-act="mp3-install">УСТАНОВИТЬ</div>
+          </div>
+          <div class="wa-right">
+            <div class="wa-note" id="waNote">ДЛЯ ВНИМАТЕЛЬНОГО ПРОЧТЕНИЯ :</div>
+            <div class="wa-scroll-wrap">
+              <div class="wa-text" id="waText"></div>
+              <div class="wa-scrollbar">
+                <div class="wa-sb-up" id="waUp"></div>
+                <div class="wa-sb-track"><div class="wa-sb-thumb" id="waThumb"></div></div>
+                <div class="wa-sb-dn" id="waDn"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hard-view show" id="hardView">
+          <div class="h-section-title">ЛУЧШИЕ ИНТЕРНЕТ-БРОДИЛКИ</div>
+          <div id="hardBrowsers"></div>
+          <div class="h-section-title">ПРОГРАММЫ, КОТОРЫЕ ДЕЛАЮТ РАБОТУ<br>В СЕТИ ПРОЩЕ И ПРИЯТНЕЕ</div>
+          <div id="hardUtils"></div>
+        </div>
+        <div class="exit-label">выход</div>
+        <div class="nav-prev" id="btnPrevHard"><img src="assets/img/ui/prev.webp" alt="prev"></div>
+        <div class="nav-next" id="btnNextHard"><img src="assets/img/ui/next.webp" alt="next"></div>
+      </div>
+
+      
+      <div class="screen" id="screenSuper">
+        <div class="magenta-chrome" id="magentaChrome">
+          <div class="mc-left"></div>
+          <div class="mc-right"></div>
+        </div>
+        <div class="page-num" id="superPageNum">25</div>
+        <div class="super-title">СУПЕРБОНУС</div>
+        <div class="side-panel magenta in" id="sidePanelSuper">
+          <div class="side-menu" id="sideMenuSuper">
+            <div class="sm-item" data-go="contents">СОДЕРЖАНИЕ</div>
+            <div class="sm-item sm-main" data-go="games">ИГРАЕМ</div>
+            <div class="sm-item sm-main" data-go="hard">ВООРУЖАЕМСЯ</div>
+            <div class="sm-item sm-main active" data-go="super">СУПЕРБОНУС</div>
+          </div>
+        </div>
+        <div class="super-view show" id="superView">
+          <div class="su-hline"></div>
+          <div class="su-vline"></div>
+          <div class="su-game-title">Battlecruiser 3000 AD</div>
+          <div class="su-text-wrap">
+            <div class="su-text" id="suText"></div>
+            <div class="su-scrollbar">
+              <div class="su-sb-up" id="suUp"></div>
+              <div class="su-sb-track"><div class="su-sb-thumb" id="suThumb"></div></div>
+              <div class="su-sb-dn" id="suDn"></div>
+            </div>
+          </div>
+          <img class="su-shot" src="assets/img/ui/bc.webp" alt="bc">
+          <div class="su-btns">
+            <div class="su-btn" data-act="game">УСТАНОВИТЬ ИГРУ</div>
+            <div class="su-btn" data-act="patch">УСТАНОВИТЬ ПАТЧ<br>ДЛЯ 3Dfx</div>
+            <div class="su-btn" data-act="acrobat">УСТАНОВИТЬ<br>ADOBE ACROBAT</div>
+          </div>
+        </div>
+        <div class="exit-label">выход</div>
+        <div class="nav-prev" id="btnPrevSuper"><img src="assets/img/ui/prev.webp" alt="prev"></div>
+      </div>
+
+      <div class="modal-dim" id="modalDim"></div>
+      <div class="modal-msg" id="modalMsg">Все файлы доступны в образе диска</div>
+      <div class="video-modal-dim" id="videoModalDim"></div>
+      <div class="video-frame-wrap" id="videoFrameWrap">
+        <iframe id="videoFrame" referrerpolicy="no-referrer" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
