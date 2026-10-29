@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Страна игр — Demo Disk Январь 98</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="preload" as="image" href="assets/img/ui/button1.webp">
+<link rel="preload" as="image" href="assets/img/ui/button2.webp">
+</head>
+<body>
+<div class="screen" id="screen">
+  <img class="btn btn-igry"  id="btn-igry"  src="assets/img/ui/button1.webp" alt="">
+  <img class="btn btn-video" id="btn-video" src="assets/img/ui/button1.webp" alt="">
+  <img class="btn btn-soft"  id="btn-soft"  src="assets/img/ui/button1.webp" alt="">
+  <img class="btn btn-exit"  id="btn-exit"  src="assets/img/ui/button2.webp" alt="">
+
+  <div class="hot hot-igry"  data-btn="igry"></div>
+  <div class="hot hot-video" data-btn="video"></div>
+  <div class="hot hot-soft"  data-btn="soft"></div>
+  <div class="hot hot-exit"  data-btn="exit"></div>
+
+  <div class="text-area" id="text-area"></div>
+
+  <div class="popup-overlay" id="popup">
+    <div class="popup-msg">Все файлы доступны в образе диска</div>
+  </div>
+
+  <div class="video-overlay" id="video-overlay">
+    <div class="video-frame" id="video-frame"></div>
+  </div>
+</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
