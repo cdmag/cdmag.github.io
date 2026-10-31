@@ -602,9 +602,30 @@ actx.resume().then(applyMusic).catch(() => {});
 ['click_music.wav', 'click_back.wav'].forEach(n => load(SND + n).catch(() => {}));
 setTimeout(() => ['click_our.opus', 'click_exit.opus', 'click_about.opus'].forEach(n => load(SND + n).catch(() => {})), 1500);
 
+const WARM_UI = ['bg', 'bg_video1', 'bg_video2', 'bg_demo1', 'bg_demo2', 'bg_patches', 'bg_utils', 'bg_our1', 'bg_our2', 'bg_about'];
+const WARM_SH = ['music_on', 'music_on_anim', 'music_off', 'music_off_anim', 'exit', 'exit_anim', 'our', 'our_anim', 'about', 'about_anim',
+  'video', 'video_anim', 'demo', 'demo_anim', 'patches', 'patches_anim', 'utils', 'utils_anim', 'back', 'back_anim',
+  'play_video', 'play_video_anim', 'install_demo', 'install_demo_anim', 'install_patch', 'install_patch_anim',
+  'install_util', 'install_util_anim', 'bn1', 'bn2'];
+const warmKeep = [];
+function warm(){
+  const urls = WARM_UI.map(n => 'assets/img/ui/' + n + '.webp').concat(WARM_SH.map(n => S + n + '.webp'));
+  let i = 0, active = 0;
+  const next = () => {
+    while (active < 3 && i < urls.length){
+      const im = new Image();
+      warmKeep.push(im);
+      active++;
+      im.src = urls[i++];
+      (im.decode ? im.decode() : Promise.resolve()).catch(() => {}).finally(() => { active--; next(); });
+    }
+  };
+  next();
+}
+
 (async function(){
   const root = document.documentElement;
-  if (!root.classList.contains('splash')) return;
+  if (!root.classList.contains('splash')){ setTimeout(warm, 800); return; }
   try { sessionStorage.setItem('mega-1999-05-splash', '1'); } catch (e) {}
   $('spl').addEventListener('contextmenu', e => e.preventDefault());
   let total = 0;
@@ -624,7 +645,7 @@ setTimeout(() => ['click_our.opus', 'click_exit.opus', 'click_about.opus'].forEa
     await im.decode();
     $('splimg').style.backgroundImage = 'url(' + url + ')';
   } catch (e) { total = -1000; }
-  setTimeout(() => { root.classList.remove('splash'); splashDone = true; applyMusic(); }, total + 1000);
+  setTimeout(() => { root.classList.remove('splash'); splashDone = true; applyMusic(); setTimeout(warm, 800); }, total + 1000);
 })();
 
 renderMusic();

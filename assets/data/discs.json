@@ -699,79 +699,79 @@
     "download_iso": "https://vk.ru/wall-240437459_90",
     "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_10_11deed3133699b9c62",
     "webamp_tracks": [
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Main Theme"
-    },
-    "url": "music/game-exe/1998/09/02_main_theme.opus",
-    "duration": 174
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Fostral"
-    },
-    "url": "music/game-exe/1998/09/03_fostral.opus",
-    "duration": 110
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Glorx"
-    },
-    "url": "music/game-exe/1998/09/04_glorx.opus",
-    "duration": 130
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Necross"
-    },
-    "url": "music/game-exe/1998/09/05_necross.opus",
-    "duration": 240
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Xplo"
-    },
-    "url": "music/game-exe/1998/09/06_xplo.opus",
-    "duration": 130
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Outer Worlds"
-    },
-    "url": "music/game-exe/1998/09/07_outer_worlds.opus",
-    "duration": 184
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Death"
-    },
-    "url": "music/game-exe/1998/09/08_death.opus",
-    "duration": 122
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Vangers Forever"
-    },
-    "url": "music/game-exe/1998/09/09_vangers_forever.opus",
-    "duration": 154
-  },
-  {
-    "metaData": {
-      "artist": "Вангеры",
-      "title": "Infernals"
-    },
-    "url": "music/game-exe/1998/09/10_infernals.opus",
-    "duration": 200
-  }
-],
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Main Theme"
+        },
+        "url": "music/game-exe/1998/09/02_main_theme.opus",
+        "duration": 174
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Fostral"
+        },
+        "url": "music/game-exe/1998/09/03_fostral.opus",
+        "duration": 110
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Glorx"
+        },
+        "url": "music/game-exe/1998/09/04_glorx.opus",
+        "duration": 130
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Necross"
+        },
+        "url": "music/game-exe/1998/09/05_necross.opus",
+        "duration": 240
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Xplo"
+        },
+        "url": "music/game-exe/1998/09/06_xplo.opus",
+        "duration": 130
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Outer Worlds"
+        },
+        "url": "music/game-exe/1998/09/07_outer_worlds.opus",
+        "duration": 184
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Death"
+        },
+        "url": "music/game-exe/1998/09/08_death.opus",
+        "duration": 122
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Vangers Forever"
+        },
+        "url": "music/game-exe/1998/09/09_vangers_forever.opus",
+        "duration": 154
+      },
+      {
+        "metaData": {
+          "artist": "Вангеры",
+          "title": "Infernals"
+        },
+        "url": "music/game-exe/1998/09/10_infernals.opus",
+        "duration": 200
+      }
+    ],
     "note": "14 оцифровка. Где еще найдете такую милую ручную отрисовку интерфейса? Навигация непростая, зато есть фото Кранка, Рубера и музыка из Вангеров.",
     "viewpage_description": "На диске к Game.EXE за сентябрь 1998 — плотная подборка демо: приключения (Grim Fandango, The Last Express, Larry), шутеры и стратегии, симуляторы вроде Grand Prix. Рядом — свежие патчи, набор драйверов и служебных утилит «на все случаи». Для любителей саундтреков — бонус-трек с музыкой к «Вангерам». Всё упаковано в фирменную интерактивную оболочку в духе парка развлечений, так что даже просто полистать разделы приятно."
   },
@@ -792,47 +792,47 @@
     "download_iso": "https://vk.ru/wall-240437459_100",
     "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_11_bf924f2c0b900a5c6d",
     "webamp_tracks": [
-    {
-    "metaData": {
-      "artist": "НИМ #02/1999",
-      "title": "HAB-12: Introduction"
-    },
-    "url": "music/nim/1999/02/track01.opus",
-    "duration": 271
-  },
-  {
-    "metaData": {
-      "artist": "НИМ #02/1999",
-      "title": "Starcraft - Terran One"
-    },
-    "url": "music/nim/1999/02/07_starcraft_-_terran_one.opus",
-    "duration": 296
-  },
-  {
-    "metaData": {
-      "artist": "НИМ #02/1999",
-      "title": "Master of Orion"
-    },
-    "url": "music/nim/1999/02/track03.opus",
-    "duration": 103
-  },
-  {
-    "metaData": {
-      "artist": "НИМ #02/1999",
-      "title": "Dune 2 - Credits"
-    },
-    "url": "music/nim/1999/02/track04.opus",
-    "duration": 118
-  },
-  {
-    "metaData": {
-      "artist": "НИМ #02/1999",
-      "title": "Castlevania 4: Simon's theme"
-    },
-    "url": "music/nim/1999/02/track05.opus",
-    "duration": 301
-  }
-],
+      {
+        "metaData": {
+          "artist": "НИМ #02/1999",
+          "title": "HAB-12: Introduction"
+        },
+        "url": "music/nim/1999/02/track01.opus",
+        "duration": 271
+      },
+      {
+        "metaData": {
+          "artist": "НИМ #02/1999",
+          "title": "Starcraft - Terran One"
+        },
+        "url": "music/nim/1999/02/07_starcraft_-_terran_one.opus",
+        "duration": 296
+      },
+      {
+        "metaData": {
+          "artist": "НИМ #02/1999",
+          "title": "Master of Orion"
+        },
+        "url": "music/nim/1999/02/track03.opus",
+        "duration": 103
+      },
+      {
+        "metaData": {
+          "artist": "НИМ #02/1999",
+          "title": "Dune 2 - Credits"
+        },
+        "url": "music/nim/1999/02/track04.opus",
+        "duration": 118
+      },
+      {
+        "metaData": {
+          "artist": "НИМ #02/1999",
+          "title": "Castlevania 4: Simon's theme"
+        },
+        "url": "music/nim/1999/02/track05.opus",
+        "duration": 301
+      }
+    ],
     "note": "15 оцифровка. Для эксперимента попробовал создать шрифт из доступных изображений интерфейса. Получилось шикарно, жаль ушло несколько дней у нейронки, оцените результат!",
     "viewpage_description": "Февральский выпуск 1999 года запечатлел золотую эру отечественной игровой прессы: это второй в истории диск «Навигатора Игрового Мира», вышедший аккурат к 22-му номеру журнала в период становления формата регулярных мультимедийных приложений. На борту — знаковый срез эпохи рубежа веков: свежие демо-версии культовых хитов (от отечественных «Аллодов 2: Повелители Душ» и долгожданного Half-Life Uplink до Worms 2 и Commandos), эксклюзивные трейлеры вроде киноадаптации Wing Commander, увесистая подборка свежих патчей к Baldur's Gate, Unreal и «Петьке», а также необходимый софт эпохи — от DirectX 6.1 до классических медиаплееров."
   },
@@ -915,5 +915,34 @@
     "webamp_tracks": [],
     "note": "19 оцифровка. Дешево и сердито. Знаете, сколько весит суммарно оцифровка, включая изображения? 164Кб.",
     "viewpage_description": "Демо-диск «Страна игр» за январь 1998 года предлагает попробовать свежие на тот момент FIFA 98, NHL 98 и NBA 98, а также X-Wing vs. TIE Fighter, Myth: The Fallen Lords и Quake Deathmatch Maker. В разделе видео — ролики Worms 2, Mech Commander и нескольких других проектов. Дополнительно на диске лежат DirectX 5.0 и Internet Explorer 4.0. Удобная оболочка журнала позволяет быстро переходить между разделами."
+  },
+  {
+    "id": "nim-1999-03",
+    "added": "2026-10-31",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "nim",
+    "magazine_title": "Навигатор игрового мира",
+    "year": 1999,
+    "issue": "03",
+    "title": "Навигатор игрового мира №03 (23) — Март 1999",
+    "path": "/discs/nim/1999/03/index.html",
+    "cover_image": "/discs/nim/1999/03/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/GameWorldNavigator_1999-03-023",
+    "disc_image": "/discs/nim/1999/03/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_14_df4a12fdf66680c941",
+    "webamp_tracks": [
+  {
+    "metaData": {
+      "artist": "НИМ #02/1999",
+      "title": "Неизвестный трек"
+    },
+    "url": "music/nim/1999/03/track01.opus",
+    "duration": 224
+  }
+],
+    "note": "20 оцифровка, юбилей! Снова кастомный шрифт Навигатора, который непрост в прочтении + наконец-то сделал логотип для заставки в svg. Из роликов зацените RE3, эталонная японская шиза.",
+    "viewpage_description": "На диске к третьему номеру «Навигатора игрового мира» за 1999 год собраны демо Daikatana, Kingpin, MechWarrior 3, Requiem и Tanktics, ролики по Resident Evil 3 и Star Wars: Episode I — The Phantom Menace, а также патчи и утилиты вроде обновления для Heroes of Might & Magic III, ICQ 99a и антивирусов AVP. Отдельно лежит набор машин для Need for Speed III: Ferrari F40, Porsche 911 Turbo, Subaru Impreza WRC и другие модели из коллекции того времени."
   }
 ]

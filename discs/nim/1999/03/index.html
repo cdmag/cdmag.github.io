@@ -1,185 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Навигатор Игрового Мира 1999 #2 — Дисковая Оболочка</title>
-    <meta name="description" content="Оцифровка и интерактивная веб-оболочка диска журнала «Навигатор игрового мира» за 1999 год, выпуск 2." />
-    <meta property="og:title" content="Навигатор Игрового Мира 1999 #2 — Дисковая Оболочка" />
-    <meta property="og:description" content="Оцифровка и интерактивная веб-оболочка диска журнала «Навигатор игрового мира» за 1999 год, выпуск 2." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Навигатор игрового мира — 1999 №03</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="assets/fonts/NavigatorCutout-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/img/ui/bg-main.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg-main-movies.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg-main-files.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg-main-demos.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg-main-nfs.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_movies.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_files.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_demos.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_nfs.webp" as="image">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
 
-    <!-- Google Font: Golos Text для текстов описания -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet" />
-
-    <!-- Основные стили оболочки -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <div id="shell" class="shell-viewport">
-      <!-- Главный фон оболочки (1600x1200) -->
-      <img
-        id="bg-image"
-        class="shell-bg"
-        src="assets/img/ui/bg.webp"
-        alt="Фон дисковой оболочки Навигатор Игрового Мира 1999 #2"
-        draggable="false"
-      />
-
-      <!-- Всплывающий список выбранного раздела (Скрин 1, 2, 4) -->
-      <div id="menu-popup" class="menu-popup">
-        <ul class="menu-list" id="menu-list"></ul>
-      </div>
-
-      <!-- Правый блок деталей: скриншоты (в DEMOS) + карточка описания + кнопка INSTALL -->
-      <div id="details-panel" class="details-panel">
-        <div class="screenshots-bar" id="screenshots-bar">
-          <div class="screenshot-thumb" data-index="0"><img id="thumb-0" alt="Скриншот 1" draggable="false" /></div>
-          <div class="screenshot-thumb" data-index="1"><img id="thumb-1" alt="Скриншот 2" draggable="false" /></div>
-          <div class="screenshot-thumb" data-index="2"><img id="thumb-2" alt="Скриншот 3" draggable="false" /></div>
-        </div>
-
-        <div class="description-box" id="description-box">
-          <div class="game-description" id="desc-text"></div>
-          <button type="button" class="btn-install" id="btn-install">Install</button>
-        </div>
-      </div>
-
-      <!-- Модальное окно полноразмерного просмотра скриншота (Скрин 3 демок) -->
-      <div id="image-modal" class="image-modal" title="Нажмите, чтобы закрыть">
-        <div class="image-modal-frame">
-          <button type="button" class="image-modal-close" id="btn-close-image" title="Закрыть скриншот">✕</button>
-          <img id="modal-img" alt="Увеличенный скриншот" draggable="false" />
-          <div class="image-modal-shield" aria-hidden="true"></div>
-        </div>
-      </div>
-
-      <!-- Модальное окно воспроизведения ВК видео (Раздел MOVIES) -->
-      <div id="video-modal-overlay" class="video-modal-overlay">
-        <div class="video-modal-container" id="video-modal-container">
-          <button type="button" class="video-modal-close" id="btn-close-video" title="Закрыть видео">✕</button>
-          <div class="video-frame-wrapper" id="video-frame-wrapper"></div>
-        </div>
-      </div>
-
-      <!-- Всплывающее сообщение при клике INSTALL с затемнением экрана -->
-      <div id="install-toast-overlay" class="install-toast-overlay" title="Нажмите, чтобы закрыть">
-        <div class="install-toast-card">
-          <span>Все файлы доступны в образе диска</span>
-        </div>
-      </div>
-
-      <!-- Окно титров при клике на EXIT (Скриншот 1) -->
-      <div id="exit-credits-overlay" class="exit-credits-overlay" title="Нажмите в любом месте, чтобы закрыть">
-        <div class="credits-grid">
-          <!-- Ряд 1 -->
-          <div class="credits-col-left">
-            <div>ИГОРЬ ВЛАСОВ</div>
-            <div>AKA VIV</div>
-          </div>
-          <div class="credits-col-right">
-            <div>КОДИНГ,</div>
-            <div>АДАПТАЦИЯ ВИДЕО</div>
-          </div>
-
-          <!-- Ряд 2 -->
-          <div class="credits-col-left">
-            <div>АЛЕКСАНДР МЕТЕЛЬКОВ</div>
-            <div>AKA ASSA</div>
-          </div>
-          <div class="credits-col-right">
-            <div>ДИЗАЙН,</div>
-            <div>КОНЦЕПЦИЯ</div>
-          </div>
-
-          <!-- Ряд 3 -->
-          <div class="credits-col-left">
-            <div>ДМИТРИЙ ДРОНЕНКО</div>
-            <div>AKA ALRICK[ASP]</div>
-          </div>
-          <div class="credits-col-right">
-            <div>НАПОЛНЕНИЕ</div>
-            <div>РАЗДЕЛА FILES</div>
-          </div>
-
-          <!-- Ряд 4 -->
-          <div class="credits-col-left">
-            <div>ИГОРЬ БОЙКО</div>
-            <div>AKA BIB THE TALL</div>
-          </div>
-          <div class="credits-col-right">
-            <div>РУКОВОДСТВО</div>
-            <div>ПРОЕКТОМ</div>
-          </div>
-        </div>
-
-        <div class="credits-footer">
-          ИЗДАТЕЛЬСКИЙ ДОМ 'НАВИГАТОР ПАБЛИШИНГ'
-        </div>
-      </div>
-
-      <!-- Сплэш-экран при первом открытии сайта в сессии (Скриншоты 2-5) -->
-      <div id="splash-overlay" class="splash-overlay" title="Нажмите, чтобы пропустить">
-        <!-- Слайд 1: НАВИГАТОР ИГРОВОГО МИРА -->
-        <div id="splash-slide-0" class="splash-slide">
-          <div class="splash-logo">
-            <div class="splash-logo-n">Н</div>
-            <div class="splash-logo-right">
-              <div class="splash-logo-top">АВИГАТОР</div>
-              <div class="splash-logo-bottom">ИГРОВОГО МИРА</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Слайд 2: ПРЕДСТАВЛЯЕТ -->
-        <div id="splash-slide-1" class="splash-slide">
-          <div class="splash-text-decor splash-text-medium">ПРЕДСТАВЛЯЕТ</div>
-        </div>
-
-        <!-- Слайд 3: CD-ROM # 2 -->
-        <div id="splash-slide-2" class="splash-slide">
-          <div class="splash-text-decor splash-text-medium">CD-ROM # 2</div>
-        </div>
-
-        <!-- Слайд 4: ФЕВРАЛЬ 1999 -->
-        <div id="splash-slide-3" class="splash-slide">
-          <div class="splash-text-decor splash-text-medium">ФЕВРАЛЬ 1999</div>
-        </div>
-      </div>
-
-      <!-- Нижняя панель разделов диска -->
-      <nav class="sections-nav" id="sections-nav">
-        <button type="button" class="nav-item" data-section="demos" id="btn-demos">Demos</button>
-        <button type="button" class="nav-item" data-section="movies" id="btn-movies">Movies</button>
-        <button type="button" class="nav-item" data-section="patches" id="btn-patches">Patches</button>
-        <button type="button" class="nav-item" data-section="files" id="btn-files">Files</button>
-        <a
-          href="https://web.archive.org/web/199902/http://www.gamenavigator.ru"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="nav-item"
-          data-section="internet"
-          id="btn-internet"
-        >Internet</a>
-        <button type="button" class="nav-item" data-section="exit" id="btn-exit">Exit</button>
-      </nav>
-
-      <!-- Резервный выбор файла фона при необходимости -->
-      <div id="placeholder" class="drop-placeholder hidden">
-        <h2>Фон оболочки (1600×1200)</h2>
-        <p>
-          Ожидается файл <code>assets/img/ui/bg.webp</code>.<br />
-          Поместите его в эту папку в дереве файлов, либо перетащите файл <code>bg.webp</code> прямо сюда.
-        </p>
-        <button type="button" class="file-select-btn" id="upload-btn">Выбрать bg.webp</button>
-        <input type="file" id="file-input" accept="image/webp,image/*" style="display: none;" />
-      </div>
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="splash" id="splash">
+      <div class="splash__logo" id="splash-logo"></div>
+      <div class="splash__text" id="splash-text-1">ПРЕДСТАВЛЯЕТ</div>
+      <div class="splash__text" id="splash-text-2">CD-ROM #3</div>
+    </div>
+    <!-- MAIN -->
+    <div class="view view-main" id="view-main">
+      <div class="bg-layer bg-layer--movies" data-layer="movies"></div>
+      <div class="bg-layer bg-layer--files"  data-layer="files"></div>
+      <div class="bg-layer bg-layer--demos"  data-layer="demos"></div>
+      <div class="bg-layer bg-layer--nfs"    data-layer="nfs"></div>
+      <div class="hotspot hotspot--movies" data-layer="movies" data-title="Синематограф" data-action="open-movies"></div>
+      <div class="hotspot hotspot--files"  data-layer="files"  data-title="Арсенал" data-action="open-files"></div>
+      <div class="hotspot hotspot--demos"  data-layer="demos"  data-title="Кунсткамера" data-action="open-demos"></div>
+      <div class="hotspot hotspot--nfs"    data-layer="nfs"    data-title="Каретный двор" data-action="open-nfs"></div>
+      <div class="hotspot hotspot--north"  data-title="На север" data-action="credits"></div>
+      <div class="hotspot hotspot--nest"   data-title="Гнездо бакланов" data-action="chat"></div>
     </div>
 
-    <!-- Основная логика оболочки -->
-    <script src="assets/js/main.js"></script>
-  </body>
+    <!-- MOVIES -->
+    <div class="view view-movies view--hidden" id="view-movies">
+      <div class="hotspot hotspot--afisha" data-title="Афиша" id="afisha-hotspot"></div>
+      <div class="afisha-list" id="afisha-list">
+        <div class="afisha-list__item" data-vid="0">3DFX Interactive Demo</div>
+        <div class="afisha-list__item" data-vid="1">Civilization:<br>Call To Power</div>
+        <div class="afisha-list__item" data-vid="2">Giants</div>
+        <div class="afisha-list__item" data-vid="3">Sequel To Mordor:<br>Infinite Worlds</div>
+        <div class="afisha-list__item" data-vid="4">Resident Evil 3</div>
+        <div class="afisha-list__item" data-vid="5">Star Wars:<br>Phantom Menace</div>
+      </div>
+      <div class="hotspot hotspot--city-movies" data-title="В город" data-action="back-main"></div>
+    </div>
+
+    <!-- FILES -->
+    <div class="view view-files view--hidden" id="view-files">
+      <div class="hotspot hotspot--files-list" data-title="Списочек" id="files-list-hotspot"></div>
+      <div class="files-list" id="files-list">
+        <div class="files-list__item" data-idx="0">ANTIVIRAL TOOLKIT PRO 98</div>
+        <div class="files-list__item" data-idx="1">AVP INSPECTOR 95</div>
+        <div class="files-list__item" data-idx="2">AVP VIRAL ENCYCLOPEDIA</div>
+        <div class="files-list__item" data-idx="3">CD WIZARD</div>
+        <div class="files-list__item" data-idx="4">DELTA FORCE UPDATE</div>
+        <div class="files-list__item" data-idx="5">FIX UNINSTALL</div>
+        <div class="files-list__item" data-idx="6">HEROES OF MIGHT &amp; MAGIC III</div>
+        <div class="files-list__item" data-idx="7">ICQ 99A</div>
+        <div class="files-list__item" data-idx="8">NEO PLANET</div>
+        <div class="files-list__item" data-idx="9">NETSCAPE COMMUNICATOR</div>
+        <div class="files-list__item" data-idx="10">QUICK TIME 3.0</div>
+      </div>
+      <div class="files-info" id="files-info">
+        <div class="files-info__title" id="files-info-title"></div>
+        <div class="files-info__desc" id="files-info-desc"></div>
+      </div>
+      <div class="files-davay" id="files-davay">ДАВАЙ!</div>
+      <div class="hotspot hotspot--city-files" data-title="В город" data-action="back-main"></div>
+    </div>
+
+    <!-- DEMOS -->
+    <div class="view view-demos view--hidden" id="view-demos">
+      <div class="hotspot hotspot--demos-list" data-title="Списочек" id="demos-list-hotspot"></div>
+      <div class="demos-list" id="demos-list">
+        <div class="demos-list__item" data-idx="0">BEAT DOWN</div>
+        <div class="demos-list__item" data-idx="1">DAIKATANA</div>
+        <div class="demos-list__item" data-idx="2">KINGPIN: LIFE OF A CRIME</div>
+        <div class="demos-list__item" data-idx="3">MALKARI</div>
+        <div class="demos-list__item" data-idx="4">MECHWARRIOR 3</div>
+        <div class="demos-list__item" data-idx="5">NORTH VS. SOUTH</div>
+        <div class="demos-list__item" data-idx="6">REQUIEM</div>
+        <div class="demos-list__item" data-idx="7">TANKTICS</div>
+        <div class="demos-list__item" data-idx="8">THE GUARDIAN OF DARKNESS</div>
+        <div class="demos-list__item" data-idx="9">WILD METAL COUNTRY</div>
+        <div class="demos-list__item" data-idx="10">X - BEYOND THE FRONTIER</div>
+      </div>
+      <div class="demos-info" id="demos-info">
+        <div class="demos-info__title" id="demos-info-title"></div>
+        <div class="demos-info__meta" id="demos-info-meta"></div>
+        <div class="demos-info__desc" id="demos-info-desc"></div>
+      </div>
+      <div class="demos-previews" id="demos-previews">
+        <div class="shot" data-shot="0"></div>
+        <div class="shot" data-shot="1"></div>
+        <div class="shot" data-shot="2"></div>
+      </div>
+      <div class="demos-davay" id="demos-davay">ДАВАЙ!</div>
+      <div class="hotspot hotspot--city-demos" data-title="В город" data-action="back-main"></div>
+    </div>
+
+    <!-- NFS -->
+    <div class="view view-nfs view--hidden" id="view-nfs">
+      <div class="hotspot hotspot--nfs-list" data-title="Тачки" id="nfs-list-hotspot"></div>
+      <div class="nfs-list" id="nfs-list">
+        <div class="nfs-list__item" data-idx="0">BMW M ROADSTER</div>
+        <div class="nfs-list__item" data-idx="1">BMW M5</div>
+        <div class="nfs-list__item" data-idx="2">DIABLO VT ROADSTER</div>
+        <div class="nfs-list__item" data-idx="3">FERRARI F355 F1 BERLINETTA</div>
+        <div class="nfs-list__item" data-idx="4">FERRARI F40</div>
+        <div class="nfs-list__item" data-idx="5">FORD ESCORT COSWORTH</div>
+        <div class="nfs-list__item" data-idx="6">LAMBORGHINI L147 CANTO</div>
+        <div class="nfs-list__item" data-idx="7">LOTUS GT1</div>
+        <div class="nfs-list__item" data-idx="8">MASERATI 3200 GT</div>
+        <div class="nfs-list__item" data-idx="9">MERCEDES SL600</div>
+        <div class="nfs-list__item" data-idx="10">MITSUBISHI 3000GT</div>
+        <div class="nfs-list__item" data-idx="11">PEUGEOT 306 MAXI WRC</div>
+        <div class="nfs-list__item" data-idx="12">PONTIAC BANSHEE</div>
+        <div class="nfs-list__item" data-idx="13">PORSCHE 911 TURBO</div>
+        <div class="nfs-list__item" data-idx="14">PORSCHE 959</div>
+        <div class="nfs-list__item" data-idx="15">SKODA OCTAVIA SLX</div>
+        <div class="nfs-list__item" data-idx="16">SUBARU 555 WRC</div>
+        <div class="nfs-list__item" data-idx="17">SUBARU IMPREZA WRX 228 STI</div>
+        <div class="nfs-list__item" data-idx="18">VECTOR M12</div>
+        <div class="nfs-list__item" data-idx="19">VIPER CTS COUPE</div>
+      </div>
+      <div class="nfs-info" id="nfs-info">
+        <div class="nfs-info__desc" id="nfs-info-desc"></div>
+      </div>
+      <div class="nfs-shot" id="nfs-shot"><canvas id="nfs-shot-canvas"></canvas></div>
+      <div class="nfs-davay" id="nfs-davay">ДАВАЙ!</div>
+      <div class="hotspot hotspot--city-nfs" data-title="В город" data-action="back-main"></div>
+    </div>
+
+    <div class="caption" id="caption"></div>
+    <div class="credits-overlay" id="credits"></div>
+
+    <div class="video-modal" id="video-modal">
+      <div class="video-modal__frame" id="video-frame"></div>
+    </div>
+
+    <div class="shot-modal" id="shot-modal">
+      <canvas id="shot-modal-img" width="1280" height="960"></canvas>
+    </div>
+
+    <div class="toast" id="toast">
+      <div class="toast__msg">Все файлы доступны в образе диска</div>
+    </div>
+  </div>
+
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>

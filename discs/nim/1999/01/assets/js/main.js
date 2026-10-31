@@ -207,3 +207,6 @@ sessionSplash.addEventListener('click', function () {
 sessionSplash.addEventListener('contextmenu', function (e) {
   e.preventDefault();
 });
+
+document.fonts.load('800 16px Inter', 'Aa0');
+document.fonts.load('16px "DejaVu Sans"', 'Aa');
