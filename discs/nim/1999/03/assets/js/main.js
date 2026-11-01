@@ -10,7 +10,9 @@
   const viewFiles = document.getElementById('view-files');
   const viewDemos = document.getElementById('view-demos');
   const viewNfs = document.getElementById('view-nfs');
+  const zoomFx = document.getElementById('zoom-fx');
   const layers = document.querySelectorAll('.bg-layer');
+  let transitionBusy = false;
   const nfsListHotspot = document.getElementById('nfs-list-hotspot');
   const nfsList = document.getElementById('nfs-list');
   const nfsInfo = document.getElementById('nfs-info');
@@ -129,6 +131,47 @@
     hideCaption(); hideAllLayers();
   }
 
+  function transitionZoomTo(targetView, originX, originY, scale) {
+    if (transitionBusy) return;
+    transitionBusy = true;
+    hideCaption();
+    hideAllLayers();
+
+    const activeLayer = document.querySelector('.bg-layer.is-active');
+    const bgUrl = activeLayer
+      ? getComputedStyle(activeLayer).backgroundImage
+      : getComputedStyle(viewMain).backgroundImage;
+
+    zoomFx.style.backgroundImage = bgUrl || "url('assets/img/ui/bg-main.webp')";
+    zoomFx.style.transformOrigin = originX + '% ' + originY + '%';
+    zoomFx.style.transform = 'scale(1)';
+    zoomFx.classList.remove('is-fading');
+    zoomFx.classList.add('is-running');
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        zoomFx.style.transform = 'scale(' + scale + ')';
+      });
+    });
+
+    setTimeout(() => {
+      hideAllViews();
+      targetView.classList.remove('view--hidden');
+      targetView.classList.add('view-enter');
+      void targetView.offsetWidth;
+      targetView.classList.add('is-shown');
+
+      zoomFx.classList.add('is-fading');
+      setTimeout(() => {
+        zoomFx.classList.remove('is-running', 'is-fading');
+        zoomFx.style.transform = 'scale(1)';
+        zoomFx.style.backgroundImage = '';
+        targetView.classList.remove('view-enter', 'is-shown');
+        transitionBusy = false;
+      }, 650);
+    }, 1500);
+  }
+
   function openVideo(idx) {
     const v = videos[idx]; if (!v) return;
     videoFrame.innerHTML = `<iframe src="${v.src}" referrerpolicy="no-referrer" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>`;
@@ -179,10 +222,18 @@
       const act = hs.dataset.action;
       if (act === 'credits') credits.classList.add('is-open');
       else if (act === 'chat') window.open('https://web.archive.org/web/199903/http://195.2.82.5/chat', '_blank');
-      else if (act === 'open-movies') { hideAllViews(); viewMovies.classList.remove('view--hidden'); }
-      else if (act === 'open-files') { hideAllViews(); viewFiles.classList.remove('view--hidden'); }
-      else if (act === 'open-demos') { hideAllViews(); viewDemos.classList.remove('view--hidden'); }
-      else if (act === 'open-nfs') { hideAllViews(); viewNfs.classList.remove('view--hidden'); }
+      else if (act === 'open-movies') {
+        transitionZoomTo(viewMovies, 14.5, 84.25, 3.2);
+      }
+      else if (act === 'open-files') {
+        transitionZoomTo(viewFiles, 15.5, 49, 3.0);
+      }
+      else if (act === 'open-demos') {
+        transitionZoomTo(viewDemos, 47.3, 35.1, 2.8);
+      }
+      else if (act === 'open-nfs') {
+        transitionZoomTo(viewNfs, 88.25, 41.1, 3.0);
+      }
       else if (act === 'back-main') { hideAllViews(); viewMain.classList.remove('view--hidden'); }
     });
   });
