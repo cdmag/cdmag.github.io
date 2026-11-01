@@ -1056,3 +1056,16 @@ html, body, #app-window, #app-window * {
     line-height: 1.35;
     max-width: 90vw;
 }
+
+#music-toast {
+    position: fixed;
+    inset: 0;
+    z-index: 999998;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#music-toast.active {
+    display: flex;
+}

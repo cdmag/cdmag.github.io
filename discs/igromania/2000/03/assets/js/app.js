@@ -101,10 +101,9 @@ function goHome() {
 }
 
 function renderMusicSection() {
-  // Общий блок заголовка фиксированной высоты, чтобы разделители были на одной линии
   const headerStyle = 'display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%; height:170px; margin-top:10px;';
   const titleStyle = 'font-size:3.4rem; line-height:1.15; margin:0; text-align:center;';
-  const trackStyle = 'font-size:2.8rem; line-height:1.2; margin:8px 0 0 0; color:#1a0f07; font-style:italic; text-align:center;';
+  const trackStyle = 'font-size:2.8rem; line-height:1.2; margin:8px 0 0 0; color:#1a0f07;  text-align:center;';
 
   pageLeft.innerHTML = `
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: 100%;">
@@ -115,9 +114,9 @@ function renderMusicSection() {
       </div>
       <img src="assets/img/ui/divider.webp" class="divider-img" alt="--" style="margin: 15px 0 25px 0;">
       <ul class="menu-list">
-        <li class="menu-item" onclick="void(0)">Тише</li>
-        <li class="menu-item" onclick="prevTrack()">Назад</li>
-        <li class="menu-item" onclick="void(0)">Не играть</li>
+        <li class="menu-item" onclick="showMusicNotice()">Тише</li>
+        <li class="menu-item" onclick="prevTrack(); showMusicNotice()">Назад</li>
+        <li class="menu-item" onclick="showMusicNotice()">Не играть</li>
       </ul>
     </div>
   `;
@@ -134,12 +133,34 @@ function renderMusicSection() {
       </div>
       <img src="assets/img/ui/divider.webp" class="divider-img" alt="--" style="margin: 15px 0 25px 0;">
       <ul class="menu-list">
-        <li class="menu-item" onclick="void(0)">Громче</li>
-        <li class="menu-item" onclick="nextTrack()">Вперед</li>
-        <li class="menu-item" onclick="void(0)">Играть</li>
+        <li class="menu-item" onclick="showMusicNotice()">Громче</li>
+        <li class="menu-item" onclick="nextTrack(); showMusicNotice()">Вперед</li>
+        <li class="menu-item" onclick="showMusicNotice()">Играть</li>
       </ul>
     </div>
   `;
+}
+
+let musicNoticeTimer = null;
+
+function showMusicNotice() {
+  hideMusicNotice();
+  const overlay = document.createElement('div');
+  overlay.className = 'music-notice-overlay';
+  overlay.id = 'musicNoticeOverlay';
+  overlay.innerHTML = '<div class="music-notice-box">Музыка включается в плеере слева от оболочки</div>';
+  overlay.addEventListener('click', hideMusicNotice);
+  document.body.appendChild(overlay);
+  musicNoticeTimer = setTimeout(hideMusicNotice, 1000);
+}
+
+function hideMusicNotice() {
+  if (musicNoticeTimer) {
+    clearTimeout(musicNoticeTimer);
+    musicNoticeTimer = null;
+  }
+  const el = document.getElementById('musicNoticeOverlay');
+  if (el) el.remove();
 }
 
 function prevTrack() {

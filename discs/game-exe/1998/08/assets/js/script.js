@@ -1,3 +1,6 @@
+document.fonts.load('500 16px Oswald', 'Aa');
+document.fonts.load('600 16px Oswald', 'Aa');
+
       const DEFAULT_SOUND_VOLUME = 0.15;
       function createAudio(src) {
         const audio = new Audio(src);

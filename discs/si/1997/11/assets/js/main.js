@@ -1,4 +1,8 @@
 (function() {
+  document.fonts.load('400 16px "IBM Plex Mono"', 'Aa');
+  document.fonts.load('400 16px "PT Sans"', 'Aa');
+  document.fonts.load('italic 400 16px "PT Sans"', 'Aa');
+
   const btns = {
     igry:  document.getElementById('btn-igry'),
     video: document.getElementById('btn-video'),

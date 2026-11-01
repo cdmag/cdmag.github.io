@@ -3,6 +3,10 @@
  * Основной интерактивный сценарий интерфейса
  */
 
+document.fonts.load('400 16px "Golos Text"', 'Aa');
+document.fonts.load('500 16px "Golos Text"', 'Aa');
+document.fonts.load('600 16px "Golos Text"', 'Aa');
+
 document.addEventListener('DOMContentLoaded', () => {
   // --- Состояние и постоянный кэш данных в оперативной памяти ---
   const state = {

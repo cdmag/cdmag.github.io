@@ -1,3 +1,6 @@
+[400, 600, 700, 800, 900].forEach(w => document.fonts.load(`${w} 16px Inter`, 'Aa').catch(() => {}));
+[400, 700, 800].forEach(w => document.fonts.load(`${w} 16px "JetBrains Mono"`, 'Aa').catch(() => {}));
+
 let sectionsData = {};
 let playerState = 'stopped';
 let activePlayingSource = null;
@@ -55,16 +58,12 @@ function isBelow2K() {
     return physW < 2560 || physH < 1440;
 }
 
+// Масштаб курсора (применяется в rAF вместе с позицией, см. инициализацию курсора)
+let cursorScale = 1;
+
 function updateCursorSize() {
-    const cursor = document.getElementById('app-custom-cursor');
-    if (!cursor) return;
-    if (isBelow2K()) {
-        cursor.style.transform = 'scale(0.5)';
-        cursor.style.transformOrigin = 'top left';
-    } else {
-        cursor.style.transform = '';
-        cursor.style.transformOrigin = '';
-    }
+    cursorScale = isBelow2K() ? 0.5 : 1;
+    if (typeof window.__renderCursor === 'function') window.__renderCursor();
 }
 
 function scaleApp() {
@@ -87,6 +86,29 @@ function showInstallToast() {
             <div class="install-toast-backdrop"></div>
             <div class="install-toast-box">Все файлы доступны в образе диска</div>
         `;
+        document.body.appendChild(toast);
+    }
+
+    toast.classList.add('active');
+    clearTimeout(toast._hideTimer);
+    toast._hideTimer = setTimeout(() => {
+        toast.classList.remove('active');
+    }, 1000);
+}
+
+function showMusicToast() {
+    let toast = document.getElementById('music-toast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'music-toast';
+        toast.innerHTML = `
+            <div class="install-toast-backdrop"></div>
+            <div class="install-toast-box">Музыка включается в плеере слева от оболочки</div>
+        `;
+        toast.addEventListener('click', () => {
+            clearTimeout(toast._hideTimer);
+            toast.classList.remove('active');
+        });
         document.body.appendChild(toast);
     }
 
@@ -590,6 +612,10 @@ function bindMusicControls() {
         musOptBtn.addEventListener('click', openOptionsModal);
     }
 
+    [prevBtn, playBtn, stopBtn, nextBtn].forEach(btn => {
+        if (btn) btn.addEventListener('click', showMusicToast);
+    });
+
     if (!playBtn || !stopBtn) return;
 
     playBtn.addEventListener('click', () => {
@@ -975,36 +1001,69 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('viewer-close-btn').addEventListener('click', closeImageViewer);
 
     // Инициализация кастомного курсора
-    const cursor = document.createElement('img');
+    // Два <img> создаются один раз и переключаются классом (без смены src → без повторного
+    // декодирования анимации). Позиция — только transform в rAF (композитор, без layout).
+    const cursor = document.createElement('div');
     cursor.id = 'app-custom-cursor';
-    cursor.src = 'assets/img/ui/cursor.webp';
     cursor.style.cssText = `
         position: fixed;
         top: 0;
         left: 0;
+        width: 80px;
+        height: 80px;
         pointer-events: none;
         z-index: 999999;
         display: none;
+        will-change: transform;
+        contain: layout paint size;
+        transform-origin: 0 0;
     `;
+    const makeCursorImg = (src) => {
+        const im = document.createElement('img');
+        im.src = src;
+        im.alt = '';
+        im.draggable = false;
+        im.decoding = 'async';
+        im.style.cssText = 'position:absolute;top:0;left:0;display:block;pointer-events:none;';
+        cursor.appendChild(im);
+        return im;
+    };
+    const imgDefault = makeCursorImg('assets/img/ui/cursor.webp');
+    const imgLinks = makeCursorImg('assets/img/ui/cursor_links.webp');
+    imgLinks.style.visibility = 'hidden';
     document.body.appendChild(cursor);
+
+    let curX = 0, curY = 0, curVisible = false, curRaf = 0, curLink = false;
+
+    function renderCursor() {
+        curRaf = 0;
+        if (!curVisible) return;
+        cursor.style.transform = `translate3d(${curX}px, ${curY}px, 0) scale(${cursorScale})`;
+    }
+    window.__renderCursor = renderCursor;
     updateCursorSize();
 
     window.addEventListener('mousemove', (e) => {
-        cursor.style.display = 'block';
-        cursor.style.left = `${e.clientX}px`;
-        cursor.style.top = `${e.clientY}px`;
-    });
+        curX = e.clientX;
+        curY = e.clientY;
+        if (!curVisible) {
+            curVisible = true;
+            cursor.style.display = 'block';
+        }
+        if (!curRaf) curRaf = requestAnimationFrame(renderCursor);
+    }, { passive: true });
 
     document.addEventListener('mouseleave', () => {
+        curVisible = false;
         cursor.style.display = 'none';
     });
 
     document.addEventListener('mouseover', (e) => {
-        if (e.target.closest('a, .expanded-link, .logo-wrapper, #exe-logo')) {
-            cursor.src = 'assets/img/ui/cursor_links.webp';
-        } else {
-            cursor.src = 'assets/img/ui/cursor.webp';
-        }
+        const isLink = !!(e.target.closest && e.target.closest('a, .expanded-link, .logo-wrapper, #exe-logo'));
+        if (isLink === curLink) return;
+        curLink = isLink;
+        imgDefault.style.visibility = isLink ? 'hidden' : 'visible';
+        imgLinks.style.visibility = isLink ? 'visible' : 'hidden';
     });
 });
 

@@ -3,6 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <title>Game.EXE CD #7 (36) 2001</title>
+    <link rel="preload" href="assets/data/data.json" as="fetch" type="application/json" crossorigin>
+    <link rel="preload" href="assets/img/ui/arrow_left.webp" as="image">
+    <link rel="preload" href="assets/img/ui/arrow_left_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/arrow_left_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/arrow_right.webp" as="image">
+    <link rel="preload" href="assets/img/ui/arrow_right_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/arrow_right_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/bottom-Back.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_igry.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_igry_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_igry_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_install.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_install_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_install_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_muzyka.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_muzyka_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_muzyka_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_options.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_options_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_options_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_patchi.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_patchi_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_patchi_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_retro.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_retro_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_retro_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_utility.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_utility_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/btn_utility_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/control-panel-Back.webp" as="image">
+    <link rel="preload" href="assets/img/ui/cursor.webp" as="image">
+    <link rel="preload" href="assets/img/ui/cursor_links.webp" as="image">
+    <link rel="preload" href="assets/img/ui/frame_bg.webp" as="image">
+    <link rel="preload" href="assets/img/ui/games_fon.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_bonus.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_bonus_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_bonus_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_igry.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_igry_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_igry_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_music.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_music_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_music_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_patches.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_patches_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_patches_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_retro.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_retro_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_retro_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_shareware.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_shareware_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_shareware_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_utils.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_utils_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/header_utils_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/logo_exe_07_2001.webp" as="image">
+    <link rel="preload" href="assets/img/ui/logo_exe_07_2001_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/logo_exe_07_2001_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center01.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center02.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center03.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center04.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center05.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center06.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center07.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center08.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center09.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center10.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_center11.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_left01.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_left02.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_left03.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_left04.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_left05.webp" as="image">
+    <link rel="preload" href="assets/img/ui/media_left06.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_next.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_next_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_next_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_opt.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_opt_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_opt_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_pause.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_play.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_prev.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_prev_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_prev_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_stop.webp" as="image">
+    <link rel="preload" href="assets/img/ui/mus_stop_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/music_bonus.webp" as="image">
+    <link rel="preload" href="assets/img/ui/music_main.webp" as="image">
+    <link rel="preload" href="assets/img/ui/nav_bg.webp" as="image">
+    <link rel="preload" href="assets/img/ui/options.webp" as="image">
+    <link rel="preload" href="assets/img/ui/patches_fon.webp" as="image">
+    <link rel="preload" href="assets/img/ui/retro_fon.webp" as="image">
+    <link rel="preload" href="assets/img/ui/sep_1.webp" as="image">
+    <link rel="preload" href="assets/img/ui/sep_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/sep_3.webp" as="image">
+    <link rel="preload" href="assets/img/ui/splash.webp" as="image">
+    <link rel="preload" href="assets/img/ui/upper_back.webp" as="image">
+    <link rel="preload" href="assets/img/ui/utils_fon.webp" as="image">
+    <link rel="preload" href="assets/img/ui/win_close.webp" as="image">
+    <link rel="preload" href="assets/img/ui/win_close_2.webp" as="image">
+    <link rel="preload" href="assets/img/ui/win_min.webp" as="image">
+    <link rel="preload" href="assets/img/ui/win_min_2.webp" as="image">
+    <link rel="preload" href="assets/sound/grid.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/link.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/picture.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/setup.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/options.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/ding.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/sp_btn.wav" as="fetch" type="audio/wav" crossorigin>
+    <link rel="preload" href="assets/sound/exit.wav" as="fetch" type="audio/wav" crossorigin>
     <!-- Подключение шрифтов Inter и JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

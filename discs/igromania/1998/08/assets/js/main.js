@@ -1,3 +1,10 @@
+document.fonts.load('400 16px Arimo', 'Aa');
+document.fonts.load('700 16px Arimo', 'Aa');
+document.fonts.load('400 16px "Open Sans"', 'Aa');
+document.fonts.load('700 16px "Open Sans"', 'Aa');
+document.fonts.load('400 16px "IBM Plex Mono"', 'Aa');
+document.fonts.load('700 16px "IBM Plex Mono"', 'Aa');
+
 const leftData = {
       demos: { num: '17', text: 'полностью<br>играбель-<br>ных демо-<br>версий от<br>российских<br>и ведущих<br>зарубеж-<br>ных раз-<br>работчиков' },
       soft: { num: '12', pre: 'Полезные<br>программы', text: 'лучших из<br>лучших:<br>архиваторы<br>графичес-<br>кие пакеты,<br>броузеры и<br>другие' },

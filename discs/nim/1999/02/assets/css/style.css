@@ -598,41 +598,27 @@ html, body {
   opacity: 1;
 }
 
-/* Слайд 1: Логотип Навигатор Игрового Мира с большой Н на 2 строки */
+/* Слайд 1: Логотип Навигатор Игрового Мира (inline SVG) */
 .splash-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'NocturneDeco', sans-serif;
-  color: #b5d5ff;
-  text-shadow: 0 0 16px rgba(181, 213, 255, 0.85), 0 0 32px rgba(90, 150, 245, 0.6), 2px 2px 6px #000;
+  /* Цвет и оформление как у оригинальной шрифтовой версии (#b5d5ff + glow) */
+  --logo-fill: #b5d5ff;
+  --logo-outline: #0a1628;
+  --logo-shadow: #0a1628;
+  --logo-shadow-x: 4px;
+  --logo-shadow-y: 4px;
+  filter: drop-shadow(0 0 14px rgba(181, 213, 255, 0.85))
+          drop-shadow(0 0 28px rgba(90, 150, 245, 0.55))
+          drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.7));
 }
 
-.splash-logo-n {
-  font-size: clamp(70px, 15cqh, 188px);
-  line-height: 0.88;
-  margin-right: 0.4cqw;
-  display: flex;
-  align-items: center;
-}
-
-.splash-logo-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: left;
-}
-
-.splash-logo-top {
-  font-size: clamp(35px, 7.75cqh, 98px);
-  line-height: 1;
-  letter-spacing: clamp(1px, 0.35cqw, 5px);
-}
-
-.splash-logo-bottom {
-  font-size: clamp(19px, 4.1cqh, 52px);
-  line-height: 1;
-  letter-spacing: clamp(1px, 0.25cqw, 4px);
+.splash-logo svg {
+  width: clamp(312px, 46.8cqw, 768px);
+  height: auto;
+  display: block;
+  max-width: 92%;
 }
 
 /* Слайды 2, 3, 4: ПРЕДСТАВЛЯЕТ, CD-ROM # 2, ФЕВРАЛЬ 1999 */
