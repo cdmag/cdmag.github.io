@@ -1399,7 +1399,7 @@
         } catch (e) {}
         try {
           var s = new Audio('assets/sound/splash.wav');
-          s.volume = 1;
+          s.volume = 0.15;
           var p = s.play();
           if (p && p.catch) p.catch(function(){});
         } catch (e) {}

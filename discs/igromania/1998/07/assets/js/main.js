@@ -328,6 +328,7 @@
   try {
     menuSound = new Audio('assets/sound/menu.wav');
     menuSound.preload = 'auto';
+    menuSound.volume = 0.15;
   } catch (e) {}
 
   function playMenuSound() {
@@ -356,6 +357,7 @@
   try {
     exitSound = new Audio('assets/sound/exit.wav');
     exitSound.preload = 'auto';
+    exitSound.volume = 0.15;
   } catch (e) {}
   function playExitSound() {
     if (!exitSound) return;
@@ -538,6 +540,7 @@
 
       try {
         var s = new Audio('assets/sound/splash.wav');
+        s.volume = 0.15;
         s.play().catch(function () {});
       } catch (e) {}
 
