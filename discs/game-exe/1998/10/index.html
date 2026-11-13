@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game.EXE 1998 №10, CD#3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Cousine:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/img/ui/about.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_bonus.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_bonus_photo.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_demos.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_demos_main.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_music.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_music_lyrics.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_music_splash.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_music_tria.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_patches.webp" as="image">
+<link rel="preload" href="assets/img/ui/bg_utils.webp" as="image">
+<link rel="preload" href="assets/img/ui/splash.webp" as="image">
+<link rel="stylesheet" href="assets/css/shell.css">
+
+</head>
+<body>
+<!-- MAIN -->
+<div class="scene active" id="scene-main">
+  <img class="bg" src="assets/img/ui/bg.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="hotspot" style="left:15.25%; top:28.3333%; width:35.75%; height:9.6667%;" data-go="demos"></div>
+  <div class="hotspot" style="left:15.25%; top:41.8333%; width:42.125%; height:9.6667%;" data-go="patches"></div>
+  <div class="hotspot" style="left:15%; top:55.8333%; width:38.25%; height:9.6667%;" data-go="utilities"></div>
+  <div class="hotspot" style="left:15%; top:70.5%; width:32%; height:9.6667%;" data-go="bonus"></div>
+  <div class="hotspot hs-exit" style="left:48.875%; top:96.6667%; width:2.5%; height:3.3333%;"></div>
+  <span class="hover-label label-exit" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Exit</span>
+</div>
+
+<!-- DEMOS LIST -->
+<div class="scene" id="scene-demos">
+  <img class="bg" src="assets/img/ui/bg_demos.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="hotspot" style="left:11.625%; top:26.3333%; width:69.25%; height:4%;" data-demo="carmageddon"></div>
+  <div class="hotspot" style="left:11.25%; top:31.3333%; width:21.75%; height:4.1667%;" data-demo="hardwar"></div>
+  <div class="hotspot" style="left:11%; top:36.3333%; width:67.375%; height:4.1667%;" data-demo="jagged"></div>
+  <div class="hotspot" style="left:11.125%; top:41.3333%; width:59.25%; height:4.1667%;" data-demo="need"></div>
+  <div class="hotspot" style="left:11.625%; top:46.1667%; width:50.5%; height:4.3333%;" data-demo="abe"></div>
+  <div class="hotspot" style="left:11.125%; top:51.3333%; width:49.25%; height:4%;" data-demo="populous"></div>
+  <div class="hotspot" style="left:11.5%; top:56.3333%; width:37.5%; height:4.1667%;" data-demo="railroad"></div>
+  <div class="hotspot" style="left:11.625%; top:61.5%; width:57.25%; height:3.8333%;" data-demo="shogo"></div>
+  <div class="hotspot" style="left:11.125%; top:66%; width:34.625%; height:4.1667%;" data-demo="speed"></div>
+  <div class="hotspot" style="left:11.5%; top:71.1667%; width:51.25%; height:4.1667%;" data-demo="tom"></div>
+  <div class="hotspot" style="left:11.75%; top:76.3333%; width:60.375%; height:4.1667%;" data-demo="wing"></div>
+  <div class="hotspot hs-main" style="left:47.25%; top:96.5%; width:2.625%; height:3.6667%;" data-go="main"></div>
+  <div class="hotspot hs-exit" style="left:50.25%; top:96.5%; width:2.625%; height:3.6667%;"></div>
+  <span class="hover-label label-exit" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Exit</span>
+  <span class="hover-label label-main" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Main menu</span>
+</div>
+
+
+<!-- PATCHES LIST -->
+<div class="scene" id="scene-patches">
+  <img class="bg" src="assets/img/ui/bg_patches.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="hotspot hs-patch" style="left:11.0%; top:26.0%; width:63.0%; height:4.0%;" data-idx="0"></div>
+  <div class="hotspot hs-patch" style="left:11.125%; top:30.8333%; width:63.625%; height:4.1667%;" data-idx="1"></div>
+  <div class="hotspot hs-patch" style="left:11.125%; top:36.0%; width:47.25%; height:4.1667%;" data-idx="2"></div>
+  <div class="hotspot hs-patch" style="left:11.25%; top:41.0%; width:56.5%; height:4.1667%;" data-idx="3"></div>
+  <div class="hotspot hs-patch" style="left:11.25%; top:46.0%; width:56.5%; height:4.1667%;" data-idx="4"></div>
+  <div class="hotspot hs-patch" style="left:11.125%; top:51.1667%; width:68.25%; height:4.1667%;" data-idx="5"></div>
+  <div class="hotspot hs-patch" style="left:11.25%; top:56.0%; width:43.5%; height:4.1667%;" data-idx="6"></div>
+  <div class="hotspot hs-patch" style="left:11.125%; top:61.0%; width:31.5%; height:4.1667%;" data-idx="7"></div>
+  <div class="hotspot hs-patch" style="left:11.125%; top:65.8333%; width:57.0%; height:4.1667%;" data-idx="8"></div>
+  <div class="hotspot hs-patch" style="left:11.25%; top:70.8333%; width:49.375%; height:4.1667%;" data-idx="9"></div>
+  <div class="hotspot hs-patch" style="left:11.25%; top:75.8333%; width:50.875%; height:4.1667%;" data-idx="10"></div>
+  <div class="hotspot hs-patch" style="left:11.0%; top:81.0%; width:57.5%; height:4.1667%;" data-idx="11"></div>
+  <div class="hotspot hs-main" style="left:47.375%; top:96.3333%; width:2.5%; height:3.6667%;" data-go="main"></div>
+  <div class="hotspot hs-exit" style="left:50.375%; top:96.5%; width:2.5%; height:3.6667%;"></div>
+  <span class="hover-label label-exit" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Exit</span>
+  <span class="hover-label label-main" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Main menu</span>
+  <div class="patch-tip" id="patch-tip"></div>
+</div>
+
+<!-- UTILITIES -->
+<div class="scene" id="scene-utils">
+  <img class="bg" src="assets/img/ui/bg_utils.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="hotspot hs-util" style="left:30.75%; top:36.6667%; width:29.75%; height:4.0%;" data-idx="0"></div>
+  <div class="hotspot hs-util" style="left:30.75%; top:41.6667%; width:32.375%; height:4.1667%;" data-idx="1"></div>
+  <div class="hotspot hs-util" style="left:30.125%; top:46.5%; width:30.25%; height:4.1667%;" data-idx="2"></div>
+  <div class="hotspot hs-util" style="left:30.375%; top:51.6667%; width:28.875%; height:4.1667%;" data-idx="3"></div>
+  <div class="hotspot hs-util" style="left:30.375%; top:56.8333%; width:27.75%; height:4.1667%;" data-idx="4"></div>
+  <div class="hotspot hs-util" style="left:29.875%; top:61.8333%; width:38.875%; height:4.1667%;" data-idx="5"></div>
+  <div class="hotspot hs-util" style="left:30.375%; top:66.6667%; width:32.875%; height:4.1667%;" data-idx="6"></div>
+  <div class="hotspot hs-main" style="left:47.375%; top:96.3333%; width:2.5%; height:3.6667%;" data-go="main"></div>
+  <div class="hotspot hs-exit" style="left:50.375%; top:96.5%; width:2.5%; height:3.6667%;"></div>
+  <span class="hover-label label-exit" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Exit</span>
+  <span class="hover-label label-main" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Main menu</span>
+  <div class="patch-tip" id="util-tip"></div>
+</div>
+
+<!-- BONUS -->
+<div class="scene" id="scene-bonus">
+  <img class="bg" src="assets/img/ui/bg_bonus.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="hotspot" style="left:16.75%; top:50.8333%; width:68.25%; height:9.3333%;" data-bonus="photo"></div>
+  <div class="hotspot" style="left:16.75%; top:61.1667%; width:68.25%; height:9.3333%;" data-bonus="music"></div>
+  <div class="hotspot" style="left:16.75%; top:71.8333%; width:68.25%; height:9.3333%;" data-bonus="triary"></div>
+  <div class="hotspot hs-main" style="left:93.875%; top:96%; width:2.5%; height:3.3333%;" data-go="main"></div>
+  <div class="hotspot hs-exit" style="left:97%; top:96%; width:2.5%; height:3.3333%;"></div>
+  <span class="hover-label label-exit" style="left:70%; top:96.5%; width:20%; height:3%;">Exit</span>
+  <span class="hover-label label-main" style="left:70%; top:96.5%; width:20%; height:3%;">Main menu</span>
+</div>
+
+<!-- BONUS PHOTO -->
+<div class="scene" id="scene-photo">
+  <img class="bg" src="assets/img/ui/bg_bonus_photo.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="photo-credits">Все фотоматериалы и тексты публикуются с любезного разрешения web-сайтов "Планета Аквариум" (www.planetaquarium.com) и "Аквариум" (www.aquarium.ru). Авторами части цветных фотографий являются Alec Catson и Михаил Морозов.</div>
+  <div class="photo-text" id="photo-text"></div>
+  <div class="thumbs-photo" id="thumbs-photo"></div>
+  <div class="large-photo" id="large-photo"><img src="" alt="" draggable="false"></div>
+    <div class="hotspot hs-main" style="left:90.4375%; top:95.6667%; width:2.6875%; height:3.5%;" data-go="main"></div>
+  <div class="hotspot hs-bonus" style="left:93.5%; top:95.75%; width:2.8125%; height:3.5%;" data-go="bonus"></div>
+  <div class="hotspot hs-exit" style="left:96.625%; top:95.5833%; width:2.875%; height:3.75%;"></div>
+  <span class="hover-label label-bonus" style="left:55%; top:96.5%; width:30%; height:3%;">Bonus menu</span>
+  <span class="hover-label label-exit" style="left:55%; top:96.5%; width:30%; height:3%;">Exit</span>
+  <span class="hover-label label-main" style="left:55%; top:96.5%; width:30%; height:3%;">Main menu</span>
+</div>
+
+<!-- MUSIC SPLASH -->
+<div class="scene" id="scene-music-splash">
+  <img class="bg" src="assets/img/ui/bg_music_splash.webp" alt="" width="1200" height="1188" draggable="false">
+  <div class="hotspot" style="left:0;top:0;width:100%;height:100%;" data-go="music"></div>
+</div>
+
+<!-- MUSIC LIST -->
+<div class="scene" id="scene-music">
+  <img class="bg" src="assets/img/ui/bg_music.webp" alt="" width="1400" height="1200" draggable="false">
+  <div class="hotspot hs-track" style="left:28.6875%; top:4.0833%; width:43.25%; height:6.4167%;" data-track="Nachalnik.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.6875%; top:11.0%; width:43.0625%; height:6.1667%;" data-track="Igra.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.5625%; top:17.8333%; width:43.0625%; height:5.6667%;" data-track="rock-n-roll.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.75%; top:24.6667%; width:42.9375%; height:5.5833%;" data-track="2-12.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.75%; top:31.25%; width:42.875%; height:6.0%;" data-track="ona.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.875%; top:37.8333%; width:42.8125%; height:5.9167%;" data-track="gorod.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.9375%; top:44.5%; width:42.875%; height:9.0%;" data-track="Voronin.cd3"></div>
+  <div class="hotspot hs-track" style="left:28.75%; top:54.3333%; width:43.3125%; height:6.1667%;" data-track="Kostroma.cd3"></div>
+
+      <div class="hotspot hs-main" style="left:84.5625%; top:96.0%; width:2.5625%; height:3.4167%;" data-go="main"></div>
+  <div class="hotspot hs-bonus" style="left:87.6875%; top:95.8333%; width:2.625%; height:3.75%;" data-go="bonus"></div>
+  <div class="hotspot hs-exit" style="left:90.625%; top:96.0%; width:2.9375%; height:3.5833%;"></div>
+  <span class="hover-label label-bonus" style="left:55%; top:96.5%; width:30%; height:3%;">Bonus menu</span>
+  <span class="hover-label label-exit" style="left:55%; top:96.5%; width:30%; height:3%;">Exit</span>
+  <span class="hover-label label-main" style="left:55%; top:96.5%; width:30%; height:3%;">Main menu</span>
+</div>
+
+<!-- LYRICS -->
+<div class="scene" id="scene-lyrics">
+  <img class="bg" src="assets/img/ui/bg_music_lyrics.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="lyrics-box" id="lyrics-box"></div>
+  <div class="lyrics-footer" id="lyrics-footer"></div>
+  <div class="lyrics-back" id="lyrics-back" title="Назад"></div>
+</div>
+
+<!-- TRIARIOS -->
+<div class="scene" id="scene-tria">
+  <img class="bg" src="assets/img/ui/bg_music_tria.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="tria-thumbs" id="tria-thumbs"></div>
+  <div class="tria-text" id="tria-text"></div>
+  <div class="large-photo" id="tria-large"><img src="" alt="" draggable="false"></div>
+  <div class="hotspot" style="left:3.75%; top:87.6667%; width:41.875%; height:4.1667%;" data-action="catalog"></div>
+  <div class="hotspot" style="left:3.625%; top:92.6667%; width:57.875%; height:3.8333%;" data-action="coupon"></div>
+  <div class="hotspot hs-bonus" style="left:90.625%; top:95.8333%; width:2.5%; height:3.3333%;" data-go="bonus"></div>
+  <div class="hotspot hs-main" style="left:93.875%; top:96.0%; width:2.5%; height:3.3333%;" data-go="main"></div>
+  <div class="hotspot hs-exit" style="left:97.0%; top:96.1667%; width:2.5%; height:3.3333%;"></div>
+  <span class="hover-label label-bonus" style="left:55%; top:96.5%; width:30%; height:3%;">Bonus menu</span>
+  <span class="hover-label label-exit" style="left:55%; top:96.5%; width:30%; height:3%;">Exit</span>
+  <span class="hover-label label-main" style="left:55%; top:96.5%; width:30%; height:3%;">Main menu</span>
+</div>
+<!-- DEMO DETAIL -->
+<div class="scene" id="scene-demo">
+  <img class="bg" src="assets/img/ui/bg_demos_main.webp" alt="" width="1600" height="1200" draggable="false">
+  <div class="demo-title" id="demo-title"><img src="" alt="" draggable="false"></div>
+  <div class="demo-desc" id="demo-desc"></div>
+  <div class="hotspot" style="left:23.125%; top:97%; width:18.625%; height:3%;" data-action="install"></div>
+  <div class="hotspot hs-demos" style="left:42.5%; top:97%; width:2.25%; height:3%;" data-go="demos"></div>
+  <div class="hotspot hs-main" style="left:45.625%; top:96.8333%; width:2.375%; height:3.1667%;" data-go="main"></div>
+  <div class="hotspot hs-exit" style="left:49%; top:97%; width:2.25%; height:3%;"></div>
+  <span class="hover-label label-exit" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Exit</span>
+  <span class="hover-label label-main" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Main menu</span>
+  <span class="hover-label label-demos" style="left:58.5%; top:96.8333%; width:14.75%; height:3.1667%;">Demos</span>
+  <div class="thumbs-screens" id="thumbs-screens" style="left:74.5%; top:23.5833%; width:23.1875%; height:35.9167%;"></div>
+  <div class="thumbs-art" id="thumbs-art" style="left:74.5%; top:66.8333%; width:23.1875%; height:24.8333%;"></div>
+  <div class="large-preview" id="large-preview"><img src="" alt="" draggable="false"></div>
+</div>
+
+
+<div id="splash-overlay">
+  <img src="assets/img/ui/splash.webp" alt="" width="1600" height="1200" draggable="false">
+</div>
+<div class="toast-overlay" id="toast">
+  <div class="toast-msg">Все файлы доступны в образе диска</div>
+</div>
+<div id="about-overlay">
+  <img src="assets/img/ui/about.webp" alt="" width="1600" height="1200" draggable="false">
+</div>
+
+<script src="assets/js/shell.js"></script>
+</body>
+</html>

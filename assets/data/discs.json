@@ -944,5 +944,90 @@
 ],
     "note": "20 оцифровка, юбилей! Снова кастомный шрифт Навигатора, который непрост в прочтении + наконец-то сделал логотип для заставки в svg. Самая неожиданная пасхалка найдена при декомплияции оболочки, комментарий в коде: 'Wow, didn't think it was possible to code with 39.5 temperature'. Вот это преданность делу!",
     "viewpage_description": "На диске к третьему номеру «Навигатора игрового мира» за 1999 год собраны демо Daikatana, Kingpin, MechWarrior 3, Requiem и Tanktics, ролики по Resident Evil 3 и Star Wars: Episode I — The Phantom Menace, а также патчи и утилиты вроде обновления для Heroes of Might & Magic III, ICQ 99a и антивирусов AVP. Отдельно лежит набор машин для Need for Speed III: Ferrari F40, Porsche 911 Turbo, Subaru Impreza WRC и другие модели из коллекции того времени."
+  },
+  {
+    "id": "gameexe-1998-10",
+    "added": "2026-11-13",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "gameexe",
+    "magazine_title": "Game.EXE",
+    "year": 1998,
+    "issue": "10",
+    "title": "Game.EXE №10 — Октябрь 1998",
+    "path": "/discs/game-exe/1998/10/index.html",
+    "cover_image": "/discs/game-exe/1998/10/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Game.EXE_10_1998",
+    "disc_image": "/discs/game-exe/1998/10/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_15_333e2f2b7fedef4a5d",
+    "webamp_tracks": [
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "Начальник Фарфоровой Башни"
+    },
+    "url": "music/game-exe/1998/10/track1.opus",
+    "duration": 282
+  },
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "Игра Наверняка"
+    },
+    "url": "music/game-exe/1998/10/track2.opus",
+    "duration": 242
+  },
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "Рок-н-Ролл Мёртв"
+    },
+    "url": "music/game-exe/1998/10/track3.opus",
+    "duration": 331
+  },
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "212-85-06"
+    },
+    "url": "music/game-exe/1998/10/track4.opus",
+    "duration": 342
+  },
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "Она Может Двигать Собой"
+    },
+    "url": "music/game-exe/1998/10/track5.opus",
+    "duration": 176
+  },
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "Город"
+    },
+    "url": "music/game-exe/1998/10/track6.opus",
+    "duration": 155
+  },
+  {
+    "metaData": {
+      "artist": "БГ-бэнд",
+      "title": "Капитан Воронин"
+    },
+    "url": "music/game-exe/1998/10/track7.opus",
+    "duration": 394
+  },
+  {
+    "metaData": {
+      "artist": "Аквариум",
+      "title": "Кострома Mon Amour"
+    },
+    "url": "music/game-exe/1998/10/track8.opus",
+    "duration": 275
+  }
+],
+    "note": "21 оцифровка. Как написано на диске - '8 любимых песен GAME.EXE', быть игрожуром в 1998 году было очень приятно, хе-хе. Перед оцифровкой я связался с Аквариумом и получил разрешение на публикацию их музыки, за что им большое спасибо!",
+    "viewpage_description": "Диск Game.EXE №10 (CD#3) за октябрь 1998 года — приложение к журналу с демо Need for Speed III: Hot Pursuit, Carmageddon 2, Rainbow Six, Abe’s Exoddus, Populous: The Beginning, Hardwar, Jagged Alliance 2 и другими. Рядом патчи для Quake II, Commandos, Red Baron II и Joint Strike Fighter, утилиты и драйверы под тогдашние 3D-ускорители. В бонусе — фото и тексты БГ, «виртуальный неальбом» с песнями «Аквариума» и материалы студии «Триарий»."
   }
 ]
