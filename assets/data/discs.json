@@ -1029,5 +1029,25 @@
 ],
     "note": "21 оцифровка. Как написано на диске - '8 любимых песен GAME.EXE', быть игрожуром в 1998 году было очень приятно, зовешь любимых исполнителей на музыкальное сопровождение, красота. Перед оцифровкой я связался с Аквариумом и получил разрешение на публикацию их музыки, за что им большое спасибо!",
     "viewpage_description": "Диск Game.EXE №10 (CD#3) за октябрь 1998 года — приложение к журналу с демо Need for Speed III: Hot Pursuit, Carmageddon 2, Rainbow Six, Abe’s Exoddus, Populous: The Beginning, Hardwar, Jagged Alliance 2 и другими. Рядом патчи для Quake II, Commandos, Red Baron II и Joint Strike Fighter, утилиты и драйверы под тогдашние 3D-ускорители. В бонусе — фото и тексты БГ, «виртуальный неальбом» с песнями «Аквариума» и материалы студии «Триарий»."
+  },
+  {
+    "id": "si-1998-02",
+    "added": "2026-11-17",
+    "width": 1500,
+    "height": 1225,
+    "magazine": "si",
+    "magazine_title": "Страна игр",
+    "year": 1998,
+    "issue": "02",
+    "title": "Страна игр №02 (21) — Февраль 1998",
+    "path": "discs/si/1998/02/index.html",
+    "cover_image": "discs/si/1998/02/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Game_Land_1998-02-21",
+    "disc_image": "discs/si/1998/02/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "",
+    "webamp_tracks": [],
+    "note": "22 оцифровка. Все еще минималистичный дизайн оболочки, ничего лишнего.",
+    "viewpage_description": "Демо-диск «Страна игр» за февраль 1998 года интересен не только играми, но и набором программ, отражающих переход ПК к полноценной интернет-эпохе: на диске представлены Microsoft Internet Explorer 4.0 в английской Pan-European и русской версиях, а также обновление Microsoft DirectX 5.0. Игровая часть включает демоверсии Armored Fist 2, Total Annihilation: Units, Final Liberation и других проектов, а видеораздел представляет Half-Life, StarCraft, Worms 2 и Всеслав Чародей."
   }
 ]
