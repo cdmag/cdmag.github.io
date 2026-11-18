@@ -1049,5 +1049,25 @@
     "webamp_tracks": [],
     "note": "22 оцифровка. Все еще минималистичный дизайн оболочки, ничего лишнего.",
     "viewpage_description": "Демо-диск «Страна игр» за февраль 1998 года интересен не только играми, но и набором программ, отражающих переход ПК к полноценной интернет-эпохе: на диске представлены Microsoft Internet Explorer 4.0 в английской Pan-European и русской версиях, а также обновление Microsoft DirectX 5.0. Игровая часть включает демоверсии Armored Fist 2, Total Annihilation: Units, Final Liberation и других проектов, а видеораздел представляет Half-Life, StarCraft, Worms 2 и Всеслав Чародей."
+  },
+  {
+    "id": "sbg-1996-06",
+    "added": "2026-11-19",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "sbg-gem",
+    "magazine_title": "SBG/GEM",
+    "year": 1996,
+    "issue": "06",
+    "title": "SBG Magazine №06 — 1996",
+    "path": "discs/sbg-gem/1996/06/index.html",
+    "cover_image": "",
+    "magazine_url": "",
+    "disc_image": "",
+    "download_iso": "",
+    "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_16_f8efbc1eed55ccf752",
+    "webamp_tracks": [],
+    "note": "23 оцифровка. Четвёртый диск SBG - менее амбициозный по текстам, зато более насыщенный по демкам. Ларри получил сразу две статьи по своим лучшим играм - первую и седьмую. А также ранние скриншоты из StarCraft, этот дизайн не дожил до релиза.",
+    "viewpage_description": "1996 год: между Doom и Quake II, когда StarCraft и Unreal ещё только готовились к выходу, а русский игровой журнал SBG Magazine распространялся на диске — с меню-навигацией, фоновой музыкой и видеороликами. В шестом номере — обзоры и превью Quake II, StarCraft, Falcon 4.0 и MechWarrior, разборы Phantasmagoria II, Ecstatica II и Montezuma's Return, рубрики Solutions и Cheats, «Старое-доброе», Fiction и Hardware и реклама российской игровой индустрии — от «Тайн 500 игр» и «Техники-Молодёжи» до локальных дистрибьюторов. Шестнадцать демо-версий на борту: Alien Trilogy, Megarace II, NecroDome, TimeLapse и другие. Номер работает по законам своего формата: страницы листаются кликами, музыка играет, реклама кликабельна — и всё это открывается в браузере."
   }
 ]

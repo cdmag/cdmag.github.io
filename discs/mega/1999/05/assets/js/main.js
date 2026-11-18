@@ -1,4 +1,7 @@
 const S = '../../shared/img/';
+const UI = 'assets/img/ui/';
+const LOCAL_ICONS = ['video', 'demo', 'patches', 'utils'];
+const icon = (n, anim) => (LOCAL_ICONS.includes(n) ? UI : S) + n + (anim ? '_anim' : '') + '.webp';
 const hint = document.getElementById('hint');
 const music = document.getElementById('music');
 const exit = document.getElementById('exit');
@@ -25,10 +28,10 @@ exit.addEventListener('mouseleave', () => { exitHover = false; renderExit(); });
 
 document.querySelectorAll('.btn').forEach(b => {
   const n = b.dataset.icon;
-  new Image().src = S + n + '_anim.webp';
-  b.src = S + n + '.webp';
-  b.addEventListener('mouseenter', () => { b.src = S + n + '_anim.webp'; hint.textContent = b.dataset.hint || ''; });
-  b.addEventListener('mouseleave', () => { b.src = S + n + '.webp'; hint.textContent = ''; });
+  new Image().src = icon(n, true);
+  b.src = icon(n);
+  b.addEventListener('mouseenter', () => { b.src = icon(n, true); hint.textContent = b.dataset.hint || ''; });
+  b.addEventListener('mouseleave', () => { b.src = icon(n); hint.textContent = ''; });
 });
 
 document.querySelectorAll('.ban').forEach(b => {
@@ -106,7 +109,7 @@ function closeVideo(){
     back.style.visibility = '';
     vbg.classList.remove('b2');
     cur = -1;
-    document.querySelector('[data-icon="video"]').src = S + 'video.webp';
+    document.querySelector('[data-icon="video"]').src = icon('video');
     items.forEach(e => e.classList.remove('sel'));
     det.classList.remove('on');
     busy = false;
@@ -175,7 +178,7 @@ function closeDemo(){
     dback.src = S + 'back.webp';
     dback.style.visibility = '';
     $('inst').src = S + 'install_demo.webp';
-    document.querySelector('[data-icon="demo"]').src = S + 'demo.webp';
+    document.querySelector('[data-icon="demo"]').src = icon('demo');
     dbg.classList.remove('b2');
     ditems.forEach(e => e.classList.remove('sel'));
     ddet.classList.remove('on');
@@ -267,7 +270,7 @@ function closePatch(){
     pback.src = S + 'back.webp';
     pback.style.visibility = '';
     $('pinst').src = S + 'install_patch.webp';
-    document.querySelector('[data-icon="patches"]').src = S + 'patches.webp';
+    document.querySelector('[data-icon="patches"]').src = icon('patches');
     pitems.forEach(e => e.classList.remove('sel'));
     pdet.classList.remove('on');
     busy = false;
@@ -334,7 +337,7 @@ function closeUtil(){
     uback.src = S + 'back.webp';
     uback.style.visibility = '';
     $('uinst').src = S + 'install_util.webp';
-    document.querySelector('[data-icon="utils"]').src = S + 'utils.webp';
+    document.querySelector('[data-icon="utils"]').src = icon('utils');
     uitems.forEach(e => e.classList.remove('sel'));
     udet.classList.remove('on');
     busy = false;
@@ -351,7 +354,7 @@ $('uinst').addEventListener('click', () => {
 const OUR_INTRO = "Рекламно-издательская группа \"Фантазия\" - успешно развивающаяся структура на рынке компьютерной и научно-популярной прессы. \n\n   В настоящее время \"Фантазия\" выпускает четыре ежемесячных издания:\n\n*\nнаучно-популярный журнал о компьютерах \"Подводная лодка\"\n\n*\nинформационно-аналитический дайджест о программном обеспечении \"F1\"\n\n*\nжурнал о компьютерных играх \"MegaGame\"\n\n*\nгазета \"ComputeReview\"";
 const OUR = [
   {"title": "\"Подводная лодка\"", "desc": "\tНаучно-популярный журнал о компьютерах, в доступной форме освещающий все аспекты развития компьютерной техники, программного обеспечения. Особое внимание уделяется практическим рекомендациям. \n\t«ПЛ» занимает индивидуальную «нишу» на российском рынке компьютерной прессы. По результатам анализа  редакционной почты и 15000 анкет, заполненных на 52 выставках\nв городах России и СНГ в 1998 г. 75% читательской аудитории «ПЛ» — не профессионалы в области информационных технологий, но обычные пользователи, владеющие компьютером или собирающиеся его купить.\n\t«Подводную лодку» получают около 70 представительств иностранных компьютерных компаний в Москве, а также технические вузы и библиотеки. \n\t«ПЛ» выходит в комплекте с CD-ROM.\n\nПериодичность – раз в месяц\nФормат – А4\nОбъем – 120 страниц,\nТекущий тираж – 30000 экз.", "img": "pl", "r": [873, 171, 596, 844]},
-  {"title": "\"F1\"", "desc": "\tИнформационно-аналитический дайджест, посвященный программному обеспечению. Это специальное издание содержит полезные сведения о программных продуктах, выпускаемых ведущими представителями отечественного рынка программного обеспечения.\n\t«F1» адресован прежде всего продавцам и разработчикам ПО. Здесь содержатся материалы, посвященные успешному опыту маркетинга отечественных разработок. Журнал актуален и для пользователей компьютера, включая специалистов различных профессий, эффективность труда которых заметно повышается при грамотном выборе профессиональных рабочих программ.\n\tЖурнал распространяется бесплатно среди государственных, общественных и коммерческих структур.\n\nПериодичность — раз в месяц\nФормат — А4\nОбъем — 60 страниц\nТираж — 15000 экз", "img": "f1", "r": [864, 170, 616, 844]},
+  {"title": "\"F1\"", "desc": "\tИнформационно-аналитический дайджест, посвященный программному обеспечению. Это специальное издание содержит полезные сведения о программных продуктах, выпускаемых ведущими представителями отечественного рынка программного обеспечения.\n\t«F1» адресован прежде всего продавцам и разработчикам ПО. Здесь содержатся материалы, посвященные успешному опыту маркетинга отечественных разработок. Журнал актуален и для пользователей компьютера, включая специалистов различных профессий, эффективность труда которых заметно повышается при грамотном выборе профессиональных рабочих программ.\n\tЖурнал распространяется бесплатно среди государственных, общественных и коммерческих структур.\n\nПериодичность — раз в месяц\nФормат — А4\nОбъем — 60 страниц\nТираж — 15000 экз", "img": "f1", "shared": true, "r": [864, 170, 616, 844]},
   {"title": "\"Mega Game\"", "desc": "\tИллюстрированный журнал о компьютерных играх. Это новый широкоформатный журнал,  создание которого ведется по мировым стандартам дизайна и полиграфии. Каждый номер будет содержать материалы более чем о 200 компьютерных играх. \n\tИнформация в журнал предоставляется непосредственно российскими и зарубежными разработчиками и издателями игровых программ. Обязательная часть каждого номера — последние новости мирового игрового рынка, интервью с производителями, а также специальный раздел, посвященный игровому «железу». \n\tВ ближайшее время журнал начнет выходить с компакт-диском.\n\nПериодичность — раз в месяц\nФормат — 238x290 мм\nобъем — 200 страниц\nТираж — 10 000 экз.", "img": "mega", "r": [838, 173, 666, 840]},
   {"title": "\"ComputeReview\"", "desc": "\tГазета ComputeReview рассчитана на специалистов в области информационных технологий и корпоративных пользователей.\n\tМы намерены снабжать читателя полной и свежей информацией о новых продуктах в различных секторах корпоративного рынка, об экономических результатах деятельности крупнейших зарубежных и отечественных компьютерных компаний, организационных переменах в фирмах, будем публиковать материалы о реализованных проектах по внедрению информационных технологий, управленческих систем на российских и западных предприятиях-заказчиках, а также технологические обзоры по широкой тематике.\n\tГазета распространяется прямой рассылкой ограниченного количества экземпляров по компьютерным компаниям и предприятиям-потребителям информационных технологий, а также продается в розницу.\n\nПериодичность - один раз в две недели\nФормат - 275x370 мм\nОбъем - 32 страницы\nТираж первого номера - 10000 экз.", "img": "cr", "r": [858, 172, 626, 842]}
 ];
@@ -365,7 +368,7 @@ const our = $('our'), oback = $('oback'), obg = $('obg'), ointro = $('ointro'), 
     ointro.appendChild(s);
   });
 })();
-new Image().src = 'assets/img/ui/bg_our2.webp';
+new Image().src = S + 'bg_our2.webp';
 oimgcap.addEventListener('contextmenu', e => e.preventDefault());
 const oitems = OUR.map((v, i) => {
   const d = document.createElement('div');
@@ -387,7 +390,7 @@ const oitems = OUR.map((v, i) => {
       e.style.width = 'calc(' + v.r[2] + ' * var(--u))';
       e.style.height = 'calc(' + v.r[3] + ' * var(--u))';
     });
-    oimg.style.backgroundImage = 'url(assets/img/ui/' + v.img + '.webp)';
+    oimg.style.backgroundImage = 'url(' + (v.shared ? S : UI) + v.img + '.webp)';
   });
   our.appendChild(d);
   return d;
@@ -602,11 +605,10 @@ actx.resume().then(applyMusic).catch(() => {});
 ['click_music.wav', 'click_back.wav'].forEach(n => load(SND + n).catch(() => {}));
 setTimeout(() => ['click_our.opus', 'click_exit.opus', 'click_about.opus'].forEach(n => load(SND + n).catch(() => {})), 1500);
 
-const WARM_UI = ['bg', 'bg_video1', 'bg_video2', 'bg_demo1', 'bg_demo2', 'bg_patches', 'bg_utils', 'bg_our1', 'bg_our2', 'bg_about'];
-const WARM_SH = ['music_on', 'music_on_anim', 'music_off', 'music_off_anim', 'exit', 'exit_anim', 'our', 'our_anim', 'about', 'about_anim',
-  'video', 'video_anim', 'demo', 'demo_anim', 'patches', 'patches_anim', 'utils', 'utils_anim', 'back', 'back_anim',
-  'play_video', 'play_video_anim', 'install_demo', 'install_demo_anim', 'install_patch', 'install_patch_anim',
-  'install_util', 'install_util_anim', 'bn1', 'bn2'];
+const WARM_UI = ['bg', 'bg_video1', 'bg_video2', 'bg_demo1', 'bg_demo2', 'video', 'video_anim', 'demo', 'demo_anim', 'patches', 'patches_anim', 'utils', 'utils_anim'];
+const WARM_SH = ['bg_about', 'bg_patches', 'bg_utils', 'bg_our1', 'bg_our2', 'f1', 'music_on', 'music_on_anim', 'music_off', 'music_off_anim', 'exit', 'exit_anim',
+  'our', 'our_anim', 'about', 'about_anim', 'back', 'back_anim', 'play_video', 'play_video_anim', 'install_demo', 'install_demo_anim',
+  'install_patch', 'install_patch_anim', 'install_util', 'install_util_anim', 'bn1', 'bn2'];
 const warmKeep = [];
 function warm(){
   const urls = WARM_UI.map(n => 'assets/img/ui/' + n + '.webp').concat(WARM_SH.map(n => S + n + '.webp'));

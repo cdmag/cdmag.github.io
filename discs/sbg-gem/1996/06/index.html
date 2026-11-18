@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SBG Magazine 1996 #6</title>
+  <link rel="preload" href="../../shared/img/cursor-red.webp" as="image">
+  <link rel="preload" href="../../shared/img/cursor-green.webp" as="image">
+  <link rel="preload" href="../../shared/img/cursor-zoom.webp" as="image">
+  <link rel="preload" href="../../shared/img/cursor-video.webp" as="image">
+  <link rel="preload" href="../../shared/img/panel_left.webp" as="image">
+  <link rel="preload" href="../../shared/img/panel_right.webp" as="image">
+  <link rel="preload" href="../../shared/img/slider.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn-_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn-_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn0_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn0_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn1_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn1_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn2_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn2_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn3_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn3_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn4_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn4_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn5_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn5_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn6_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn6_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn7_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn7_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn8_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn8_on.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn9_off.webp" as="image">
+  <link rel="preload" href="../../shared/img/btn9_on.webp" as="image">
+  <link rel="preload" href="../../shared/sound/anim1.wav" as="fetch">
+  <link rel="preload" href="../../shared/sound/anim2.wav" as="fetch">
+  <link rel="preload" href="../../shared/sound/anim3.wav" as="fetch">
+  <link rel="preload" href="../../shared/sound/anim4.wav" as="fetch">
+  <link rel="preload" href="../../shared/sound/anim5.wav" as="fetch">
+  <link rel="preload" href="../../shared/sound/exit.wav" as="fetch">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="viewport" id="viewport">
+  <div class="stage" id="stage">
+
+    <div id="view-menu">
+      <div class="menu-image" id="menuImage">
+        <img src="assets/img/content/cont_m_6.webp" width="1600" height="1200" draggable="false" alt="">
+      </div>
+    </div>
+
+    <div id="view-submenu">
+      <div class="menu-image" id="submenuImage">
+        <img id="submenuImg" src="" width="1600" height="1200" draggable="false" alt="">
+      </div>
+    </div>
+
+    <div id="view-viewer">
+      <div class="page-image" id="pageImage"></div>
+      <div class="edge-zone top inactive" id="edgeTop"></div>
+      <div class="edge-zone bottom inactive" id="edgeBottom"></div>
+      <div class="tall-scroll" id="tallScroll">
+        <div class="tall-content" id="tallContent">
+          <div class="tall-image" id="tallImage"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-overlay" id="popupOverlay">
+      <div class="popup-image" id="popupImage"></div>
+      <div class="popup-hit" id="popupHit"></div>
+    </div>
+    <div class="video-overlay" id="videoOverlay">
+      <div class="video-frame-wrap" id="videoFrameWrap"></div>
+    </div>
+
+    <div id="left-edge-zone"></div>
+    <div id="left-panel">
+      <div class="slider-handle" id="sliderSfx"></div>
+      <div class="slider-handle" id="sliderMusic"></div>
+      <div class="panel-btn" id="btnHelp" style="left:96px;top:813px;width:106px;height:60px;"></div>
+      <div class="panel-btn" id="btnBoss" style="left:96px;top:886px;width:106px;height:60px;"></div>
+      <div class="panel-btn" id="btnOs"   style="left:96px;top:958px;width:106px;height:60px;"></div>
+    </div>
+    <div id="right-panel"></div>
+    <div id="overlay-screen"><div id="overlayHit" class="overlay-hit"></div></div>
+    <div id="tx-overlay"></div>
+    <div class="ad-interstitial" id="adInterstitial">
+      <div class="ad-interstitial-img" id="adInterstitialImg"></div>
+      <video class="ad-interstitial-vid" id="adInterstitialVid" muted playsinline></video>
+    </div>
+    <div class="splash-overlay" id="splashOverlay">
+      <div class="splash-img" id="splashImg"></div>
+      <div class="splash-hit" id="splashHit"></div>
+    </div>
+  </div>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -99,7 +99,7 @@ body{user-select:none;-webkit-user-select:none}
   border:calc(4 * var(--u)) solid #ff0;padding:calc(30 * var(--u)) calc(60 * var(--u));
 }
 #patch{position:absolute;inset:0;z-index:2;display:none}
-#pbg{position:absolute;inset:0;pointer-events:none;background:url("../img/ui/bg_patches.webp") 0 0 / 100% 100% no-repeat}
+#pbg{position:absolute;inset:0;pointer-events:none;background:url("../../../../shared/img/bg_patches.webp") 0 0 / 100% 100% no-repeat}
 #pver,#plist{
   position:absolute;top:calc(211.5 * var(--u));
   font:italic bold calc(39 * var(--u)) / calc(52 * var(--u)) Arimo, Arial, sans-serif;
@@ -113,7 +113,7 @@ body{user-select:none;-webkit-user-select:none}
   font:italic calc(39 * var(--u)) / calc(50 * var(--u)) Arimo, Arial, sans-serif;color:#6f0;
 }
 #util{position:absolute;inset:0;z-index:2;display:none}
-#ubg{position:absolute;inset:0;pointer-events:none;background:url("../img/ui/bg_utils.webp") 0 0 / 100% 100% no-repeat}
+#ubg{position:absolute;inset:0;pointer-events:none;background:url("../../../../shared/img/bg_utils.webp") 0 0 / 100% 100% no-repeat}
 #ulist{
   position:absolute;left:calc(174 * var(--u));top:calc(197.7 * var(--u));
   font:bold calc(35.5 * var(--u)) / calc(56 * var(--u)) Arimo, Arial, sans-serif;color:#0f0;
@@ -125,8 +125,8 @@ body{user-select:none;-webkit-user-select:none}
   font:italic calc(38.5 * var(--u)) / calc(56 * var(--u)) Arimo, Arial, sans-serif;color:#6f0;
 }
 #our{position:absolute;inset:0;z-index:2;display:none}
-#obg{position:absolute;inset:0;pointer-events:none;background:url("../img/ui/bg_our1.webp") 0 0 / 100% 100% no-repeat}
-#obg.b2{background-image:url("../img/ui/bg_our2.webp")}
+#obg{position:absolute;inset:0;pointer-events:none;background:url("../../../../shared/img/bg_our1.webp") 0 0 / 100% 100% no-repeat}
+#obg.b2{background-image:url("../../../../shared/img/bg_our2.webp")}
 #ointro{
   position:absolute;left:calc(112 * var(--u));top:calc(183.9 * var(--u));width:calc(620 * var(--u));
   text-align:center;white-space:pre-wrap;font:bold calc(32 * var(--u)) / calc(28 * var(--u)) Arimo, Arial, sans-serif;color:#cf0;
@@ -147,7 +147,7 @@ body{user-select:none;-webkit-user-select:none}
 #oimg,#oimgcap{display:none;position:absolute}
 #oimg{background-size:100% 100%;background-repeat:no-repeat;image-rendering:pixelated;pointer-events:none}
 #about{position:absolute;inset:0;z-index:10;display:none;cursor:pointer}
-#abg{position:absolute;inset:0;pointer-events:none;background:url("../img/ui/bg_about.webp") 0 0 / 100% 100% no-repeat}
+#abg{position:absolute;inset:0;pointer-events:none;background:url("../../../../shared/img/bg_about.webp") 0 0 / 100% 100% no-repeat}
 .acol{position:absolute;top:calc(223.7 * var(--u));width:calc(600 * var(--u));text-align:center;white-space:pre;font:calc(35 * var(--u)) / calc(46 * var(--u)) Arimo, Arial, sans-serif;color:#6f0}
 .acol b{color:#ff0;font-weight:bold;font-size:calc(35.5 * var(--u))}
 #acl{left:calc(141 * var(--u))}
