@@ -539,7 +539,7 @@
       ctx.drawImage(img, dx, dy, dw, dh);
 
       try {
-        var s = new Audio('assets/sound/splash.wav');
+        var s = new Audio('../../shared/sound/splash98.wav');
         s.volume = 0.15;
         s.play().catch(function () {});
       } catch (e) {}

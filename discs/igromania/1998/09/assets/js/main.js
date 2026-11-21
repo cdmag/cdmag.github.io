@@ -1398,7 +1398,7 @@
           sessionStorage.setItem(KEY, '1');
         } catch (e) {}
         try {
-          var s = new Audio('assets/sound/splash.wav');
+          var s = new Audio('../../shared/sound/splash98.wav');
           s.volume = 0.15;
           var p = s.play();
           if (p && p.catch) p.catch(function(){});
