@@ -1097,49 +1097,8 @@
     "disc_image": "/discs/game-exe/1998/11/assets/img/disc.webp",
     "download_iso": "https://vk.ru/wall-240437459_167",
     "vk_playlist_url": "https://vk.ru/music/playlist/-240437459_17_43da558cf4cde37f44",
-    "webamp_tracks": [
-  {
-    "metaData": {
-      "artist": "Tequilajazzz",
-      "title": "Самолет"
-    },
-    "url": "music/game-exe/1998/11/track01.opus",
-    "duration": 301
-  },
-  {
-    "metaData": {
-      "artist": "Tequilajazzz",
-      "title": "Авиация И Артиллерия"
-    },
-    "url": "music/game-exe/1998/11/track02.opus",
-    "duration": 270
-  },
-  {
-    "metaData": {
-      "artist": "Tequilajazzz",
-      "title": "Небо С Молоком (Испания)"
-    },
-    "url": "music/game-exe/1998/11/track03.opus",
-    "duration": 244
-  },
-  {
-    "metaData": {
-      "artist": "Tequilajazzz",
-      "title": "Тишина И Волшебство"
-    },
-    "url": "music/game-exe/1998/11/track04.opus",
-    "duration": 324
-  },
-  {
-    "metaData": {
-      "artist": "Tequilajazzz",
-      "title": "Зимнее Солнце"
-    },
-    "url": "music/game-exe/1998/11/track05.opus",
-    "duration": 202
-  }
-],
-    "note": "25-я оцифровка. Кажется, я разгадал план УЧУ по захвату рынка игровых журналов: на каждый диск они выкладывали эксклюзивную подборку годной музыки! Вы только зацените: пять разных групп - тут на любой вкус. Пока в плейлисте доступна музыка только одной группы, но по мере получения разрешений на публикацию количество треков будет расти.",
+    "webamp_tracks": [],
+    "note": "25-я оцифровка. Кажется, я разгадал план УЧУ по захвату рынка игровых журналов: на каждый диск они выкладывали эксклюзивную подборку годной музыки! Вы только зацените: пять разных групп - тут на любой вкус.",
     "viewpage_description": "Ноябрьский диск Game.EXE за 1998 год предлагает внушительную подборку игровых демоверсий, охватывающую самые разные жанры: от шутеров Blood II: The Chosen, Delta Force и Heretic II до гонок Colin McRae Rally, Racing Simulation 2 и Dethkarz. Здесь также нашлось место для Tomb Raider III, Trespasser, Magic & Mayhem, Nightlong и других заметных игр своего времени. В дополнение к игровым материалам — музыкальная подборка сразу из пяти групп: Tequilajazzz, Cuibul, Zdob și Zdub, НАИВ и «Четыре таракана». А среди бонусов — отдельный диск с обучающей системой TeachPro Internet. Приятная деталь выпуска: редакция разыгрывала коробочную Half-Life среди обладателей диска с определённым серийным номером."
   }
 ]
