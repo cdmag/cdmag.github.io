@@ -1,0 +1,133 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen {
+  position: relative;
+  height: min(100vh, 100vw * 1250 / 1533);
+  width: min(100vw, 100vh * 1533 / 1250);
+  background: url('../img/ui/bg.webp') no-repeat center / 100% 100%;
+  image-rendering: auto;
+}
+/* Hotspots — 125×125 on 1533×1250 */
+.hot {
+  position: absolute;
+  width: 8.1539%;
+  height: 10%;
+  cursor: pointer;
+  z-index: 10;
+}
+.hot-igry  { left: 1.1748%; top: 2.48%; }
+.hot-soft  { left: 1.1748%; top: 14.24%; }
+.hot-exit  { left: 86.953%; top: 84.64%; }
+
+/* Buttons (shown on hover, stay after leave) */
+.btn {
+  position: absolute;
+  width: 8.1539%;
+  height: 10%;
+  display: none;
+  pointer-events: none;
+  z-index: 5;
+  image-rendering: auto;
+}
+.btn-igry  { left: 1.1748%; top: 2.48%; }
+.btn-soft  { left: 1.1748%; top: 14.24%; }
+.btn-exit  { left: 86.953%; top: 84.64%; }
+
+/* Text area — 478,256 936×730 */
+.text-area {
+  position: absolute;
+  left: 31.18%;
+  top: 20.48%;
+  width: 61.06%;
+  height: 58.4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #00FF00;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 32px;
+  line-height: 1.55;
+  white-space: pre-line;
+  pointer-events: none;
+  z-index: 2;
+  padding: 0 3%;
+}
+.text-area.list-mode {
+  display: block;
+  pointer-events: auto;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 35px;
+  color: #C8E8C8;
+  text-align: left;
+  white-space: normal;
+  padding: 4% 4% 3% 4.5%;
+  line-height: 1.65;
+  position: relative;
+}
+.games-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55em;
+  height: calc(100% - 1.6em);
+  align-content: start;
+}
+.games-list a {
+  color: #C8E8C8;
+  text-decoration: none;
+  cursor: pointer;
+}
+.games-list a:hover {
+  color: #00FF00;
+  text-decoration: underline;
+}
+.games-list .sep {
+  border: none;
+  border-top: 1px solid #7A9A9A;
+  margin: 0.35em 0 0.5em;
+  width: 70%;
+  opacity: 0.7;
+}
+.games-footer {
+  position: absolute;
+  right: 4%;
+  bottom: 3%;
+  color: #A0C0A0;
+  font-style: italic;
+  font-size: 0.9em;
+  pointer-events: none;
+}
+
+/* Popup message */
+.popup-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  cursor: pointer;
+}
+.popup-overlay.show {
+  display: flex;
+}
+.popup-msg {
+  color: #00FF00;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 0.6em 1.2em;
+  background: rgba(0,40,0,0.85);
+  border: 2px solid #00AA00;
+  border-radius: 4px;
+  max-width: 70%;
+  line-height: 1.4;
+}
