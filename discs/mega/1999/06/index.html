@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<script>/* ключ = DISC.id + "-splash", менять синхронно с CONFIG ниже */try{if(!sessionStorage.getItem("mega-1999-06-splash"))document.documentElement.classList.add("splash")}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MegaGame 1999 №6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/img/ui/bg.webp">
+<link rel="preload" as="image" href="assets/img/ui/bg_video1.webp">
+<link rel="preload" as="image" href="assets/img/ui/bg_video2.webp">
+<link rel="preload" as="image" href="assets/img/ui/bg_demo1.webp">
+<link rel="preload" as="image" href="assets/img/ui/bg_demo2.webp">
+<link rel="preload" as="image" href="assets/img/ui/video.webp">
+<link rel="preload" as="image" href="assets/img/ui/video_anim.webp">
+<link rel="preload" as="image" href="assets/img/ui/demo.webp">
+<link rel="preload" as="image" href="assets/img/ui/demo_anim.webp">
+<link rel="preload" as="image" href="assets/img/ui/patches.webp">
+<link rel="preload" as="image" href="assets/img/ui/patches_anim.webp">
+<link rel="preload" as="image" href="assets/img/ui/utils.webp">
+<link rel="preload" as="image" href="assets/img/ui/utils_anim.webp">
+<link rel="preload" as="image" href="assets/img/ui/pl.webp">
+<link rel="preload" as="image" href="assets/img/ui/mega.webp">
+<link rel="preload" as="image" href="assets/img/ui/cr.webp">
+<link rel="preload" as="image" href="../../shared/img/music_on.webp">
+<link rel="preload" as="image" href="../../shared/img/music_on_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/music_off.webp">
+<link rel="preload" as="image" href="../../shared/img/music_off_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/exit.webp">
+<link rel="preload" as="image" href="../../shared/img/exit_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/our.webp">
+<link rel="preload" as="image" href="../../shared/img/our_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/about.webp">
+<link rel="preload" as="image" href="../../shared/img/about_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/back.webp">
+<link rel="preload" as="image" href="../../shared/img/back_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/install_demo.webp">
+<link rel="preload" as="image" href="../../shared/img/install_demo_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/install_patch.webp">
+<link rel="preload" as="image" href="../../shared/img/install_patch_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/install_util.webp">
+<link rel="preload" as="image" href="../../shared/img/install_util_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/play_video.webp">
+<link rel="preload" as="image" href="../../shared/img/play_video_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/sv_panel.webp">
+<link rel="preload" as="image" href="../../shared/img/sv_hide_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/sv_back_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/sv_next_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/sv_close_anim.webp">
+<link rel="preload" as="image" href="../../shared/img/bg_about.webp">
+<link rel="preload" as="image" href="../../shared/img/bg_our1.webp">
+<link rel="preload" as="image" href="../../shared/img/bg_our2.webp">
+<link rel="preload" as="image" href="../../shared/img/bg_patches.webp">
+<link rel="preload" as="image" href="../../shared/img/bg_utils.webp">
+<link rel="preload" as="image" href="../../shared/img/f1.webp">
+<link rel="preload" as="image" href="../../shared/img/bn1.webp">
+<link rel="preload" as="image" href="../../shared/img/bn2.webp">
+<link rel="preload" as="fetch" href="../../shared/sound/click_music.wav" crossorigin>
+<link rel="preload" as="fetch" href="../../shared/sound/click_back.wav" crossorigin>
+<link rel="preload" as="fetch" href="../../shared/sound/click_our.opus" crossorigin>
+<link rel="preload" as="fetch" href="../../shared/sound/click_exit.opus" crossorigin>
+<link rel="preload" as="fetch" href="../../shared/sound/click_about.opus" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="stage">
+<div id="main">
+  <div id="bg"></div>
+  <img class="btn" data-dir="ui" data-icon="video" data-hint='Перейти в раздел "Видеосалон"' alt="" draggable="false" style="--x:66;--y:416;--w:354;--h:352">
+  <img class="btn" data-dir="ui" data-icon="demo" data-hint='Перейти в раздел "Демоверсии"' alt="" draggable="false" style="--x:478;--y:427;--w:320;--h:300">
+  <img class="btn" data-dir="ui" data-icon="patches" data-hint='Перейти в раздел "Patches"' alt="" draggable="false" style="--x:856;--y:418;--w:322;--h:346">
+  <img class="btn" data-dir="ui" data-icon="utils" data-hint='Перейти в раздел "Полезные программы"' alt="" draggable="false" style="--x:1230;--y:426;--w:300;--h:308">
+  <img class="btn" data-icon="our" data-hint="Наши издания" alt="" draggable="false" style="--x:3;--y:1066;--w:132;--h:132">
+  <img class="btn" data-icon="about" data-hint="Авторы" alt="" draggable="false" style="--x:1469;--y:1068;--w:132;--h:132">
+  <div id="tick"><span id="tickt"></span></div>
+  <img id="bnr" class="ban" alt="" draggable="false" style="--x:331;--y:1047;--w:936;--h:120">
+</div>
+<div id="video">
+  <div id="vbg"></div>
+  <img id="back" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="list"></div>
+  <div id="det">
+    <div id="shot"></div>
+    <div id="shotcap"></div>
+    <div id="dtxt"></div>
+    <img id="play" class="btn" data-icon="play_video" data-hint="Посмотреть видеофрагмент" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="demo">
+  <div id="dbg"></div>
+  <img id="dback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="dlist"></div>
+  <div id="ddet">
+    <div id="dshot"></div>
+    <div id="dshot2"></div>
+    <div id="dshotcap"></div>
+    <div id="dtext"></div>
+    <img id="inst" class="btn" data-icon="install_demo" data-hint="Установить демоверсию" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="patch">
+  <div id="pbg"></div>
+  <img id="pback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="pver"></div>
+  <div id="plist"></div>
+  <div id="pdet">
+    <div id="ptext"></div>
+    <img id="pinst" class="btn" data-icon="install_patch" data-hint="Установить patch" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="util">
+  <div id="ubg"></div>
+  <img id="uback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="ulist"></div>
+  <div id="udet">
+    <div id="utext"></div>
+    <img id="uinst" class="btn" data-icon="install_util" data-hint="Установка программы" alt="" draggable="false" style="--x:1452;--y:1018;--w:132;--h:132">
+  </div>
+</div>
+<div id="our">
+  <div id="obg"></div>
+  <img id="oback" class="btn" data-icon="back" data-hint="Главное меню" alt="" draggable="false" style="--x:40;--y:18;--w:54;--h:50">
+  <div id="ointro"></div>
+  <div id="otext"></div>
+  <div id="oimg"></div>
+  <div id="oimgcap"></div>
+</div>
+<div id="about">
+  <div id="abg"></div>
+  <div id="acl" class="acol"></div>
+  <div id="acr" class="acol"></div>
+  <div id="amm"></div>
+  <div id="ath"></div>
+  <div id="atr"></div>
+</div>
+  <img id="music" class="icon" alt="" draggable="false">
+  <img id="exit" class="icon" alt="" draggable="false">
+  <div id="hint"></div>
+</div>
+<div id="sv"><canvas id="svimg"></canvas>
+  <div id="svpan"><div id="svpanbg"></div>
+    <div class="svb" data-k="hide" style="left:calc(20 * var(--u));top:calc(42 * var(--u))"><img alt="" draggable="false" src="../../shared/img/sv_hide_anim.webp"></div>
+    <div class="svb" data-k="back" style="left:calc(106 * var(--u));top:calc(14 * var(--u))"><img alt="" draggable="false" src="../../shared/img/sv_back_anim.webp"></div>
+    <div class="svb" data-k="next" style="left:calc(180 * var(--u));top:calc(14 * var(--u))"><img alt="" draggable="false" src="../../shared/img/sv_next_anim.webp"></div>
+    <div class="svb" data-k="close" style="left:calc(270 * var(--u));top:calc(42 * var(--u))"><img alt="" draggable="false" src="../../shared/img/sv_close_anim.webp"></div>
+    <div id="svcap"></div>
+  </div></div>
+<div id="pm"><div>Все файлы доступны в образе диска</div></div>
+<div id="pl"></div>
+<div id="spl"><video id="splv" playsinline preload="auto" disablepictureinpicture></video></div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

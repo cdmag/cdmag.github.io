@@ -556,7 +556,16 @@
     "disc_image": "/discs/game-exe/1998/08/assets/img/disc.webp",
     "download_iso": "https://vk.ru/wall-240437459_36",
     "vk_playlist_url": "https://vk.ru/audio_playlist-240437459_7",
-    "webamp_tracks": [],
+    "webamp_tracks": [
+      {
+        "metaData": {
+          "artist": ".EXE",
+          "title": "Ночная радуга"
+        },
+        "url": "music/game-exe/1998/08/song.mp3",
+        "duration": 234
+      }
+    ],
     "note": "Девятая оцифровка. Первый диск Game.EXE. Анимация через отдельные кадры, и их прям много, попробуйте покликать. Зато оригинальное музыкальное сопровождение!",
     "viewpage_description": "Восьмой номер Game.EXE вышел в августе 1998 года, и это не просто рядовой выпуск: это первый CD-диск в истории журнала — редакция запускала формат именно с этого номера. Помимо символичности момента, набор контента получился крепким: играбельные демки «Петьки и Василия Ивановича», «Бестиария» и тактической «Евразии: Апокалипсис», эксклюзивные видеоанонсы готовящихся «Противостояния-2» и «Властелина морей», свежие патчи для StarCraft, SpecOps и «Дальнобойщиков», а в качестве бонуса — полный архив материалов Game.EXE за 1997 год для тех, кто присоединился к журналу позже."
   },
@@ -1120,5 +1129,45 @@
     "webamp_tracks": [],
     "note": "26 оцифровка. Ничего особенного, хотя погодите... 3 часа бесплатного интернета? Я в деле!",
     "viewpage_description": "Мартовский демо-диск «Страны игр» 1998 года собрал несколько заметных демо: стратегическую Lords of Magic, экшен Uprising, квест Journeyman Project 3 и приключения Розовой Пантеры. Рядом лежат свежие патчи (в том числе под 3Dfx) и прохождение Myth. В разделе софта — Microsoft Internet Explorer 4.0 на двух языках и предложение трёх бесплатных часов интернета через Гласнет."
+  },
+  {
+    "id": "mega-1999-06",
+    "added": "2026-11-26",
+    "width": 1600,
+    "height": 1200,
+    "magazine": "mega",
+    "magazine_title": "MegaGame",
+    "year": 1999,
+    "issue": "06",
+    "title": "MegaGame №06 — 1999",
+    "path": "discs/mega/1999/06/index.html",
+    "cover_image": "discs/mega/1999/06/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/MegaGame19990606",
+    "disc_image": "discs/mega/1999/06/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "",
+    "webamp_tracks": [],
+    "note": "27 оцифровка. Второй диск MegaGame! Похоже, дизайн будет изменяться минимально, но... когда вы последний раз видели бегущую строку?",
+    "viewpage_description": "Шестой номер журнала MegaGame за 1999 год вышел с диском, на котором собраны главные игровые ожидания лета. В демо-версиях — MechWarrior 3, Starsiege про ходячие боевые машины, Slave Zero про металлического гиганта, гоночная Sports Car GT с лицензией Electronic Arts, а также Shadow Company, Xtom 3D и Mars Maniacs. Для поклонников «Звёздных войн» есть Star Wars Episode I: Gungan Frontier, игра по мотивам «Скрытой угрозы», вышедшей в мае того же года. В видеосалоне — ролики Fleet Command, Giants, The Longest Journey и Dungeon Keeper 2, а в разделе патчей — обновления для Unreal, Heretic II, Resident Evil 2, Lands of Lore III, Warzone 2100 и NASCAR Revolution."
+  },
+  {
+    "id": "si-1998-04",
+    "added": "2026-11-26",
+    "width": 1533,
+    "height": 1250,
+    "magazine": "si",
+    "magazine_title": "Страна игр",
+    "year": 1998,
+    "issue": "04",
+    "title": "Страна игр №04 (23) — Апрель 1998",
+    "path": "discs/si/1998/04/index.html",
+    "cover_image": "discs/si/1998/04/assets/img/cover.webp",
+    "magazine_url": "https://archive.org/details/Game_Land_1998-04-23",
+    "disc_image": "discs/si/1998/04/assets/img/disc.webp",
+    "download_iso": "",
+    "vk_playlist_url": "",
+    "webamp_tracks": [],
+    "note": "28 оцифровка. Впервые узнал про Black Legion, похоже игра так и не дожила до релиза.",
+    "viewpage_description": "Апрельский демо-диск «Страны игр» 1998 года предлагает сразу несколько заметных новинок. Здесь можно попробовать тактический симулятор BattleZone, свежие адд-оны к Quake 2, демо Metal Knights 98 и TalkWorld, а также российскую RPG Empiriana с обновлением. В разделе видео — трейлеры к «Аллодам: Печать Тайны» и Black Legion. Дополнительно на диске лежит Internet Explorer 4.0 в английской и русской версиях."
   }
 ]
